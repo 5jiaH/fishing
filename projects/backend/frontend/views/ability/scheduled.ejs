@@ -1,0 +1,408 @@
+<% layout('layout') -%>
+
+<script type="text/babel">
+  const { useState, useEffect } = React;
+  const {
+    Table,
+    Flex,
+    Button,
+    Space,
+    Divider,
+    Modal,
+    Form,
+    Input,
+    Select,
+    Switch,
+    InputNumber,
+    TimePicker,
+    message,
+    Popconfirm,
+    Tag,
+    Card,
+    Row,
+    Col,
+    Statistic,
+  } = antd;
+
+  function App() {
+    const [list, setList] = useState([]);
+    const [total, setTotal] = useState(0);
+    const [loading, setLoading] = useState(false);
+    const [showModal, setShowModal] = useState(false);
+    const [taskId, setTaskId] = useState(null);
+    const [form] = Form.useForm();
+    const [serviceNameOptions, setServiceNameOptions] = useState([]);
+    const [overview, setOverview] = useState({
+      total: 0,
+      running: 0,
+      stopped: 0,
+      error: 0,
+    });
+    const [params, setParams] = useState({
+      limit: 10,
+      offset: 0,
+    });
+
+    const statusColorMap = {
+      running: 'green',
+      stopped: 'orange',
+      error: 'red',
+    };
+    const statusTextMap = {
+      running: '运行中',
+      stopped: '已停止',
+      error: '错误',
+    };
+
+    // 获取定时任务数据
+    const fetchData = async (fetchParams = params) => {
+      setLoading(true);
+      try {
+        const response = await fetch(`/v1/scheduled`, {
+          params: {
+            limit: fetchParams.limit.toString(),
+            offset: fetchParams.offset.toString(),
+          },
+        }).then((r) => r.json());
+
+        if (response.success) {
+          setList(response.data.list);
+          setTotal(response.data.total);
+        } else {
+          message.error(response.data || '获取数据失败');
+        }
+      } catch (error) {
+        message.error('网络错误');
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    // 获取概览
+    const fetchOverview = async () => {
+      try {
+        const response = await fetch('/v1/scheduled/status/overview');
+        const result = await response.json();
+
+        if (result.success) {
+          setOverview(result.data);
+        }
+      } catch (error) {
+        console.error('获取概览失败:', error);
+      }
+    };
+
+    const editTask = (record) => {
+      setTaskId(record?.id);
+      if (!record) form.resetFields();
+      form.setFieldsValue(
+        record || {
+          cronExpression: '0 0 0 1,15 * *',
+        },
+      );
+      setShowModal(true);
+    };
+
+    // 新增/更新定时任务
+    const saveTask = async () => {
+      try {
+        const values = await form.validateFields();
+        const url = taskId ? `/v1/scheduled/${taskId}` : '/v1/scheduled';
+        const method = taskId ? 'PATCH' : 'POST';
+
+        const response = await fetch(url, {
+          method,
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            name: values.name || '',
+            command: values.command || '',
+            cronExpression: values.cronExpression || '',
+            enabled: values.enabled,
+            description: values.description || '',
+            // TODO: 这里有必要的话改成userId
+            owner: 1,
+          }),
+        }).then((res) => res.json());
+
+        if (response.success) {
+          message.success(taskId ? '更新成功' : '创建成功');
+          setShowModal(false);
+          fetchData();
+          fetchOverview();
+        } else {
+          message.error(response.message || '操作失败');
+        }
+      } catch (error) {
+        // console.error('保存失败:', error);
+        message.error('保存失败');
+      }
+    };
+
+    const toggleTask = async (id, exec) => {
+      try {
+        const messageMap = {
+          start: ['任务启动成功', '启动失败'],
+          stop: ['任务停止成功', '启动失败'],
+        };
+        const msg = messageMap[exec];
+        const response = await fetch(`/v1/scheduled/${id}/${exec}`, {
+          method: 'POST',
+        });
+        const result = await response.json();
+
+        if (result.success) {
+          message.success(msg[0]);
+          fetchData();
+          fetchOverview();
+        } else {
+          message.error(result.message || msg[1]);
+        }
+      } catch (error) {
+        message.error('网络错误');
+      }
+    };
+
+    const deleteTask = async (id) => {
+      await fetch(`/v1/scheduled/${id}`, { method: 'DELETE' });
+      message.success('删除成功');
+      fetchData();
+      fetchOverview();
+    };
+
+    // 获取项目名列表
+    const getServiceNameOptions = async () => {
+      const response = await fetch('/web/api/listServiceNames');
+      const result = await response.json();
+      const stringAttributeValues = result?.data?.stringAttributeValues || [];
+      setServiceNameOptions(
+        stringAttributeValues.map((serviceName) => ({
+          label: serviceName,
+          value: serviceName,
+        })),
+      );
+    };
+
+    const columns = [
+      {
+        title: '任务ID',
+        dataIndex: 'id',
+        width: 80,
+      },
+      {
+        title: '项目名称',
+        dataIndex: 'name',
+        width: 150,
+      },
+      // {
+      //   title: '执行命令',
+      //   dataIndex: 'command',
+      //   width: 200,
+      //   ellipsis: true,
+      // },
+      {
+        title: 'Cron表达式',
+        dataIndex: 'cronExpression',
+        width: 120,
+      },
+      {
+        title: '任务状态',
+        dataIndex: 'status',
+        width: 100,
+        render: (text) => (
+          <Tag color={statusColorMap[text] || 'default'}>
+            {statusTextMap[text] || text}
+          </Tag>
+        ),
+      },
+      {
+        title: '执行次数',
+        dataIndex: 'executionCount',
+        width: 100,
+      },
+      {
+        title: '最后执行',
+        dataIndex: 'lastExecuted',
+        width: 150,
+        render: (text) => (text ? new Date(text).toLocaleString() : '-'),
+      },
+      {
+        title: '描述',
+        dataIndex: 'description',
+        width: 100,
+      },
+      {
+        title: '操作',
+        dataIndex: 'action',
+        width: 200,
+        render: (_, record) => (
+          <Flex gap="small" wrap>
+            <Button size="small" onClick={() => editTask(record)}>
+              编辑
+            </Button>
+            {record.status === 'running' ? (
+              <Button
+                size="small"
+                type="primary"
+                onClick={() => toggleTask(record.id, 'stop')}
+              >
+                停止
+              </Button>
+            ) : (
+              <Button
+                size="small"
+                type="primary"
+                onClick={() => toggleTask(record.id, 'start')}
+                disabled={!record.enabled}
+              >
+                启动
+              </Button>
+            )}
+            <Popconfirm
+              title="确定删除此任务？"
+              onConfirm={() => deleteTask(record.id)}
+              okText="确定"
+              cancelText="取消"
+            >
+              <Button size="small" danger>
+                删除
+              </Button>
+            </Popconfirm>
+          </Flex>
+        ),
+      },
+    ];
+
+    useEffect(() => {
+      fetchData();
+      fetchOverview();
+      getServiceNameOptions();
+    }, []);
+
+    return (
+      <div className="p-[16px]">
+        {/* 统计 */}
+        <Card className="mb-[16px]">
+          <Row gutter={16}>
+            <Col span={6}>
+              <Statistic title="总任务数" value={overview.total} />
+            </Col>
+            <Col span={6}>
+              <Statistic
+                title="运行中"
+                value={overview.running}
+                valueStyle={{ color: '#3f8600' }}
+              />
+            </Col>
+            <Col span={6}>
+              <Statistic
+                title="已停止"
+                value={overview.stopped}
+                valueStyle={{ color: '#cf1322' }}
+              />
+            </Col>
+            <Col span={6}>
+              <Statistic
+                title="错误状态"
+                value={overview.error}
+                valueStyle={{ color: '#cf1322' }}
+              />
+            </Col>
+          </Row>
+        </Card>
+
+        <Space size="large" className="mb-[16px]">
+          <Button type="primary" onClick={() => editTask()}>
+            新增定时任务
+          </Button>
+        </Space>
+
+        <Table
+          rowKey="id"
+          columns={columns}
+          dataSource={list}
+          loading={loading}
+          pagination={{
+            total,
+            pageSize: params.limit,
+            current: params.offset / params.limit + 1,
+            onChange: (current, pageSize) => {
+              const newParams = {
+                ...params,
+                limit: pageSize,
+                offset: (current - 1) * pageSize,
+              };
+              setParams(newParams);
+              fetchData(newParams);
+            },
+            showSizeChanger: true,
+            showQuickJumper: true,
+            showTotal: (total, range) =>
+              `第 ${range[0]}-${range[1]} 条/共 ${total} 条`,
+          }}
+          scroll={{ x: 1200 }}
+        />
+
+        <Modal
+          title={taskId ? '编辑定时任务' : '新增定时任务'}
+          open={showModal}
+          onCancel={() => setShowModal(false)}
+          onOk={saveTask}
+          width={600}
+          okText="保存"
+          cancelText="取消"
+        >
+          <Form form={form} layout="vertical" className="mt-[16px]">
+            <Form.Item
+              name="name"
+              label="项目名称"
+              rules={[{ required: true, message: '请输入项目名称' }]}
+            >
+              <Select
+                showSearch
+                placeholder="项目名称"
+                options={serviceNameOptions}
+                allowClear
+              />
+            </Form.Item>
+
+            {/* <Form.Item
+              name="command"
+              label="执行命令"
+              rules={[{ message: '请输入执行命令' }]}
+            >
+              <Input.TextArea placeholder="请输入要执行的命令或脚本" rows={3} />
+            </Form.Item>
+            */}
+
+            <Form.Item
+              name="cronExpression"
+              label="Cron表达式"
+              rules={[{ required: true, message: '请输入Cron表达式' }]}
+            >
+              <Input disabled placeholder="例如: 0 */5 * * * * (每5分钟执行)" />
+            </Form.Item>
+
+            <Form.Item
+              name="enabled"
+              label="是否启用"
+              valuePropName="checked"
+              initialValue={true}
+            >
+              <Switch />
+            </Form.Item>
+
+            <Form.Item name="description" label="任务描述">
+              <Input.TextArea placeholder="请输入任务描述" rows={2} />
+            </Form.Item>
+          </Form>
+        </Modal>
+      </div>
+    );
+  }
+
+  const container = document.getElementById('root');
+  const root = ReactDOM.createRoot(container);
+  root.render(<App />);
+</script>

@@ -1,0 +1,87 @@
+/* ECharts 容器：需明确高度，init 后才能正确测量 */
+.monitor-echarts {
+  width: 100%;
+  height: 100%;
+  min-height: 280px;
+}
+
+.monitor-chart-workspace {
+  position: relative;
+  min-height: 780px;
+  width: 100%;
+}
+
+/* 固定栅格下的卡片（未使用浮动布局时） */
+.monitor-chart-card .ant-card-body {
+  height: 320px;
+  padding: 12px;
+  box-sizing: border-box;
+}
+
+/* 可拖拽缩放：卡片铺满外层绝对定位容器 */
+.monitor-chart-float-wrap > .ant-card {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.monitor-chart-float-wrap .ant-card-body {
+  flex: 1;
+  min-height: 0;
+  padding: 12px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+}
+
+.monitor-chart-float-wrap .monitor-echarts {
+  min-height: 0;
+  flex: 1;
+}
+
+.monitor-chart-drag-handle {
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+.monitor-chart-resize-handle {
+  position: absolute;
+  right: 4px;
+  bottom: 4px;
+  width: 14px;
+  height: 14px;
+  z-index: 2;
+  cursor: nwse-resize;
+  border-radius: 2px;
+  background: linear-gradient(
+    -45deg,
+    transparent 0%,
+    transparent 40%,
+    rgba(0, 0, 0, 0.18) 40%,
+    rgba(0, 0, 0, 0.18) 45%,
+    transparent 45%,
+    transparent 55%,
+    rgba(0, 0, 0, 0.18) 55%,
+    rgba(0, 0, 0, 0.18) 60%,
+    transparent 60%
+  );
+}
+
+.monitor-chart-resize-handle:hover {
+  background: linear-gradient(
+    -45deg,
+    transparent 0%,
+    transparent 35%,
+    rgba(24, 144, 255, 0.55) 35%,
+    rgba(24, 144, 255, 0.55) 65%,
+    transparent 65%
+  );
+}
+
+.monitor-echarts--loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(0, 0, 0, 0.45);
+  font-size: 14px;
+}

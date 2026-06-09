@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <script src="/react-v18/react.development.js"></script>
+    <script src="/react-v18/react-dom.development.js"></script>
+
+    <script src="/react-v18/babel.min.js"></script>
+    <script src="/react-v18/dayjs.min.js"></script>
+    <script src="/tailwind/tailwindcss.js"></script>
+    
+    <link rel="stylesheet" href="/ant/antd.min.css">
+    <script src="/ant/antd.min.js"></script>
+
+  </head>
+  <body>
+    <script>
+        window.globalContext = React.createContext(null);
+    </script>
+    <div id="root"></div>
+    <%- body %>
+  </body>
+</html>

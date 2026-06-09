@@ -1,0 +1,20 @@
+kind: pipeline
+type: docker
+name: default
+
+volumes:
+  - name: root
+    host:
+      path: /data/drone/home/jim/Project  # 宿主机上的目录
+steps:
+  - name: build
+    image: node:20
+    commands:
+      - export http_proxy=http://192.168.163.1:7890
+      - export https_proxy=http://192.168.163.1:7890
+      - npm install
+      - npm run build
+      - mkdir -p /root/nestjs
+      - cp ./* /root/nestjs
+   
+   

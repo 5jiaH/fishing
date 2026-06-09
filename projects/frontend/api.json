@@ -1,0 +1,745 @@
+{
+	"project": {
+		"name": "nestjs后台管理",
+		"description": "",
+		"details": {
+			"variable": [],
+			"servers": [
+				{
+					"server_id": "default",
+					"name": "默认服务"
+				}
+			],
+			"markList": [
+				{
+					"key": "developing",
+					"name": "开发中",
+					"color": "#3A86FF",
+					"is_default": true
+				},
+				{
+					"key": "complated",
+					"name": "已完成",
+					"color": "#2BA58F",
+					"is_default": true
+				},
+				{
+					"key": "modifying",
+					"name": "需修改",
+					"color": "#EC4646",
+					"is_default": true
+				}
+			],
+			"script": {
+				"pre_script": "",
+				"test": ""
+			},
+			"request": {
+				"query": [],
+				"header": [],
+				"body": []
+			}
+		}
+	},
+	"apis": [
+		{
+			"target_type": "api",
+			"name": "水文雷达详情",
+			"mark": "complated",
+			"sort": 6,
+			"method": "GET",
+			"mock": "{}",
+			"mock_url": "/api/hydrology/radarDetail",
+			"request": {
+				"url": "{{url}}/api/hydrology/radarDetail?lng=113.470198&lat=23.432356",
+				"description": "",
+				"event": {
+					"pre_script": "",
+					"test": ""
+				},
+				"header": {
+					"parameter": [
+						{
+							"description": "",
+							"field_type": "String",
+							"is_checked": 1,
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNzc0ODU5NzA0LCJleHAiOjE3NzQ4NjY5MDR9.O0T4nZpBcD2t_Zqes_NnAADkXoj3mEHwtshRl-oQ1HM",
+							"not_null": 1,
+							"type": "Text"
+						}
+					]
+				},
+				"query": {
+					"parameter": [
+						{
+							"description": "",
+							"is_checked": 1,
+							"key": "lng",
+							"type": "Text",
+							"not_null": 1,
+							"field_type": "String",
+							"value": "113.470198"
+						},
+						{
+							"description": "",
+							"is_checked": 1,
+							"key": "lat",
+							"type": "Text",
+							"not_null": 1,
+							"field_type": "String",
+							"value": "23.432356"
+						}
+					]
+				}
+			},
+			"response": {
+				"success": {
+					"raw": "",
+					"parameter": [],
+					"expect": {
+						"name": "成功",
+						"isDefault": 1,
+						"code": 200,
+						"contentType": "json",
+						"verifyType": "schema",
+						"mock": "",
+						"schema": {}
+					}
+				},
+				"error": {
+					"raw": "",
+					"parameter": [],
+					"expect": {
+						"name": "失败",
+						"isDefault": -1,
+						"code": 404,
+						"contentType": "json",
+						"verifyType": "schema",
+						"mock": "",
+						"schema": {}
+					}
+				}
+			},
+			"children": []
+		},
+		{
+			"target_type": "folder",
+			"name": "business",
+			"mark": "developing",
+			"sort": 3,
+			"request": {
+				"description": ""
+			},
+			"children": [
+				{
+					"target_type": "api",
+					"name": "test2",
+					"mark": "developing",
+					"sort": 2,
+					"method": "GET",
+					"mock": "{}",
+					"mock_url": "/api/test/index2",
+					"request": {
+						"url": "{{url}}/api/test/index2",
+						"description": "",
+						"event": {
+							"pre_script": "",
+							"test": ""
+						},
+						"header": {
+							"parameter": [
+								{
+									"description": "",
+									"field_type": "String",
+									"is_checked": 1,
+									"key": "Authorization",
+									"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QzIiwiaWF0IjoxNzUyMjE3NzQ0LCJleHAiOjE3NTIyMjQ5NDR9.WNNfPYwW6VhclFd10mXnGoNtTWw4UnQ8r1HcCrU_-vs",
+									"not_null": 1,
+									"type": "Text"
+								}
+							]
+						}
+					},
+					"response": {
+						"success": {
+							"raw": "",
+							"parameter": [],
+							"expect": {
+								"name": "成功",
+								"isDefault": 1,
+								"code": 200,
+								"contentType": "json",
+								"verifyType": "schema",
+								"mock": "",
+								"schema": {}
+							}
+						},
+						"error": {
+							"raw": "",
+							"parameter": [],
+							"expect": {
+								"name": "失败",
+								"isDefault": -1,
+								"code": 404,
+								"contentType": "json",
+								"verifyType": "schema",
+								"mock": "",
+								"schema": {}
+							}
+						}
+					},
+					"children": []
+				},
+				{
+					"target_type": "api",
+					"name": "test1",
+					"mark": "developing",
+					"sort": 1,
+					"method": "GET",
+					"mock": "{}",
+					"mock_url": "/api/test/index",
+					"request": {
+						"url": "{{url}}/api/test/index",
+						"description": "",
+						"event": {
+							"pre_script": "",
+							"test": ""
+						},
+						"header": {
+							"parameter": [
+								{
+									"description": "",
+									"field_type": "String",
+									"is_checked": 1,
+									"key": "Authorization",
+									"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6InRlc3QzIiwiaWF0IjoxNzUyNDc2ODUzLCJleHAiOjE3NTI0ODQwNTN9.IgHE5rSejEEnKqIzYAzUd_hzUgpNHPqw1xQz20VHrDc",
+									"not_null": 1,
+									"type": "Text"
+								}
+							]
+						}
+					},
+					"response": {
+						"success": {
+							"raw": "",
+							"parameter": [],
+							"expect": {
+								"name": "成功",
+								"isDefault": 1,
+								"code": 200,
+								"contentType": "json",
+								"verifyType": "schema",
+								"mock": "",
+								"schema": []
+							}
+						},
+						"error": {
+							"raw": "",
+							"parameter": [],
+							"expect": {
+								"name": "失败",
+								"isDefault": -1,
+								"code": 404,
+								"contentType": "json",
+								"verifyType": "schema",
+								"mock": "",
+								"schema": []
+							}
+						}
+					},
+					"children": []
+				}
+			]
+		},
+		{
+			"target_type": "api",
+			"name": "入口",
+			"mark": "developing",
+			"sort": 1,
+			"method": "GET",
+			"mock": "{}",
+			"mock_url": "/",
+			"request": {
+				"url": "{{url}}",
+				"description": "",
+				"event": {
+					"pre_script": "",
+					"test": ""
+				}
+			},
+			"response": {
+				"success": {
+					"raw": "",
+					"parameter": [],
+					"expect": {
+						"name": "成功",
+						"isDefault": 1,
+						"code": 200,
+						"contentType": "json",
+						"verifyType": "schema",
+						"mock": "",
+						"schema": []
+					}
+				},
+				"error": {
+					"raw": "",
+					"parameter": [],
+					"expect": {
+						"name": "失败",
+						"isDefault": -1,
+						"code": 404,
+						"contentType": "json",
+						"verifyType": "schema",
+						"mock": "",
+						"schema": []
+					}
+				}
+			},
+			"children": []
+		},
+		{
+			"target_type": "folder",
+			"name": "api",
+			"mark": "developing",
+			"sort": 2,
+			"request": {
+				"description": ""
+			},
+			"children": [
+				{
+					"target_type": "api",
+					"name": "注册",
+					"mark": "complated",
+					"sort": 3,
+					"method": "POST",
+					"mock": "{}",
+					"mock_url": "/v1/auth/register",
+					"request": {
+						"url": "{{url}}/v1/auth/register",
+						"description": "",
+						"event": {
+							"pre_script": "",
+							"test": ""
+						},
+						"body": {
+							"mode": "urlencoded",
+							"parameter": [
+								{
+									"description": "",
+									"field_type": "String",
+									"is_checked": 1,
+									"key": "username",
+									"value": "admin",
+									"not_null": 1,
+									"type": "Text"
+								},
+								{
+									"description": "",
+									"field_type": "String",
+									"is_checked": 1,
+									"key": "password",
+									"value": "*h9Li#Eo9#aEvQ9#",
+									"not_null": 1,
+									"type": "Text"
+								},
+								{
+									"description": "",
+									"field_type": "String",
+									"is_checked": 1,
+									"key": "cover",
+									"value": "",
+									"not_null": 1,
+									"type": "Text"
+								},
+								{
+									"description": "",
+									"field_type": "String",
+									"is_checked": 1,
+									"key": "code",
+									"value": "eHt3g",
+									"not_null": 1,
+									"type": "Text"
+								}
+							],
+							"raw": "",
+							"raw_para": [],
+							"raw_schema": {
+								"type": "object"
+							}
+						}
+					},
+					"response": {
+						"success": {
+							"raw": "",
+							"parameter": [],
+							"expect": {
+								"name": "成功",
+								"isDefault": 1,
+								"code": 200,
+								"contentType": "json",
+								"verifyType": "schema",
+								"mock": "",
+								"schema": []
+							}
+						},
+						"error": {
+							"raw": "",
+							"parameter": [],
+							"expect": {
+								"name": "失败",
+								"isDefault": -1,
+								"code": 404,
+								"contentType": "json",
+								"verifyType": "schema",
+								"mock": "",
+								"schema": []
+							}
+						}
+					},
+					"children": []
+				},
+				{
+					"target_type": "api",
+					"name": "获取验证码",
+					"mark": "complated",
+					"sort": 2,
+					"method": "GET",
+					"mock": "{}",
+					"mock_url": "/api/auth/verificationCode",
+					"request": {
+						"url": "{{url}}/api/auth/verificationCode?key=admin&type=login",
+						"description": "",
+						"event": {
+							"pre_script": "",
+							"test": ""
+						},
+						"query": {
+							"parameter": [
+								{
+									"description": "自定义字符串",
+									"is_checked": 1,
+									"key": "key",
+									"type": "Text",
+									"not_null": 1,
+									"field_type": "String",
+									"value": "admin"
+								},
+								{
+									"description": "验证码类型 'login' | 'register'",
+									"is_checked": 1,
+									"key": "type",
+									"type": "Text",
+									"not_null": 1,
+									"field_type": "String",
+									"value": "login"
+								}
+							]
+						}
+					},
+					"response": {
+						"success": {
+							"raw": "",
+							"parameter": [],
+							"expect": {
+								"name": "成功",
+								"isDefault": 1,
+								"code": 200,
+								"contentType": "json",
+								"verifyType": "schema",
+								"mock": "",
+								"schema": []
+							}
+						},
+						"error": {
+							"raw": "",
+							"parameter": [],
+							"expect": {
+								"name": "失败",
+								"isDefault": -1,
+								"code": 404,
+								"contentType": "json",
+								"verifyType": "schema",
+								"mock": "",
+								"schema": []
+							}
+						}
+					},
+					"children": []
+				},
+				{
+					"target_type": "api",
+					"name": "登录",
+					"mark": "complated",
+					"sort": 1,
+					"method": "POST",
+					"mock": "{}",
+					"mock_url": "/api/auth/login",
+					"request": {
+						"url": "{{url}}/api/auth/login",
+						"description": "",
+						"event": {
+							"pre_script": "",
+							"test": ""
+						},
+						"body": {
+							"mode": "urlencoded",
+							"parameter": [
+								{
+									"description": "",
+									"field_type": "String",
+									"is_checked": 1,
+									"key": "username",
+									"value": "admin",
+									"not_null": 1,
+									"type": "Text",
+									"contentType": ""
+								},
+								{
+									"description": "",
+									"field_type": "String",
+									"is_checked": 1,
+									"key": "password",
+									"value": "*h9Li#Eo9#aEvQ9#",
+									"not_null": 1,
+									"type": "Text"
+								},
+								{
+									"description": "",
+									"field_type": "String",
+									"is_checked": 1,
+									"key": "code",
+									"value": "TxT5Q",
+									"not_null": 1,
+									"type": "Text"
+								}
+							],
+							"raw": "",
+							"raw_para": [],
+							"raw_schema": {
+								"type": "object"
+							}
+						},
+						"header": {
+							"parameter": [
+								{
+									"description": "",
+									"field_type": "String",
+									"is_checked": 1,
+									"key": "",
+									"value": "",
+									"not_null": 1,
+									"type": "Text"
+								}
+							]
+						}
+					},
+					"response": {
+						"success": {
+							"raw": "",
+							"parameter": [],
+							"expect": {
+								"name": "成功",
+								"isDefault": 1,
+								"code": 200,
+								"contentType": "json",
+								"verifyType": "schema",
+								"mock": "",
+								"schema": []
+							}
+						},
+						"error": {
+							"raw": "",
+							"parameter": [],
+							"expect": {
+								"name": "失败",
+								"isDefault": -1,
+								"code": 404,
+								"contentType": "json",
+								"verifyType": "schema",
+								"mock": "",
+								"schema": []
+							}
+						}
+					},
+					"children": []
+				}
+			]
+		},
+		{
+			"target_type": "folder",
+			"name": "ability",
+			"mark": "developing",
+			"sort": 4,
+			"request": {
+				"description": ""
+			},
+			"children": [
+				{
+					"target_type": "api",
+					"name": "错误日志",
+					"mark": "developing",
+					"sort": 1,
+					"method": "GET",
+					"mock": "{}",
+					"mock_url": "/web/ability/errorLog",
+					"request": {
+						"url": "{{url}}/web/ability/errorLog",
+						"description": "",
+						"event": {
+							"pre_script": "",
+							"test": ""
+						}
+					},
+					"response": {
+						"success": {
+							"raw": "",
+							"parameter": [],
+							"expect": {
+								"name": "成功",
+								"isDefault": 1,
+								"code": 200,
+								"contentType": "json",
+								"verifyType": "schema",
+								"mock": "",
+								"schema": []
+							}
+						},
+						"error": {
+							"raw": "",
+							"parameter": [],
+							"expect": {
+								"name": "失败",
+								"isDefault": -1,
+								"code": 404,
+								"contentType": "json",
+								"verifyType": "schema",
+								"mock": "",
+								"schema": []
+							}
+						}
+					},
+					"children": []
+				}
+			]
+		},
+		{
+			"target_type": "api",
+			"name": "水文雷达",
+			"mark": "complated",
+			"sort": 5,
+			"method": "GET",
+			"mock": "{}",
+			"mock_url": "/api/hydrology/radar",
+			"request": {
+				"url": "{{url}}/api/hydrology/radar?lng=112.8&lat=23.116667",
+				"description": "",
+				"event": {
+					"pre_script": "",
+					"test": ""
+				},
+				"header": {
+					"parameter": [
+						{
+							"description": "",
+							"field_type": "String",
+							"is_checked": 1,
+							"key": "Authorization",
+							"value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImFkbWluIiwiaWF0IjoxNzc0ODU5NzA0LCJleHAiOjE3NzQ4NjY5MDR9.O0T4nZpBcD2t_Zqes_NnAADkXoj3mEHwtshRl-oQ1HM",
+							"not_null": 1,
+							"type": "Text"
+						}
+					]
+				},
+				"query": {
+					"parameter": [
+						{
+							"description": "",
+							"is_checked": 1,
+							"key": "lng",
+							"type": "Text",
+							"not_null": 1,
+							"field_type": "String",
+							"value": "112.8"
+						},
+						{
+							"description": "",
+							"is_checked": 1,
+							"key": "lat",
+							"type": "Text",
+							"not_null": 1,
+							"field_type": "String",
+							"value": "23.116667"
+						}
+					]
+				}
+			},
+			"response": {
+				"success": {
+					"raw": "",
+					"parameter": [],
+					"expect": {
+						"name": "成功",
+						"isDefault": 1,
+						"code": 200,
+						"contentType": "json",
+						"verifyType": "schema",
+						"mock": "",
+						"schema": []
+					}
+				},
+				"error": {
+					"raw": "",
+					"parameter": [],
+					"expect": {
+						"name": "失败",
+						"isDefault": -1,
+						"code": 404,
+						"contentType": "json",
+						"verifyType": "schema",
+						"mock": "",
+						"schema": []
+					}
+				}
+			},
+			"children": []
+		}
+	],
+	"envs": [
+		{
+			"env_id": "-1",
+			"list": {},
+			"name": "默认环境",
+			"pre_url": "",
+			"pre_urls": {
+				"default": ""
+			}
+		},
+		{
+			"env_id": "-2",
+			"list": {},
+			"name": "Mock环境",
+			"pre_url": "https://console-mock.apipost.cn/mock/899449e7-1c40-4ec4-b2f9-2fea7d321ab5/",
+			"pre_urls": {
+				"default": "https://console-mock.apipost.cn/mock/899449e7-1c40-4ec4-b2f9-2fea7d321ab5/"
+			}
+		},
+		{
+			"env_id": "ebb122c3-3dbe-4ac2-af04-c5e57325cd0b",
+			"list": {
+				"url": {
+					"current_value": "http://localhost:5000",
+					"type": "1",
+					"value": "http://localhost:5000",
+					"description": ""
+				}
+			},
+			"name": "localhost",
+			"pre_url": "",
+			"pre_urls": {
+				"default": ""
+			}
+		}
+	],
+	"models": []
+}

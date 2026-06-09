@@ -1,0 +1,288 @@
+<% layout('layout') -%>
+
+<script src="/luxon.min.js"></script>
+<script type="text/babel">
+  const { useState, useEffect } = React;
+  const {
+    Table,
+    Button,
+    Space,
+    Divider,
+    Select,
+    DatePicker,
+    message,
+    Pagination,
+  } = antd;
+  const { RangePicker } = DatePicker;
+
+  // iso时间格式转化为纳秒时间戳
+  const getNanosecond = (isoTime) => {
+    const [time, nanosecondString] = isoTime.split('.');
+    const dt = luxon.DateTime.fromISO(isoTime);
+    const milliseconds = `${dt.toMillis()}`;
+    let _nanosecondString = nanosecondString.replace(/z/gi, '');
+
+    // 精度补到9位数
+    if (_nanosecondString.length < 9) {
+      const covering = 9 - _nanosecondString.length;
+      _nanosecondString = `${_nanosecondString}${new Array(covering)
+        .fill('')
+        .map((i) => 0)
+        .join('')}`;
+    }
+    return `${milliseconds.slice(0, 10)}${_nanosecondString}`;
+  };
+
+  // 一周内的时间范围
+  const getLastWeekRange = () => {
+    const now = new Date();
+    const end = new Date(now);
+    end.setHours(23, 59, 59, 999);
+
+    const start = new Date(now);
+    start.setDate(now.getDate() - 7);
+    start.setHours(0, 0, 0, 0);
+
+    return { start: dayjs(start), end: dayjs(end) };
+  };
+
+  /** 格式化时间为纳秒 */
+  const resetDate = (data) => {
+    const { start, end } = data;
+    if (!start || !end) {
+      message.error('时间范围不能为空');
+      return false;
+    }
+
+    return {
+      ...data,
+      start: getNanosecond(start.toISOString()),
+      end: getNanosecond(end.toISOString()),
+    };
+  };
+
+  /** 获取真实错误信息 */
+  async function detailHandler(row) {
+    const nanosecond = getNanosecond(row.lastSeen);
+    BaseRequest
+      .get(`/web/api/realError?groupId=${row.groupID}&timestamp=${nanosecond}`)
+      .then((result) => {
+        window.parent.postMessage({
+          type: 'popup',
+          data: {
+            content: result,
+          },
+        });
+      })
+      .catch(() => {
+        window.parent.postMessage({
+          type: 'unauthorized',
+        });
+      });
+  }
+
+  function App() {
+    /** table数据 */
+    const [list, setList] = useState([]);
+    const [total, setTotal] = useState(0);
+    const [serviceNameOptions, setServiceNameOptions] = useState([]);
+
+    /** 过滤参数 */
+    const [params, setParams] = useState({
+      start: '',
+      end: '',
+      order: 'ascending',
+      orderParam: 'serviceName',
+      limit: 10,
+      offset: 0,
+      exceptionType: '',
+      serviceName: undefined,
+    });
+
+    /** 初始化 */
+    useEffect(() => {
+      const newDate = getLastWeekRange();
+      const newParams = {
+        ...params,
+        ...newDate,
+      };
+      setParams(newParams);
+      resetFetchData(newParams);
+      getServiceNameOptions();
+    }, []);
+
+    const columns = [
+      {
+        title: '项目',
+        dataIndex: 'serviceName',
+        sorter: true,
+      },
+      {
+        title: '错误信息',
+        dataIndex: 'exceptionMessage',
+      },
+      {
+        title: '触发次数',
+        dataIndex: 'exceptionCount',
+        sorter: true,
+      },
+      {
+        title: '首次触发时间',
+        dataIndex: 'firstSeen',
+        render: (text) => dayjs(text).format('YYYY-MM-DD HH:mm:ss'),
+        sorter: true,
+      },
+      {
+        title: '最后触发时间',
+        dataIndex: 'lastSeen',
+        render: (text) => dayjs(text).format('YYYY-MM-DD HH:mm:ss'),
+        sorter: true,
+      },
+      {
+        title: '操作',
+        dataIndex: 'exec',
+        render(value, record, index) {
+          return (
+            <Button
+              color="cyan"
+              variant="text"
+              onClick={() => detailHandler(record)}
+            >
+              原始错误
+            </Button>
+          );
+        },
+      },
+    ];
+
+    /** 初始化分页更新数据 */
+    const resetFetchData = async (fetchParams = params) => {
+      const newParams = resetDate(fetchParams);
+      if (!newParams) return;
+      const result = await BaseRequest
+        .post(`/web/api/countErrors`, {body : newParams})
+        .catch(() => 0);
+
+      setTotal(result);
+
+      // 获取最新数据初始化页数
+      const originParams = {
+        ...fetchParams,
+        limit: 10,
+        offset: 0,
+      };
+      setParams(originParams);
+      if (!!result) {
+        // 有数据才请求
+        fetchData(originParams);
+      } else {
+        setList([]);
+      }
+    };
+
+    /** 获取数据 */
+    const fetchData = async (fetchParams = params) => {
+      const newParams = resetDate(fetchParams);
+      if (!newParams) return;
+      const result = await BaseRequest
+        .post('/web/api/listErrors', {body : newParams})
+        .catch(() => []);
+      setList(result instanceof Array ? result : []);
+    };
+
+    // 获取项目名列表
+    const getServiceNameOptions = async () => {
+      const result = await BaseRequest.get('/web/api/listServiceNames');
+      const stringAttributeValues =
+        result && result.data && result.data.stringAttributeValues
+          ? result.data.stringAttributeValues
+          : [];
+      setServiceNameOptions(
+        stringAttributeValues.map((serviceName) => ({
+          label: serviceName,
+          value: serviceName,
+        })),
+      );
+    };
+
+    // 表格变化回调排序
+    const handleTableChange = (_, $, sorter) => {
+      if (sorter && sorter.field) {
+        const newParams = {
+          ...params,
+          orderParam: sorter.field,
+          order: sorter.order === 'ascend' ? 'ascending' : 'descending',
+        };
+        setParams(newParams);
+        fetchData(newParams);
+      }
+    };
+
+    return (
+      <div className="p-[16px]">
+        <Space size="large">
+          <Select
+            className="w-[240px]"
+            showSearch
+            value={params.serviceName}
+            placeholder="项目"
+            onChange={(serviceName) => setParams({ ...params, serviceName })}
+            options={serviceNameOptions}
+            allowClear
+          />
+
+          <RangePicker
+            showTime
+            // disabledDate={(d) => new Date() < d}
+            value={[params.start, params.end]}
+            placeholder={['开始时间', '结束时间']}
+            onChange={(dates) => {
+              const [start, end] = dates || [null, null];
+              setParams({ ...params, start, end });
+            }}
+          />
+
+          <Button
+            type="primary"
+            onClick={() => {
+              resetFetchData();
+            }}
+          >
+            Search
+          </Button>
+        </Space>
+
+        <Divider />
+
+        <Table
+          rowKey="firstSeen"
+          columns={columns}
+          dataSource={list}
+          onChange={handleTableChange}
+          pagination={false}
+        />
+
+        {!!total && (
+          <Pagination
+            className="mt-[16px]"
+            pageSize={params.limit}
+            current={params.offset / params.limit + 1}
+            onChange={(current, pageSize) => {
+              const newParams = {
+                ...params,
+                offset: (current - 1) * params.limit,
+              };
+              setParams(newParams);
+              fetchData(newParams);
+            }}
+            total={total}
+          />
+        )}
+      </div>
+    );
+  }
+
+  const container = document.getElementById('root');
+  const root = ReactDOM.createRoot(container);
+  root.render(<App />);
+</script>

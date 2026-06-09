@@ -1,0 +1,67 @@
+<% layout('layout') -%>
+
+<style>
+  #root {
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+  }
+</style>
+
+<script type="text/babel" data-type="module">
+  import { loginRequest } from '/apis/account.api.js';
+  const { useState, useEffect } = React;
+  const { Button, Form, Input } = antd;
+
+  function onFinish(e) {
+    loginRequest(e)
+      .then((res) => {
+        const { message, success } = res;
+        if (success) {
+          location.href = '/web/index';
+          return;
+        }
+        throw Error(message);
+      })
+      .catch((err) => {
+        const { message } = err;
+      });
+  }
+
+  function App() {
+    return (
+      <div className="-translate-x-1/2 -translate-y-1/2 w-[500px] p-10 absolute top-1/2 left-1/2 bg-sky-50">
+        <Form
+          name="basic"
+          labelCol={{ span: 8 }}
+          wrapperCol={{ span: 16 }}
+          onFinish={onFinish}
+        >
+          <Form.Item
+            label="Username"
+            name="username"
+            rules={[{ required: true, message: 'Please input your username!' }]}
+          >
+            <Input />
+          </Form.Item>
+          <Form.Item
+            label="Password"
+            name="password"
+            rules={[{ required: true, message: 'Please input your password!' }]}
+          >
+            <Input.Password />
+          </Form.Item>
+          <Form.Item wrapperCol={{ offset: 8, span: 16 }}>
+            <Button type="primary" htmlType="submit">
+              Login
+            </Button>
+          </Form.Item>
+        </Form>
+      </div>
+    );
+  }
+
+  const container = document.getElementById('root');
+  const root = ReactDOM.createRoot(container);
+  root.render(<App />);
+</script>

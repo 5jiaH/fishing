@@ -1,0 +1,58 @@
+/* 设计令牌（DESIGN.md）：Uber 式黑白灰、无界面渐变 */
+:root {
+  --ds-black: #000000;
+  --ds-white: #ffffff;
+  --ds-body-gray: #4b4b4b;
+  --ds-muted-gray: #afafaf;
+  --ds-chip-gray: #efefef;
+  --ds-hover-gray: #e2e2e2;
+  --ds-hover-light: #f3f3f3;
+  --ds-shadow: 0 4px 16px rgba(0, 0, 0, 0.12);
+  --ds-shadow-medium: 0 4px 16px rgba(0, 0, 0, 0.16);
+  --ds-shadow-float: 0 2px 8px rgba(0, 0, 0, 0.16);
+  --ds-press-inset: inset 0 0 0 999px rgba(0, 0, 0, 0.08);
+
+  /* 与历史类名兼容：组件可继续引用 */
+  --app-base-font-size: 26px;
+  --app-base-line-height: 40px;
+  --app-base-color: var(--ds-body-gray);
+  --app-base-radius: 16px;
+  --app-base-bg: var(--ds-chip-gray);
+  --app-page-bg: var(--ds-white);
+}
+
+page {
+  min-height: 100%;
+  box-sizing: border-box;
+  background-color: var(--ds-white);
+  color: var(--ds-body-gray);
+  font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  box-sizing: border-box;
+  background-color: var(--ds-white);
+  color: var(--ds-body-gray);
+  font-family: system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* 与潮汐/个人页根节点配合：纯白底，无动效渐变 */
+.app-page-sunshine-bg {
+  background-color: var(--ds-white);
+}
+
+/* 悬浮胶囊 TabBar 预留底部空间 */
+.app-page-with-tabbar {
+  padding-bottom: calc(128rpx + env(safe-area-inset-bottom));
+  box-sizing: border-box;
+}
+
+/* 基础块：中性底、清晰字色、卡片圆角 */
+.app-base {
+  font-size: var(--app-base-font-size);
+  line-height: var(--app-base-line-height);
+  color: var(--app-base-color);
+  background: var(--app-base-bg);
+  border-radius: var(--app-base-radius);
+}

@@ -1,0 +1,146 @@
+<% layout('layout') -%>
+<style>
+  .real-error-container {
+    background: #272727;
+    line-height: 14px;
+    color: #ccc;
+    padding: 12px;
+    border-radius: 4px;
+  }
+
+  .real-error-container p {
+    padding: 2px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+  }
+
+  .real-error-container p b {
+    font-weight: 400;
+    width: 40px;
+    display: block;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+  }
+
+  .real-error-container p.exegesis {
+    color: #6f9d5b;
+  }
+
+  .real-error-container p.error {
+    background: rgba(255, 0, 0, 0.1);
+  }
+</style>
+
+<script type="text/babel" data-type="module">
+  import { loadJsx } from '/utils/index.js';
+  import menuOption from '/menu.mixin.js';
+
+  const { useState, useEffect, useRef, createContext, useContext, Suspense } =
+    React;
+  const { Menu, Modal, Drawer } = antd;
+  const { confirm } = Modal;
+
+  const IframeTabProvider = React.lazy(() => loadJsx('/index/iframeTab.jsx'));
+  const MainComponent = React.lazy(() => loadJsx('/index/main.jsx'));
+  const SlideComponent = React.lazy(() => loadJsx('/index/slide.jsx'));
+
+  const userData = <%- JSON.stringify(user ?? null).replace(/</g, '\\u003c')   %>;
+  const [firstMenuKey, menus] = menuOption();
+
+
+  function AppShell() {
+    const [drawerOption, setDrawer] = useState([false, {}]);
+
+    // postMessage 监听
+    useEffect(() => {
+      function onMessage(event) {
+        const relevantEvent = ['popup', 'unauthorized'];
+        const payload = event.data;
+        if (!payload || typeof payload !== 'object') return;
+        const { type, data } = payload;
+        if (relevantEvent.includes(type)) {
+          switch (type) {
+            case 'popup':
+              setDrawer([true, data.content]);
+              break;
+            case 'unauthorized':
+              location.href = '/web/account/login';
+              break;
+          }
+        }
+      }
+      window.addEventListener('message', onMessage);
+      return () => window.removeEventListener('message', onMessage);
+    }, []);
+
+    return (
+      <div className="h-dvh overflow-hidden flex">
+        {/* 侧边栏 */}
+        <div className="h-full flex-1 shrink min-w-[150px] max-w-[220px] bg-teal-100">
+          {
+            userData && (
+              <div className="flex items-center justify-between flex-col p-[10px]">
+                <p className="w-[70px] h-[70px] rounded-full border border-gray-300 relative">
+                  <img src={userData.cover || '/images/user.png'} alt="头像" className="w-full h-full object-cover rounded-full" />
+                  <span className="absolute bottom-0 right-0 text-white text-xs bg-orange-500 rounded-full px-2 py-1">
+                    {userData.role}
+                  </span>
+                </p>
+                <p>{userData.username}</p>
+              </div>
+            )
+          }
+          <Suspense fallback={<span className="text-gray-400">加载中…</span>}>
+            <SlideComponent menu={menus} />
+          </Suspense>
+        </div>
+
+        <Suspense fallback={<span>加载中…</span>}>
+          <MainComponent />
+        </Suspense>
+
+        {/* 错误日志 */}
+        <Drawer
+          title="Basic Drawer"
+          closable={{ 'aria-label': 'Close Button' }}
+          placement="bottom"
+          onClose={() => setDrawer([false, {}])}
+          height="60vh"
+          open={drawerOption[0]}
+        >
+          <div className="real-error-container">
+            <p className="exegesis">文件路径: {drawerOption[1].file}</p>
+            <p className="exegesis">错误信息: {drawerOption[1].error}</p>
+            <p className="exegesis">
+              用户浏览器: {drawerOption[1]['http.user_agent']}
+            </p>
+            <p className="exegesis">访问连接: {drawerOption[1]['http.url']}</p>
+            <p className="exegesis">
+              版本号: {drawerOption[1]['service.version']}
+            </p>
+            <p className="mb-[16px]"></p>
+            <div
+              dangerouslySetInnerHTML={{ __html: drawerOption[1].result }}
+            ></div>
+          </div>
+        </Drawer>
+      </div>
+    );
+  }
+
+  function App() {
+    return (
+      <Suspense>
+        <IframeTabProvider firstKey={firstMenuKey} menus={menus}>
+          <AppShell />
+        </IframeTabProvider>
+      </Suspense>
+    );
+  }
+
+  const container = document.getElementById('root');
+  const root = ReactDOM.createRoot(container);
+  root.render(<App />);
+</script>

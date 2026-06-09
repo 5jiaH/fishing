@@ -1,0 +1,696 @@
+<% layout('layout') -%>
+
+<style>
+  #root {
+    min-height: 100vh;
+    padding: 16px;
+    background: #f5f5f5;
+  }
+</style>
+
+<script type="text/babel" data-type="module">
+  import { loadJsx } from '/utils/index.js';
+  import {
+    useDelete,
+    useList,
+    useCreate,
+    useUpdate,
+    roleList,
+    roleCreate,
+    roleUpdate,
+    roleDelete,
+    monitorProjectSave,
+  } from '/apis/account.api.js';
+  const { useState, useEffect, useCallback } = React;
+  const {
+    Table,
+    Button,
+    Form,
+    Input,
+    Modal,
+    Select,
+    Space,
+    Popconfirm,
+    message,
+    Tag,
+    Checkbox,
+  } = antd;
+
+  const TYPE_OPTIONS = [
+    { value: 'ip', label: 'ip' },
+    { value: 'route', label: 'route' },
+  ];
+
+  // const SIGNOZ_PROJECT_OPTIONS = Array.isArray(window.__AUTH_PROJECT_OPTIONS__)
+  //   ? window.__AUTH_PROJECT_OPTIONS__
+  //   : [];
+
+  const parseCommaNames = (s) =>
+    String(s ?? '')
+      .split(',')
+      .map((x) => x.trim())
+      .filter(Boolean);
+
+  const fmt = (v) => (v ? dayjs(v).format('YYYY-MM-DD HH:mm') : '—');
+
+  function App() {
+    const [form] = Form.useForm();
+    const [roleForm] = Form.useForm();
+    const [loading, setLoading] = useState(false);
+    const [rows, setRows] = useState([]);
+    const [total, setTotal] = useState(0);
+    const [page, setPage] = useState(1);
+    const [pageSize, setPageSize] = useState(10);
+    const [modalOpen, setModalOpen] = useState(false);
+    const [modalMode, setModalMode] = useState('create');
+    const [editingId, setEditingId] = useState(null);
+    const [submitting, setSubmitting] = useState(false);
+
+    const [permOpen, setPermOpen] = useState(false);
+    const [permUser, setPermUser] = useState(null);
+    const [roleRows, setRoleRows] = useState([]);
+    const [roleLoading, setRoleLoading] = useState(false);
+    const [roleFormOpen, setRoleFormOpen] = useState(false);
+    const [roleFormMode, setRoleFormMode] = useState('create');
+    const [editingRoleId, setEditingRoleId] = useState(null);
+    const [roleSubmitting, setRoleSubmitting] = useState(false);
+
+    // const [projectModalOpen, setProjectModalOpen] = useState(false);
+    const [projectUser, setProjectUser] = useState(null);
+    const [projectCheckboxOptions, setProjectCheckboxOptions] = useState([]);
+    const [projectChecked, setProjectChecked] = useState([]);
+    const [projectSaving, setProjectSaving] = useState(false);
+
+    // lazy 要求 Promise 解析为 { default: 组件 }，与 import() 一致
+    const UserModal = React.lazy(() => loadJsx('/account/auth/userModal.jsx'));
+
+    const fetchList = useCallback(() => {
+      setLoading(true);
+      useList({ skip: (page - 1) * pageSize, take: pageSize })
+        .then((res) => {
+          if (!res.success) {
+            message.error(res.message || '加载失败');
+            return;
+          }
+          const block = res.data || {};
+          setRows(Array.isArray(block.data) ? block.data : []);
+          setTotal(Number(block.total) || 0);
+        })
+        .catch((err) => {
+          message.error('网络错误');
+        })
+        .finally(() => setLoading(false));
+    }, [page, pageSize]);
+
+    useEffect(() => {
+      fetchList();
+    }, [fetchList]);
+
+    const openCreate = () => {
+      setModalMode('create');
+      setEditingId(null);
+      form.resetFields();
+      form.setFieldsValue({ disabled: 0 });
+      setModalOpen(true);
+    };
+
+    const openEdit = (record) => {
+      setModalMode('edit');
+      setEditingId(record.id);
+      form.resetFields();
+      form.setFieldsValue({
+        username: record.username,
+        // ip: record.ip || '',
+        cover: record.cover || '',
+        disabled: Number(record.disabled) === 1 ? 1 : 0,
+        password: '',
+      });
+      setModalOpen(true);
+    };
+
+    const closeModal = () => {
+      setModalOpen(false);
+      setEditingId(null);
+      form.resetFields();
+    };
+
+    const onSubmit = async () => {
+      try {
+        const values = await form.validateFields();
+        setSubmitting(true);
+        if (modalMode === 'create') {
+          const res = await useCreate({
+            username: values.username,
+            password: values.password,
+            // ip: values.ip || undefined,
+            cover: values.cover || undefined,
+            disabled: values.disabled,
+          });
+          if (!res.success) {
+            message.error(res.message || '创建失败');
+            return;
+          }
+          message.success('已添加');
+        } else {
+          const res = await useUpdate({
+            id: editingId,
+            username: values.username,
+            password: values.password || undefined,
+            // ip: values.ip || undefined,
+            cover: values.cover || undefined,
+            disabled: values.disabled,
+          });
+          if (!res.success) {
+            message.error(res.message || '更新失败');
+            return;
+          }
+          message.success('已保存');
+        }
+        closeModal();
+        fetchList();
+      } catch (e) {
+        if (e?.errorFields) return;
+        message.error(e.message || '请求失败');
+      } finally {
+        setSubmitting(false);
+      }
+    };
+
+    const onDelete = async (id) => {
+      try {
+        const res = await useDelete(id);
+        if (!res.success) {
+          message.error(res.message || '删除失败');
+          return;
+        }
+        message.success('已删除');
+        fetchList();
+      } catch (e) {
+        message.error('删除失败');
+      }
+    };
+
+    const fetchRoleList = useCallback(async () => {
+      if (!permUser?.id) return;
+      setRoleLoading(true);
+      try {
+        const res = await roleList({
+          uid: permUser.id,
+          skip: 0,
+          take: 200,
+        });
+        if (!res.success) {
+          message.error(res.message || '权限列表加载失败');
+          return;
+        }
+        const block = res.data || {};
+        setRoleRows(Array.isArray(block.data) ? block.data : []);
+      } catch (e) {
+        message.error('权限列表网络错误');
+      } finally {
+        setRoleLoading(false);
+      }
+    }, [permUser]);
+
+    useEffect(() => {
+      if (permOpen && permUser) {
+        fetchRoleList();
+      }
+    }, [permOpen, permUser, fetchRoleList]);
+
+    const openPermModal = (record) => {
+      setPermUser({ id: record.id, username: record.username });
+      setPermOpen(true);
+    };
+
+    const closePermModal = () => {
+      setPermOpen(false);
+      setPermUser(null);
+      setRoleRows([]);
+      setRoleFormOpen(false);
+      roleForm.resetFields();
+    };
+
+    const openRoleCreate = () => {
+      setRoleFormMode('create');
+      setEditingRoleId(null);
+      roleForm.resetFields();
+      roleForm.setFieldsValue({
+        type: 'ip',
+        include: 1,
+        status: 1,
+        role: '',
+        description: '',
+      });
+      setRoleFormOpen(true);
+    };
+
+    const openRoleEdit = (r) => {
+      setRoleFormMode('edit');
+      setEditingRoleId(r.id);
+      roleForm.resetFields();
+      const parts = String(r.type || '')
+        .split(',')
+        .map((s) => s.trim())
+        .filter(Boolean);
+      const singleType =
+        parts.find((p) => p === 'ip' || p === 'route') || 'ip';
+      roleForm.setFieldsValue({
+        type: singleType,
+        include: Number(r.include) === 0 ? 0 : 1,
+        status: Number(r.status) === 0 ? 0 : 1,
+        role: r.role || '',
+        description: r.description || '',
+      });
+      setRoleFormOpen(true);
+    };
+
+    const closeRoleForm = () => {
+      setRoleFormOpen(false);
+      setEditingRoleId(null);
+      roleForm.resetFields();
+    };
+
+    const onRoleFormSubmit = async () => {
+      try {
+        const values = await roleForm.validateFields();
+        const typeStr = String(values.type ?? '').trim();
+        if (!typeStr) {
+          message.error('请选择 type');
+          return;
+        }
+        setRoleSubmitting(true);
+        if (roleFormMode === 'create') {
+          const res = await roleCreate({
+            uid: permUser.id,
+            type: typeStr,
+            include: values.include,
+            role: values.role || '',
+            status: values.status,
+            description: values.description || '',
+          });
+          if (!res.success) {
+            message.error(res.message || '添加失败');
+            return;
+          }
+          message.success(res.data?.appended ? '已合并到已有规则' : '已添加');
+        } else {
+          const res = await roleUpdate({
+            id: editingRoleId,
+            type: typeStr,
+            include: values.include,
+            role: values.role,
+            status: values.status,
+            description: values.description,
+          });
+          if (!res.success) {
+            message.error(res.message || '保存失败');
+            return;
+          }
+          message.success('已保存');
+        }
+        closeRoleForm();
+        fetchRoleList();
+      } catch (e) {
+        if (e?.errorFields) return;
+        message.error(e.message || '请求失败');
+      } finally {
+        setRoleSubmitting(false);
+      }
+    };
+
+    const onRoleDelete = async (id) => {
+      try {
+        const res = await roleDelete({ id });
+        if (!res.success) {
+          message.error(res.message || '删除失败');
+          return;
+        }
+        message.success('已删除');
+        fetchRoleList();
+      } catch (e) {
+        message.error('删除失败');
+      }
+    };
+
+    // const openProjectModal = (record) => {
+    //   const saved = parseCommaNames(record.monitorProjectName);
+    //   const fromApi = new Set(SIGNOZ_PROJECT_OPTIONS);
+    //   const extraSaved = saved.filter((n) => !fromApi.has(n));
+    //   setProjectCheckboxOptions([...SIGNOZ_PROJECT_OPTIONS, ...extraSaved]);
+    //   setProjectChecked(saved);
+    //   setProjectUser({
+    //     id: record.id,
+    //     username: record.username,
+    //   });
+    //   setProjectModalOpen(true);
+    // };
+
+    const closeProjectModal = () => {
+      // setProjectModalOpen(false);
+      setProjectUser(null);
+      setProjectCheckboxOptions([]);
+      setProjectChecked([]);
+    };
+
+    const onProjectSave = async () => {
+      if (!projectUser?.id) return;
+      setProjectSaving(true);
+      try {
+        const projectName = projectChecked.join(',');
+        const res = await monitorProjectSave({
+          uid: projectUser.id,
+          projectName,
+        });
+        if (!res.success) {
+          message.error(res.message || '保存失败');
+          return;
+        }
+        message.success('已保存');
+        closeProjectModal();
+        fetchList();
+      } catch (e) {
+        message.error(e.message || '保存失败');
+      } finally {
+        setProjectSaving(false);
+      }
+    };
+
+    const roleColumns = [
+      { title: 'ID', dataIndex: 'id', width: 64 },
+      { title: 'type', dataIndex: 'type', width: 120, ellipsis: true },
+      {
+        title: 'role（规则）',
+        dataIndex: 'role',
+        ellipsis: true,
+      },
+      {
+        title: 'include',
+        dataIndex: 'include',
+        width: 88,
+        render: (v) => (Number(v) === 1 ? '包含' : '排除'),
+      },
+      {
+        title: '状态',
+        dataIndex: 'status',
+        width: 72,
+        render: (v) => (Number(v) === 1 ? '启用' : '停用'),
+      },
+      {
+        title: '描述',
+        dataIndex: 'description',
+        width: 120,
+        ellipsis: true,
+        render: (t) => t || '—',
+      },
+      {
+        title: '操作',
+        key: 'roleActions',
+        width: 120,
+        fixed: 'right',
+        render: (_, r) => (
+          <Space size="small">
+            <Button type="link" size="small" onClick={() => openRoleEdit(r)}>
+              编辑
+            </Button>
+            <Popconfirm title="确定删除该条权限？" onConfirm={() => onRoleDelete(r.id)}>
+              <Button type="link" size="small" danger>
+                删除
+              </Button>
+            </Popconfirm>
+          </Space>
+        ),
+      },
+    ];
+
+    const columns = [
+      { title: 'ID', dataIndex: 'id', width: 72 },
+      { title: '用户名', dataIndex: 'username', ellipsis: true },
+      {
+        title: 'IP',
+        dataIndex: 'ip',
+        width: 140,
+        ellipsis: true,
+        render: (t) => t || '—',
+      },
+      {
+        title: '状态',
+        dataIndex: 'disabled',
+        width: 100,
+        render: (v) =>
+          Number(v) === 1 ? (
+            <Tag color="red">停用</Tag>
+          ) : (
+            <Tag color="green">正常</Tag>
+          ),
+      },
+      { title: '创建时间', dataIndex: 'create_time', width: 170, render: fmt },
+      { title: '更新时间', dataIndex: 'update_time', width: 170, render: fmt },
+      {
+        title: '操作',
+        key: 'actions',
+        width: 320,
+        fixed: 'right',
+        render: (_, record) => (
+          <Space size="small" wrap>
+            <Button type="link" size="small" onClick={() => openPermModal(record)}>
+              权限
+            </Button>
+           {/* <Button type="link" size="small" onClick={() => openProjectModal(record)}>
+              项目
+            </Button>
+            */}
+            <Button type="link" size="small" onClick={() => openEdit(record)}>
+              编辑
+            </Button>
+
+            {record.role === 'U' && (
+              <Popconfirm
+                title="确定删除该用户？"
+                onConfirm={() => onDelete(record.id)}
+              >
+                <Button type="link" size="small" danger>
+                  删除
+                </Button>
+              </Popconfirm>
+            )}
+          </Space>
+        ),
+      },
+    ];
+
+    return (
+      <div className="mx-auto bg-white rounded-lg shadow-sm p-4">
+        <div className="flex justify-between items-center mb-4">
+          <h1 className="text-lg font-medium m-0">用户列表</h1>
+          <Button type="primary" onClick={openCreate}>
+            添加用户
+          </Button>
+        </div>
+        <Table
+          rowKey="id"
+          loading={loading}
+          columns={columns}
+          dataSource={rows}
+          scroll={{ x: 1100 }}
+          pagination={{
+            current: page,
+            pageSize,
+            total,
+            showSizeChanger: true,
+            showTotal: (t) => `共 ${t} 条`,
+            onChange: (p, ps) => {
+              setPage(p);
+              setPageSize(ps);
+            },
+          }}
+        />
+        {/*<Modal
+          title={modalMode === 'create' ? '添加用户' : '编辑用户'}
+          open={modalOpen}
+          onOk={onSubmit}
+          onCancel={closeModal}
+          confirmLoading={submitting}
+          destroyOnClose
+          width={480}
+        >
+          <Form form={form} layout="vertical" className="mt-2">
+            <Form.Item
+              name="username"
+              label="用户名"
+              rules={[{ required: true, message: '请输入用户名' }]}
+            >
+              <Input placeholder="登录名" autoComplete="off" />
+            </Form.Item>
+            <Form.Item
+              name="password"
+              label={modalMode === 'create' ? '密码' : '新密码（留空不改）'}
+              rules={
+                modalMode === 'create'
+                  ? [{ required: true, message: '请输入密码' }]
+                  : []
+              }
+            >
+              <Input.Password
+                placeholder={modalMode === 'create' ? '' : '不修改请留空'}
+                autoComplete="new-password"
+              />
+            </Form.Item>
+            <Form.Item name="cover" label="头像 URL">
+              <Input placeholder="可选" />
+            </Form.Item>
+            {form.role === 'U' && (
+              <Form.Item
+                name="disabled"
+                label="账号状态"
+                rules={[{ required: true }]}
+              >
+                <Select
+                  options={[
+                    { value: 0, label: '正常' },
+                    { value: 1, label: '停用' },
+                  ]}
+                />
+              </Form.Item>
+            )}
+          </Form>
+        </Modal>*/}
+
+       {/* <Modal
+          title={
+            projectUser
+              ? `监控项目 — ${projectUser.username}（uid: ${projectUser.id}）`
+              : '监控项目'
+          }
+          open={projectModalOpen}
+          onOk={onProjectSave}
+          onCancel={closeProjectModal}
+          confirmLoading={projectSaving}
+          okText="保存"
+          destroyOnClose
+          width={520}
+        >
+          {projectCheckboxOptions.length === 0 ? (
+            <p className="text-gray-500 text-sm m-0">
+              暂无可用项目（Signoz 未返回 service.name 列表）。仍可保存空选择以清空已配置项。
+            </p>
+          ) : (
+            <Checkbox.Group
+              className="flex flex-col gap-2 mt-1"
+              value={projectChecked}
+              onChange={setProjectChecked}
+            >
+              {projectCheckboxOptions.map((name) => (
+                <Checkbox key={name} value={name}>
+                  {name}
+                </Checkbox>
+              ))}
+            </Checkbox.Group>
+          )}
+        </Modal>
+*/}
+        <Modal
+          title={
+            permUser
+              ? `权限管理 — ${permUser.username}（uid: ${permUser.id}）`
+              : '权限管理'
+          }
+          open={permOpen}
+          onCancel={closePermModal}
+          footer={null}
+          width={900}
+          destroyOnClose
+        >
+          <div className="flex justify-between items-center mb-3">
+            <span className="text-gray-500 text-sm">
+              type 仅可选 ip 或 route；include 默认「包含」
+            </span>
+            <Space>
+              <Button size="small" onClick={() => fetchRoleList()}>
+                刷新
+              </Button>
+              <Button type="primary" size="small" onClick={openRoleCreate}>
+                添加权限
+              </Button>
+            </Space>
+          </div>
+          <Table
+            size="small"
+            rowKey="id"
+            loading={roleLoading}
+            columns={roleColumns}
+            dataSource={roleRows}
+            scroll={{ x: 780 }}
+            pagination={false}
+          />
+        </Modal>
+
+        <Modal
+          title={roleFormMode === 'create' ? '添加权限' : '编辑权限'}
+          open={roleFormOpen}
+          onOk={onRoleFormSubmit}
+          onCancel={closeRoleForm}
+          confirmLoading={roleSubmitting}
+          destroyOnClose
+          width={520}
+        >
+          <Form form={roleForm} layout="vertical" className="mt-1">
+            <Form.Item
+              name="type"
+              label="type"
+              rules={[{ required: true, message: '请选择 type' }]}
+            >
+              <Select placeholder="选择 ip 或 route" options={TYPE_OPTIONS} />
+            </Form.Item>
+            <Form.Item
+              name="role"
+              label="role 规则（多段逗号分隔，会与已有合并去重）"
+              rules={[{ required: true, message: '请输入规则' }]}
+            >
+              <Input.TextArea rows={3} placeholder="例如：192.168.1.0/24,/api/foo" />
+            </Form.Item>
+            <Form.Item
+              name="include"
+              label="包含 / 排除"
+              rules={[{ required: true }]}
+              initialValue={1}
+            >
+              <Select
+                options={[
+                  { value: 1, label: '包含 (1)' },
+                  { value: 0, label: '排除 (0)' },
+                ]}
+              />
+            </Form.Item>
+            <Form.Item name="status" label="状态" rules={[{ required: true }]} initialValue={1}>
+              <Select
+                options={[
+                  { value: 1, label: '启用' },
+                  { value: 0, label: '停用' },
+                ]}
+              />
+            </Form.Item>
+            <Form.Item name="description" label="描述">
+              <Input placeholder="可选" />
+            </Form.Item>
+          </Form>
+        </Modal>
+
+        <React.Suspense fallback={<span className="text-gray-400">加载中…</span>}>
+          <UserModal
+            status={modalOpen}
+            type={modalMode}
+            form={form}
+            submitting={submitting}
+            onSubmit={onSubmit}
+            onClose={closeModal}
+          />
+        </React.Suspense>
+      </div>
+    );
+  }
+
+  const container = document.getElementById('root');
+  const root = ReactDOM.createRoot(container);
+  root.render(<App />);
+</script>

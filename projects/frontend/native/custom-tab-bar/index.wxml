@@ -1,0 +1,22 @@
+<view class="custom-tab-bar">
+  <view class="custom-tab-bar__pill">
+    <view
+      wx:for="{{list}}"
+      wx:key="pagePath"
+      class="custom-tab-bar__item {{selected === index ? 'custom-tab-bar__item--active' : ''}}"
+      data-path="{{item.pagePath}}"
+      data-index="{{index}}"
+      bindtap="switchTab"
+    >
+      <image
+        class="custom-tab-bar__icon"
+        src="{{selected === index ? item.selectedIconPath : item.iconPath}}"
+        mode="aspectFit"
+      />
+      <text
+        class="custom-tab-bar__text"
+        style="color: {{selected === index ? selectedColor : color}}"
+      >{{item.text}}</text>
+    </view>
+  </view>
+</view>

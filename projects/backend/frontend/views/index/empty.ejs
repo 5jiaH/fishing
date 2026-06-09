@@ -1,0 +1,18 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+  </head>
+  <body>
+    <script>
+      // iframe内部页面利用postMessage通知layout跳出登录页
+      const parent = window.parent;
+      if (parent !== window) {
+        parent.postMessage({ type: 'unauthorized' });
+      } else {
+        location.href = '/web/account/login';
+      }
+    </script>
+  </body>
+</html>

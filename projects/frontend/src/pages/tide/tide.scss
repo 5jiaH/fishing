@@ -1,0 +1,659 @@
+/* 潮汐页：DESIGN.md Uber 黑白灰体系 · 精致卡片 · 药丸交互 */
+
+/* ── tokens ─────────────────────────────────────────── */
+$tide-panel: rgba(255, 255, 255, 0.96);
+$tide-panel-strong: #ffffff;
+$tide-line: rgba(0, 0, 0, 0.06);
+$tide-text: var(--ds-black, #000000);
+$tide-text-muted: var(--ds-muted-gray, #afafaf);
+$tide-text-body: var(--ds-body-gray, #4b4b4b);
+$tide-card-shadow: var(--ds-shadow, 0 4px 16px rgba(0, 0, 0, 0.12));
+$tide-radius-card: 24rpx;
+
+/* ── page root ──────────────────────────────────────── */
+.tide-page {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  max-width: 750px;
+  margin: 0 auto;
+  box-sizing: border-box;
+  color: $tide-text-body;
+  overflow: hidden;
+  background: var(--ds-hover-light, #f3f3f3);
+}
+
+/* ── safe-area / custom nav ─────────────────────────── */
+.tide-page__safe-top-spacer {
+  flex-shrink: 0;
+  height: env(safe-area-inset-top);
+  min-height: env(safe-area-inset-top);
+}
+
+.tide-page__custom-nav {
+  flex-shrink: 0;
+  width: 100%;
+  box-sizing: border-box;
+  background: $tide-panel-strong;
+}
+
+.tide-page__custom-nav-inner {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding-left: 8px;
+  box-sizing: border-box;
+}
+
+.tide-page__custom-nav-title-mask {
+  flex-shrink: 0;
+  background: var(--ds-black, #000000);
+}
+
+/* ── top bar: area trigger + city chips ─────────────── */
+.tide-page__city-row {
+  display: flex;
+  flex-direction: row;
+  align-items: stretch;
+  background: $tide-panel-strong;
+  border-bottom: 1rpx solid $tide-line;
+  flex-shrink: 0;
+  min-width: 0;
+}
+
+.tide-page__area-trigger {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8rpx;
+  max-width: 280rpx;
+  min-height: 88rpx;
+  padding: 12rpx 20rpx;
+  box-sizing: border-box;
+  background: var(--ds-chip-gray, #efefef);
+  border-right: 1rpx solid $tide-line;
+  transition: background 0.18s ease;
+}
+
+.tide-page__area-trigger--open {
+  background: var(--ds-hover-gray, #e2e2e2);
+}
+
+.tide-page__area-trigger-text {
+  flex: 1;
+  min-width: 0;
+  font-size: 28rpx;
+  font-weight: 700;
+  line-height: 40rpx;
+  color: $tide-text;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.tide-page__area-trigger-caret {
+  flex-shrink: 0;
+  font-size: 20rpx;
+  line-height: 1;
+  color: $tide-text-muted;
+  transition: transform 0.22s ease;
+}
+
+.tide-page__area-trigger--open .tide-page__area-trigger-caret {
+  transform: rotate(180deg);
+}
+
+.tide-page__cities-scroll {
+  flex: 1;
+  min-width: 0;
+  height: 88rpx;
+}
+
+.tide-page__cities-inner {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  min-height: 88rpx;
+  padding: 0 12rpx;
+  gap: 12rpx;
+}
+
+.tide-page__city-chip {
+  flex-shrink: 0;
+  padding: 12rpx 28rpx;
+  font-size: 26rpx;
+  line-height: 36rpx;
+  color: $tide-text-body;
+  background: var(--ds-chip-gray, #efefef);
+  border: none;
+  border-radius: 9999rpx;
+  white-space: nowrap;
+  box-sizing: border-box;
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tide-page__city-chip::after {
+  display: none;
+}
+
+.tide-page__city-chip--active {
+  background: var(--ds-black, #000000);
+  color: var(--ds-white, #ffffff);
+  font-weight: 600;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.18);
+}
+
+/* ── main (sidebar + content) ───────────────────────── */
+.tide-page__main {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+}
+
+/* ── sidebar ────────────────────────────────────────── */
+.tide-page__category-shell {
+  flex-shrink: 0;
+  width: 0;
+  overflow: hidden;
+  align-self: stretch;
+  box-sizing: border-box;
+  transition: width 0.26s cubic-bezier(0.4, 0, 0.2, 1);
+  border-right: 1rpx solid transparent;
+}
+
+.tide-page__category-shell--open {
+  width: 140rpx;
+  border-right-color: $tide-line;
+}
+
+.tide-page__category {
+  width: 100%;
+  background: $tide-panel-strong;
+  align-self: stretch;
+  height: 100%;
+  box-sizing: border-box;
+  padding-top: 8rpx;
+}
+
+.tide-page__category-btn {
+  width: 100%;
+  padding: 24rpx 8rpx;
+  font-size: 24rpx;
+  line-height: 1.4;
+  text-align: center;
+  color: $tide-text-muted;
+  background: transparent;
+  border: none;
+  border-left: 4rpx solid transparent;
+  transition: background 0.18s ease, color 0.18s ease, border-color 0.18s ease;
+}
+
+.tide-page__category-btn::after {
+  display: none;
+}
+
+.tide-page__category-btn--active {
+  background: var(--ds-chip-gray, #efefef);
+  color: $tide-text;
+  font-weight: 700;
+  border-left-color: var(--ds-black, #000000);
+}
+
+/* ── content (scroll area) ──────────────────────────── */
+.tide-page__content {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  overflow: hidden;
+}
+
+.tide-page__spots-scroll {
+  flex: 1;
+  height: 0;
+}
+
+.tide-page__spots-inner {
+  padding: 20rpx 24rpx;
+  padding-bottom: 40rpx;
+}
+
+/* ── spot card ──────────────────────────────────────── */
+.spot-card {
+  background: $tide-panel-strong;
+  border-radius: $tide-radius-card;
+  border: none;
+  box-shadow: $tide-card-shadow;
+  overflow: hidden;
+  margin-bottom: 24rpx;
+  transition: box-shadow 0.2s ease, transform 0.15s ease;
+}
+
+.spot-card--tap {
+  transform: scale(0.985);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+/* card head */
+.spot-card__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20rpx 24rpx 16rpx;
+}
+
+.spot-card__head-left {
+  display: flex;
+  align-items: center;
+  gap: 12rpx;
+  min-width: 0;
+}
+
+.spot-card__chevron {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 36rpx;
+  height: 36rpx;
+  border-radius: 50%;
+  background: var(--ds-black, #000000);
+  color: var(--ds-white, #ffffff);
+  font-size: 18rpx;
+  flex-shrink: 0;
+  line-height: 1;
+}
+
+.spot-card__name {
+  font-size: 30rpx;
+  font-weight: 700;
+  color: $tide-text;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  letter-spacing: 0.5rpx;
+}
+
+.spot-card__weather-icon {
+  flex-shrink: 0;
+  width: 40rpx;
+  height: 40rpx;
+  color: $tide-text-body;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.spot-card__weather-svg,
+.spot-card__weather-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+.spot-card__weather-icon .spot-card__weather-img svg {
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+
+/* card body */
+.spot-card__body {
+  padding: 0 24rpx 24rpx;
+  font-size: 24rpx;
+}
+
+.spot-card__row {
+  margin-bottom: 12rpx;
+  color: $tide-text-muted;
+  line-height: 1.5;
+}
+
+.spot-card__row:last-child {
+  margin-bottom: 0;
+}
+
+.spot-card__date {
+  color: $tide-text;
+  font-weight: 700;
+  font-size: 26rpx;
+}
+
+.spot-card__strong {
+  color: $tide-text;
+  font-weight: 600;
+}
+
+/* weather metrics row */
+.spot-card__metrics-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12rpx 16rpx;
+  padding: 16rpx 0;
+  border-top: 1rpx solid $tide-line;
+  border-bottom: 1rpx solid $tide-line;
+}
+
+.spot-card__metric {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 6rpx;
+  background: var(--ds-chip-gray, #efefef);
+  border-radius: 9999rpx;
+  padding: 6rpx 16rpx 6rpx 10rpx;
+}
+
+.spot-card__inline-svg {
+  width: 26rpx;
+  height: 26rpx;
+  flex-shrink: 0;
+  color: $tide-text-body;
+  display: block;
+}
+
+/* sun row */
+.spot-card__sun-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 12rpx;
+  margin-bottom: 12rpx;
+}
+
+.spot-card__sun-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6rpx;
+  background: var(--ds-chip-gray, #efefef);
+  border-radius: 9999rpx;
+  padding: 4rpx 14rpx 4rpx 8rpx;
+  font-size: 22rpx;
+  color: $tide-text-body;
+}
+
+.spot-card__sun-text {
+  font-weight: 600;
+  color: $tide-text;
+}
+
+/* weather indices */
+.spot-card__indices {
+  margin-top: 16rpx;
+}
+
+.spot-card__indices-title {
+  display: block;
+  font-size: 22rpx;
+  font-weight: 700;
+  color: $tide-text;
+  margin-bottom: 8rpx;
+  letter-spacing: 0.5rpx;
+}
+
+.spot-card__indices-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 8rpx 16rpx;
+  font-size: 22rpx;
+  line-height: 1.5;
+}
+
+.spot-card__indices-name {
+  flex-shrink: 0;
+  color: $tide-text-muted;
+  font-weight: 500;
+}
+
+.spot-card__indices-value {
+  flex: 1;
+  min-width: 0;
+  color: $tide-text-body;
+}
+
+.spot-card__indices-empty {
+  font-size: 22rpx;
+  color: $tide-text-muted;
+}
+
+/* bottom cols */
+.spot-card__cols {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12rpx 40rpx;
+  margin-top: 16rpx;
+  padding-top: 16rpx;
+  border-top: 1rpx solid $tide-line;
+}
+
+.spot-card__col {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 6rpx 12rpx;
+  font-size: 24rpx;
+}
+
+/* ── misc: dist / weather-tag ───────────────────────── */
+.spot-card__dist {
+  font-size: 24rpx;
+  color: $tide-text-muted;
+  flex-shrink: 0;
+}
+
+.spot-card__weather-tag {
+  background: var(--ds-black, #000000);
+  color: var(--ds-white, #ffffff);
+  font-size: 22rpx;
+  padding: 6rpx 18rpx;
+  border-radius: 9999rpx;
+  flex-shrink: 0;
+  font-weight: 600;
+}
+
+/* ── tide row ───────────────────────────────────────── */
+.spot-card__tide-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16rpx 32rpx;
+}
+
+.spot-card__orange {
+  color: $tide-text;
+  font-weight: 700;
+}
+
+/* ── unused but kept for forward-compat ─────────────── */
+.tide-page__search {
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+  padding: 16rpx;
+  background: $tide-panel-strong;
+  border-bottom: 1rpx solid $tide-line;
+  flex-shrink: 0;
+}
+
+.tide-page__icon-btn {
+  padding: 16rpx;
+  line-height: 1;
+  background: transparent;
+  border: none;
+}
+
+.tide-page__icon-btn::after {
+  display: none;
+}
+
+.tide-page__search-icon {
+  font-size: 40rpx;
+  opacity: 0.85;
+  color: $tide-text;
+}
+
+.tide-page__search-input {
+  flex: 1;
+  background: var(--ds-chip-gray, #efefef);
+  border-radius: 16rpx;
+  padding: 12rpx 24rpx;
+  font-size: 28rpx;
+  color: $tide-text-muted;
+  border: 1rpx solid var(--ds-black, #000000);
+}
+
+.tide-page__chevron-tilt {
+  display: inline-block;
+  font-size: 36rpx;
+  opacity: 0.75;
+  color: $tide-text;
+  transform: rotate(-45deg);
+}
+
+.tide-page__city-fixed {
+  flex-shrink: 0;
+  width: 128rpx;
+  background: var(--ds-chip-gray, #efefef);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 16rpx 0;
+  font-size: 28rpx;
+  font-weight: 500;
+  color: $tide-text;
+}
+
+.tide-page__city-title {
+  background: var(--ds-hover-light, #f3f3f3);
+  padding: 12rpx 24rpx;
+  text-align: right;
+  font-size: 28rpx;
+  color: $tide-text;
+  border-bottom: 1rpx solid $tide-line;
+  flex-shrink: 0;
+}
+
+.tide-page__hint {
+  font-size: 24rpx;
+  color: $tide-text-muted;
+  padding: 16rpx;
+}
+
+/* ── FAB ────────────────────────────────────────────── */
+.tide-page__fab {
+  position: absolute;
+  right: 32rpx;
+  bottom: 32rpx;
+  z-index: 2;
+}
+
+.tide-page__fab-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: var(--ds-black, #000000);
+  border-radius: 9999rpx;
+  padding: 24rpx;
+  border: none;
+  box-shadow: var(--ds-shadow-float, 0 2px 8px rgba(0, 0, 0, 0.16));
+}
+
+.tide-page__fab-btn::after {
+  display: none;
+}
+
+.tide-page__fab-icon {
+  font-size: 40rpx;
+  color: var(--ds-white, #ffffff);
+  line-height: 1;
+}
+
+.tide-page__fab-label {
+  font-size: 20rpx;
+  color: var(--ds-white, #ffffff);
+  margin-top: 4rpx;
+}
+
+/* ── calendar (forward-compat) ──────────────────────── */
+.tide-page__calendar {
+  background: $tide-panel-strong;
+  border-top: 1rpx solid $tide-line;
+  flex-shrink: 0;
+}
+
+.tide-page__calendar-scroll {
+  width: 100%;
+  white-space: nowrap;
+}
+
+.tide-page__calendar-inner {
+  display: inline-flex;
+  flex-direction: row;
+  padding: 8rpx 0 12rpx;
+  gap: 8rpx;
+}
+
+.tide-page__cal-day {
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 16rpx 24rpx;
+  min-width: 104rpx;
+  box-sizing: border-box;
+  border-radius: 16rpx;
+}
+
+.tide-page__cal-day--current {
+  background: var(--ds-black, #000000);
+}
+
+.tide-page__cal-num {
+  font-size: 36rpx;
+  font-weight: 700;
+  color: $tide-text;
+  line-height: 1.2;
+}
+
+.tide-page__cal-day--current .tide-page__cal-num,
+.tide-page__cal-num--current {
+  color: var(--ds-white, #ffffff);
+}
+
+.tide-page__cal-wd {
+  font-size: 20rpx;
+  color: $tide-text-muted;
+  margin-top: 4rpx;
+}
+
+.tide-page__cal-day--current .tide-page__cal-wd {
+  color: rgba(255, 255, 255, 0.85);
+}
+
+.tide-page__cal-lunar {
+  font-size: 20rpx;
+  color: $tide-text-muted;
+  margin-top: 2rpx;
+}
+
+.tide-page__cal-day--current .tide-page__cal-lunar {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.tide-page__cal-fish {
+  font-size: 18rpx;
+  color: $tide-text-muted;
+  margin-top: 4rpx;
+  white-space: nowrap;
+}
+
+.tide-page__cal-day--current .tide-page__cal-fish {
+  color: rgba(255, 255, 255, 0.8);
+}

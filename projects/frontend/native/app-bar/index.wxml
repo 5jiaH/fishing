@@ -1,0 +1,5 @@
+<view class="app-bar-root">
+  <view class="app-bar-tagline">
+    <text>{{tagline}} | {{count}}s</text>
+  </view>
+</view>
