@@ -19,8 +19,7 @@
     "test:cov": "jest --coverage",
     "test:debug": "node --inspect-brk -r tsconfig-paths/register -r ts-node/register node_modules/.bin/jest --runInBand",
     "test:e2e": "jest --config ./test/jest-e2e.json",
-    "tide:fill-port-city": "node lib/global-tide.nmdis.org.cn/fill-tide-port-city.js",
-    "docs:api": "cross-env TS_NODE_FILES=true ts-node -r tsconfig-paths/register scripts/export-openapi.ts"
+    "tide:fill-port-city": "node lib/global-tide.nmdis.org.cn/fill-tide-port-city.js"
   },
   "dependencies": {
     "@nestjs/common": "^11.1.3",
