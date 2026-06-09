@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"梅洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.39217630961993,24.190272347294428]},"properties":{"GB":310108,"id":190715,"ORIG_FID":473,"source_tile":"g50c004001","source_layer":"resp","source_record":474,"name":"梅洞水库","name_source":"aanp_spatial"}}]};

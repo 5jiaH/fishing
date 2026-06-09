@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"碧山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.97050818105964,21.439578138644677]},"properties":{"GB":310107,"id":51062,"ORIG_FID":1004,"source_tile":"f49c003002","source_layer":"resp","source_record":1005,"name":"碧山水库","name_source":"aanp_id"}}]};

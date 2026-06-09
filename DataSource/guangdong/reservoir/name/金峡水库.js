@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"金峡水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.87234770046665,21.180705965369473]},"properties":{"GB":310107,"id":51453,"ORIG_FID":289,"source_tile":"f49c003002","source_layer":"resp","source_record":290,"name":"金峡水库","name_source":"aanp_id"}}]};

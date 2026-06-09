@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白云水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.67134831834076,25.777364146568704]},"properties":{"GB":310107,"id":153231,"ORIG_FID":1249,"source_tile":"g49c003004","source_layer":"resp","source_record":1250,"name":"白云水库","name_source":"osm"}}]};

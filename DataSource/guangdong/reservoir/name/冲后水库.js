@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"冲后水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.11860729703355,25.711329799793248]},"properties":{"GB":310108,"id":181990,"ORIG_FID":1266,"source_tile":"g50c003001","source_layer":"resp","source_record":1267,"name":"冲后水库","name_source":"aanp_id"}}]};

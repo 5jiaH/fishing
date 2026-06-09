@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"金门水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.03936407821433,25.512936496885263]},"properties":{"GB":310107,"id":180856,"ORIG_FID":911,"source_tile":"g50c003001","source_layer":"resp","source_record":912,"name":"金门水库","name_source":"aanp_id"}}]};

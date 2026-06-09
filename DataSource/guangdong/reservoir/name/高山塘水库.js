@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"高山塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.43485783222269,22.325924426678867]},"properties":{"GB":310107,"id":43073,"ORIG_FID":767,"source_tile":"f49c002003","source_layer":"resp","source_record":768,"name":"高山塘水库","name_source":"aanp_id"}}]};

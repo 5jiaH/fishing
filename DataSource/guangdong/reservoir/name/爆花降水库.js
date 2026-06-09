@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"爆花降水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.05903853363085,23.191964250768393]},"properties":{"GB":310107,"id":33043,"ORIG_FID":897,"source_tile":"f49c001003","source_layer":"resp","source_record":898,"name":"爆花降水库","name_source":"aanp_id"}}]};

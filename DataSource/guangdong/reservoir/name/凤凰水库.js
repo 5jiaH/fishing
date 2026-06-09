@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"凤凰水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.10548160020836,23.649621565767553]},"properties":{"GB":310108,"id":36049,"ORIG_FID":2490,"source_tile":"f49c001003","source_layer":"resp","source_record":2491,"name":"凤凰水库","name_source":"aanp_id"}}]};

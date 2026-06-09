@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"欧公洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.66780240706295,25.029966389710623]},"properties":{"GB":310108,"id":181876,"ORIG_FID":53,"source_tile":"g50c003001","source_layer":"resp","source_record":54,"name":"欧公洞水库","name_source":"aanp_id"}}]};

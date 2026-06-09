@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"文塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.51059171444331,23.269875247576266]},"properties":{"GB":310300,"id":35281,"ORIG_FID":1210,"source_tile":"f49c001003","source_layer":"resp","source_record":1211,"name":"文塘水库","name_source":"osm"}}]};

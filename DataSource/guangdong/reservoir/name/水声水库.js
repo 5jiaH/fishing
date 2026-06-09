@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"水声水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.68256245283712,23.717540151515948]},"properties":{"GB":310300,"id":38251,"ORIG_FID":1314,"source_tile":"f49c001004","source_layer":"resp","source_record":1315,"name":"水声水库","name_source":"aanp_id"}}]};

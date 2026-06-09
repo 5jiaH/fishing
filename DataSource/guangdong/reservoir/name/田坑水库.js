@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"田坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.73524706597331,23.7325878548301]},"properties":{"GB":310108,"id":56199,"ORIG_FID":2763,"source_tile":"f50c001001","source_layer":"resp","source_record":2764,"name":"田坑水库","name_source":"aanp_spatial"}}]};

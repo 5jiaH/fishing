@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"下塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.6735256911092,22.878242300330864]},"properties":{"GB":310108,"id":60743,"ORIG_FID":1068,"source_tile":"f50c002001","source_layer":"resp","source_record":1069,"name":"下塘水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大浪灣食水缸","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.88457978631399,22.220932262450344]},"properties":{"GB":310108,"id":45616,"ORIG_FID":257,"source_tile":"f49c002004","source_layer":"resp","source_record":258,"name":"大浪灣食水缸","name_source":"osm"}}]};

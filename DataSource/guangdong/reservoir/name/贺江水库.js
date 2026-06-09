@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"贺江水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.46863677523191,24.462074641315912]},"properties":{"GB":310107,"id":159076,"ORIG_FID":752,"source_tile":"g49c004003","source_layer":"resp","source_record":753,"name":"贺江水库","name_source":"aanp_spatial"}}]};

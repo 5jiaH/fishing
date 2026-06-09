@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"横溪水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.96141965653104,25.864179658113517]},"properties":{"GB":311105,"id":181552,"ORIG_FID":1609,"source_tile":"g50c003001","source_layer":"resp","source_record":1610,"name":"横溪水库","name_source":"aanp_id"}}]};

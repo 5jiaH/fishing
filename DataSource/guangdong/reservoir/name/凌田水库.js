@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"凌田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.83785081231886,22.771738293651644]},"properties":{"GB":310300,"id":62038,"ORIG_FID":23,"source_tile":"f50c002002","source_layer":"resp","source_record":24,"name":"凌田水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"担水塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.21544605016479,22.900076712217743]},"properties":{"GB":311105,"id":61027,"ORIG_FID":1122,"source_tile":"f50c002001","source_layer":"resp","source_record":1123,"name":"担水塘水库","name_source":"aanp_id"}}]};

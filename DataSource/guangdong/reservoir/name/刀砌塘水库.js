@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"刀砌塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.13257638725118,23.09056154877336]},"properties":{"GB":310107,"id":32971,"ORIG_FID":428,"source_tile":"f49c001003","source_layer":"resp","source_record":429,"name":"刀砌塘水库","name_source":"aanp_id"}}]};

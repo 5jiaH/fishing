@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"仙村水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.52825038966299,21.766161919007487]},"properties":{"GB":310108,"id":52781,"ORIG_FID":531,"source_tile":"f49c003003","source_layer":"resp","source_record":532,"name":"仙村水库","name_source":"aanp_id"}}]};

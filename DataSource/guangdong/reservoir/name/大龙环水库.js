@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大龙环水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.14577373843845,21.67374238928792]},"properties":{"GB":310108,"id":50174,"ORIG_FID":2183,"source_tile":"f49c003002","source_layer":"resp","source_record":2184,"name":"大龙环水库","name_source":"aanp_id"}}]};

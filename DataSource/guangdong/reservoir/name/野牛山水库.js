@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"野牛山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.16616962237529,25.872672525011975]},"properties":{"GB":310108,"id":151461,"ORIG_FID":1769,"source_tile":"g49c003003","source_layer":"resp","source_record":1770,"name":"野牛山水库","name_source":"aanp_spatial"}}]};

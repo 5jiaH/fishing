@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"王沙水水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.33166122184875,22.912245751457228]},"properties":{"GB":310107,"id":44145,"ORIG_FID":2373,"source_tile":"f49c002003","source_layer":"resp","source_record":2374,"name":"王沙水水库","name_source":"aanp_id"}}]};

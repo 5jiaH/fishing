@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"径心水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.45099602031661,22.626599883130183]},"properties":{"GB":310108,"id":60830,"ORIG_FID":382,"source_tile":"f50c002001","source_layer":"resp","source_record":383,"name":"径心水库","name_source":"aanp_spatial"}}]};

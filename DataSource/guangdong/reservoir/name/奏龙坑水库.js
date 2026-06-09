@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"奏龙坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.22051969260298,20.273402376334282]},"properties":{"GB":311105,"id":54301,"ORIG_FID":344,"source_tile":"f49c004002","source_layer":"resp","source_record":345,"name":"奏龙坑水库","name_source":"aanp_id"}}]};

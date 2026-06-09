@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"新乡水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.56090955980673,22.96843020824424]},"properties":{"GB":310108,"id":62015,"ORIG_FID":248,"source_tile":"f50c002002","source_layer":"resp","source_record":249,"name":"新乡水库","name_source":"aanp_spatial"}}]};

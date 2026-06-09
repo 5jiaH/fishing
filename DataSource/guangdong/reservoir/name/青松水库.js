@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"青松水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.32422117650887,20.059989936434963]},"properties":{"GB":310300,"id":54349,"ORIG_FID":297,"source_tile":"f49c004002","source_layer":"resp","source_record":298,"name":"青松水库","name_source":"aanp_id"}}]};

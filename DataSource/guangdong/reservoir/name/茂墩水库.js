@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"茂墩水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.11740036326253,23.02359430306815]},"properties":{"GB":311103,"id":36913,"ORIG_FID":25,"source_tile":"f49c001004","source_layer":"resp","source_record":26,"name":"茂墩水库","name_source":"aanp_id"}}]};

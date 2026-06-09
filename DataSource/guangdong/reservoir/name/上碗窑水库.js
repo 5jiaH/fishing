@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"上碗窑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.962988409959,24.902031074165354]},"properties":{"GB":310300,"id":191742,"ORIG_FID":2281,"source_tile":"g50c004001","source_layer":"resp","source_record":2282,"name":"上碗窑水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"龟河水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.9619840082481,22.964014371311414]},"properties":{"GB":310108,"id":44342,"ORIG_FID":2532,"source_tile":"f49c002003","source_layer":"resp","source_record":2533,"name":"龟河水库","name_source":"aanp_id"}}]};

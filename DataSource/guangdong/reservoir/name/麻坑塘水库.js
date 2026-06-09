@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"麻坑塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.66097042466933,22.885490103372863]},"properties":{"GB":310300,"id":61988,"ORIG_FID":107,"source_tile":"f50c002002","source_layer":"resp","source_record":108,"name":"麻坑塘水库","name_source":"aanp_id"}}]};

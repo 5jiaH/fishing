@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"进竹水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.52901447519952,23.088006149100604]},"properties":{"GB":310107,"id":32970,"ORIG_FID":413,"source_tile":"f49c001003","source_layer":"resp","source_record":414,"name":"进竹水库","name_source":"aanp_id"}}]};

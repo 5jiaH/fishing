@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大封门水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.19303789632747,23.03738763896437]},"properties":{"GB":311105,"id":36922,"ORIG_FID":41,"source_tile":"f49c001004","source_layer":"resp","source_record":42,"name":"大封门水库","name_source":"aanp_id"}}]};

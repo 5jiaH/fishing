@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"丰塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.10915042057198,24.64544505389492]},"properties":{"GB":310108,"id":191010,"ORIG_FID":1583,"source_tile":"g50c004001","source_layer":"resp","source_record":1584,"name":"丰塘水库","name_source":"aanp_spatial"}}]};

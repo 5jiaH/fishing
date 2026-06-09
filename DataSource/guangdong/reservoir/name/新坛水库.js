@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"新坛水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.53475372781071,23.997010113726525]},"properties":{"GB":310300,"id":59476,"ORIG_FID":1576,"source_tile":"f50c001002","source_layer":"resp","source_record":1577,"name":"新坛水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"板塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.18904840857235,25.501579564061316]},"properties":{"GB":310108,"id":181744,"ORIG_FID":892,"source_tile":"g50c003001","source_layer":"resp","source_record":893,"name":"板塘水库","name_source":"aanp_id"}}]};

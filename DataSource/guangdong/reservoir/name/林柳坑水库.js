@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"林柳坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.91386787828662,21.71746596090811]},"properties":{"GB":310108,"id":48982,"ORIG_FID":2408,"source_tile":"f49c003002","source_layer":"resp","source_record":2409,"name":"林柳坑水库","name_source":"aanp_id"}}]};

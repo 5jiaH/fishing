@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"罗光水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.33136647366565,22.573378289522683]},"properties":{"GB":310108,"id":44613,"ORIG_FID":1435,"source_tile":"f49c002003","source_layer":"resp","source_record":1436,"name":"罗光水库","name_source":"aanp_spatial"}}]};

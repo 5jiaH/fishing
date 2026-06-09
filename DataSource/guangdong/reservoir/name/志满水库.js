@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"志满水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.162863589523,23.947836136013034]},"properties":{"GB":310107,"id":59138,"ORIG_FID":1467,"source_tile":"f50c001002","source_layer":"resp","source_record":1468,"name":"志满水库","name_source":"aanp_id"}}]};

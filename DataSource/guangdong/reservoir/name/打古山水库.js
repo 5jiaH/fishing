@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"打古山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.58635208834147,21.969547569309356]},"properties":{"GB":310108,"id":52942,"ORIG_FID":1125,"source_tile":"f49c003003","source_layer":"resp","source_record":1126,"name":"打古山水库","name_source":"aanp_id"}}]};

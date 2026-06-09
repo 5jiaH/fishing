@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"双冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.6203736951629,23.998796494998853]},"properties":{"GB":310300,"id":34227,"ORIG_FID":3718,"source_tile":"f49c001003","source_layer":"resp","source_record":3719,"name":"双冲水库","name_source":"aanp_id"}}]};

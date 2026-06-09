@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"凤咀水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.26917648665798,20.004874763190283]},"properties":{"GB":310300,"id":54263,"ORIG_FID":40,"source_tile":"f49c004002","source_layer":"resp","source_record":41,"name":"凤咀水库","name_source":"aanp_id"}}]};

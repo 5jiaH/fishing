@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"双乐水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.20655635219424,21.63298233310753]},"properties":{"GB":310107,"id":48640,"ORIG_FID":1981,"source_tile":"f49c003002","source_layer":"resp","source_record":1982,"name":"双乐水库","name_source":"aanp_id"}}]};

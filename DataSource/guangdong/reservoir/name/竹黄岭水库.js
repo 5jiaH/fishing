@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"竹黄岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.47041519612497,21.629763740097285]},"properties":{"GB":310107,"id":48637,"ORIG_FID":1960,"source_tile":"f49c003002","source_layer":"resp","source_record":1961,"name":"竹黄岭水库","name_source":"aanp_id"}}]};

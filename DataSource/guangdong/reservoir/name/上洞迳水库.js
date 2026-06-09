@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"上洞迳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.41379158378922,25.582232184532305]},"properties":{"GB":310108,"id":182097,"ORIG_FID":1028,"source_tile":"g50c003001","source_layer":"resp","source_record":1029,"name":"上洞迳水库","name_source":"aanp_id"}}]};

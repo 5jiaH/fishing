@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"苍村水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.86875000851171,25.8339583508989]},"properties":{"GB":310300,"id":182138,"ORIG_FID":1524,"source_tile":"g50c003001","source_layer":"resp","source_record":1525,"name":"苍村水库","name_source":"aanp_id"}}]};

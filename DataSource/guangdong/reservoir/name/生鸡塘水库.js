@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"生鸡塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.31397021042912,23.03319578480565]},"properties":{"GB":310107,"id":32911,"ORIG_FID":151,"source_tile":"f49c001003","source_layer":"resp","source_record":152,"name":"生鸡塘水库","name_source":"aanp_id"}}]};

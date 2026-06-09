@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"单竹坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.47264641781378,25.183501964118715]},"properties":{"GB":310108,"id":182111,"ORIG_FID":336,"source_tile":"g50c003001","source_layer":"resp","source_record":337,"name":"单竹坑水库","name_source":"aanp_id"}}]};

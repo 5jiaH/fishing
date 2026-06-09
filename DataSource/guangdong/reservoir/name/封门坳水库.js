@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"封门坳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.50984111193497,24.004468556985614]},"properties":{"GB":310300,"id":195943,"ORIG_FID":18,"source_tile":"g50c004002","source_layer":"resp","source_record":19,"name":"封门坳水库","name_source":"aanp_spatial"}}]};

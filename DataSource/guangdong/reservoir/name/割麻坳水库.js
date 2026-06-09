@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"割麻坳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.45747774954417,21.004934222289595]},"properties":{"GB":310108,"id":48996,"ORIG_FID":6,"source_tile":"f49c003002","source_layer":"resp","source_record":7,"name":"割麻坳水库","name_source":"aanp_id"}}]};

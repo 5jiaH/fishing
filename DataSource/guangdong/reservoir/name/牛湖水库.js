@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"牛湖水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.03170423296703,23.167805143265685]},"properties":{"GB":310107,"id":33030,"ORIG_FID":795,"source_tile":"f49c001003","source_layer":"resp","source_record":796,"name":"牛湖水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"红田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.21353398911226,22.910702309787734]},"properties":{"GB":310300,"id":44913,"ORIG_FID":2368,"source_tile":"f49c002003","source_layer":"resp","source_record":2369,"name":"红田水库","name_source":"aanp_id"}}]};

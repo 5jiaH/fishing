@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白马岗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.500926293927,24.234592020322054]},"properties":{"GB":310300,"id":195820,"ORIG_FID":898,"source_tile":"g50c004002","source_layer":"resp","source_record":899,"name":"白马岗水库","name_source":"aanp_spatial"}}]};

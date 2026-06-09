@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"六巴滩水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.01006674156541,22.799243600015373]},"properties":{"GB":310107,"id":43969,"ORIG_FID":2051,"source_tile":"f49c002003","source_layer":"resp","source_record":2052,"name":"六巴滩水库","name_source":"aanp_id"}}]};

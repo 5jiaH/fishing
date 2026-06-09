@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"新光水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.8084992298034,23.10160682811917]},"properties":{"GB":311105,"id":36953,"ORIG_FID":111,"source_tile":"f49c001004","source_layer":"resp","source_record":112,"name":"新光水库","name_source":"aanp_id"}}]};

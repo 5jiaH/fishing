@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鸡公塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.67865794562859,23.0329603841378]},"properties":{"GB":310107,"id":32906,"ORIG_FID":150,"source_tile":"f49c001003","source_layer":"resp","source_record":151,"name":"鸡公塘","name_source":"aanp_id"}}]};

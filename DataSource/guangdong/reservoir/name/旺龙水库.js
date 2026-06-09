@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"旺龙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.52783793511719,22.955835975907135]},"properties":{"GB":310108,"id":61571,"ORIG_FID":1321,"source_tile":"f50c002001","source_layer":"resp","source_record":1322,"name":"旺龙水库","name_source":"aanp_id"}}]};

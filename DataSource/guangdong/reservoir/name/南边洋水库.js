@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"南边洋水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.03947952198584,21.89575383825506]},"properties":{"GB":310300,"id":62039,"ORIG_FID":0,"source_tile":"f50c003001","source_layer":"resp","source_record":1,"name":"南边洋水库","name_source":"aanp_id"}}]};

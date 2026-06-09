@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"塘步镇石塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.69359811959865,23.94395222364878]},"properties":{"GB":310300,"id":34229,"ORIG_FID":3527,"source_tile":"f49c001003","source_layer":"resp","source_record":3528,"name":"塘步镇石塘水库","name_source":"aanp_id"}}]};

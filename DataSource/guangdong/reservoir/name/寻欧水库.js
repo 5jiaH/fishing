@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"寻欧水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.08942755812333,22.37010418304335]},"properties":{"GB":310107,"id":45244,"ORIG_FID":892,"source_tile":"f49c002003","source_layer":"resp","source_record":893,"name":"寻欧水库","name_source":"aanp_id"}}]};

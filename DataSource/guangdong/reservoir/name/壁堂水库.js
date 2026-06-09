@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"壁堂水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.7153540293136,21.953600202748458]},"properties":{"GB":310108,"id":50629,"ORIG_FID":3568,"source_tile":"f49c003002","source_layer":"resp","source_record":3569,"name":"壁堂水库","name_source":"aanp_id"}}]};

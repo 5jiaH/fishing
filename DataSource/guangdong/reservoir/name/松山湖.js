@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"松山湖","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.87332756522238,22.900387830655156]},"properties":{"GB":310108,"id":45625,"ORIG_FID":1247,"source_tile":"f49c002004","source_layer":"resp","source_record":1248,"name":"松山湖","name_source":"osm"}}]};

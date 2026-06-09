@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"飞马山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.31930992563196,20.044824274139028]},"properties":{"GB":310300,"id":54276,"ORIG_FID":251,"source_tile":"f49c004002","source_layer":"resp","source_record":252,"name":"飞马山水库","name_source":"aanp_id"}}]};

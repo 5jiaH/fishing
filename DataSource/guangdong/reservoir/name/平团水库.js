@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"平团水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.0719597277228,23.113087664276488]},"properties":{"GB":310107,"id":33004,"ORIG_FID":533,"source_tile":"f49c001003","source_layer":"resp","source_record":534,"name":"平团水库","name_source":"aanp_id"}}]};

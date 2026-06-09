@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"横村水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.31338214696235,20.01523901246438]},"properties":{"GB":310300,"id":54273,"ORIG_FID":112,"source_tile":"f49c004002","source_layer":"resp","source_record":113,"name":"横村水库","name_source":"aanp_id"}}]};

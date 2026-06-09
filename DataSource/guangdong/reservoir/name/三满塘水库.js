@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"三满塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.11950633705848,20.530612736527498]},"properties":{"GB":310108,"id":53740,"ORIG_FID":659,"source_tile":"f49c004002","source_layer":"resp","source_record":660,"name":"三满塘水库","name_source":"aanp_spatial"}}]};

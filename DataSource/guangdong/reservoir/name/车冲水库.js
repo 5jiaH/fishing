@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"车冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.29341006304426,23.144221825162514]},"properties":{"GB":310107,"id":32891,"ORIG_FID":675,"source_tile":"f49c001003","source_layer":"resp","source_record":676,"name":"车冲水库","name_source":"aanp_id"}}]};

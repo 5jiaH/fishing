@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大门塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.82438441397969,23.105041444001984]},"properties":{"GB":310107,"id":32995,"ORIG_FID":502,"source_tile":"f49c001003","source_layer":"resp","source_record":503,"name":"大门塘水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"后湖水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.44065126751173,22.708433594184196]},"properties":{"GB":310107,"id":60258,"ORIG_FID":567,"source_tile":"f50c002001","source_layer":"resp","source_record":568,"name":"后湖水库","name_source":"aanp_id"}}]};

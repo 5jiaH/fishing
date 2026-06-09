@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"席草塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.46615410791466,25.75532449508211]},"properties":{"GB":310108,"id":182121,"ORIG_FID":1354,"source_tile":"g50c003001","source_layer":"resp","source_record":1355,"name":"席草塘水库","name_source":"aanp_id"}}]};

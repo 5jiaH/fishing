@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"联安水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.73942181850637,23.75408910531016]},"properties":{"GB":310108,"id":35996,"ORIG_FID":2849,"source_tile":"f49c001003","source_layer":"resp","source_record":2850,"name":"联安水库","name_source":"aanp_id"}}]};

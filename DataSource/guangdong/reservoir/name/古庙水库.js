@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"古庙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.90337777397257,24.63989735965031]},"properties":{"GB":310108,"id":161022,"ORIG_FID":1477,"source_tile":"g49c004004","source_layer":"resp","source_record":1478,"name":"古庙水库","name_source":"osm"}}]};

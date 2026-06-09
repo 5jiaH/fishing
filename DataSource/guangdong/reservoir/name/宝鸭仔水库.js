@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"宝鸭仔水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.39317961560351,22.4165540056549]},"properties":{"GB":310109,"id":44464,"ORIG_FID":1013,"source_tile":"f49c002003","source_layer":"resp","source_record":1014,"name":"宝鸭仔水库","name_source":"aanp_spatial"}}]};

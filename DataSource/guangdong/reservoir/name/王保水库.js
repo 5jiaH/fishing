@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"王保水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.2427043093952,21.82438584977424]},"properties":{"GB":310108,"id":50478,"ORIG_FID":2919,"source_tile":"f49c003002","source_layer":"resp","source_record":2920,"name":"王保水库","name_source":"aanp_id"}}]};

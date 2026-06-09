@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"长塘坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.3875104600514,23.159993643127663]},"properties":{"GB":310107,"id":33024,"ORIG_FID":751,"source_tile":"f49c001003","source_layer":"resp","source_record":752,"name":"长塘坑水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"水香塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.82260536097318,21.883577696052026]},"properties":{"GB":310107,"id":48900,"ORIG_FID":3216,"source_tile":"f49c003002","source_layer":"resp","source_record":3217,"name":"水香塘水库","name_source":"aanp_id"}}]};

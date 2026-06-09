@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"木潮田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.59036185253399,21.596589899791052]},"properties":{"GB":310107,"id":51010,"ORIG_FID":1777,"source_tile":"f49c003002","source_layer":"resp","source_record":1778,"name":"木潮田水库","name_source":"aanp_id"}}]};

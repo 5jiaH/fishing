@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石头坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.80985751589178,21.822962386908706]},"properties":{"GB":310107,"id":48823,"ORIG_FID":2909,"source_tile":"f49c003002","source_layer":"resp","source_record":2910,"name":"石头坑水库","name_source":"aanp_id"}}]};

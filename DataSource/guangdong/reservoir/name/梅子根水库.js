@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"梅子根水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.6887080904973,21.873198239543523]},"properties":{"GB":310107,"id":48892,"ORIG_FID":3164,"source_tile":"f49c003002","source_layer":"resp","source_record":3165,"name":"梅子根水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鱼山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.09452378268776,21.429681170407644]},"properties":{"GB":310107,"id":51128,"ORIG_FID":960,"source_tile":"f49c003002","source_layer":"resp","source_record":961,"name":"鱼山水库","name_source":"aanp_id"}}]};

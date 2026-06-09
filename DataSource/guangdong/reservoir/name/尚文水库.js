@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"尚文水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.0886594995354,22.265058012947136]},"properties":{"GB":310109,"id":44447,"ORIG_FID":612,"source_tile":"f49c002003","source_layer":"resp","source_record":613,"name":"尚文水库","name_source":"aanp_id"}}]};

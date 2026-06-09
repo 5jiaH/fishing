@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"龙胆塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.45882585951423,22.98961518550664]},"properties":{"GB":310108,"id":61563,"ORIG_FID":1458,"source_tile":"f50c002001","source_layer":"resp","source_record":1459,"name":"龙胆塘水库","name_source":"aanp_id"}}]};

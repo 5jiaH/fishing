@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"宜洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.26544737463254,23.116361933408136]},"properties":{"GB":310107,"id":33009,"ORIG_FID":549,"source_tile":"f49c001003","source_layer":"resp","source_record":550,"name":"宜洞水库","name_source":"aanp_id"}}]};

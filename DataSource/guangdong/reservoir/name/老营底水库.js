@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"老营底水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.33742923221891,21.66525481367101]},"properties":{"GB":310108,"id":50159,"ORIG_FID":2148,"source_tile":"f49c003002","source_layer":"resp","source_record":2149,"name":"老营底水库","name_source":"aanp_id"}}]};

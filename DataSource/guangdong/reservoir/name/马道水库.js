@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"马道水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.97326908825298,23.098896936182012]},"properties":{"GB":310107,"id":32990,"ORIG_FID":470,"source_tile":"f49c001003","source_layer":"resp","source_record":471,"name":"马道水库","name_source":"aanp_id"}}]};

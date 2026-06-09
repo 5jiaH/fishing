@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"竹仙洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.27973191704969,21.864308333013316]},"properties":{"GB":310108,"id":49898,"ORIG_FID":3118,"source_tile":"f49c003002","source_layer":"resp","source_record":3119,"name":"竹仙洞水库","name_source":"aanp_id"}}]};

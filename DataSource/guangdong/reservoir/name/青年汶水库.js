@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"青年汶水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.04199237036144,25.756368298738597]},"properties":{"GB":310108,"id":181696,"ORIG_FID":1358,"source_tile":"g50c003001","source_layer":"resp","source_record":1359,"name":"青年汶水库","name_source":"aanp_id"}}]};

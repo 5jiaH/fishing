@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"施鬼塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.26311585512873,22.971548373355777]},"properties":{"GB":310108,"id":61545,"ORIG_FID":1388,"source_tile":"f50c002001","source_layer":"resp","source_record":1389,"name":"施鬼塘水库","name_source":"aanp_id"}}]};

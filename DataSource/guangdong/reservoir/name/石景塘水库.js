@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石景塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.9824067703214,23.15580497581262]},"properties":{"GB":310107,"id":32919,"ORIG_FID":731,"source_tile":"f49c001003","source_layer":"resp","source_record":732,"name":"石景塘水库","name_source":"aanp_id"}}]};

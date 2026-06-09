@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"五坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.84377026081195,21.675993848093267]},"properties":{"GB":310107,"id":50939,"ORIG_FID":2193,"source_tile":"f49c003002","source_layer":"resp","source_record":2194,"name":"五坑水库","name_source":"aanp_id"}}]};

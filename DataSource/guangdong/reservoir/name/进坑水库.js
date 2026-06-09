@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"进坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.5420775542508,25.38180521692377]},"properties":{"GB":310108,"id":181862,"ORIG_FID":688,"source_tile":"g50c003001","source_layer":"resp","source_record":689,"name":"进坑水库","name_source":"aanp_id"}}]};

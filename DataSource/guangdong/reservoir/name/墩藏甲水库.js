@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"墩藏甲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.25614782875488,20.024713684911344]},"properties":{"GB":310300,"id":54365,"ORIG_FID":174,"source_tile":"f49c004002","source_layer":"resp","source_record":175,"name":"墩藏甲水库","name_source":"aanp_id"}}]};

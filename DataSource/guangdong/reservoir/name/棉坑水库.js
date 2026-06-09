@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"棉坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.68826079206147,24.330609912863643]},"properties":{"GB":310300,"id":195758,"ORIG_FID":1293,"source_tile":"g50c004002","source_layer":"resp","source_record":1294,"name":"棉坑水库","name_source":"aanp_spatial"}}]};

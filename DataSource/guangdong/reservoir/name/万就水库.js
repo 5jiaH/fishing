@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"万就水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.98003397754749,23.10948443973242]},"properties":{"GB":310107,"id":33003,"ORIG_FID":517,"source_tile":"f49c001003","source_layer":"resp","source_record":518,"name":"万就水库","name_source":"aanp_id"}}]};

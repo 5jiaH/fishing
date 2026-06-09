@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"蝴蝶地水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.2338847603558,21.959524480345483]},"properties":{"GB":310107,"id":52602,"ORIG_FID":1092,"source_tile":"f49c003003","source_layer":"resp","source_record":1093,"name":"蝴蝶地水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"观音堂水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.5496758766223,21.751244048999485]},"properties":{"GB":310107,"id":51543,"ORIG_FID":2579,"source_tile":"f49c003002","source_layer":"resp","source_record":2580,"name":"观音堂水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"河白高水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.87813785136528,21.722705784471597]},"properties":{"GB":310107,"id":48723,"ORIG_FID":2435,"source_tile":"f49c003002","source_layer":"resp","source_record":2436,"name":"河白高水库","name_source":"aanp_id"}}]};

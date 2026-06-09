@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"同庆庙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.71605566422392,22.75792980369795]},"properties":{"GB":310300,"id":44919,"ORIG_FID":1936,"source_tile":"f49c002003","source_layer":"resp","source_record":1937,"name":"同庆庙水库","name_source":"osm"}}]};

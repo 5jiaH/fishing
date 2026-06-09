@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"葵塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.93961921111061,21.892645755778073]},"properties":{"GB":311105,"id":48182,"ORIG_FID":3260,"source_tile":"f49c003002","source_layer":"resp","source_record":3261,"name":"葵塘水库","name_source":"aanp_id"}}]};

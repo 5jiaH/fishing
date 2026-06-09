@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鸭舌塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.57650981784855,23.771042086448535]},"properties":{"GB":310300,"id":59311,"ORIG_FID":1165,"source_tile":"f50c001002","source_layer":"resp","source_record":1166,"name":"鸭舌塘","name_source":"aanp_spatial"}}]};

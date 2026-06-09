@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"逸仙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.91682121727723,21.761951834150217]},"properties":{"GB":310108,"id":50356,"ORIG_FID":2628,"source_tile":"f49c003002","source_layer":"resp","source_record":2629,"name":"逸仙水库","name_source":"aanp_id"}}]};

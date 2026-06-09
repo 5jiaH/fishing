@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"草洋水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.25333983093613,23.923612753091295]},"properties":{"GB":310107,"id":59107,"ORIG_FID":1420,"source_tile":"f50c001002","source_layer":"resp","source_record":1421,"name":"草洋水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"青石坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.66404982046664,21.964754042863]},"properties":{"GB":310108,"id":50647,"ORIG_FID":3625,"source_tile":"f49c003002","source_layer":"resp","source_record":3626,"name":"青石坑水库","name_source":"aanp_id"}}]};

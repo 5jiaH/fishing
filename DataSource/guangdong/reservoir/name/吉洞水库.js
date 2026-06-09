@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"吉洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.69988861428416,21.350844007081715]},"properties":{"GB":310107,"id":51104,"ORIG_FID":719,"source_tile":"f49c003002","source_layer":"resp","source_record":720,"name":"吉洞水库","name_source":"aanp_id"}}]};

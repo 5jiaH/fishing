@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"佛仔塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.36745541823076,23.156689313359635]},"properties":{"GB":310107,"id":32916,"ORIG_FID":736,"source_tile":"f49c001003","source_layer":"resp","source_record":737,"name":"佛仔塘水库","name_source":"aanp_id"}}]};

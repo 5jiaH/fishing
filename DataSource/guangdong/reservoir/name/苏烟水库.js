@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"苏烟水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.19874790061593,22.994964498441206]},"properties":{"GB":310107,"id":44258,"ORIG_FID":2648,"source_tile":"f49c002003","source_layer":"resp","source_record":2649,"name":"苏烟水库","name_source":"aanp_id"}}]};

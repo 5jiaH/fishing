@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石坳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.27350436721501,24.811080025429444]},"properties":{"GB":310300,"id":192297,"ORIG_FID":2034,"source_tile":"g50c004001","source_layer":"resp","source_record":2035,"name":"石坳水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鱼狗咀水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.94970370412139,21.762679541430163]},"properties":{"GB":310108,"id":50357,"ORIG_FID":2631,"source_tile":"f49c003002","source_layer":"resp","source_record":2632,"name":"鱼狗咀水库","name_source":"aanp_id"}}]};

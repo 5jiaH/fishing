@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"老虎岩水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.17678646187093,21.736768339337065]},"properties":{"GB":310109,"id":53021,"ORIG_FID":447,"source_tile":"f49c003003","source_layer":"resp","source_record":448,"name":"老虎岩水库","name_source":"aanp_id"}}]};

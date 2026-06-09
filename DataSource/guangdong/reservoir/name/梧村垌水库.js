@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"梧村垌水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.19281445020705,22.994940240797668]},"properties":{"GB":310107,"id":60522,"ORIG_FID":1498,"source_tile":"f50c002001","source_layer":"resp","source_record":1499,"name":"梧村垌水库","name_source":"aanp_id"}}]};

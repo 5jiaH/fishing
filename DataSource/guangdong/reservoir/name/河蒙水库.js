@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"河蒙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.08443892241914,23.175581564643366]},"properties":{"GB":310107,"id":33039,"ORIG_FID":832,"source_tile":"f49c001003","source_layer":"resp","source_record":833,"name":"河蒙水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"柴子坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.23636834488053,22.50797191049667]},"properties":{"GB":310107,"id":43314,"ORIG_FID":1252,"source_tile":"f49c002003","source_layer":"resp","source_record":1253,"name":"柴子坑水库","name_source":"aanp_id"}}]};

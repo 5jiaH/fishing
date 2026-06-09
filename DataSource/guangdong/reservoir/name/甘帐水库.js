@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"甘帐水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.48906296103422,22.645449065469947]},"properties":{"GB":310107,"id":43515,"ORIG_FID":1620,"source_tile":"f49c002003","source_layer":"resp","source_record":1621,"name":"甘帐水库","name_source":"aanp_id"}}]};

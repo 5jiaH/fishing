@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"柯树下水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.95863081389483,24.473238575334122]},"properties":{"GB":310107,"id":190243,"ORIG_FID":1215,"source_tile":"g50c004001","source_layer":"resp","source_record":1216,"name":"柯树下水库","name_source":"aanp_spatial"}}]};

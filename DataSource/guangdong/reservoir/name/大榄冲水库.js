@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大榄冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.92827043747329,23.231855101820198]},"properties":{"GB":310107,"id":33107,"ORIG_FID":1048,"source_tile":"f49c001003","source_layer":"resp","source_record":1049,"name":"大榄冲水库","name_source":"aanp_id"}}]};

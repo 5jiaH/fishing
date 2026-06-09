@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"太平坪水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.10387136334484,25.54461587366781]},"properties":{"GB":310108,"id":181712,"ORIG_FID":964,"source_tile":"g50c003001","source_layer":"resp","source_record":965,"name":"太平坪水库","name_source":"aanp_id"}}]};

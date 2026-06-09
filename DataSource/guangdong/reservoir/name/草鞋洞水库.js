@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"草鞋洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.98801348735145,22.982521651757448]},"properties":{"GB":310108,"id":60579,"ORIG_FID":1425,"source_tile":"f50c002001","source_layer":"resp","source_record":1426,"name":"草鞋洞水库","name_source":"aanp_id"}}]};

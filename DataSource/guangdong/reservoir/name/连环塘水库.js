@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"连环塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.06473240509962,20.914524045520366]},"properties":{"GB":310300,"id":54238,"ORIG_FID":1134,"source_tile":"f49c004002","source_layer":"resp","source_record":1135,"name":"连环塘水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"上寨水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.32754387077668,24.926680762676412]},"properties":{"GB":310107,"id":192378,"ORIG_FID":2361,"source_tile":"g50c004001","source_layer":"resp","source_record":2362,"name":"上寨水库","name_source":"aanp_spatial"}}]};

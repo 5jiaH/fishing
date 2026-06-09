@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"蕉子坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.07790385700433,24.29417211352467]},"properties":{"GB":310300,"id":192124,"ORIG_FID":746,"source_tile":"g50c004001","source_layer":"resp","source_record":747,"name":"蕉子坑水库","name_source":"aanp_spatial"}}]};

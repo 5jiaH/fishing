@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"民安水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.1205356447265,22.992893996230812]},"properties":{"GB":311105,"id":45330,"ORIG_FID":1369,"source_tile":"f49c002004","source_layer":"resp","source_record":1370,"name":"民安水库","name_source":"aanp_id"}}]};

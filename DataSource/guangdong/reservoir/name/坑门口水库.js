@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"坑门口水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.48794014409935,25.499047225713145]},"properties":{"GB":310108,"id":182117,"ORIG_FID":888,"source_tile":"g50c003001","source_layer":"resp","source_record":889,"name":"坑门口水库","name_source":"aanp_id"}}]};

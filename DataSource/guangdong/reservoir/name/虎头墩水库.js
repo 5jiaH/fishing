@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"虎头墩水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.3136279859628,20.337614648453517]},"properties":{"GB":310108,"id":53852,"ORIG_FID":424,"source_tile":"f49c004002","source_layer":"resp","source_record":425,"name":"虎头墩水库","name_source":"aanp_spatial"}}]};

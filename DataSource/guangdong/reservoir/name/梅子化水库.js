@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"梅子化水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.47546465319274,22.092811798272916]},"properties":{"GB":310300,"id":46633,"ORIG_FID":102,"source_tile":"f49c002004","source_layer":"resp","source_record":103,"name":"梅子化水库","name_source":"aanp_id"}}]};

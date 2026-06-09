@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"长冲塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.31602204347635,25.673736005073877]},"properties":{"GB":310108,"id":182067,"ORIG_FID":1190,"source_tile":"g50c003001","source_layer":"resp","source_record":1191,"name":"长冲塘水库","name_source":"aanp_id"}}]};

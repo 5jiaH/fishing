@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"容塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.88224945814244,22.9710205914869]},"properties":{"GB":310300,"id":44932,"ORIG_FID":2551,"source_tile":"f49c002003","source_layer":"resp","source_record":2552,"name":"容塘水库","name_source":"aanp_id"}}]};

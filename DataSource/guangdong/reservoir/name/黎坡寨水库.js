@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黎坡寨水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.90710636012469,24.122578217679802]},"properties":{"GB":310108,"id":193530,"ORIG_FID":458,"source_tile":"g50c004002","source_layer":"resp","source_record":459,"name":"黎坡寨水库","name_source":"aanp_spatial"}}]};

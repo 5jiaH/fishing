@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"礤王水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.59387974654722,24.546446503816366]},"properties":{"GB":310108,"id":195048,"ORIG_FID":2234,"source_tile":"g50c004002","source_layer":"resp","source_record":2235,"name":"礤王水库","name_source":"aanp_spatial"}}]};

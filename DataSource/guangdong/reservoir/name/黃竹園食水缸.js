@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黃竹園食水缸","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.11911978323229,22.43059404371559]},"properties":{"GB":310109,"id":61050,"ORIG_FID":141,"source_tile":"f50c002001","source_layer":"resp","source_record":142,"name":"黃竹園食水缸","name_source":"osm"}}]};

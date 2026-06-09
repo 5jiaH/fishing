@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"南塘山塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.64544038076767,23.478221929603738]},"properties":{"GB":310108,"id":38414,"ORIG_FID":785,"source_tile":"f49c001004","source_layer":"resp","source_record":786,"name":"南塘山塘","name_source":"aanp_id"}}]};

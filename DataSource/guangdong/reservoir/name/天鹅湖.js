@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"天鹅湖","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.92560877281042,21.6542408446891]},"properties":{"GB":310108,"id":51944,"ORIG_FID":2085,"source_tile":"f49c003002","source_layer":"resp","source_record":2086,"name":"天鹅湖","name_source":"aanp_id"}}]};

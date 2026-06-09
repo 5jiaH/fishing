@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"洞殿水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.51205710792243,21.996618530086653]},"properties":{"GB":310107,"id":48967,"ORIG_FID":3834,"source_tile":"f49c003002","source_layer":"resp","source_record":3835,"name":"洞殿水库","name_source":"aanp_id"}}]};

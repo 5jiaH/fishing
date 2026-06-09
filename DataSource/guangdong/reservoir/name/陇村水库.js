@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"陇村水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.31524347326166,20.035545937844024]},"properties":{"GB":310300,"id":54274,"ORIG_FID":225,"source_tile":"f49c004002","source_layer":"resp","source_record":226,"name":"陇村水库","name_source":"aanp_id"}}]};

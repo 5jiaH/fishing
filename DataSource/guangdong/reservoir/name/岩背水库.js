@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"岩背水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.0289604864807,24.286654143995]},"properties":{"GB":310108,"id":191193,"ORIG_FID":725,"source_tile":"g50c004001","source_layer":"resp","source_record":726,"name":"岩背水库","name_source":"aanp_spatial"}}]};

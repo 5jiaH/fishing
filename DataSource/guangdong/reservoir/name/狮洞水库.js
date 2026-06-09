@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"狮洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.20208339027434,23.6694833125636]},"properties":{"GB":310108,"id":36054,"ORIG_FID":2559,"source_tile":"f49c001003","source_layer":"resp","source_record":2560,"name":"狮洞水库","name_source":"aanp_id"}}]};

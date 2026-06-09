@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"合门水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.36646098744356,21.998984249976772]},"properties":{"GB":310107,"id":48966,"ORIG_FID":3844,"source_tile":"f49c003002","source_layer":"resp","source_record":3845,"name":"合门水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"占公水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[117.12673033616667,23.769586360533346]},"properties":{"GB":310300,"id":59603,"ORIG_FID":269,"source_tile":"f50c001003","source_layer":"resp","source_record":270,"name":"占公水库","name_source":"aanp_id"}}]};

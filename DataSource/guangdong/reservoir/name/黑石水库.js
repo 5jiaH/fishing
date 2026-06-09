@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黑石水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.73703388141473,22.273442404832355]},"properties":{"GB":310107,"id":45349,"ORIG_FID":340,"source_tile":"f49c002004","source_layer":"resp","source_record":341,"name":"黑石水库","name_source":"aanp_id"}}]};

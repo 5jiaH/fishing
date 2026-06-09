@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"联和水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.32802817243919,23.756939956953627]},"properties":{"GB":310108,"id":35988,"ORIG_FID":2860,"source_tile":"f49c001003","source_layer":"resp","source_record":2861,"name":"联和水库","name_source":"aanp_id"}}]};

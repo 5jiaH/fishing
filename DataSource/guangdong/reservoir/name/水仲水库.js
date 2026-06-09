@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"水仲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.10782066304151,21.995837664013784]},"properties":{"GB":310107,"id":48963,"ORIG_FID":3826,"source_tile":"f49c003002","source_layer":"resp","source_record":3827,"name":"水仲水库","name_source":"aanp_id"}}]};

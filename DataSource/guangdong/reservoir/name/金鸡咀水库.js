@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"金鸡咀水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.30406278918767,21.750808447815295]},"properties":{"GB":310108,"id":52774,"ORIG_FID":494,"source_tile":"f49c003003","source_layer":"resp","source_record":495,"name":"金鸡咀水库","name_source":"aanp_id"}}]};

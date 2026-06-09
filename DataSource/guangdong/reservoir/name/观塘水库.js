@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"观塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.12998792184116,23.006367851229115]},"properties":{"GB":310107,"id":32863,"ORIG_FID":32,"source_tile":"f49c001003","source_layer":"resp","source_record":33,"name":"观塘水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"后塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.10844027234972,20.744906269485863]},"properties":{"GB":310109,"id":54167,"ORIG_FID":902,"source_tile":"f49c004002","source_layer":"resp","source_record":903,"name":"后塘水库","name_source":"aanp_spatial"}}]};

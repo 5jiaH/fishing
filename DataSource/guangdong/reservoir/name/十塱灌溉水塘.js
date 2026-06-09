@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"十塱灌溉水塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.588362322971,21.34236774015026]},"properties":{"GB":310300,"id":50699,"ORIG_FID":692,"source_tile":"f49c003002","source_layer":"resp","source_record":693,"name":"十塱灌溉水塘","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"塘家源水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.62460574464976,25.08681464754785]},"properties":{"GB":310107,"id":149894,"ORIG_FID":164,"source_tile":"g49c003003","source_layer":"resp","source_record":165,"name":"塘家源水库","name_source":"aanp_spatial"}}]};

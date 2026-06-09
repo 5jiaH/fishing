@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黄牛埔水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.13150815304493,21.541171696776384]},"properties":{"GB":310108,"id":52668,"ORIG_FID":87,"source_tile":"f49c003003","source_layer":"resp","source_record":88,"name":"黄牛埔水库","name_source":"aanp_id"}}]};

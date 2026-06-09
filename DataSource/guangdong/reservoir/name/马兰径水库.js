@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"马兰径水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.04121334390437,22.41715589770541]},"properties":{"GB":310107,"id":43191,"ORIG_FID":1014,"source_tile":"f49c002003","source_layer":"resp","source_record":1015,"name":"马兰径水库","name_source":"aanp_id"}}]};

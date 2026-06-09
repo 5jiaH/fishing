@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大塘缺水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.5487099720082,24.391772464868566]},"properties":{"GB":310108,"id":190882,"ORIG_FID":997,"source_tile":"g50c004001","source_layer":"resp","source_record":998,"name":"大塘缺水库","name_source":"aanp_spatial"}}]};

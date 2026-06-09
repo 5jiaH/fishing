@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>河网与行政区 · 天地图</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" crossorigin="" />
+  <style>
+    html, body { height: 100%; margin: 0; font-family: system-ui, sans-serif; }
+    #map { height: 100%; width: 100%; }
+    .toolbar {
+      position: absolute;
+      z-index: 1000;
+      top: 10px;
+      left: 52px;
+      background: rgba(255,255,255,0.92);
+      padding: 10px 14px;
+      border-radius: 4px;
+      font-size: 13px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+      max-width: min(360px, 88vw);
+    }
+    .toolbar label { cursor: pointer; user-select: none; }
+    .toolbar .hint { color: #555; margin-top: 8px; line-height: 1.4; }
+    #leaflet-canvas-overlay {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      pointer-events: none;
+      z-index: 450;
+    }
+    .river-panel {
+      position: absolute;
+      z-index: 1000;
+      top: 10px;
+      right: 10px;
+      bottom: 10px;
+      width: min(300px, 42vw);
+      min-width: 220px;
+      background: rgba(255,255,255,0.96);
+      border-radius: 4px;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+      display: flex;
+      flex-direction: column;
+      font-size: 12px;
+    }
+    .river-panel h3 {
+      margin: 0;
+      padding: 8px 10px;
+      font-size: 13px;
+      font-weight: 600;
+      border-bottom: 1px solid #ddd;
+    }
+    .river-panel .search {
+      padding: 8px 10px;
+      border-bottom: 1px solid #eee;
+    }
+    .river-panel .search input {
+      width: 100%;
+      box-sizing: border-box;
+      padding: 6px 8px;
+      font-size: 12px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+    }
+    .river-panel .list {
+      flex: 1;
+      overflow: auto;
+      padding: 4px 0;
+    }
+    .river-group {
+      border-bottom: 1px solid #f0f0f0;
+    }
+    .river-group-head {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      padding: 4px 8px;
+      cursor: pointer;
+      background: #fafafa;
+    }
+    .river-group-head:hover { background: #f0f4f8; }
+    .river-group-head .caret {
+      width: 14px;
+      text-align: center;
+      font-size: 10px;
+      color: #666;
+    }
+    .river-group-head .gtitle {
+      flex: 1;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: nowrap;
+    }
+    .river-group-head .gcount { color: #888; font-size: 11px; }
+    .river-segs {
+      display: none;
+      padding: 2px 0 6px 22px;
+    }
+    .river-segs.open { display: block; }
+    .river-seg-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      padding: 2px 6px;
+      line-height: 1.35;
+    }
+    .river-seg-row label { cursor: pointer; flex: 1; overflow: hidden; text-overflow: ellipsis; }
+  </style>
+</head>
+<body>
+  <div class="toolbar">
+    <label><input type="checkbox" id="showRegion" checked /> 显示行政区（浅绿）</label>
+    <br />
+    <label><input type="checkbox" id="showRivers" checked /> 显示河流（蓝色）</label>
+    <br />
+    <label><input type="checkbox" id="showLabels" checked /> 显示河名标注</label>
+    <div id="riverStatus" class="hint" style="margin-top:6px;color:#333;">河流数据：加载中…</div>
+    <div class="hint">
+      底图：<code>?tk=天地图key</code>。右侧可按河流展开，<strong>每段</strong>单独显示/隐藏。
+      <code>_入海河流</code> 叠加为<strong>红色加粗</strong>，河名深红，随「显示河流」与「显示河名标注」，不在右侧面板勾选。
+    </div>
+  </div>
+  <div class="river-panel" id="riverPanel" style="display:none;">
+    <h3>河流线段</h3>
+    <div class="search">
+      <input type="search" id="riverSearch" placeholder="按河名筛选…" autocomplete="off" />
+    </div>
+    <div class="list" id="riverList"></div>
+  </div>
+  <div id="map"></div>
+  <canvas id="leaflet-canvas-overlay" aria-hidden="true"></canvas>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" crossorigin=""></script>
+  <script>
+(function () {
+  'use strict';
+
+  var params = new URLSearchParams(location.search);
+  var tk = params.get('tk') || '';
+
+  var map = L.map('map', {
+    zoomControl: true,
+    preferCanvas: false
+  });
+
+  if (tk) {
+    L.tileLayer('https://t{s}.tianditu.gov.cn/DataServer?T=vec_w&x={x}&y={y}&l={z}&tk=' + encodeURIComponent(tk), {
+      subdomains: '01234567',
+      maxZoom: 18,
+      maxNativeZoom: 18,
+      attribution: '&copy; <a href="https://www.tianditu.gov.cn/">天地图</a>'
+    }).addTo(map);
+    L.tileLayer('https://t{s}.tianditu.gov.cn/DataServer?T=cva_w&x={x}&y={y}&l={z}&tk=' + encodeURIComponent(tk), {
+      subdomains: '01234567',
+      maxZoom: 18,
+      maxNativeZoom: 18
+    }).addTo(map);
+  } else {
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      maxZoom: 19,
+      attribution: '&copy; OpenStreetMap'
+    }).addTo(map);
+  }
+
+  map.setView([23.4, 113.4], 7);
+
+  var canvas = document.getElementById('leaflet-canvas-overlay');
+  var ctx = canvas.getContext('2d', { alpha: true });
+
+  var regionGeo = null;
+  var riversGeo = null;
+  var riverBBoxes = null;
+  /** 入海河流：始终全部绘制，不参与右侧分段勾选 */
+  var estuaryGeo = null;
+  var estuaryBBoxes = null;
+  /** @type {boolean[]} */
+  var segmentVisible = null;
+  var nameToFids = null;
+  var sortedNames = null;
+
+  function expandBounds(b, lng, lat) {
+    b.minLng = Math.min(b.minLng, lng);
+    b.maxLng = Math.max(b.maxLng, lng);
+    b.minLat = Math.min(b.minLat, lat);
+    b.maxLat = Math.max(b.maxLat, lat);
+  }
+
+  function boundsFromCoords(coords, b) {
+    if (typeof coords[0] === 'number') {
+      expandBounds(b, coords[0], coords[1]);
+      return;
+    }
+    for (var i = 0; i < coords.length; i++) boundsFromCoords(coords[i], b);
+  }
+
+  function featureBBox(feat) {
+    var g = feat.geometry;
+    if (!g) return null;
+    var b = { minLng: Infinity, maxLng: -Infinity, minLat: Infinity, maxLat: -Infinity };
+    boundsFromCoords(g.coordinates, b);
+    if (b.minLng === Infinity) return null;
+    return b;
+  }
+
+  function boundsIntersects(a, west, south, east, north) {
+    return !(a.maxLng < west || a.minLng > east || a.maxLat < south || a.minLat > north);
+  }
+
+  function placeCanvas() {
+    var container = map.getContainer();
+    var rect = container.getBoundingClientRect();
+    var pr = window.devicePixelRatio || 1;
+    canvas.width = Math.floor(rect.width * pr);
+    canvas.height = Math.floor(rect.height * pr);
+    canvas.style.width = rect.width + 'px';
+    canvas.style.height = rect.height + 'px';
+    ctx.setTransform(pr, 0, 0, pr, 0, 0);
+    ctx.lineCap = 'round';
+    ctx.lineJoin = 'round';
+  }
+
+  function syncCanvasPosition() {
+    var c = map.getContainer();
+    canvas.style.width = c.clientWidth + 'px';
+    canvas.style.height = c.clientHeight + 'px';
+    placeCanvas();
+  }
+
+  map.getContainer().appendChild(canvas);
+  canvas.id = 'leaflet-canvas-overlay';
+
+  function projectRing(ring) {
+    var pts = [];
+    for (var i = 0; i < ring.length; i++) {
+      var ll = L.latLng(ring[i][1], ring[i][0]);
+      pts.push(map.latLngToContainerPoint(ll));
+    }
+    return pts;
+  }
+
+  function drawPolygonRings(rings) {
+    for (var r = 0; r < rings.length; r++) {
+      var pts = projectRing(rings[r]);
+      if (pts.length === 0) continue;
+      ctx.moveTo(pts[0].x, pts[0].y);
+      for (var j = 1; j < pts.length; j++) ctx.lineTo(pts[j].x, pts[j].y);
+      ctx.closePath();
+    }
+  }
+
+  function drawRegion() {
+    if (!regionGeo || !document.getElementById('showRegion').checked) return;
+    var fc = regionGeo;
+    var feats = fc.type === 'FeatureCollection' ? fc.features : [fc];
+    ctx.beginPath();
+    for (var fi = 0; fi < feats.length; fi++) {
+      var geom = feats[fi].geometry;
+      if (!geom) continue;
+      if (geom.type === 'Polygon') {
+        drawPolygonRings(geom.coordinates);
+      } else if (geom.type === 'MultiPolygon') {
+        for (var p = 0; p < geom.coordinates.length; p++) {
+          var poly = geom.coordinates[p];
+          for (var ri = 0; ri < poly.length; ri++) {
+            var ring = poly[ri];
+            var pts = projectRing(ring);
+            if (pts.length === 0) continue;
+            ctx.moveTo(pts[0].x, pts[0].y);
+            for (var j = 1; j < pts.length; j++) ctx.lineTo(pts[j].x, pts[j].y);
+            ctx.closePath();
+          }
+        }
+      }
+    }
+    ctx.fillStyle = 'rgba(170, 230, 170, 0.45)';
+    ctx.fill('evenodd');
+    ctx.strokeStyle = 'rgba(60, 140, 60, 0.6)';
+    ctx.lineWidth = 1;
+    ctx.stroke();
+  }
+
+  function drawLineCoords(coords) {
+    if (coords.length === 0) return;
+    var p0 = map.latLngToContainerPoint(L.latLng(coords[0][1], coords[0][0]));
+    ctx.moveTo(p0.x, p0.y);
+    for (var i = 1; i < coords.length; i++) {
+      var p = map.latLngToContainerPoint(L.latLng(coords[i][1], coords[i][0]));
+      ctx.lineTo(p.x, p.y);
+    }
+  }
+
+  function drawRiverGeometry(geom) {
+    if (geom.type === 'LineString') {
+      drawLineCoords(geom.coordinates);
+    } else if (geom.type === 'MultiLineString') {
+      for (var m = 0; m < geom.coordinates.length; m++) {
+        drawLineCoords(geom.coordinates[m]);
+      }
+    }
+  }
+
+  function labelLatLngForGeometry(geom) {
+    if (geom.type === 'LineString') {
+      var c = geom.coordinates;
+      if (!c || !c.length) return null;
+      var i = Math.floor(c.length / 2);
+      return L.latLng(c[i][1], c[i][0]);
+    }
+    if (geom.type === 'MultiLineString') {
+      var best = null;
+      var bestLen = -1;
+      for (var m = 0; m < geom.coordinates.length; m++) {
+        var line = geom.coordinates[m];
+        if (line && line.length > bestLen) {
+          bestLen = line.length;
+          best = line;
+        }
+      }
+      if (!best || !best.length) return null;
+      var j = Math.floor(best.length / 2);
+      return L.latLng(best[j][1], best[j][0]);
+    }
+    return null;
+  }
+
+  function featureLabelText(feat, fid) {
+    var p = feat.properties || {};
+    var name = p.name != null ? String(p.name) : '';
+    if (name && p.seg != null) return name + ' · 段' + (Number(p.seg) + 1);
+    if (name) return name;
+    return '段 ' + fid;
+  }
+
+  function redraw() {
+    placeCanvas();
+    var w = map.getSize().x;
+    var h = map.getSize().y;
+    ctx.clearRect(0, 0, w, h);
+
+    var eb = map.getBounds().pad(0.02);
+    var south = eb.getSouth();
+    var north = eb.getNorth();
+    var west = eb.getWest();
+    var east = eb.getEast();
+
+    drawRegion();
+
+    if (!document.getElementById('showRivers').checked) return;
+
+    var lw = Math.max(1, 1.1 - map.getZoom() * 0.04);
+    if (lw > 2.5) lw = 2.5;
+
+    if (estuaryGeo && estuaryBBoxes) {
+      var lwEst = Math.max(3.5, lw * 2.2);
+      ctx.strokeStyle = '#c62828';
+      ctx.lineWidth = lwEst;
+      ctx.beginPath();
+      var ef = estuaryGeo.features;
+      for (var ei = 0; ei < ef.length; ei++) {
+        var ebb = estuaryBBoxes[ei];
+        if (!ebb || !boundsIntersects(ebb, west, south, east, north)) continue;
+        drawRiverGeometry(ef[ei].geometry);
+      }
+      ctx.stroke();
+    }
+
+    if (riversGeo && riverBBoxes && segmentVisible) {
+      ctx.strokeStyle = '#1565c0';
+      ctx.lineWidth = lw;
+      ctx.beginPath();
+      var feats = riversGeo.features;
+      var i;
+      for (i = 0; i < feats.length; i++) {
+        if (!segmentVisible[i]) continue;
+        var bb = riverBBoxes[i];
+        if (!bb || !boundsIntersects(bb, west, south, east, north)) continue;
+        drawRiverGeometry(feats[i].geometry);
+      }
+      ctx.stroke();
+    }
+
+    if (!document.getElementById('showLabels').checked) return;
+
+    var z = map.getZoom();
+    var fontPx = Math.max(10, Math.min(13, z * 0.85));
+    ctx.font = fontPx + 'px system-ui, sans-serif';
+    ctx.textAlign = 'center';
+    ctx.textBaseline = 'middle';
+
+    if (riversGeo && riverBBoxes && segmentVisible) {
+      var featsL = riversGeo.features;
+      for (var i2 = 0; i2 < featsL.length; i2++) {
+        if (!segmentVisible[i2]) continue;
+        var bb2 = riverBBoxes[i2];
+        if (!bb2 || !boundsIntersects(bb2, west, south, east, north)) continue;
+        var ll = labelLatLngForGeometry(featsL[i2].geometry);
+        if (!ll) continue;
+        var pt = map.latLngToContainerPoint(ll);
+        if (pt.x < -40 || pt.y < -20 || pt.x > w + 40 || pt.y > h + 20) continue;
+        var text = featureLabelText(featsL[i2], i2);
+        ctx.lineWidth = 4;
+        ctx.strokeStyle = 'rgba(255,255,255,0.92)';
+        ctx.strokeText(text, pt.x, pt.y);
+        ctx.fillStyle = '#0d47a1';
+        ctx.fillText(text, pt.x, pt.y);
+      }
+    }
+
+    if (estuaryGeo && estuaryBBoxes) {
+      var efLab = estuaryGeo.features;
+      for (var ej = 0; ej < efLab.length; ej++) {
+        var ebbL = estuaryBBoxes[ej];
+        if (!ebbL || !boundsIntersects(ebbL, west, south, east, north)) continue;
+        var llE = labelLatLngForGeometry(efLab[ej].geometry);
+        if (!llE) continue;
+        var ptE = map.latLngToContainerPoint(llE);
+        if (ptE.x < -40 || ptE.y < -20 || ptE.x > w + 40 || ptE.y > h + 20) continue;
+        var textE = featureLabelText(efLab[ej], ej);
+        ctx.lineWidth = 4;
+        ctx.strokeStyle = 'rgba(255,255,255,0.92)';
+        ctx.strokeText(textE, ptE.x, ptE.y);
+        ctx.fillStyle = '#b71c1c';
+        ctx.fillText(textE, ptE.x, ptE.y);
+      }
+    }
+  }
+
+  map.on('move zoom moveend zoomend resize viewreset', redraw);
+
+  window.addEventListener('resize', function () {
+    syncCanvasPosition();
+    redraw();
+  });
+
+  function fitToGeoJSON(gj) {
+    var box = { minLng: Infinity, maxLng: -Infinity, minLat: Infinity, maxLat: -Infinity };
+    if (gj.type === 'FeatureCollection') {
+      for (var i = 0; i < gj.features.length; i++) {
+        var bb = featureBBox(gj.features[i]);
+        if (!bb) continue;
+        expandBounds(box, bb.minLng, bb.minLat);
+        expandBounds(box, bb.maxLng, bb.maxLat);
+      }
+    } else if (gj.type === 'Feature') {
+      boundsFromCoords(gj.geometry.coordinates, box);
+    }
+    if (box.minLng !== Infinity) {
+      map.fitBounds([[box.minLat, box.minLng], [box.maxLat, box.maxLng]], { padding: [24, 24] });
+    }
+  }
+
+  function updateGroupCheckboxState(name) {
+    var fids = nameToFids[name];
+    if (!fids) return;
+    var on = 0;
+    for (var i = 0; i < fids.length; i++) {
+      if (segmentVisible[fids[i]]) on++;
+    }
+    var el = document.querySelector('.river-group-master[data-name="' + CSS.escape(name) + '"]');
+    if (!el) return;
+    el.checked = on === fids.length;
+    el.indeterminate = on > 0 && on < fids.length;
+  }
+
+  function setAllSegmentsForName(name, vis) {
+    var fids = nameToFids[name];
+    if (!fids) return;
+    for (var i = 0; i < fids.length; i++) segmentVisible[fids[i]] = vis;
+    var wrap = document.querySelector('.river-segs[data-name="' + CSS.escape(name) + '"]');
+    if (wrap) {
+      var boxes = wrap.querySelectorAll('input.seg-cb');
+      for (var j = 0; j < boxes.length; j++) boxes[j].checked = vis;
+    }
+    updateGroupCheckboxState(name);
+    redraw();
+  }
+
+  function buildRiverList(filter) {
+    var list = document.getElementById('riverList');
+    list.innerHTML = '';
+    var q = (filter || '').trim().toLowerCase();
+    for (var ni = 0; ni < sortedNames.length; ni++) {
+      (function (name) {
+        if (q && name.toLowerCase().indexOf(q) < 0) return;
+        var fids = nameToFids[name];
+        var group = document.createElement('div');
+        group.className = 'river-group';
+
+        var head = document.createElement('div');
+        head.className = 'river-group-head';
+        var caret = document.createElement('span');
+        caret.className = 'caret';
+        caret.textContent = '\u25B6';
+        var master = document.createElement('input');
+        master.type = 'checkbox';
+        master.className = 'river-group-master';
+        master.dataset.name = name;
+        master.title = '整河显示/隐藏';
+        master.addEventListener('click', function (e) { e.stopPropagation(); });
+        master.addEventListener('change', function () {
+          setAllSegmentsForName(name, master.checked);
+        });
+
+        var on = 0;
+        for (var t = 0; t < fids.length; t++) {
+          if (segmentVisible[fids[t]]) on++;
+        }
+        master.checked = on === fids.length;
+        master.indeterminate = on > 0 && on < fids.length;
+
+        var title = document.createElement('span');
+        title.className = 'gtitle';
+        title.textContent = name;
+        var count = document.createElement('span');
+        count.className = 'gcount';
+        count.textContent = '(' + fids.length + ')';
+
+        head.appendChild(caret);
+        head.appendChild(master);
+        head.appendChild(title);
+        head.appendChild(count);
+
+        var segs = document.createElement('div');
+        segs.className = 'river-segs';
+        segs.dataset.name = name;
+
+        for (var si = 0; si < fids.length; si++) {
+          var fid = fids[si];
+          var feat = riversGeo.features[fid];
+          var p = feat.properties || {};
+          var segLabel = '段' + (p.seg != null ? Number(p.seg) + 1 : si + 1);
+          var row = document.createElement('div');
+          row.className = 'river-seg-row';
+          var cb = document.createElement('input');
+          cb.type = 'checkbox';
+          cb.className = 'seg-cb';
+          cb.checked = segmentVisible[fid];
+          cb.dataset.fid = String(fid);
+          (function (groupName, featureId) {
+            cb.addEventListener('change', function () {
+              segmentVisible[featureId] = this.checked;
+              updateGroupCheckboxState(groupName);
+              redraw();
+            });
+          })(name, fid);
+          var lab = document.createElement('label');
+          lab.appendChild(cb);
+          lab.appendChild(document.createTextNode(' ' + segLabel));
+          row.appendChild(lab);
+          segs.appendChild(row);
+        }
+
+        head.addEventListener('click', function (e) {
+          if (e.target === master) return;
+          var open = segs.classList.toggle('open');
+          caret.textContent = open ? '\u25BC' : '\u25B6';
+        });
+
+        group.appendChild(head);
+        group.appendChild(segs);
+        list.appendChild(group);
+      })(sortedNames[ni]);
+    }
+  }
+
+  var searchTimer = null;
+  function onSearchInput() {
+    clearTimeout(searchTimer);
+    searchTimer = setTimeout(function () {
+      buildRiverList(document.getElementById('riverSearch').value);
+    }, 200);
+  }
+
+  fetch('440000.json')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      regionGeo = data;
+      fitToGeoJSON(data);
+      redraw();
+    })
+    .catch(function (e) {
+      console.error(e);
+      alert('无法加载 name/440000.json，请用本地 HTTP 服务打开本页（不要用 file://）。');
+    });
+
+  fetch('rivers-all.geojson')
+    .then(function (r) { return r.json(); })
+    .then(function (data) {
+      riversGeo = data;
+      var n = data.features.length;
+      riverBBoxes = [];
+      segmentVisible = [];
+      nameToFids = {};
+      for (var i = 0; i < n; i++) {
+        riverBBoxes.push(featureBBox(data.features[i]));
+        segmentVisible.push(true);
+        var p = data.features[i].properties || {};
+        var nm = p.name != null ? String(p.name) : '(未命名)';
+        if (!nameToFids[nm]) nameToFids[nm] = [];
+        nameToFids[nm].push(i);
+      }
+      sortedNames = Object.keys(nameToFids).sort(function (a, b) {
+        return a.localeCompare(b, 'zh-CN');
+      });
+      document.getElementById('riverStatus').textContent =
+        '河流数据：' + n + ' 段，' + sortedNames.length + ' 条河名';
+      document.getElementById('riverPanel').style.display = 'flex';
+      document.getElementById('riverSearch').addEventListener('input', onSearchInput);
+      buildRiverList('');
+      redraw();
+    })
+    .catch(function (e) {
+      console.error(e);
+      document.getElementById('riverStatus').textContent =
+        '河流数据：加载失败（请运行 merge_name_rivers.py 并用 HTTP 打开）';
+    });
+
+  fetch('estuary-rivers.geojson')
+    .then(function (r) {
+      if (!r.ok) throw new Error(String(r.status));
+      return r.json();
+    })
+    .then(function (data) {
+      estuaryGeo = data;
+      estuaryBBoxes = [];
+      for (var ei = 0; ei < data.features.length; ei++) {
+        estuaryBBoxes.push(featureBBox(data.features[ei]));
+      }
+      redraw();
+    })
+    .catch(function (e) {
+      console.warn('未加载 estuary-rivers.geojson（可选）：', e);
+    });
+
+  document.getElementById('showRivers').addEventListener('change', redraw);
+  document.getElementById('showRegion').addEventListener('change', redraw);
+  document.getElementById('showLabels').addEventListener('change', redraw);
+
+  map.whenReady(function () {
+    syncCanvasPosition();
+    redraw();
+  });
+})();
+  </script>
+</body>
+</html>

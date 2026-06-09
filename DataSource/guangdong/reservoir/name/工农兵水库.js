@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"工农兵水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.29044866670341,25.004164417999686]},"properties":{"GB":310107,"id":149785,"ORIG_FID":6,"source_tile":"g49c003003","source_layer":"resp","source_record":7,"name":"工农兵水库","name_source":"aanp_spatial"}}]};

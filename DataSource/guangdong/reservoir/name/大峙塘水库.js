@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大峙塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.33500025730541,23.06922469563153]},"properties":{"GB":310107,"id":32954,"ORIG_FID":331,"source_tile":"f49c001003","source_layer":"resp","source_record":332,"name":"大峙塘水库","name_source":"aanp_id"}}]};

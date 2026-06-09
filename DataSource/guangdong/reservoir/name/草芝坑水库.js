@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"草芝坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.89800833468428,21.629405530577994]},"properties":{"GB":310108,"id":52652,"ORIG_FID":221,"source_tile":"f49c003003","source_layer":"resp","source_record":222,"name":"草芝坑水库","name_source":"aanp_id"}}]};

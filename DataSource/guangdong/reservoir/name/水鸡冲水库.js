@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"水鸡冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.45770406515919,23.220372408724987]},"properties":{"GB":310107,"id":33092,"ORIG_FID":1010,"source_tile":"f49c001003","source_layer":"resp","source_record":1011,"name":"水鸡冲水库","name_source":"aanp_id"}}]};

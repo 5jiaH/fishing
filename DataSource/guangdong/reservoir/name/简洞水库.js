@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"简洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.98455413635719,23.34279836308193]},"properties":{"GB":310107,"id":36908,"ORIG_FID":488,"source_tile":"f49c001004","source_layer":"resp","source_record":489,"name":"简洞水库","name_source":"aanp_id"}}]};

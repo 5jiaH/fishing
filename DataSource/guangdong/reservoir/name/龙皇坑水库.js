@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"龙皇坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.48740019624191,25.56050366785403]},"properties":{"GB":310108,"id":182118,"ORIG_FID":996,"source_tile":"g50c003001","source_layer":"resp","source_record":997,"name":"龙皇坑水库","name_source":"aanp_id"}}]};

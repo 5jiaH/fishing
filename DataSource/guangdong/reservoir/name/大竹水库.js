@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大竹水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.2184938724823,23.143977999371934]},"properties":{"GB":310107,"id":32885,"ORIG_FID":671,"source_tile":"f49c001003","source_layer":"resp","source_record":672,"name":"大竹水库","name_source":"aanp_id"}}]};

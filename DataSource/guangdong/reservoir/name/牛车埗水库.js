@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"牛车埗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.46044714609607,23.71965546097554]},"properties":{"GB":310108,"id":36019,"ORIG_FID":2716,"source_tile":"f49c001003","source_layer":"resp","source_record":2717,"name":"牛车埗水库","name_source":"aanp_id"}}]};

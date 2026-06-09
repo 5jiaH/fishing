@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"北河水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.82234032998277,22.50087283967419]},"properties":{"GB":310108,"id":44662,"ORIG_FID":1236,"source_tile":"f49c002003","source_layer":"resp","source_record":1237,"name":"北河水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石峡水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.68184648887501,24.11163138885275]},"properties":{"GB":310108,"id":193526,"ORIG_FID":418,"source_tile":"g50c004002","source_layer":"resp","source_record":419,"name":"石峡水库","name_source":"aanp_spatial"}}]};

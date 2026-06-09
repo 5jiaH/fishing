@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"北京塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.72499037180445,23.962129610573157]},"properties":{"GB":310300,"id":59274,"ORIG_FID":1499,"source_tile":"f50c001002","source_layer":"resp","source_record":1500,"name":"北京塘水库","name_source":"aanp_id"}}]};

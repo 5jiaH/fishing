@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"麻垒塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.75016155657335,22.675956254054963]},"properties":{"GB":310108,"id":60815,"ORIG_FID":490,"source_tile":"f50c002001","source_layer":"resp","source_record":491,"name":"麻垒塘","name_source":"aanp_id"}}]};

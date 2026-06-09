@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"天湖堂水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.06264710956256,21.82551357343705]},"properties":{"GB":310107,"id":48827,"ORIG_FID":2927,"source_tile":"f49c003002","source_layer":"resp","source_record":2928,"name":"天湖堂水库","name_source":"aanp_id"}}]};

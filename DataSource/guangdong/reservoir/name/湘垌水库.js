@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"湘垌水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.26580329278086,22.634361802177416]},"properties":{"GB":310108,"id":43764,"ORIG_FID":1587,"source_tile":"f49c002003","source_layer":"resp","source_record":1588,"name":"湘垌水库","name_source":"aanp_spatial"}}]};

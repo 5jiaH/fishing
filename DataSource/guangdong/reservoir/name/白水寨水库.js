@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白水寨水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.65979169692838,21.87762319294917]},"properties":{"GB":310108,"id":53360,"ORIG_FID":80,"source_tile":"f49c003004","source_layer":"resp","source_record":81,"name":"白水寨水库","name_source":"aanp_id"}}]};

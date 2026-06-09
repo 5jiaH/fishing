@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"洪崩岗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.36603075542482,23.69482457257508]},"properties":{"GB":310108,"id":36024,"ORIG_FID":2643,"source_tile":"f49c001003","source_layer":"resp","source_record":2644,"name":"洪崩岗水库","name_source":"aanp_id"}}]};

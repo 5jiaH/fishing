@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"实山仔水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.92313242695977,23.854950402443542]},"properties":{"GB":310107,"id":59012,"ORIG_FID":1294,"source_tile":"f50c001002","source_layer":"resp","source_record":1295,"name":"实山仔水库","name_source":"aanp_spatial"}}]};

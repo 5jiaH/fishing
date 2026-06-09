@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"九门坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.3134986001522,20.02913156779149]},"properties":{"GB":311105,"id":54284,"ORIG_FID":192,"source_tile":"f49c004002","source_layer":"resp","source_record":193,"name":"九门坑水库","name_source":"aanp_id"}}]};

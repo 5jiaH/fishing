@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"腊石水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.105895227256,24.118623445699328]},"properties":{"GB":310108,"id":193534,"ORIG_FID":443,"source_tile":"g50c004002","source_layer":"resp","source_record":444,"name":"腊石水库","name_source":"aanp_spatial"}}]};

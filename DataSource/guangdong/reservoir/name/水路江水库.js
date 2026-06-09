@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"水路江水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.01852760796397,22.61572412739179]},"properties":{"GB":310300,"id":61349,"ORIG_FID":366,"source_tile":"f50c002001","source_layer":"resp","source_record":367,"name":"水路江水库","name_source":"aanp_id"}}]};

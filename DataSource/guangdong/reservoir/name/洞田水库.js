@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"洞田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.35808806060902,20.035938196011305]},"properties":{"GB":311105,"id":54294,"ORIG_FID":228,"source_tile":"f49c004002","source_layer":"resp","source_record":229,"name":"洞田水库","name_source":"aanp_id"}}]};

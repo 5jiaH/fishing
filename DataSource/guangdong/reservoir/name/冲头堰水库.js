@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"冲头堰水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.56582811956379,22.35004826788085]},"properties":{"GB":310107,"id":45373,"ORIG_FID":476,"source_tile":"f49c002004","source_layer":"resp","source_record":477,"name":"冲头堰水库","name_source":"aanp_id"}}]};

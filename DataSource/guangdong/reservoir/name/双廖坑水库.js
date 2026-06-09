@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"双廖坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.8986930881769,21.83470227549007]},"properties":{"GB":310108,"id":48984,"ORIG_FID":2977,"source_tile":"f49c003002","source_layer":"resp","source_record":2978,"name":"双廖坑水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"良坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.40387238236855,20.059789762070235]},"properties":{"GB":310300,"id":54389,"ORIG_FID":295,"source_tile":"f49c004002","source_layer":"resp","source_record":296,"name":"良坑水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鳄鱼水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.73271351167446,23.28102158754133]},"properties":{"GB":311105,"id":58218,"ORIG_FID":377,"source_tile":"f50c001002","source_layer":"resp","source_record":378,"name":"鳄鱼水库","name_source":"osm"}}]};

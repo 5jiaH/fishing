@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"平车水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.40910793423257,22.889406142639412]},"properties":{"GB":310300,"id":45104,"ORIG_FID":2297,"source_tile":"f49c002003","source_layer":"resp","source_record":2298,"name":"平车水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"八角塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.49957642837683,25.670770264558485]},"properties":{"GB":311105,"id":180291,"ORIG_FID":1183,"source_tile":"g50c003001","source_layer":"resp","source_record":1184,"name":"八角塘","name_source":"aanp_id"}}]};

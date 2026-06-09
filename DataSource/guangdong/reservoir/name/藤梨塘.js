@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"藤梨塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.30349246332435,22.98854836424491]},"properties":{"GB":310107,"id":44250,"ORIG_FID":2618,"source_tile":"f49c002003","source_layer":"resp","source_record":2619,"name":"藤梨塘","name_source":"aanp_id"}}]};

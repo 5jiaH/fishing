@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"古道迳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.47703080948335,25.656590365811827]},"properties":{"GB":310107,"id":180970,"ORIG_FID":1159,"source_tile":"g50c003001","source_layer":"resp","source_record":1160,"name":"古道迳水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大坑塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.03490634351934,25.343561724463637]},"properties":{"GB":310108,"id":181965,"ORIG_FID":626,"source_tile":"g50c003001","source_layer":"resp","source_record":627,"name":"大坑塘水库","name_source":"aanp_id"}}]};

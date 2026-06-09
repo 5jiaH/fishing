@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"长犁田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.0911480317194,20.925234977299922]},"properties":{"GB":310300,"id":54243,"ORIG_FID":1157,"source_tile":"f49c004002","source_layer":"resp","source_record":1158,"name":"长犁田水库","name_source":"aanp_id"}}]};

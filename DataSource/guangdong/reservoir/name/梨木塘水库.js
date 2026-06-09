@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"梨木塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.12624204736869,22.95147484581941]},"properties":{"GB":310108,"id":44375,"ORIG_FID":2493,"source_tile":"f49c002003","source_layer":"resp","source_record":2494,"name":"梨木塘水库","name_source":"aanp_id"}}]};

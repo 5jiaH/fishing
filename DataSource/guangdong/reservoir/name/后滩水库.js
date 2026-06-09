@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"后滩水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.5335576252283,23.871489043391136]},"properties":{"GB":310107,"id":59040,"ORIG_FID":1323,"source_tile":"f50c001002","source_layer":"resp","source_record":1324,"name":"后滩水库","name_source":"aanp_id"}}]};

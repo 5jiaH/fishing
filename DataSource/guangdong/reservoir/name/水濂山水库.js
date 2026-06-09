@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"水濂山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.19750364368785,21.723411932789638]},"properties":{"GB":310300,"id":53193,"ORIG_FID":423,"source_tile":"f49c003003","source_layer":"resp","source_record":424,"name":"水濂山水库","name_source":"aanp_id"}}]};

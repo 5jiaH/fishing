@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"富龙塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.20845661018912,21.263819731676392]},"properties":{"GB":310108,"id":48991,"ORIG_FID":477,"source_tile":"f49c003002","source_layer":"resp","source_record":478,"name":"富龙塘水库","name_source":"aanp_id"}}]};

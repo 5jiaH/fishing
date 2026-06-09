@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"玉潭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.76521520577194,25.880796257301064]},"properties":{"GB":310107,"id":152435,"ORIG_FID":1457,"source_tile":"g49c003004","source_layer":"resp","source_record":1458,"name":"玉潭水库","name_source":"aanp_spatial"}}]};

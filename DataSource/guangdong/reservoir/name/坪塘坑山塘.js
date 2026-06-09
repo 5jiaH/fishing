@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"坪塘坑山塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.8842160844629,24.149370017700722]},"properties":{"GB":310108,"id":193510,"ORIG_FID":546,"source_tile":"g50c004002","source_layer":"resp","source_record":547,"name":"坪塘坑山塘","name_source":"aanp_spatial"}}]};

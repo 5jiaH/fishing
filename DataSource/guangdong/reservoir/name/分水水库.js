@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"分水水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.4420586839779,22.81802211539814]},"properties":{"GB":310107,"id":45155,"ORIG_FID":2110,"source_tile":"f49c002003","source_layer":"resp","source_record":2111,"name":"分水水库","name_source":"aanp_id"}}]};

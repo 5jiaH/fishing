@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"水沟坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.23634646001867,23.639076986084184]},"properties":{"GB":310300,"id":59498,"ORIG_FID":936,"source_tile":"f50c001002","source_layer":"resp","source_record":937,"name":"水沟坑水库","name_source":"aanp_id"}}]};

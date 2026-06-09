@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"淮南河水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.22337019596822,24.7475617719509]},"properties":{"GB":310108,"id":159433,"ORIG_FID":1186,"source_tile":"g49c004003","source_layer":"resp","source_record":1187,"name":"淮南河水库","name_source":"aanp_spatial"}}]};

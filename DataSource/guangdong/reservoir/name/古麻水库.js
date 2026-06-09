@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"古麻水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.1058706048766,23.08706936216325]},"properties":{"GB":310108,"id":36570,"ORIG_FID":409,"source_tile":"f49c001003","source_layer":"resp","source_record":410,"name":"古麻水库","name_source":"aanp_spatial"}}]};

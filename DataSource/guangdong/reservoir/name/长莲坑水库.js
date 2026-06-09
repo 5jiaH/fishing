@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"长莲坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.12737004120936,20.573400109402584]},"properties":{"GB":310300,"id":54643,"ORIG_FID":709,"source_tile":"f49c004002","source_layer":"resp","source_record":710,"name":"长莲坑水库","name_source":"aanp_id"}}]};

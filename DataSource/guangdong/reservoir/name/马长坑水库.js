@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"马长坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.05736213552404,22.7881956061025]},"properties":{"GB":310107,"id":43952,"ORIG_FID":2023,"source_tile":"f49c002003","source_layer":"resp","source_record":2024,"name":"马长坑水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"独田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.97705730981431,21.87503571488243]},"properties":{"GB":310300,"id":53090,"ORIG_FID":864,"source_tile":"f49c003003","source_layer":"resp","source_record":865,"name":"独田水库","name_source":"aanp_spatial"}}]};

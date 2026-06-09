@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"木蔃","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.68496377006119,21.611516261060082]},"properties":{"GB":310107,"id":48616,"ORIG_FID":1869,"source_tile":"f49c003002","source_layer":"resp","source_record":1870,"name":"木蔃","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"西岗山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.231694690919,25.852810105172086]},"properties":{"GB":310107,"id":181188,"ORIG_FID":1582,"source_tile":"g50c003001","source_layer":"resp","source_record":1583,"name":"西岗山水库","name_source":"aanp_spatial"}}]};

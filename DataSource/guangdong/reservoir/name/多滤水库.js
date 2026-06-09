@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"多滤水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.16375574781685,23.172490171999716]},"properties":{"GB":310107,"id":33031,"ORIG_FID":817,"source_tile":"f49c001003","source_layer":"resp","source_record":818,"name":"多滤水库","name_source":"aanp_id"}}]};

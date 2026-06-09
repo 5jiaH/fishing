@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"潭井水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.79661814277692,21.728019386688935]},"properties":{"GB":310108,"id":50295,"ORIG_FID":2460,"source_tile":"f49c003002","source_layer":"resp","source_record":2461,"name":"潭井水库","name_source":"aanp_id"}}]};

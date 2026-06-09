@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大朗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.31966812086438,20.063162066805607]},"properties":{"GB":310300,"id":54351,"ORIG_FID":314,"source_tile":"f49c004002","source_layer":"resp","source_record":315,"name":"大朗水库","name_source":"aanp_id"}}]};

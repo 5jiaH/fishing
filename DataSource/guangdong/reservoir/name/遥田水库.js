@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"遥田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.01708231979228,23.384761559719003]},"properties":{"GB":310107,"id":36977,"ORIG_FID":566,"source_tile":"f49c001004","source_layer":"resp","source_record":567,"name":"遥田水库","name_source":"aanp_id"}}]};

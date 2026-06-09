@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"五点梅水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.9161179952111,21.910560009899793]},"properties":{"GB":310108,"id":52890,"ORIG_FID":952,"source_tile":"f49c003003","source_layer":"resp","source_record":953,"name":"五点梅水库","name_source":"aanp_id"}}]};

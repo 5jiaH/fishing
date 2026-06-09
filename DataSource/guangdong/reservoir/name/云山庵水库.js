@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"云山庵水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.32141631534206,23.042628732604875]},"properties":{"GB":310107,"id":32924,"ORIG_FID":195,"source_tile":"f49c001003","source_layer":"resp","source_record":196,"name":"云山庵水库","name_source":"aanp_id"}}]};

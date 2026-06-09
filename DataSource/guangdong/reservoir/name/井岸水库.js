@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"井岸水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.99919826461708,21.790451989740678]},"properties":{"GB":310108,"id":50413,"ORIG_FID":2757,"source_tile":"f49c003002","source_layer":"resp","source_record":2758,"name":"井岸水库","name_source":"aanp_id"}}]};

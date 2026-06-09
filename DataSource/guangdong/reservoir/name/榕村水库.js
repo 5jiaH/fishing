@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"榕村水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.63859371979177,23.166619411172373]},"properties":{"GB":310107,"id":33027,"ORIG_FID":791,"source_tile":"f49c001003","source_layer":"resp","source_record":792,"name":"榕村水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"平洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.20891809931283,25.542495781534136]},"properties":{"GB":310108,"id":181746,"ORIG_FID":959,"source_tile":"g50c003001","source_layer":"resp","source_record":960,"name":"平洞水库","name_source":"aanp_id"}}]};

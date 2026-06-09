@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"围龙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.19664463674826,25.481166312469483]},"properties":{"GB":310108,"id":181745,"ORIG_FID":860,"source_tile":"g50c003001","source_layer":"resp","source_record":861,"name":"围龙水库","name_source":"aanp_id"}}]};

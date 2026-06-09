@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鲁古河水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.29245270771764,24.063386370423157]},"properties":{"GB":310108,"id":190599,"ORIG_FID":166,"source_tile":"g50c004001","source_layer":"resp","source_record":167,"name":"鲁古河水库","name_source":"aanp_spatial"}}]};

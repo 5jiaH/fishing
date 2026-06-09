@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"金鸡石水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.04071404688314,24.28031387477443]},"properties":{"GB":310300,"id":195102,"ORIG_FID":1083,"source_tile":"g50c004002","source_layer":"resp","source_record":1084,"name":"金鸡石水库","name_source":"osm"}}]};

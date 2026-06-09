@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"塘垭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.42621748423575,22.87612383186044]},"properties":{"GB":310108,"id":44384,"ORIG_FID":2265,"source_tile":"f49c002003","source_layer":"resp","source_record":2266,"name":"塘垭水库","name_source":"aanp_id"}}]};

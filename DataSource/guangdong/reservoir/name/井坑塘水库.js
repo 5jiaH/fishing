@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"井坑塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.83892847254725,23.35429994226086]},"properties":{"GB":310107,"id":36959,"ORIG_FID":508,"source_tile":"f49c001004","source_layer":"resp","source_record":509,"name":"井坑塘水库","name_source":"aanp_id"}}]};

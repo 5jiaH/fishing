@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"西沟水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.05680852798375,21.89698411010017]},"properties":{"GB":310300,"id":62041,"ORIG_FID":2,"source_tile":"f50c003001","source_layer":"resp","source_record":3,"name":"西沟水库","name_source":"aanp_id"}}]};

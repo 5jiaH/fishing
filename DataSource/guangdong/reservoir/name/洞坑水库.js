@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"洞坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.69515833368601,25.977982420870926]},"properties":{"GB":311105,"id":180352,"ORIG_FID":1859,"source_tile":"g50c003001","source_layer":"resp","source_record":1860,"name":"洞坑水库","name_source":"aanp_id"}}]};

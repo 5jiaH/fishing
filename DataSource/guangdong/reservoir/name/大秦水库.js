@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大秦水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.25601048236001,23.108173915822494]},"properties":{"GB":311104,"id":36950,"ORIG_FID":117,"source_tile":"f49c001004","source_layer":"resp","source_record":118,"name":"大秦水库","name_source":"aanp_id"}}]};

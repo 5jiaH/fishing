@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"南大水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.36738609744364,23.0864839972849]},"properties":{"GB":311105,"id":36939,"ORIG_FID":91,"source_tile":"f49c001004","source_layer":"resp","source_record":92,"name":"南大水库","name_source":"aanp_id"}}]};

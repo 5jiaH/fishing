@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"禾寮窝水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.3737798535275,20.01200906123506]},"properties":{"GB":310300,"id":54228,"ORIG_FID":90,"source_tile":"f49c004002","source_layer":"resp","source_record":91,"name":"禾寮窝水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鹿颈水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.26668521183858,25.84494976075682]},"properties":{"GB":311105,"id":180330,"ORIG_FID":1557,"source_tile":"g50c003001","source_layer":"resp","source_record":1558,"name":"鹿颈水库","name_source":"aanp_id"}}]};

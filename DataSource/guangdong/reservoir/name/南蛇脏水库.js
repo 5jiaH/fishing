@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"南蛇脏水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.40717013698593,20.041487002823022]},"properties":{"GB":310300,"id":54390,"ORIG_FID":244,"source_tile":"f49c004002","source_layer":"resp","source_record":245,"name":"南蛇脏水库","name_source":"aanp_id"}}]};

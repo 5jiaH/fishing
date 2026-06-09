@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"陂塘坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.3006019337533,21.283688457545846]},"properties":{"GB":310108,"id":48994,"ORIG_FID":543,"source_tile":"f49c003002","source_layer":"resp","source_record":544,"name":"陂塘坑水库","name_source":"aanp_id"}}]};

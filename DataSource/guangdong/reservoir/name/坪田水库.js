@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"坪田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.64590034822979,24.493266438323946]},"properties":{"GB":310108,"id":195059,"ORIG_FID":2012,"source_tile":"g50c004002","source_layer":"resp","source_record":2013,"name":"坪田水库","name_source":"osm"}}]};

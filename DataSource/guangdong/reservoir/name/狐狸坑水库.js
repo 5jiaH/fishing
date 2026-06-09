@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"狐狸坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.55835015060866,23.404084851289486]},"properties":{"GB":310300,"id":57493,"ORIG_FID":1503,"source_tile":"f50c001001","source_layer":"resp","source_record":1504,"name":"狐狸坑水库","name_source":"aanp_spatial"}}]};

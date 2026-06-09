@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大雾坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.48352400257295,21.731345917046863]},"properties":{"GB":310108,"id":50294,"ORIG_FID":2477,"source_tile":"f49c003002","source_layer":"resp","source_record":2478,"name":"大雾坑水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"缸瓦坑","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.80087153404898,25.913377955239447]},"properties":{"GB":310107,"id":181279,"ORIG_FID":1722,"source_tile":"g50c003001","source_layer":"resp","source_record":1723,"name":"缸瓦坑","name_source":"aanp_id"}}]};

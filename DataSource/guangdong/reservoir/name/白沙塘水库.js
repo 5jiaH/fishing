@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白沙塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.14919584525582,25.352238566318874]},"properties":{"GB":311105,"id":180256,"ORIG_FID":639,"source_tile":"g50c003001","source_layer":"resp","source_record":640,"name":"白沙塘水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"三桂水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.13735222278478,23.124906209032137]},"properties":{"GB":310107,"id":33016,"ORIG_FID":588,"source_tile":"f49c001003","source_layer":"resp","source_record":589,"name":"三桂水库","name_source":"aanp_id"}}]};

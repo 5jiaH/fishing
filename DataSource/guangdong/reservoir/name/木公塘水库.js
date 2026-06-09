@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"木公塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.9571064953462,21.879868087711074]},"properties":{"GB":310107,"id":48894,"ORIG_FID":3192,"source_tile":"f49c003002","source_layer":"resp","source_record":3193,"name":"木公塘水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"蓬塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.27665232420796,22.423149916097174]},"properties":{"GB":310107,"id":43196,"ORIG_FID":1031,"source_tile":"f49c002003","source_layer":"resp","source_record":1032,"name":"蓬塘水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"虾塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.33652171746861,22.889755615093144]},"properties":{"GB":310108,"id":44379,"ORIG_FID":2298,"source_tile":"f49c002003","source_layer":"resp","source_record":2299,"name":"虾塘水库","name_source":"aanp_id"}}]};

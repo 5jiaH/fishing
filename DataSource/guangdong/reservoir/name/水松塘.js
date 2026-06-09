@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"水松塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.2073103978216,20.327421127126755]},"properties":{"GB":310300,"id":54208,"ORIG_FID":397,"source_tile":"f49c004002","source_layer":"resp","source_record":398,"name":"水松塘","name_source":"aanp_id"}}]};

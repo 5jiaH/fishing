@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鹿鸣坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.3224379515498,22.691586435536504]},"properties":{"GB":310300,"id":61449,"ORIG_FID":524,"source_tile":"f50c002001","source_layer":"resp","source_record":525,"name":"鹿鸣坑水库","name_source":"aanp_id"}}]};

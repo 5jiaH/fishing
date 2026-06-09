@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鹤咀水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.68019026397346,21.96987136792785]},"properties":{"GB":310107,"id":48940,"ORIG_FID":3666,"source_tile":"f49c003002","source_layer":"resp","source_record":3667,"name":"鹤咀水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"仙人堂水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.82168406399634,25.717422630049924]},"properties":{"GB":310107,"id":181032,"ORIG_FID":1277,"source_tile":"g50c003001","source_layer":"resp","source_record":1278,"name":"仙人堂水库","name_source":"aanp_id"}}]};

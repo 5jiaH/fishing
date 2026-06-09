@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"渡六坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.78141986382485,20.95151822939254]},"properties":{"GB":311105,"id":54330,"ORIG_FID":1190,"source_tile":"f49c004002","source_layer":"resp","source_record":1191,"name":"渡六坑水库","name_source":"aanp_id"}}]};

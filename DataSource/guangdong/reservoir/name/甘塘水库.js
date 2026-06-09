@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"甘塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.27954192803766,22.981218876807485]},"properties":{"GB":310107,"id":62027,"ORIG_FID":272,"source_tile":"f50c002002","source_layer":"resp","source_record":273,"name":"甘塘水库","name_source":"aanp_id"}}]};

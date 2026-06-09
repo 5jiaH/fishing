@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"路田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.21984034033578,23.11435588413122]},"properties":{"GB":310107,"id":33007,"ORIG_FID":539,"source_tile":"f49c001003","source_layer":"resp","source_record":540,"name":"路田水库","name_source":"aanp_id"}}]};

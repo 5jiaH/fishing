@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"斋公田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.01574564555492,21.971454805544965]},"properties":{"GB":310108,"id":50676,"ORIG_FID":3675,"source_tile":"f49c003002","source_layer":"resp","source_record":3676,"name":"斋公田水库","name_source":"aanp_id"}}]};

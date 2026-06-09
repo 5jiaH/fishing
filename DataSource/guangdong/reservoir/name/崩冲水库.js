@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"崩冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.39032792640187,25.194929943777744]},"properties":{"GB":310108,"id":182079,"ORIG_FID":354,"source_tile":"g50c003001","source_layer":"resp","source_record":355,"name":"崩冲水库","name_source":"aanp_id"}}]};

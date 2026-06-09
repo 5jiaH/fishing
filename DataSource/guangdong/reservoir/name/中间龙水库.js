@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"中间龙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.58445466823858,21.98754378184118]},"properties":{"GB":310107,"id":48949,"ORIG_FID":3767,"source_tile":"f49c003002","source_layer":"resp","source_record":3768,"name":"中间龙水库","name_source":"aanp_id"}}]};

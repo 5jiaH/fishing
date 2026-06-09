@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"上大塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.21946258242846,21.824600153167584]},"properties":{"GB":310107,"id":48824,"ORIG_FID":2922,"source_tile":"f49c003002","source_layer":"resp","source_record":2923,"name":"上大塘水库","name_source":"aanp_id"}}]};

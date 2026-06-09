@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"宿沙山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.11480011388784,22.63669776546413]},"properties":{"GB":311105,"id":44983,"ORIG_FID":1593,"source_tile":"f49c002003","source_layer":"resp","source_record":1594,"name":"宿沙山水库","name_source":"aanp_id"}}]};

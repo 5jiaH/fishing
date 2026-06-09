@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"坳下塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.92025861866128,25.58000877000355]},"properties":{"GB":310107,"id":181928,"ORIG_FID":1025,"source_tile":"g50c003001","source_layer":"resp","source_record":1026,"name":"坳下塘水库","name_source":"aanp_id"}}]};

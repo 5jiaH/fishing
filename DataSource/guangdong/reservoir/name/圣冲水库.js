@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"圣冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.78575396874119,23.081426786845327]},"properties":{"GB":310107,"id":32961,"ORIG_FID":377,"source_tile":"f49c001003","source_layer":"resp","source_record":378,"name":"圣冲水库","name_source":"aanp_id"}}]};

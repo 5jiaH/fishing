@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"练牛麻水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.4265421003463,22.722577543946887]},"properties":{"GB":310108,"id":61633,"ORIG_FID":596,"source_tile":"f50c002001","source_layer":"resp","source_record":597,"name":"练牛麻水库","name_source":"aanp_spatial"}}]};

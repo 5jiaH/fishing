@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"下寮水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.10770646986356,22.80921131110345]},"properties":{"GB":310108,"id":60775,"ORIG_FID":834,"source_tile":"f50c002001","source_layer":"resp","source_record":835,"name":"下寮水库","name_source":"aanp_spatial"}}]};

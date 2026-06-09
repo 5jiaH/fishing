@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"葫芦水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.38237205075262,23.730457245302006]},"properties":{"GB":310107,"id":58874,"ORIG_FID":1097,"source_tile":"f50c001002","source_layer":"resp","source_record":1098,"name":"葫芦水库","name_source":"aanp_spatial"}}]};

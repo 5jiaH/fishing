@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"上白墓水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.98252558291938,24.645253683758828]},"properties":{"GB":310107,"id":193908,"ORIG_FID":2607,"source_tile":"g50c004002","source_layer":"resp","source_record":2608,"name":"上白墓水库","name_source":"osm"}}]};

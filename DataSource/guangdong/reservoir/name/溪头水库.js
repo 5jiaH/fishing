@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"溪头水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.97916997293203,22.703119567863528]},"properties":{"GB":310107,"id":60257,"ORIG_FID":550,"source_tile":"f50c002001","source_layer":"resp","source_record":551,"name":"溪头水库","name_source":"aanp_id"}}]};

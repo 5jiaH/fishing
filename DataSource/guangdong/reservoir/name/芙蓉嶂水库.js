@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"芙蓉嶂水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.9228581669314,23.70771567344203]},"properties":{"GB":310108,"id":36039,"ORIG_FID":2682,"source_tile":"f49c001003","source_layer":"resp","source_record":2683,"name":"芙蓉嶂水库","name_source":"aanp_id"}}]};

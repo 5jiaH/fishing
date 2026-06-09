@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"马耳坪水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.92358209841916,23.44567148344643]},"properties":{"GB":310108,"id":56040,"ORIG_FID":1712,"source_tile":"f50c001001","source_layer":"resp","source_record":1713,"name":"马耳坪水库","name_source":"aanp_spatial"}}]};

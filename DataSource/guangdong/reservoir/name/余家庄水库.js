@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"余家庄水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.65046606590825,23.7249663232606]},"properties":{"GB":310300,"id":38248,"ORIG_FID":1327,"source_tile":"f49c001004","source_layer":"resp","source_record":1328,"name":"余家庄水库","name_source":"aanp_id"}}]};

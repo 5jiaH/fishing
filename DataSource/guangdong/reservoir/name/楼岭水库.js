@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"楼岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.11123033553791,23.773157597509975]},"properties":{"GB":310107,"id":58928,"ORIG_FID":1169,"source_tile":"f50c001002","source_layer":"resp","source_record":1170,"name":"楼岭水库","name_source":"aanp_spatial"}}]};

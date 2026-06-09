@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"陕冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.51837360352552,25.791733619606916]},"properties":{"GB":310107,"id":181132,"ORIG_FID":1428,"source_tile":"g50c003001","source_layer":"resp","source_record":1429,"name":"陕冲水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"蛇尾迳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.8446880702368,21.634990034173196]},"properties":{"GB":310108,"id":50109,"ORIG_FID":1992,"source_tile":"f49c003002","source_layer":"resp","source_record":1993,"name":"蛇尾迳水库","name_source":"aanp_id"}}]};

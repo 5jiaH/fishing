@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"麻地水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.39636823767336,24.650492268698798]},"properties":{"GB":310108,"id":194914,"ORIG_FID":2626,"source_tile":"g50c004002","source_layer":"resp","source_record":2627,"name":"麻地水库","name_source":"aanp_spatial"}}]};

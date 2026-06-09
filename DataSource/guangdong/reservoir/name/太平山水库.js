@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"太平山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.12389378572766,23.185945565398303]},"properties":{"GB":310300,"id":57680,"ORIG_FID":760,"source_tile":"f50c001001","source_layer":"resp","source_record":761,"name":"太平山水库","name_source":"aanp_spatial"}}]};

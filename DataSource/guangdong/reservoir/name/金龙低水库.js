@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"金龙低水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.15512410930106,21.99886061048142]},"properties":{"GB":310108,"id":52983,"ORIG_FID":1213,"source_tile":"f49c003003","source_layer":"resp","source_record":1214,"name":"金龙低水库","name_source":"aanp_id"}}]};

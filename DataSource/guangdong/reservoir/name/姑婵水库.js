@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"姑婵水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.73051631271429,23.145397911378485]},"properties":{"GB":310107,"id":32884,"ORIG_FID":677,"source_tile":"f49c001003","source_layer":"resp","source_record":678,"name":"姑婵水库","name_source":"aanp_id"}}]};

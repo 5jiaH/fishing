@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石剑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.81412631401012,22.286039390988677]},"properties":{"GB":310300,"id":45098,"ORIG_FID":659,"source_tile":"f49c002003","source_layer":"resp","source_record":660,"name":"石剑水库","name_source":"aanp_id"}}]};

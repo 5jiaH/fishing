@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"辣菜塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.78050152771482,23.692524262947767]},"properties":{"GB":310300,"id":34624,"ORIG_FID":2635,"source_tile":"f49c001003","source_layer":"resp","source_record":2636,"name":"辣菜塘","name_source":"aanp_id"}}]};

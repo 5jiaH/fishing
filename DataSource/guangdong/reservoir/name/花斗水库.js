@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"花斗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.59807054216921,23.696767682431297]},"properties":{"GB":310108,"id":36026,"ORIG_FID":2650,"source_tile":"f49c001003","source_layer":"resp","source_record":2651,"name":"花斗水库","name_source":"aanp_id"}}]};

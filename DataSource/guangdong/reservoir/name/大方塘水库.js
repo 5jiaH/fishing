@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大方塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.15886839942146,23.150524035377895]},"properties":{"GB":310300,"id":57711,"ORIG_FID":606,"source_tile":"f50c001001","source_layer":"resp","source_record":607,"name":"大方塘水库","name_source":"aanp_spatial"}}]};

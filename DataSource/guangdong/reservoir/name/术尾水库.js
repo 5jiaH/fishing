@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"术尾水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.61346514342222,21.60935242060722]},"properties":{"GB":310107,"id":48621,"ORIG_FID":1854,"source_tile":"f49c003002","source_layer":"resp","source_record":1855,"name":"术尾水库","name_source":"aanp_id"}}]};

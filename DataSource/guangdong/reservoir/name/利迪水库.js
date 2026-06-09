@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"利迪水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.30672174571782,22.160213764876957]},"properties":{"GB":310300,"id":44911,"ORIG_FID":383,"source_tile":"f49c002003","source_layer":"resp","source_record":384,"name":"利迪水库","name_source":"aanp_id"}}]};

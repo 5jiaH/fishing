@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"红江水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.38599610254293,22.659209071229736]},"properties":{"GB":310107,"id":45029,"ORIG_FID":1659,"source_tile":"f49c002003","source_layer":"resp","source_record":1660,"name":"红江水库","name_source":"aanp_id"}}]};

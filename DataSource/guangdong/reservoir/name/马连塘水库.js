@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"马连塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.02127652767501,22.863063008466522]},"properties":{"GB":310108,"id":60728,"ORIG_FID":1018,"source_tile":"f50c002001","source_layer":"resp","source_record":1019,"name":"马连塘水库","name_source":"aanp_id"}}]};

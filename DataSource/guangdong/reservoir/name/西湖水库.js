@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"西湖水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.66252180919128,24.800328448943088]},"properties":{"GB":310300,"id":191819,"ORIG_FID":2004,"source_tile":"g50c004001","source_layer":"resp","source_record":2005,"name":"西湖水库","name_source":"aanp_spatial"}}]};

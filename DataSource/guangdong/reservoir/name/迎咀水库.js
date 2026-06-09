@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"迎咀水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.74476172341214,23.040605891409882]},"properties":{"GB":311105,"id":36927,"ORIG_FID":45,"source_tile":"f49c001004","source_layer":"resp","source_record":46,"name":"迎咀水库","name_source":"aanp_id"}}]};

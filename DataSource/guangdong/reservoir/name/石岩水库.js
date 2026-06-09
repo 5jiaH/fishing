@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石岩水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.54644726737953,21.602167506446257]},"properties":{"GB":310107,"id":52166,"ORIG_FID":177,"source_tile":"f49c003003","source_layer":"resp","source_record":178,"name":"石岩水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"云豆水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.56717430792126,21.939871042772374]},"properties":{"GB":310107,"id":48907,"ORIG_FID":3502,"source_tile":"f49c003002","source_layer":"resp","source_record":3503,"name":"云豆水库","name_source":"aanp_id"}}]};

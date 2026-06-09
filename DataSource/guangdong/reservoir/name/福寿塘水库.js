@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"福寿塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.32318768777455,20.061536396593027]},"properties":{"GB":310300,"id":54350,"ORIG_FID":305,"source_tile":"f49c004002","source_layer":"resp","source_record":306,"name":"福寿塘水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"西洋冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.64957631897173,22.024004039556733]},"properties":{"GB":310300,"id":44529,"ORIG_FID":55,"source_tile":"f49c002003","source_layer":"resp","source_record":56,"name":"西洋冲水库","name_source":"aanp_spatial"}}]};

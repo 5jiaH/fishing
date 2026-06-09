@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"阿婆髻水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.48510552831982,21.619449553625536]},"properties":{"GB":310107,"id":52178,"ORIG_FID":203,"source_tile":"f49c003003","source_layer":"resp","source_record":204,"name":"阿婆髻水库","name_source":"aanp_id"}}]};

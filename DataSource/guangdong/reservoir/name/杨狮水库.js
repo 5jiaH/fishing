@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"杨狮水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.4022726465123,24.772852098862774]},"properties":{"GB":310107,"id":158705,"ORIG_FID":1234,"source_tile":"g49c004003","source_layer":"resp","source_record":1235,"name":"杨狮水库","name_source":"aanp_spatial"}}]};

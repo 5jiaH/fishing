@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"西塘河水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.00426338536309,22.943961944925295]},"properties":{"GB":310300,"id":45082,"ORIG_FID":2469,"source_tile":"f49c002003","source_layer":"resp","source_record":2470,"name":"西塘河水库","name_source":"aanp_id"}}]};

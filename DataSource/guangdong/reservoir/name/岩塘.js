@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"岩塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.48454774731908,25.054733976780064]},"properties":{"GB":310107,"id":180393,"ORIG_FID":93,"source_tile":"g50c003001","source_layer":"resp","source_record":94,"name":"岩塘","name_source":"aanp_id"}}]};

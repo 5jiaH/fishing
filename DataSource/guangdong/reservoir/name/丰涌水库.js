@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"丰涌水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.21165708246996,23.174898209509376]},"properties":{"GB":310107,"id":33052,"ORIG_FID":829,"source_tile":"f49c001003","source_layer":"resp","source_record":830,"name":"丰涌水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"庙背水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.14139239655651,25.273116336913937]},"properties":{"GB":310108,"id":181998,"ORIG_FID":499,"source_tile":"g50c003001","source_layer":"resp","source_record":500,"name":"庙背水库","name_source":"aanp_id"}}]};

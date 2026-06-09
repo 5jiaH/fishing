@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"六胆水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.55975559047198,22.074098191306213]},"properties":{"GB":310108,"id":43808,"ORIG_FID":190,"source_tile":"f49c002003","source_layer":"resp","source_record":191,"name":"六胆水库","name_source":"aanp_id"}}]};

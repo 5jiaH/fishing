@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"七社水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.54702041877789,24.87142760046881]},"properties":{"GB":310107,"id":158753,"ORIG_FID":1426,"source_tile":"g49c004003","source_layer":"resp","source_record":1427,"name":"七社水库","name_source":"aanp_spatial"}}]};

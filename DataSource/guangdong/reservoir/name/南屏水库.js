@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"南屏水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.58273245538403,21.81247224875813]},"properties":{"GB":310108,"id":50449,"ORIG_FID":2861,"source_tile":"f49c003002","source_layer":"resp","source_record":2862,"name":"南屏水库","name_source":"aanp_id"}}]};

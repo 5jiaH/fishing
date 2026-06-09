@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"南村塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.948453432703,21.24911015534705]},"properties":{"GB":310108,"id":49518,"ORIG_FID":444,"source_tile":"f49c003002","source_layer":"resp","source_record":445,"name":"南村塘水库","name_source":"aanp_id"}}]};

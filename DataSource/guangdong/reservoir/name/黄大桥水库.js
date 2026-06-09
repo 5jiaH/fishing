@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黄大桥水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.15226045543373,21.83404339522097]},"properties":{"GB":310108,"id":50494,"ORIG_FID":2972,"source_tile":"f49c003002","source_layer":"resp","source_record":2973,"name":"黄大桥水库","name_source":"aanp_id"}}]};

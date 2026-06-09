@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"运肚水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.37718770841872,22.850915639107328]},"properties":{"GB":310107,"id":44055,"ORIG_FID":2191,"source_tile":"f49c002003","source_layer":"resp","source_record":2192,"name":"运肚水库","name_source":"osm"}}]};

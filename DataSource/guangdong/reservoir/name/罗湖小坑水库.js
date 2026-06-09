@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"罗湖小坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.09970987971762,22.58812184558341]},"properties":{"GB":310300,"id":61154,"ORIG_FID":324,"source_tile":"f50c002001","source_layer":"resp","source_record":325,"name":"罗湖小坑水库","name_source":"aanp_spatial"}}]};

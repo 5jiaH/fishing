@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"蓝口镇南坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.06522149484563,23.934028100771965]},"properties":{"GB":310300,"id":56414,"ORIG_FID":3186,"source_tile":"f50c001001","source_layer":"resp","source_record":3187,"name":"蓝口镇南坑水库","name_source":"aanp_spatial"}}]};

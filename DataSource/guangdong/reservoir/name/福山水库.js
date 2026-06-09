@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"福山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.55124734638983,21.446965872269796]},"properties":{"GB":310108,"id":51771,"ORIG_FID":1024,"source_tile":"f49c003002","source_layer":"resp","source_record":1025,"name":"福山水库","name_source":"aanp_id"}}]};

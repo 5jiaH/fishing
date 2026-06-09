@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大桥冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.41275219993207,23.170635901250147]},"properties":{"GB":310107,"id":33036,"ORIG_FID":809,"source_tile":"f49c001003","source_layer":"resp","source_record":810,"name":"大桥冲水库","name_source":"aanp_id"}}]};

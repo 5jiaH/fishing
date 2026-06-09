@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大良水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.55947179049414,22.721242412167886]},"properties":{"GB":310107,"id":43619,"ORIG_FID":1829,"source_tile":"f49c002003","source_layer":"resp","source_record":1830,"name":"大良水库","name_source":"aanp_id"}}]};

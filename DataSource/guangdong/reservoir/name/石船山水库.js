@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石船山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.32403265829531,20.484756138571214]},"properties":{"GB":311105,"id":54311,"ORIG_FID":590,"source_tile":"f49c004002","source_layer":"resp","source_record":591,"name":"石船山水库","name_source":"aanp_id"}}]};

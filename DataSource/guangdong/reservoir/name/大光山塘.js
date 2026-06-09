@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大光山塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.22195563701803,23.090699803845727]},"properties":{"GB":311105,"id":36943,"ORIG_FID":97,"source_tile":"f49c001004","source_layer":"resp","source_record":98,"name":"大光山塘","name_source":"aanp_id"}}]};

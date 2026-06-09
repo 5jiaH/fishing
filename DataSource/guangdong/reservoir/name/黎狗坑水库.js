@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黎狗坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.50612208384203,24.3649959910317]},"properties":{"GB":310108,"id":194628,"ORIG_FID":1459,"source_tile":"g50c004002","source_layer":"resp","source_record":1460,"name":"黎狗坑水库","name_source":"aanp_spatial"}}]};

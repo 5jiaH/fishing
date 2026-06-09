@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"奴迪尾水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.00744384713856,20.862913841080033]},"properties":{"GB":310300,"id":54333,"ORIG_FID":1063,"source_tile":"f49c004002","source_layer":"resp","source_record":1064,"name":"奴迪尾水库","name_source":"aanp_id"}}]};

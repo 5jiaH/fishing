@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"横圳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.8052307226879,21.892849559057304]},"properties":{"GB":310108,"id":52877,"ORIG_FID":912,"source_tile":"f49c003003","source_layer":"resp","source_record":913,"name":"横圳水库","name_source":"aanp_id"}}]};

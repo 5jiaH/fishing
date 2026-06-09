@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"四滩水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.78712816973783,22.002361844961005]},"properties":{"GB":310300,"id":44903,"ORIG_FID":5,"source_tile":"f49c002003","source_layer":"resp","source_record":6,"name":"四滩水库","name_source":"aanp_id"}}]};

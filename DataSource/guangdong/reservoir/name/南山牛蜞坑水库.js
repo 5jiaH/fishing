@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"南山牛蜞坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.1830924953023,20.812668987819194]},"properties":{"GB":311105,"id":54324,"ORIG_FID":998,"source_tile":"f49c004002","source_layer":"resp","source_record":999,"name":"南山牛蜞坑水库","name_source":"aanp_id"}}]};

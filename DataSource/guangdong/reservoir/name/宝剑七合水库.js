@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"宝剑七合水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.58331414217503,21.64614575540078]},"properties":{"GB":310300,"id":50862,"ORIG_FID":2048,"source_tile":"f49c003002","source_layer":"resp","source_record":2049,"name":"宝剑七合水库","name_source":"aanp_id"}}]};

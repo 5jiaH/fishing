@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"马坑肚水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.49532986276648,23.602803498559055]},"properties":{"GB":310108,"id":55747,"ORIG_FID":2337,"source_tile":"f50c001001","source_layer":"resp","source_record":2338,"name":"马坑肚水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"东岩水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.62312194684299,23.253719623225155]},"properties":{"GB":310300,"id":58115,"ORIG_FID":316,"source_tile":"f50c001002","source_layer":"resp","source_record":317,"name":"东岩水库","name_source":"aanp_spatial"}}]};

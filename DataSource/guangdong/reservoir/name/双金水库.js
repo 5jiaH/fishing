@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"双金水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.38449861460653,23.194993818747278]},"properties":{"GB":310107,"id":33048,"ORIG_FID":915,"source_tile":"f49c001003","source_layer":"resp","source_record":916,"name":"双金水库","name_source":"aanp_id"}}]};

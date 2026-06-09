@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"牛坳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.17532832193746,20.05776351086368]},"properties":{"GB":310300,"id":54387,"ORIG_FID":284,"source_tile":"f49c004002","source_layer":"resp","source_record":285,"name":"牛坳水库","name_source":"aanp_id"}}]};

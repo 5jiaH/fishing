@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"三变水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.63298249578206,24.23991648777868]},"properties":{"GB":310300,"id":195816,"ORIG_FID":917,"source_tile":"g50c004002","source_layer":"resp","source_record":918,"name":"三变水库","name_source":"aanp_spatial"}}]};

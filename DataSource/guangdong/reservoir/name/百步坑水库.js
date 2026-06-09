@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"百步坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.85845293800355,20.644709694384566]},"properties":{"GB":311105,"id":54318,"ORIG_FID":790,"source_tile":"f49c004002","source_layer":"resp","source_record":791,"name":"百步坑水库","name_source":"aanp_id"}}]};

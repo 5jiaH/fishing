@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"古丁水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.01928353579528,22.937929832270765]},"properties":{"GB":310300,"id":44922,"ORIG_FID":2443,"source_tile":"f49c002003","source_layer":"resp","source_record":2444,"name":"古丁水库","name_source":"aanp_id"}}]};

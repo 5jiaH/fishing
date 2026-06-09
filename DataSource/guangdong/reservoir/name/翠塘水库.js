@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"翠塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.0587843994981,23.221319810622187]},"properties":{"GB":310107,"id":33095,"ORIG_FID":1013,"source_tile":"f49c001003","source_layer":"resp","source_record":1014,"name":"翠塘水库","name_source":"aanp_id"}}]};

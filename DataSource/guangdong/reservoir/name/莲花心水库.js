@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"莲花心水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.16197019540124,25.328116478884688]},"properties":{"GB":310108,"id":181997,"ORIG_FID":597,"source_tile":"g50c003001","source_layer":"resp","source_record":598,"name":"莲花心水库","name_source":"aanp_id"}}]};

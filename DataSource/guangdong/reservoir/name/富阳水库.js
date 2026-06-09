@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"富阳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.19575825689647,22.70564658964158]},"properties":{"GB":310300,"id":44916,"ORIG_FID":1779,"source_tile":"f49c002003","source_layer":"resp","source_record":1780,"name":"富阳水库","name_source":"aanp_id"}}]};

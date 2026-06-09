@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"九坑河水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.93455374137781,23.671359881033105]},"properties":{"GB":310107,"id":38244,"ORIG_FID":1209,"source_tile":"f49c001004","source_layer":"resp","source_record":1210,"name":"九坑河水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"禾苍排水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.29436635870658,25.909962200988357]},"properties":{"GB":310107,"id":181260,"ORIG_FID":1714,"source_tile":"g50c003001","source_layer":"resp","source_record":1715,"name":"禾苍排水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"博下水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.31983424353004,25.060938293500623]},"properties":{"GB":310107,"id":180397,"ORIG_FID":102,"source_tile":"g50c003001","source_layer":"resp","source_record":103,"name":"博下水库","name_source":"aanp_id"}}]};

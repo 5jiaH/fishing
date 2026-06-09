@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"小山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.69641903146487,23.152632262401518]},"properties":{"GB":310107,"id":32979,"ORIG_FID":717,"source_tile":"f49c001003","source_layer":"resp","source_record":718,"name":"小山水库","name_source":"aanp_id"}}]};

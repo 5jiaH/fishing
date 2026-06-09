@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"五景峰水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.64098405638194,24.729406602280868]},"properties":{"GB":311105,"id":194172,"ORIG_FID":2896,"source_tile":"g50c004002","source_layer":"resp","source_record":2897,"name":"五景峰水库","name_source":"aanp_spatial"}}]};

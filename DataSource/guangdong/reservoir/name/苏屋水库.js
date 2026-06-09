@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"苏屋水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.11782465991763,21.656635505174826]},"properties":{"GB":310109,"id":53004,"ORIG_FID":281,"source_tile":"f49c003003","source_layer":"resp","source_record":282,"name":"苏屋水库","name_source":"aanp_spatial"}}]};

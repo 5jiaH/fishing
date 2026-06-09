@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"埂水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[117.03706243748533,23.85009627140171]},"properties":{"GB":310107,"id":59848,"ORIG_FID":371,"source_tile":"f50c001003","source_layer":"resp","source_record":372,"name":"埂水库","name_source":"aanp_id"}}]};

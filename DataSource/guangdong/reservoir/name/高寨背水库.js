@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"高寨背水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.90100933212477,24.839236955651423]},"properties":{"GB":310107,"id":194391,"ORIG_FID":3269,"source_tile":"g50c004002","source_layer":"resp","source_record":3270,"name":"高寨背水库","name_source":"aanp_spatial"}}]};

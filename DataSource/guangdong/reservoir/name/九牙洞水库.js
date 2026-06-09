@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"九牙洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.05819766896954,23.273886896294194]},"properties":{"GB":310300,"id":57605,"ORIG_FID":1111,"source_tile":"f50c001001","source_layer":"resp","source_record":1112,"name":"九牙洞水库","name_source":"aanp_spatial"}}]};

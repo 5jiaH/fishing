@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"罗坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.2138742507172,25.72730766149398]},"properties":{"GB":310107,"id":181034,"ORIG_FID":1304,"source_tile":"g50c003001","source_layer":"resp","source_record":1305,"name":"罗坑水库","name_source":"aanp_id"}}]};

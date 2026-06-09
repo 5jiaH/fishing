@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"塘肚仔水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.70386810988302,20.005872703689498]},"properties":{"GB":310300,"id":54357,"ORIG_FID":49,"source_tile":"f49c004002","source_layer":"resp","source_record":50,"name":"塘肚仔水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"谷山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.78749369975336,25.781580371902635]},"properties":{"GB":310107,"id":181105,"ORIG_FID":1405,"source_tile":"g50c003001","source_layer":"resp","source_record":1406,"name":"谷山水库","name_source":"aanp_spatial"}}]};

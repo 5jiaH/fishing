@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"寨儿景水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.85443772202372,23.15000170332695]},"properties":{"GB":310107,"id":32976,"ORIG_FID":699,"source_tile":"f49c001003","source_layer":"resp","source_record":700,"name":"寨儿景水库","name_source":"aanp_id"}}]};

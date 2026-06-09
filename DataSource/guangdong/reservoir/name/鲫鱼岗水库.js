@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鲫鱼岗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.44338966205066,21.532602951037827]},"properties":{"GB":310108,"id":52661,"ORIG_FID":72,"source_tile":"f49c003003","source_layer":"resp","source_record":73,"name":"鲫鱼岗水库","name_source":"aanp_id"}}]};

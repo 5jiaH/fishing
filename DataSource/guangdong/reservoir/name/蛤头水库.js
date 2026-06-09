@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"蛤头水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.37279177560681,23.1733356727017]},"properties":{"GB":310107,"id":33053,"ORIG_FID":824,"source_tile":"f49c001003","source_layer":"resp","source_record":825,"name":"蛤头水库","name_source":"aanp_id"}}]};

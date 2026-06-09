@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"罗汉山西水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.82859802857215,21.855720480112506]},"properties":{"GB":310108,"id":51659,"ORIG_FID":3081,"source_tile":"f49c003002","source_layer":"resp","source_record":3082,"name":"罗汉山西水库","name_source":"aanp_id"}}]};

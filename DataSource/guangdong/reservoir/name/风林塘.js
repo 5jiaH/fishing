@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"风林塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.62387573084447,23.59172151817095]},"properties":{"GB":310107,"id":54876,"ORIG_FID":2297,"source_tile":"f50c001001","source_layer":"resp","source_record":2298,"name":"风林塘","name_source":"aanp_spatial"}}]};

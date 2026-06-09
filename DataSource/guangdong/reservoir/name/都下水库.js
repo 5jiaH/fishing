@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"都下水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.67944912569887,21.976981956230368]},"properties":{"GB":310108,"id":49737,"ORIG_FID":3708,"source_tile":"f49c003002","source_layer":"resp","source_record":3709,"name":"都下水库","name_source":"aanp_id"}}]};

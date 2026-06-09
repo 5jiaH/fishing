@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"彭村塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.50742704646251,22.72636441890814]},"properties":{"GB":310108,"id":60798,"ORIG_FID":605,"source_tile":"f50c002001","source_layer":"resp","source_record":606,"name":"彭村塘","name_source":"aanp_id"}}]};

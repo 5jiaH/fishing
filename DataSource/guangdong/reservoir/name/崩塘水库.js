@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"崩塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.16373424576176,23.201628660745044]},"properties":{"GB":310107,"id":33051,"ORIG_FID":932,"source_tile":"f49c001003","source_layer":"resp","source_record":933,"name":"崩塘水库","name_source":"aanp_id"}}]};

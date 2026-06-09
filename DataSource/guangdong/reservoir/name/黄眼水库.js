@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黄眼水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.47791400689435,25.367869551974387]},"properties":{"GB":310108,"id":182115,"ORIG_FID":666,"source_tile":"g50c003001","source_layer":"resp","source_record":667,"name":"黄眼水库","name_source":"aanp_id"}}]};

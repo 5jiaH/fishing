@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"盘古水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.51157841408937,25.206323804464237]},"properties":{"GB":310108,"id":151096,"ORIG_FID":390,"source_tile":"g49c003003","source_layer":"resp","source_record":391,"name":"盘古水库","name_source":"aanp_spatial"}}]};

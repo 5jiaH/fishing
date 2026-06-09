@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"达溪水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.87977159099103,23.39822365842732]},"properties":{"GB":310107,"id":37003,"ORIG_FID":590,"source_tile":"f49c001004","source_layer":"resp","source_record":591,"name":"达溪水库","name_source":"aanp_id"}}]};

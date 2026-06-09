@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大寮水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.95606402375537,21.996249816998326]},"properties":{"GB":310107,"id":48960,"ORIG_FID":3831,"source_tile":"f49c003002","source_layer":"resp","source_record":3832,"name":"大寮水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"麻子坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.0349477205208,25.513239141454847]},"properties":{"GB":310108,"id":181961,"ORIG_FID":912,"source_tile":"g50c003001","source_layer":"resp","source_record":913,"name":"麻子坑水库","name_source":"aanp_id"}}]};

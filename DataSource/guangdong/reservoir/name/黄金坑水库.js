@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黄金坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.3750547724803,21.895183541047736]},"properties":{"GB":310108,"id":51823,"ORIG_FID":3273,"source_tile":"f49c003002","source_layer":"resp","source_record":3274,"name":"黄金坑水库","name_source":"aanp_id"}}]};

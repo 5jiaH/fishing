@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黎水坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.7898578011065,22.662102413770846]},"properties":{"GB":310108,"id":43746,"ORIG_FID":1670,"source_tile":"f49c002003","source_layer":"resp","source_record":1671,"name":"黎水坑水库","name_source":"osm"}}]};

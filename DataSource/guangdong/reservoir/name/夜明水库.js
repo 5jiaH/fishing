@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"夜明水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.8537539650176,24.214456513440208]},"properties":{"GB":310107,"id":192935,"ORIG_FID":827,"source_tile":"g50c004002","source_layer":"resp","source_record":828,"name":"夜明水库","name_source":"aanp_spatial"}}]};

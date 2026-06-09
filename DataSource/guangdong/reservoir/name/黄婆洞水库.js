@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黄婆洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.61469432674235,23.91986540522195]},"properties":{"GB":310107,"id":38242,"ORIG_FID":1713,"source_tile":"f49c001004","source_layer":"resp","source_record":1714,"name":"黄婆洞水库","name_source":"aanp_id"}}]};

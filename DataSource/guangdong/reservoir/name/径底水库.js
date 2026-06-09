@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"径底水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.43446020771967,23.38793800759058]},"properties":{"GB":310107,"id":58654,"ORIG_FID":538,"source_tile":"f50c001002","source_layer":"resp","source_record":539,"name":"径底水库","name_source":"aanp_spatial"}}]};

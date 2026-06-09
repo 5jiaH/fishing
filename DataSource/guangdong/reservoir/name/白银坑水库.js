@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白银坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.97423424416749,21.26410612163525]},"properties":{"GB":310108,"id":51916,"ORIG_FID":479,"source_tile":"f49c003002","source_layer":"resp","source_record":480,"name":"白银坑水库","name_source":"aanp_id"}}]};

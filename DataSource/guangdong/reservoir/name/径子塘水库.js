@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"径子塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.80559380382553,25.35867443148403]},"properties":{"GB":310108,"id":181896,"ORIG_FID":648,"source_tile":"g50c003001","source_layer":"resp","source_record":649,"name":"径子塘水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"禾镰坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.60057618706178,21.39907713303879]},"properties":{"GB":310107,"id":51137,"ORIG_FID":848,"source_tile":"f49c003002","source_layer":"resp","source_record":849,"name":"禾镰坑水库","name_source":"aanp_id"}}]};

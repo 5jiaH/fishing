@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"龙崩水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.56494205167098,23.16378756007005]},"properties":{"GB":310107,"id":33021,"ORIG_FID":779,"source_tile":"f49c001003","source_layer":"resp","source_record":780,"name":"龙崩水库","name_source":"aanp_id"}}]};

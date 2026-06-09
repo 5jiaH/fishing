@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"旱河水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.44529884685235,23.3483404208644]},"properties":{"GB":310107,"id":36905,"ORIG_FID":496,"source_tile":"f49c001004","source_layer":"resp","source_record":497,"name":"旱河水库","name_source":"aanp_id"}}]};

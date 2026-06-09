@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"登畲嶂水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.49309263271539,23.46554829173302]},"properties":{"GB":310300,"id":56899,"ORIG_FID":1777,"source_tile":"f50c001001","source_layer":"resp","source_record":1778,"name":"登畲嶂水库","name_source":"aanp_spatial"}}]};

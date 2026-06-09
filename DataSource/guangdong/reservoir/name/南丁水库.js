@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"南丁水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.96798169685911,22.48111774819428]},"properties":{"GB":310107,"id":43281,"ORIG_FID":1184,"source_tile":"f49c002003","source_layer":"resp","source_record":1185,"name":"南丁水库","name_source":"aanp_id"}}]};

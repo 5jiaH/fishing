@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"骆洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.9656797184038,24.11096009300886]},"properties":{"GB":310300,"id":192256,"ORIG_FID":293,"source_tile":"g50c004001","source_layer":"resp","source_record":294,"name":"骆洞水库","name_source":"aanp_spatial"}}]};

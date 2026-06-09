@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"青训水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.11588271624188,22.944328115486456]},"properties":{"GB":310109,"id":62033,"ORIG_FID":183,"source_tile":"f50c002002","source_layer":"resp","source_record":184,"name":"青训水库","name_source":"aanp_id"}}]};

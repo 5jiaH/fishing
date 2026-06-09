@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"冲坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.8049282899911,25.455390089979613]},"properties":{"GB":310107,"id":182137,"ORIG_FID":814,"source_tile":"g50c003001","source_layer":"resp","source_record":815,"name":"冲坑水库","name_source":"aanp_id"}}]};

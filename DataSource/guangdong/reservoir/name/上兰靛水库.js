@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"上兰靛水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.37452619646754,25.93219629285146]},"properties":{"GB":310107,"id":181292,"ORIG_FID":1762,"source_tile":"g50c003001","source_layer":"resp","source_record":1763,"name":"上兰靛水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"狮形水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.19759419509715,25.10976032764205]},"properties":{"GB":310108,"id":151579,"ORIG_FID":203,"source_tile":"g49c003003","source_layer":"resp","source_record":204,"name":"狮形水库","name_source":"osm"}}]};

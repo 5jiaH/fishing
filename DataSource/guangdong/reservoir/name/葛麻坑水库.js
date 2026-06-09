@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"葛麻坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.21000070392934,23.767473772562653]},"properties":{"GB":310108,"id":36000,"ORIG_FID":2900,"source_tile":"f49c001003","source_layer":"resp","source_record":2901,"name":"葛麻坑水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"茶根水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.45863531884916,22.52470414110146]},"properties":{"GB":310107,"id":43345,"ORIG_FID":1292,"source_tile":"f49c002003","source_layer":"resp","source_record":1293,"name":"茶根水库","name_source":"aanp_id"}}]};

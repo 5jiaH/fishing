@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"五指耙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.23083982481884,21.779397870544592]},"properties":{"GB":310107,"id":52363,"ORIG_FID":564,"source_tile":"f49c003003","source_layer":"resp","source_record":565,"name":"五指耙水库","name_source":"aanp_id"}}]};

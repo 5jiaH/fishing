@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"灌水水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.7076679087231,22.918718337569377]},"properties":{"GB":310108,"id":61579,"ORIG_FID":1183,"source_tile":"f50c002001","source_layer":"resp","source_record":1184,"name":"灌水水库","name_source":"aanp_id"}}]};

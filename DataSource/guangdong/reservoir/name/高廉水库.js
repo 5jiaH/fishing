@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"高廉水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.98843621444807,25.19223462959994]},"properties":{"GB":310108,"id":181499,"ORIG_FID":350,"source_tile":"g50c003001","source_layer":"resp","source_record":351,"name":"高廉水库","name_source":"aanp_id"}}]};

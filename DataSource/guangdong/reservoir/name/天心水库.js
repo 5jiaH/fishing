@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"天心水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.4003282192862,23.163069272857317]},"properties":{"GB":310107,"id":33028,"ORIG_FID":773,"source_tile":"f49c001003","source_layer":"resp","source_record":774,"name":"天心水库","name_source":"aanp_id"}}]};

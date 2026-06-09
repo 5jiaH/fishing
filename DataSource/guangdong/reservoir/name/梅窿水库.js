@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"梅窿水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.50608998124957,23.770546350075783]},"properties":{"GB":310300,"id":38257,"ORIG_FID":1424,"source_tile":"f49c001004","source_layer":"resp","source_record":1425,"name":"梅窿水库","name_source":"aanp_id"}}]};

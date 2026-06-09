@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"曹田坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.13848638047978,25.781894395628058]},"properties":{"GB":310107,"id":181115,"ORIG_FID":1406,"source_tile":"g50c003001","source_layer":"resp","source_record":1407,"name":"曹田坑水库","name_source":"aanp_id"}}]};

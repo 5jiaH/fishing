@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"镬厂坪水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.69755605049937,21.631754457086405]},"properties":{"GB":310107,"id":48638,"ORIG_FID":1972,"source_tile":"f49c003002","source_layer":"resp","source_record":1973,"name":"镬厂坪水库","name_source":"aanp_id"}}]};

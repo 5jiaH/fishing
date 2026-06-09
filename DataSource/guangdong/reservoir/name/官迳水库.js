@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"官迳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.29419557412507,21.60753002352145]},"properties":{"GB":310108,"id":52692,"ORIG_FID":183,"source_tile":"f49c003003","source_layer":"resp","source_record":184,"name":"官迳水库","name_source":"aanp_id"}}]};

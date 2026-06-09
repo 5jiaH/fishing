@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"梧州市旺村水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.47686855200652,23.00358817887469]},"properties":{"GB":310108,"id":33924,"ORIG_FID":14,"source_tile":"f49c001003","source_layer":"resp","source_record":15,"name":"梧州市旺村水库","name_source":"aanp_id"}}]};

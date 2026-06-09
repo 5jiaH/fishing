@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"登路冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[117.21355567355394,23.94856394515843]},"properties":{"GB":310107,"id":59892,"ORIG_FID":507,"source_tile":"f50c001003","source_layer":"resp","source_record":508,"name":"登路冲水库","name_source":"aanp_id"}}]};

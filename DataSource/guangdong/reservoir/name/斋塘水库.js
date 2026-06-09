@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"斋塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.58502526130249,25.04759634154876]},"properties":{"GB":310107,"id":180387,"ORIG_FID":80,"source_tile":"g50c003001","source_layer":"resp","source_record":81,"name":"斋塘水库","name_source":"aanp_spatial"}}]};

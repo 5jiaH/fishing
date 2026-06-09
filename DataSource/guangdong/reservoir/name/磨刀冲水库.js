@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"磨刀冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.04775416123667,23.140369529053295]},"properties":{"GB":310107,"id":32890,"ORIG_FID":658,"source_tile":"f49c001003","source_layer":"resp","source_record":659,"name":"磨刀冲水库","name_source":"aanp_id"}}]};

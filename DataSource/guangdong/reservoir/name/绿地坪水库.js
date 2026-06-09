@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"绿地坪水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.6701316517038,23.307165605894653]},"properties":{"GB":310300,"id":59460,"ORIG_FID":420,"source_tile":"f50c001002","source_layer":"resp","source_record":421,"name":"绿地坪水库","name_source":"aanp_id"}}]};

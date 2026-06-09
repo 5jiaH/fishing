@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"后背塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.5334900306878,23.54004756320398]},"properties":{"GB":310300,"id":56838,"ORIG_FID":2116,"source_tile":"f50c001001","source_layer":"resp","source_record":2117,"name":"后背塘水库","name_source":"aanp_spatial"}}]};

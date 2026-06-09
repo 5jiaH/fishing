@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"烟管山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.92602596889564,21.642348166360303]},"properties":{"GB":310107,"id":51076,"ORIG_FID":2029,"source_tile":"f49c003002","source_layer":"resp","source_record":2030,"name":"烟管山水库","name_source":"aanp_id"}}]};

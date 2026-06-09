@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鸭仔嶂水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.06761123874779,22.808881451757834]},"properties":{"GB":311105,"id":61019,"ORIG_FID":833,"source_tile":"f50c002001","source_layer":"resp","source_record":834,"name":"鸭仔嶂水库","name_source":"aanp_id"}}]};

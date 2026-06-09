@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"澄塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.62563810017573,23.531993658977512]},"properties":{"GB":310300,"id":56986,"ORIG_FID":2077,"source_tile":"f50c001001","source_layer":"resp","source_record":2078,"name":"澄塘水库","name_source":"aanp_spatial"}}]};

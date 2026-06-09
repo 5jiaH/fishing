@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"塘洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.91496243102279,25.140720107992642]},"properties":{"GB":310107,"id":180495,"ORIG_FID":247,"source_tile":"g50c003001","source_layer":"resp","source_record":248,"name":"塘洞水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"牛子坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.09618552965114,25.758297886407266]},"properties":{"GB":310107,"id":181076,"ORIG_FID":1362,"source_tile":"g50c003001","source_layer":"resp","source_record":1363,"name":"牛子坑水库","name_source":"aanp_id"}}]};

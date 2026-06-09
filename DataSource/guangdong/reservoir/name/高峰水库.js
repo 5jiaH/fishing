@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"高峰水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.11137019628767,21.6228197288169]},"properties":{"GB":310107,"id":52097,"ORIG_FID":206,"source_tile":"f49c003003","source_layer":"resp","source_record":207,"name":"高峰水库","name_source":"aanp_id"}}]};

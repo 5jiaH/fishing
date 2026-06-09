@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"筲箕窝水库（龙洞水库）","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.38422487655819,23.22889813643476]},"properties":{"GB":310300,"id":37932,"ORIG_FID":301,"source_tile":"f49c001004","source_layer":"resp","source_record":302,"name":"筲箕窝水库（龙洞水库）","name_source":"osm"}}]};

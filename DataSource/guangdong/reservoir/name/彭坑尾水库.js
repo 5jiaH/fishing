@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"彭坑尾水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.39082629204225,24.75860511966861]},"properties":{"GB":310300,"id":195436,"ORIG_FID":3005,"source_tile":"g50c004002","source_layer":"resp","source_record":3006,"name":"彭坑尾水库","name_source":"aanp_spatial"}}]};

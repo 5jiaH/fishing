@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"月坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.86624639964543,21.6344379653318]},"properties":{"GB":310107,"id":51109,"ORIG_FID":1988,"source_tile":"f49c003002","source_layer":"resp","source_record":1989,"name":"月坑水库","name_source":"aanp_id"}}]};

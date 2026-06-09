@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"塘缀水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.71533029059768,22.88919188895262]},"properties":{"GB":310107,"id":62035,"ORIG_FID":116,"source_tile":"f50c002002","source_layer":"resp","source_record":117,"name":"塘缀水库","name_source":"aanp_id"}}]};

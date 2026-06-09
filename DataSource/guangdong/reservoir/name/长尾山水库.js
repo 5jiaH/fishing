@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"长尾山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.36969969079163,20.035483904172402]},"properties":{"GB":310300,"id":54290,"ORIG_FID":224,"source_tile":"f49c004002","source_layer":"resp","source_record":225,"name":"长尾山水库","name_source":"aanp_id"}}]};

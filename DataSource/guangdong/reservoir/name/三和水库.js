@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"三和水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.17781104285535,22.992936372333528]},"properties":{"GB":310107,"id":44256,"ORIG_FID":2637,"source_tile":"f49c002003","source_layer":"resp","source_record":2638,"name":"三和水库","name_source":"aanp_id"}}]};

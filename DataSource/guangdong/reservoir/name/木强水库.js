@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"木强水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.68711193783278,23.717166218183117]},"properties":{"GB":310300,"id":38252,"ORIG_FID":1313,"source_tile":"f49c001004","source_layer":"resp","source_record":1314,"name":"木强水库","name_source":"aanp_id"}}]};

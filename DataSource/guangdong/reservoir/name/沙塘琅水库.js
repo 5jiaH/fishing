@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"沙塘琅水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.42589935048963,22.995848122048024]},"properties":{"GB":310300,"id":62030,"ORIG_FID":292,"source_tile":"f50c002002","source_layer":"resp","source_record":293,"name":"沙塘琅水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"银河水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.44887021307471,21.992827348198762]},"properties":{"GB":310107,"id":48957,"ORIG_FID":3799,"source_tile":"f49c003002","source_layer":"resp","source_record":3800,"name":"银河水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"图洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.14783919966193,23.289986190801937]},"properties":{"GB":310300,"id":56965,"ORIG_FID":1161,"source_tile":"f50c001001","source_layer":"resp","source_record":1162,"name":"图洞水库","name_source":"aanp_spatial"}}]};

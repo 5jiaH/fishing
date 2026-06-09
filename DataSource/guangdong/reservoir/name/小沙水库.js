@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"小沙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.9172834040493,23.386041781353306]},"properties":{"GB":310107,"id":36987,"ORIG_FID":567,"source_tile":"f49c001004","source_layer":"resp","source_record":568,"name":"小沙水库","name_source":"aanp_id"}}]};

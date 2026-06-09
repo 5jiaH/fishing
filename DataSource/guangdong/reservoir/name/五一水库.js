@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"五一水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.42892834982715,20.99659000905545]},"properties":{"GB":310107,"id":53706,"ORIG_FID":1269,"source_tile":"f49c004002","source_layer":"resp","source_record":1270,"name":"五一水库","name_source":"aanp_spatial"}}]};

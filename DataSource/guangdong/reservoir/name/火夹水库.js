@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"火夹水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.02834232858463,24.69697245611213]},"properties":{"GB":310107,"id":192347,"ORIG_FID":1692,"source_tile":"g50c004001","source_layer":"resp","source_record":1693,"name":"火夹水库","name_source":"aanp_spatial"}}]};

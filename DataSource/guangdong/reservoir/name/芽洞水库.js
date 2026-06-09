@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"芽洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.46623081919742,25.573613860471323]},"properties":{"GB":310107,"id":150453,"ORIG_FID":1107,"source_tile":"g49c003003","source_layer":"resp","source_record":1108,"name":"芽洞水库","name_source":"aanp_spatial"}}]};

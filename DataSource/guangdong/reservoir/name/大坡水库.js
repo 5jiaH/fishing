@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大坡水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.99729545219802,22.90964228234973]},"properties":{"GB":310300,"id":44927,"ORIG_FID":2364,"source_tile":"f49c002003","source_layer":"resp","source_record":2365,"name":"大坡水库","name_source":"aanp_id"}}]};

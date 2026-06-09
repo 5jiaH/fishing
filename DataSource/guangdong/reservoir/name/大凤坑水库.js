@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大凤坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.91985176593575,21.941271405732365]},"properties":{"GB":310107,"id":48906,"ORIG_FID":3509,"source_tile":"f49c003002","source_layer":"resp","source_record":3510,"name":"大凤坑水库","name_source":"aanp_id"}}]};

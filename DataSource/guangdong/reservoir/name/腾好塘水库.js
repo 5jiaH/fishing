@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"腾好塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.03438423090645,22.981600649164502]},"properties":{"GB":310300,"id":45076,"ORIG_FID":2588,"source_tile":"f49c002003","source_layer":"resp","source_record":2589,"name":"腾好塘水库","name_source":"aanp_id"}}]};

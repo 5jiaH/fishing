@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"新围枯水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.23763156727594,25.943304054164873]},"properties":{"GB":310108,"id":181764,"ORIG_FID":1785,"source_tile":"g50c003001","source_layer":"resp","source_record":1786,"name":"新围枯水库","name_source":"aanp_id"}}]};

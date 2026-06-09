@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"东铺水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.66508254565744,25.818084333759472]},"properties":{"GB":310107,"id":181148,"ORIG_FID":1485,"source_tile":"g50c003001","source_layer":"resp","source_record":1486,"name":"东铺水库","name_source":"aanp_id"}}]};

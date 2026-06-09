@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"下洛水水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.69419835090056,25.89789209306863]},"properties":{"GB":310107,"id":181251,"ORIG_FID":1689,"source_tile":"g50c003001","source_layer":"resp","source_record":1690,"name":"下洛水水库","name_source":"aanp_id"}}]};

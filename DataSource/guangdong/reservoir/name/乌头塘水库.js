@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"乌头塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.81277609922013,22.872786181442883]},"properties":{"GB":310300,"id":61438,"ORIG_FID":1044,"source_tile":"f50c002001","source_layer":"resp","source_record":1045,"name":"乌头塘水库","name_source":"aanp_id"}}]};

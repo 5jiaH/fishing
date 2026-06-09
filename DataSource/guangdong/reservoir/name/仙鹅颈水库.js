@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"仙鹅颈水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.04472219535823,25.14543789351773]},"properties":{"GB":310108,"id":181967,"ORIG_FID":262,"source_tile":"g50c003001","source_layer":"resp","source_record":263,"name":"仙鹅颈水库","name_source":"aanp_id"}}]};

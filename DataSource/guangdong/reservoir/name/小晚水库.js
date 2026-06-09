@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"小晚水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.15591787152911,23.18669399851414]},"properties":{"GB":310107,"id":33063,"ORIG_FID":878,"source_tile":"f49c001003","source_layer":"resp","source_record":879,"name":"小晚水库","name_source":"aanp_id"}}]};

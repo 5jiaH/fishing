@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"草岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.57456241715175,24.81432384238369]},"properties":{"GB":310108,"id":160148,"ORIG_FID":1318,"source_tile":"g49c004003","source_layer":"resp","source_record":1319,"name":"草岭水库","name_source":"osm"}}]};

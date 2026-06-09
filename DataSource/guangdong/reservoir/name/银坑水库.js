@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"银坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.43569325428679,21.262337658342112]},"properties":{"GB":310300,"id":50839,"ORIG_FID":473,"source_tile":"f49c003002","source_layer":"resp","source_record":474,"name":"银坑水库","name_source":"aanp_id"}}]};

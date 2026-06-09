@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"中空水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.73782981375163,24.400573942384884]},"properties":{"GB":310108,"id":161495,"ORIG_FID":1015,"source_tile":"g49c004004","source_layer":"resp","source_record":1016,"name":"中空水库","name_source":"osm"}}]};

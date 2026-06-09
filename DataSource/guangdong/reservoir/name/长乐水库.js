@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"长乐水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.9967579255609,24.771536179249587]},"properties":{"GB":310300,"id":191896,"ORIG_FID":1901,"source_tile":"g50c004001","source_layer":"resp","source_record":1902,"name":"长乐水库","name_source":"aanp_spatial"}}]};

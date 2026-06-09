@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":null,"features":[{"type":"Feature","geometry":{"type":"LineString","coordinates":[[114.00054014844041,22.98027200470483],[114.00000000000003,22.98009654386857]]},"properties":{"GB":220300,"HYDC":"","NAME":"","Shape_Leng":0.0329831546421,"ID":0,"ORIG_FID":82,"source_tile":"f50c002001","source_layer":"hydl","source_record":88}}]};

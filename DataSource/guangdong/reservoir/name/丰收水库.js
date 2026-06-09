@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"丰收水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.3961475589193,22.72762984890413]},"properties":{"GB":310109,"id":61062,"ORIG_FID":607,"source_tile":"f50c002001","source_layer":"resp","source_record":608,"name":"丰收水库","name_source":"aanp_id"}}]};

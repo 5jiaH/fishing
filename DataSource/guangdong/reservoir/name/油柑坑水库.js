@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"油柑坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.5491637063258,21.79928120324215]},"properties":{"GB":310108,"id":50436,"ORIG_FID":2792,"source_tile":"f49c003002","source_layer":"resp","source_record":2793,"name":"油柑坑水库","name_source":"aanp_id"}}]};

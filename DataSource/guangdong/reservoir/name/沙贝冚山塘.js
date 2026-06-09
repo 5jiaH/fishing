@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"沙贝冚山塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.62666517929449,23.4953104133254]},"properties":{"GB":310300,"id":38341,"ORIG_FID":823,"source_tile":"f49c001004","source_layer":"resp","source_record":824,"name":"沙贝冚山塘","name_source":"aanp_id"}}]};

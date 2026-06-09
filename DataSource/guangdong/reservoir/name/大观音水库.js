@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大观音水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.78881498713375,21.986667321931197]},"properties":{"GB":310107,"id":48948,"ORIG_FID":3761,"source_tile":"f49c003002","source_layer":"resp","source_record":3762,"name":"大观音水库","name_source":"aanp_id"}}]};

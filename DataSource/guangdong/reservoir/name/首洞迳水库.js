@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"首洞迳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.76061497966225,23.232129848159655]},"properties":{"GB":310107,"id":33104,"ORIG_FID":1050,"source_tile":"f49c001003","source_layer":"resp","source_record":1051,"name":"首洞迳水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"道冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.52201346061972,23.104491578739328]},"properties":{"GB":310107,"id":32993,"ORIG_FID":497,"source_tile":"f49c001003","source_layer":"resp","source_record":498,"name":"道冲水库","name_source":"aanp_id"}}]};

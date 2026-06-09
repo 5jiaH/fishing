@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"双喜水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.19926959801332,25.162369939171292]},"properties":{"GB":310107,"id":180535,"ORIG_FID":294,"source_tile":"g50c003001","source_layer":"resp","source_record":295,"name":"双喜水库","name_source":"aanp_id"}}]};

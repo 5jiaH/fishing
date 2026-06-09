@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"澜石水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.93143131961745,20.37477600361468]},"properties":{"GB":311105,"id":54308,"ORIG_FID":474,"source_tile":"f49c004002","source_layer":"resp","source_record":475,"name":"澜石水库","name_source":"aanp_id"}}]};

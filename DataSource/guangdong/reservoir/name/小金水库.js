@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"小金水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.44214436631003,21.42345506563199]},"properties":{"GB":310108,"id":49549,"ORIG_FID":942,"source_tile":"f49c003002","source_layer":"resp","source_record":943,"name":"小金水库","name_source":"aanp_id"}}]};

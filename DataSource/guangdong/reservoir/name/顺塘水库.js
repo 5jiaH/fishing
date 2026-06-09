@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"顺塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.83776817774356,21.007746160975227]},"properties":{"GB":310107,"id":48337,"ORIG_FID":11,"source_tile":"f49c003002","source_layer":"resp","source_record":12,"name":"顺塘水库","name_source":"aanp_id"}}]};

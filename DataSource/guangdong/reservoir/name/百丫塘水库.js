@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"百丫塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.87282312926075,24.25013761592112]},"properties":{"GB":310107,"id":190079,"ORIG_FID":631,"source_tile":"g50c004001","source_layer":"resp","source_record":632,"name":"百丫塘水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"乌石古山塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.57081672713008,23.42252814424608]},"properties":{"GB":310107,"id":57931,"ORIG_FID":1597,"source_tile":"f50c001001","source_layer":"resp","source_record":1598,"name":"乌石古山塘","name_source":"aanp_spatial"}}]};

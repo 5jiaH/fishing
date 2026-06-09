@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"分界牌水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.72525986583024,22.904116167933086]},"properties":{"GB":310108,"id":60622,"ORIG_FID":1140,"source_tile":"f50c002001","source_layer":"resp","source_record":1141,"name":"分界牌水库","name_source":"aanp_id"}}]};

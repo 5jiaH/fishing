@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黄草岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.24952038229961,23.26921324996052]},"properties":{"GB":310300,"id":57588,"ORIG_FID":1089,"source_tile":"f50c001001","source_layer":"resp","source_record":1090,"name":"黄草岭水库","name_source":"aanp_spatial"}}]};

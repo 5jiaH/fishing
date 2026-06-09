@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"七星墩水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.53753978658236,23.342319937266698]},"properties":{"GB":310107,"id":36901,"ORIG_FID":486,"source_tile":"f49c001004","source_layer":"resp","source_record":487,"name":"七星墩水库","name_source":"aanp_id"}}]};

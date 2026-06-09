@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大霖水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.46977992631727,21.609382212052175]},"properties":{"GB":310108,"id":49697,"ORIG_FID":1855,"source_tile":"f49c003002","source_layer":"resp","source_record":1856,"name":"大霖水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"马英水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.78130995510898,23.22597175076586]},"properties":{"GB":310300,"id":59462,"ORIG_FID":268,"source_tile":"f50c001002","source_layer":"resp","source_record":269,"name":"马英水库","name_source":"aanp_id"}}]};

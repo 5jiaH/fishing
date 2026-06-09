@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"河包湾水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.07806467897254,23.040160253526576]},"properties":{"GB":311105,"id":36923,"ORIG_FID":43,"source_tile":"f49c001004","source_layer":"resp","source_record":44,"name":"河包湾水库","name_source":"aanp_id"}}]};

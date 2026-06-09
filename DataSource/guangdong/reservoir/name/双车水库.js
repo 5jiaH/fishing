@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"双车水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.74304415386587,22.009150489036333]},"properties":{"GB":310107,"id":45160,"ORIG_FID":22,"source_tile":"f49c002003","source_layer":"resp","source_record":23,"name":"双车水库","name_source":"aanp_id"}}]};

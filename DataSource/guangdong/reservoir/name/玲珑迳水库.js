@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"玲珑迳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.24867680084716,20.0237300193165]},"properties":{"GB":310300,"id":54366,"ORIG_FID":165,"source_tile":"f49c004002","source_layer":"resp","source_record":166,"name":"玲珑迳水库","name_source":"aanp_id"}}]};

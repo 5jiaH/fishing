@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"红领巾水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.21026701753888,22.771550369832205]},"properties":{"GB":310107,"id":43923,"ORIG_FID":1972,"source_tile":"f49c002003","source_layer":"resp","source_record":1973,"name":"红领巾水库","name_source":"aanp_id"}}]};

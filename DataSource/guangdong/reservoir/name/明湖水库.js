@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"明湖水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.75964338367008,24.26346437324529]},"properties":{"GB":310108,"id":190768,"ORIG_FID":662,"source_tile":"g50c004001","source_layer":"resp","source_record":663,"name":"明湖水库","name_source":"aanp_spatial"}}]};

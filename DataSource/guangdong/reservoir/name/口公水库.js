@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"口公水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.85076154937346,22.88569447650044]},"properties":{"GB":310108,"id":60738,"ORIG_FID":1089,"source_tile":"f50c002001","source_layer":"resp","source_record":1090,"name":"口公水库","name_source":"aanp_id"}}]};

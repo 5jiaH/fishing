@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白灰田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.07736803576492,21.706417915705067]},"properties":{"GB":310107,"id":52258,"ORIG_FID":381,"source_tile":"f49c003003","source_layer":"resp","source_record":382,"name":"白灰田水库","name_source":"aanp_id"}}]};

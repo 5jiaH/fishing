@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"桂峰水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.01047228159857,23.808112108717694]},"properties":{"GB":310108,"id":56254,"ORIG_FID":2949,"source_tile":"f50c001001","source_layer":"resp","source_record":2950,"name":"桂峰水库","name_source":"aanp_spatial"}}]};

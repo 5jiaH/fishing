@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"长湾河水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.41464736177807,22.941741708978736]},"properties":{"GB":310108,"id":61557,"ORIG_FID":1267,"source_tile":"f50c002001","source_layer":"resp","source_record":1268,"name":"长湾河水库","name_source":"aanp_id"}}]};

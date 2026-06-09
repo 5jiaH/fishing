@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鸭儿塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.8666827999879,22.913995503870854]},"properties":{"GB":310107,"id":42167,"ORIG_FID":1628,"source_tile":"f49c002002","source_layer":"resp","source_record":1629,"name":"鸭儿塘水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"昌源水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.40152384392496,25.190952266732847]},"properties":{"GB":310108,"id":151396,"ORIG_FID":362,"source_tile":"g49c003003","source_layer":"resp","source_record":363,"name":"昌源水库","name_source":"aanp_spatial"}}]};

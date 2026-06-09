@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"望天台水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.51805653593459,21.657397571538883]},"properties":{"GB":310109,"id":49808,"ORIG_FID":2104,"source_tile":"f49c003002","source_layer":"resp","source_record":2105,"name":"望天台水库","name_source":"aanp_id"}}]};

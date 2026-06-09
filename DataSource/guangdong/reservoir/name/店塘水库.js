@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"店塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.36053961549362,25.010736493483154]},"properties":{"GB":310107,"id":180358,"ORIG_FID":19,"source_tile":"g50c003001","source_layer":"resp","source_record":20,"name":"店塘水库","name_source":"aanp_id"}}]};

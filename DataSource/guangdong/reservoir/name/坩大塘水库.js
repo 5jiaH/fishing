@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"坩大塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.92359813242217,21.999127635181104]},"properties":{"GB":310107,"id":48965,"ORIG_FID":3845,"source_tile":"f49c003002","source_layer":"resp","source_record":3846,"name":"坩大塘水库","name_source":"aanp_id"}}]};

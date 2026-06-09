@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"蛮洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.90720753337041,21.597484653130117]},"properties":{"GB":310108,"id":48974,"ORIG_FID":1785,"source_tile":"f49c003002","source_layer":"resp","source_record":1786,"name":"蛮洞水库","name_source":"aanp_id"}}]};

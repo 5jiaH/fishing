@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白马塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.07540987015341,23.720082447335766]},"properties":{"GB":310108,"id":36010,"ORIG_FID":2719,"source_tile":"f49c001003","source_layer":"resp","source_record":2720,"name":"白马塘","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"灵界水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.87323972354125,20.859065954295986]},"properties":{"GB":310107,"id":53649,"ORIG_FID":1058,"source_tile":"f49c004002","source_layer":"resp","source_record":1059,"name":"灵界水库","name_source":"aanp_spatial"}}]};

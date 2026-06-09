@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"犁口咀水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.46770219465691,21.878127767956368]},"properties":{"GB":310107,"id":52505,"ORIG_FID":874,"source_tile":"f49c003003","source_layer":"resp","source_record":875,"name":"犁口咀水库","name_source":"aanp_id"}}]};

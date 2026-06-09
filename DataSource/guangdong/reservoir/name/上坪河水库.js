@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"上坪河水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.54658795314785,21.992742341627913]},"properties":{"GB":310107,"id":48956,"ORIG_FID":3798,"source_tile":"f49c003002","source_layer":"resp","source_record":3799,"name":"上坪河水库","name_source":"aanp_id"}}]};

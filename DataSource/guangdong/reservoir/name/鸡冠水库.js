@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鸡冠水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.57219151758343,22.557897922065617]},"properties":{"GB":310107,"id":43390,"ORIG_FID":1397,"source_tile":"f49c002003","source_layer":"resp","source_record":1398,"name":"鸡冠水库","name_source":"aanp_id"}}]};

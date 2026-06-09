@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"老屋地水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.01473605228509,22.846436485218824]},"properties":{"GB":310300,"id":61996,"ORIG_FID":58,"source_tile":"f50c002002","source_layer":"resp","source_record":59,"name":"老屋地水库","name_source":"aanp_id"}}]};

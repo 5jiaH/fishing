@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"电井水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.27821420401685,21.78585597254461]},"properties":{"GB":310108,"id":50405,"ORIG_FID":2732,"source_tile":"f49c003002","source_layer":"resp","source_record":2733,"name":"电井水库","name_source":"aanp_id"}}]};

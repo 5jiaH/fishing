@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"那笼水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.77609650583457,23.662042853571297]},"properties":{"GB":310107,"id":58820,"ORIG_FID":976,"source_tile":"f50c001002","source_layer":"resp","source_record":977,"name":"那笼水库","name_source":"aanp_id"}}]};

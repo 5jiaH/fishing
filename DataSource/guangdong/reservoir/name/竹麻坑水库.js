@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"竹麻坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.4422603282272,23.207595826248095]},"properties":{"GB":310107,"id":33086,"ORIG_FID":960,"source_tile":"f49c001003","source_layer":"resp","source_record":961,"name":"竹麻坑水库","name_source":"aanp_id"}}]};

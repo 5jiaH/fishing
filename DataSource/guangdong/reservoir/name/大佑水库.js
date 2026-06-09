@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大佑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.12377432626204,23.223265518938963]},"properties":{"GB":310107,"id":33094,"ORIG_FID":1020,"source_tile":"f49c001003","source_layer":"resp","source_record":1021,"name":"大佑水库","name_source":"aanp_id"}}]};

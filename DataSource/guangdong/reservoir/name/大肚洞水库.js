@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大肚洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.96486556418733,21.81875166328826]},"properties":{"GB":310108,"id":50470,"ORIG_FID":2896,"source_tile":"f49c003002","source_layer":"resp","source_record":2897,"name":"大肚洞水库","name_source":"aanp_id"}}]};

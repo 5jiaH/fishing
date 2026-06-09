@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"料神水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.15994561449182,23.20933373986005]},"properties":{"GB":310107,"id":33078,"ORIG_FID":971,"source_tile":"f49c001003","source_layer":"resp","source_record":972,"name":"料神水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"龙王庙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.73882809947861,23.479213504491536]},"properties":{"GB":310107,"id":38381,"ORIG_FID":787,"source_tile":"f49c001004","source_layer":"resp","source_record":788,"name":"龙王庙水库","name_source":"aanp_id"}}]};

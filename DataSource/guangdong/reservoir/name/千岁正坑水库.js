@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"千岁正坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.31737593713294,20.042692561835995]},"properties":{"GB":310300,"id":54275,"ORIG_FID":248,"source_tile":"f49c004002","source_layer":"resp","source_record":249,"name":"千岁正坑水库","name_source":"aanp_id"}}]};

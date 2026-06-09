@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"雷坡水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.78677390810243,23.9740087158407]},"properties":{"GB":310107,"id":59170,"ORIG_FID":1523,"source_tile":"f50c001002","source_layer":"resp","source_record":1524,"name":"雷坡水库","name_source":"aanp_id"}}]};

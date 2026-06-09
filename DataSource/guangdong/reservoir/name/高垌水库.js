@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"高垌水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.86721251841485,22.996525553963387]},"properties":{"GB":310108,"id":44336,"ORIG_FID":2654,"source_tile":"f49c002003","source_layer":"resp","source_record":2655,"name":"高垌水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"林背水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.75940448370713,23.082621627497346]},"properties":{"GB":310107,"id":32966,"ORIG_FID":387,"source_tile":"f49c001003","source_layer":"resp","source_record":388,"name":"林背水库","name_source":"aanp_id"}}]};

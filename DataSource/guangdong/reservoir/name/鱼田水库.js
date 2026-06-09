@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鱼田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.31171584553694,24.78692591418321]},"properties":{"GB":310108,"id":159453,"ORIG_FID":1257,"source_tile":"g49c004003","source_layer":"resp","source_record":1258,"name":"鱼田水库","name_source":"aanp_spatial"}}]};

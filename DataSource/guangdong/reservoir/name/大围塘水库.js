@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大围塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.28700277831359,25.225551913550515]},"properties":{"GB":310108,"id":181786,"ORIG_FID":405,"source_tile":"g50c003001","source_layer":"resp","source_record":406,"name":"大围塘水库","name_source":"aanp_id"}}]};

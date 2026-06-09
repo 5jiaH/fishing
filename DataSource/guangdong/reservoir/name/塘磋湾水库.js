@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"塘磋湾水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.65041462798605,21.61697998987888]},"properties":{"GB":310107,"id":48631,"ORIG_FID":1901,"source_tile":"f49c003002","source_layer":"resp","source_record":1902,"name":"塘磋湾水库","name_source":"aanp_id"}}]};

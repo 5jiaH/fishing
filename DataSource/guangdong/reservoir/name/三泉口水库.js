@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"三泉口水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.74929753117985,25.988868841633828]},"properties":{"GB":310107,"id":152526,"ORIG_FID":1683,"source_tile":"g49c003004","source_layer":"resp","source_record":1684,"name":"三泉口水库","name_source":"osm"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"西中水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.39221399689,23.20356970303825]},"properties":{"GB":310108,"id":33925,"ORIG_FID":938,"source_tile":"f49c001003","source_layer":"resp","source_record":939,"name":"西中水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"都逢水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.7598414179989,23.193653070784315]},"properties":{"GB":310107,"id":33044,"ORIG_FID":905,"source_tile":"f49c001003","source_layer":"resp","source_record":906,"name":"都逢水库","name_source":"aanp_id"}}]};

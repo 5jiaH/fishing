@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"东基塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[117.25713647466875,23.768746447926947]},"properties":{"GB":310300,"id":60118,"ORIG_FID":267,"source_tile":"f50c001003","source_layer":"resp","source_record":268,"name":"东基塘","name_source":"aanp_id"}}]};

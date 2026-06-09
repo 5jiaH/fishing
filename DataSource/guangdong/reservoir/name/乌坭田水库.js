@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"乌坭田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.86555827549267,25.998079571721266]},"properties":{"GB":310107,"id":181371,"ORIG_FID":1918,"source_tile":"g50c003001","source_layer":"resp","source_record":1919,"name":"乌坭田水库","name_source":"aanp_id"}}]};

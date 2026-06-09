@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"马安水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.18317577170453,20.31556764375093]},"properties":{"GB":310300,"id":54216,"ORIG_FID":378,"source_tile":"f49c004002","source_layer":"resp","source_record":379,"name":"马安水库","name_source":"aanp_id"}}]};

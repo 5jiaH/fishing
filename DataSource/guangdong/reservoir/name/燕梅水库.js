@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"燕梅水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.2805064608522,23.07079232679774]},"properties":{"GB":310107,"id":32948,"ORIG_FID":338,"source_tile":"f49c001003","source_layer":"resp","source_record":339,"name":"燕梅水库","name_source":"aanp_id"}}]};

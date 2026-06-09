@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"观洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.26334010326212,23.095878477352727]},"properties":{"GB":310300,"id":57764,"ORIG_FID":405,"source_tile":"f50c001001","source_layer":"resp","source_record":406,"name":"观洞水库","name_source":"osm"}}]};

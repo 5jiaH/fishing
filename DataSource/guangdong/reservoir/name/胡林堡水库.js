@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"胡林堡水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.26752580835577,21.815658093606682]},"properties":{"GB":310109,"id":49839,"ORIG_FID":2877,"source_tile":"f49c003002","source_layer":"resp","source_record":2878,"name":"胡林堡水库","name_source":"aanp_id"}}]};

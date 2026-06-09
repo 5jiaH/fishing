@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"配水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.81147478154989,21.99434415765875]},"properties":{"GB":310108,"id":50001,"ORIG_FID":3813,"source_tile":"f49c003002","source_layer":"resp","source_record":3814,"name":"配水库","name_source":"aanp_id"}}]};

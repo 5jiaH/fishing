@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"坪岗山塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.42911045599115,25.803611988876174]},"properties":{"GB":310107,"id":181123,"ORIG_FID":1454,"source_tile":"g50c003001","source_layer":"resp","source_record":1455,"name":"坪岗山塘","name_source":"aanp_id"}}]};

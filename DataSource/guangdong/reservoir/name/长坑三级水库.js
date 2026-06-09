@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"长坑三级水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.72493042475786,21.732731992904597]},"properties":{"GB":310108,"id":50297,"ORIG_FID":2482,"source_tile":"f49c003002","source_layer":"resp","source_record":2483,"name":"长坑三级水库","name_source":"aanp_id"}}]};

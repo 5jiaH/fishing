@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"十里坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.24610588104798,25.940088420283836]},"properties":{"GB":310108,"id":182027,"ORIG_FID":1777,"source_tile":"g50c003001","source_layer":"resp","source_record":1778,"name":"十里坑水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"蛮陂头水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.92816158424554,21.491908316715325]},"properties":{"GB":310300,"id":50734,"ORIG_FID":1200,"source_tile":"f49c003002","source_layer":"resp","source_record":1201,"name":"蛮陂头水库","name_source":"aanp_id"}}]};

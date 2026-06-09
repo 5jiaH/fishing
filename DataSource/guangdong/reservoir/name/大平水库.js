@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大平水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.0288539162038,22.912170291482425]},"properties":{"GB":310107,"id":45015,"ORIG_FID":2372,"source_tile":"f49c002003","source_layer":"resp","source_record":2373,"name":"大平水库","name_source":"aanp_id"}}]};

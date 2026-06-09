@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"东粉龙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.13036777318372,25.697479046982608]},"properties":{"GB":310107,"id":181991,"ORIG_FID":1246,"source_tile":"g50c003001","source_layer":"resp","source_record":1247,"name":"东粉龙水库","name_source":"aanp_id"}}]};

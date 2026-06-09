@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"上犹江水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.40018362959873,25.83438979674879]},"properties":{"GB":310108,"id":181414,"ORIG_FID":1529,"source_tile":"g50c003001","source_layer":"resp","source_record":1530,"name":"上犹江水库","name_source":"aanp_spatial"}}]};

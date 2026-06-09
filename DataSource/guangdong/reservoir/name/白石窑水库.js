@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白石窑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.5115684537312,24.423447603398785]},"properties":{"GB":310107,"id":160636,"ORIG_FID":1060,"source_tile":"g49c004004","source_layer":"resp","source_record":1061,"name":"白石窑水库","name_source":"osm"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"水车头水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.30338988901931,21.811442648145007]},"properties":{"GB":310107,"id":52397,"ORIG_FID":660,"source_tile":"f49c003003","source_layer":"resp","source_record":661,"name":"水车头水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"杨梅冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.80496554400216,25.884662352971066]},"properties":{"GB":310107,"id":181234,"ORIG_FID":1658,"source_tile":"g50c003001","source_layer":"resp","source_record":1659,"name":"杨梅冲水库","name_source":"aanp_id"}}]};

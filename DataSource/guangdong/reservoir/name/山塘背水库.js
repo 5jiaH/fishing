@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"山塘背水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.73815606158018,22.652781563684155]},"properties":{"GB":310300,"id":61318,"ORIG_FID":430,"source_tile":"f50c002001","source_layer":"resp","source_record":431,"name":"山塘背水库","name_source":"aanp_id"}}]};

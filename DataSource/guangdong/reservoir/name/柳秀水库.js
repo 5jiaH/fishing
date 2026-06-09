@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"柳秀水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.87970770406119,23.93015625637611]},"properties":{"GB":310107,"id":59115,"ORIG_FID":1434,"source_tile":"f50c001002","source_layer":"resp","source_record":1435,"name":"柳秀水库","name_source":"aanp_id"}}]};

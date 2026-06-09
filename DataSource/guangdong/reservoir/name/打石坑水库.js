@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"打石坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.77995591565939,22.851935703251947]},"properties":{"GB":310107,"id":60375,"ORIG_FID":973,"source_tile":"f50c002001","source_layer":"resp","source_record":974,"name":"打石坑水库","name_source":"aanp_spatial"}}]};

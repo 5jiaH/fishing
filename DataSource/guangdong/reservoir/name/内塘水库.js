@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"内塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.85047869630715,22.724696689152868]},"properties":{"GB":310107,"id":60247,"ORIG_FID":601,"source_tile":"f50c002001","source_layer":"resp","source_record":602,"name":"内塘水库","name_source":"aanp_id"}}]};

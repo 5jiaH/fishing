@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黄爽水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.02490237853499,22.933535822663398]},"properties":{"GB":310300,"id":44921,"ORIG_FID":2436,"source_tile":"f49c002003","source_layer":"resp","source_record":2437,"name":"黄爽水库","name_source":"aanp_id"}}]};

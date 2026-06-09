@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"文婆山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.25327547381431,25.506782046898646]},"properties":{"GB":310108,"id":181775,"ORIG_FID":901,"source_tile":"g50c003001","source_layer":"resp","source_record":902,"name":"文婆山水库","name_source":"aanp_id"}}]};

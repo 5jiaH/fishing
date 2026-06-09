@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"山背塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.86139002657114,24.9804759057886]},"properties":{"GB":310107,"id":193985,"ORIG_FID":3764,"source_tile":"g50c004002","source_layer":"resp","source_record":3765,"name":"山背塘水库","name_source":"aanp_spatial"}}]};

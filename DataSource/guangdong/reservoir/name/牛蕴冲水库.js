@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"牛蕴冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.04837553620504,23.028609572650183]},"properties":{"GB":310107,"id":32897,"ORIG_FID":125,"source_tile":"f49c001003","source_layer":"resp","source_record":126,"name":"牛蕴冲水库","name_source":"aanp_id"}}]};

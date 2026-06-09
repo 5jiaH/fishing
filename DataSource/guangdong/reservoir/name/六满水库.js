@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"六满水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.00951954178572,22.245253954821997]},"properties":{"GB":310108,"id":44289,"ORIG_FID":567,"source_tile":"f49c002003","source_layer":"resp","source_record":568,"name":"六满水库","name_source":"aanp_id"}}]};

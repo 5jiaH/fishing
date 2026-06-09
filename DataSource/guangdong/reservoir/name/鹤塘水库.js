@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鹤塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.02261296203403,21.178668832566316]},"properties":{"GB":310107,"id":48356,"ORIG_FID":286,"source_tile":"f49c003002","source_layer":"resp","source_record":287,"name":"鹤塘水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"岐磜坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.36581579898095,24.5007562414167]},"properties":{"GB":310300,"id":195584,"ORIG_FID":2042,"source_tile":"g50c004002","source_layer":"resp","source_record":2043,"name":"岐磜坑水库","name_source":"aanp_spatial"}}]};

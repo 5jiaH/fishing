@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"坂塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.86928611037177,24.28525770117229]},"properties":{"GB":310300,"id":192306,"ORIG_FID":722,"source_tile":"g50c004001","source_layer":"resp","source_record":723,"name":"坂塘水库","name_source":"aanp_spatial"}}]};

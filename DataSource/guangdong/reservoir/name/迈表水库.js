@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"迈表水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.33302882378874,20.293687159777285]},"properties":{"GB":310108,"id":53832,"ORIG_FID":362,"source_tile":"f49c004002","source_layer":"resp","source_record":363,"name":"迈表水库","name_source":"aanp_spatial"}}]};

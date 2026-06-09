@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"军塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.4608973596163,23.915571874393304]},"properties":{"GB":311105,"id":58368,"ORIG_FID":1402,"source_tile":"f50c001002","source_layer":"resp","source_record":1403,"name":"军塘","name_source":"aanp_spatial"}}]};

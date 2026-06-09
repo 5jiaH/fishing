@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"洋湖水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.4291320290512,24.0464793758302]},"properties":{"GB":310108,"id":190561,"ORIG_FID":120,"source_tile":"g50c004001","source_layer":"resp","source_record":121,"name":"洋湖水库","name_source":"aanp_spatial"}}]};

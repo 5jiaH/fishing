@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"上里水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.45127913984125,23.364456789013044]},"properties":{"GB":310107,"id":36963,"ORIG_FID":532,"source_tile":"f49c001004","source_layer":"resp","source_record":533,"name":"上里水库","name_source":"aanp_id"}}]};

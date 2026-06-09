@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大岭西水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.59559552149602,20.059026292891513]},"properties":{"GB":310107,"id":53442,"ORIG_FID":291,"source_tile":"f49c004002","source_layer":"resp","source_record":292,"name":"大岭西水库","name_source":"aanp_spatial"}}]};

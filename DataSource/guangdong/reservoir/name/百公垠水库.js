@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"百公垠水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.06142193860464,21.370360183261727]},"properties":{"GB":310108,"id":48986,"ORIG_FID":764,"source_tile":"f49c003002","source_layer":"resp","source_record":765,"name":"百公垠水库","name_source":"aanp_id"}}]};

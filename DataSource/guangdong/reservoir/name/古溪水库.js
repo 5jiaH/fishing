@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"古溪水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.3817238153282,25.35603673813247]},"properties":{"GB":310107,"id":182082,"ORIG_FID":644,"source_tile":"g50c003001","source_layer":"resp","source_record":645,"name":"古溪水库","name_source":"aanp_id"}}]};

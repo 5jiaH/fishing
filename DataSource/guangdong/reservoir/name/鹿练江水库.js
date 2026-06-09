@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鹿练江水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[117.42863962219329,23.714874360158333]},"properties":{"GB":310107,"id":59781,"ORIG_FID":167,"source_tile":"f50c001003","source_layer":"resp","source_record":168,"name":"鹿练江水库","name_source":"aanp_id"}}]};

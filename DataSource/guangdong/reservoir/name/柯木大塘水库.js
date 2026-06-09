@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"柯木大塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.86053007983698,23.153537866262663]},"properties":{"GB":310107,"id":32913,"ORIG_FID":721,"source_tile":"f49c001003","source_layer":"resp","source_record":722,"name":"柯木大塘水库","name_source":"aanp_id"}}]};

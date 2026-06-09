@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"圣教石水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.33469484989303,20.05302558986788]},"properties":{"GB":311105,"id":54298,"ORIG_FID":272,"source_tile":"f49c004002","source_layer":"resp","source_record":273,"name":"圣教石水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"佛子湾水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.42774413959404,22.87058036172711]},"properties":{"GB":310108,"id":44407,"ORIG_FID":2244,"source_tile":"f49c002003","source_layer":"resp","source_record":2245,"name":"佛子湾水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"箭竹山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.05319184561957,20.844369765395587]},"properties":{"GB":311105,"id":54326,"ORIG_FID":1045,"source_tile":"f49c004002","source_layer":"resp","source_record":1046,"name":"箭竹山水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"英峰水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.17987405679568,20.591688729355972]},"properties":{"GB":310108,"id":53920,"ORIG_FID":732,"source_tile":"f49c004002","source_layer":"resp","source_record":733,"name":"英峰水库","name_source":"aanp_spatial"}}]};

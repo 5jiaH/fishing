@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"百三水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.4851104672799,22.160176376245477]},"properties":{"GB":311105,"id":45275,"ORIG_FID":382,"source_tile":"f49c002003","source_layer":"resp","source_record":383,"name":"百三水库","name_source":"aanp_id"}}]};

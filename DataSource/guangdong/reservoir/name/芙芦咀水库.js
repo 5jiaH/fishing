@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"芙芦咀水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.4004063575025,21.795382110127015]},"properties":{"GB":310108,"id":50424,"ORIG_FID":2775,"source_tile":"f49c003002","source_layer":"resp","source_record":2776,"name":"芙芦咀水库","name_source":"aanp_id"}}]};

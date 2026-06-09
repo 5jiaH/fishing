@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"三防水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.2319658520085,23.332135710668034]},"properties":{"GB":310300,"id":35044,"ORIG_FID":1452,"source_tile":"f49c001003","source_layer":"resp","source_record":1453,"name":"三防水库","name_source":"aanp_spatial"}}]};

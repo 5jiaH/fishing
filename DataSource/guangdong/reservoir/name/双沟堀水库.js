@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"双沟堀水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.53178958789886,23.26319617925563]},"properties":{"GB":310300,"id":59450,"ORIG_FID":344,"source_tile":"f50c001002","source_layer":"resp","source_record":345,"name":"双沟堀水库","name_source":"aanp_spatial"}}]};

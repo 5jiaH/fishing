@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"虎形水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.8661101125808,23.389183927142998]},"properties":{"GB":310107,"id":36993,"ORIG_FID":573,"source_tile":"f49c001004","source_layer":"resp","source_record":574,"name":"虎形水库","name_source":"aanp_id"}}]};

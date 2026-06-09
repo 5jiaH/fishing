@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"茅湖水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.3258891308493,22.740779844512637]},"properties":{"GB":310300,"id":61215,"ORIG_FID":628,"source_tile":"f50c002001","source_layer":"resp","source_record":629,"name":"茅湖水库","name_source":"osm"}}]};

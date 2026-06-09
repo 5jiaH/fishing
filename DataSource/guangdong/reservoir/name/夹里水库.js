@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"夹里水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.03341364144603,21.018573864215284]},"properties":{"GB":310108,"id":49006,"ORIG_FID":36,"source_tile":"f49c003002","source_layer":"resp","source_record":37,"name":"夹里水库","name_source":"aanp_id"}}]};

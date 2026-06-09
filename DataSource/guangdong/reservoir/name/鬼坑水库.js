@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鬼坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.91400309228538,21.879026077701624]},"properties":{"GB":310108,"id":50529,"ORIG_FID":3187,"source_tile":"f49c003002","source_layer":"resp","source_record":3188,"name":"鬼坑水库","name_source":"aanp_id"}}]};

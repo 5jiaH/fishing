@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"山尾水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.25910630051018,22.770718423993586]},"properties":{"GB":310300,"id":61283,"ORIG_FID":704,"source_tile":"f50c002001","source_layer":"resp","source_record":705,"name":"山尾水库","name_source":"aanp_id"}}]};

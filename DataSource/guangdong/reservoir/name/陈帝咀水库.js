@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"陈帝咀水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.96412417627216,21.72801622020346]},"properties":{"GB":310107,"id":48728,"ORIG_FID":2459,"source_tile":"f49c003002","source_layer":"resp","source_record":2460,"name":"陈帝咀水库","name_source":"aanp_id"}}]};

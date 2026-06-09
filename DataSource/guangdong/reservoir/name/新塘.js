@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"新塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.86158607737164,24.01879171109078]},"properties":{"GB":310300,"id":195959,"ORIG_FID":85,"source_tile":"g50c004002","source_layer":"resp","source_record":86,"name":"新塘","name_source":"aanp_spatial"}}]};

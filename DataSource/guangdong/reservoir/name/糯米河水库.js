@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"糯米河水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.56814364674332,23.207277492163847]},"properties":{"GB":310107,"id":33077,"ORIG_FID":956,"source_tile":"f49c001003","source_layer":"resp","source_record":957,"name":"糯米河水库","name_source":"aanp_id"}}]};

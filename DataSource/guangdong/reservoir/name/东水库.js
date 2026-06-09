@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"东水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.79173785434584,25.04548441474279]},"properties":{"GB":310107,"id":180386,"ORIG_FID":76,"source_tile":"g50c003001","source_layer":"resp","source_record":77,"name":"东水库","name_source":"aanp_id"}}]};

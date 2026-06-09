@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"东龙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.62759794533378,22.79309686415374]},"properties":{"GB":310107,"id":43957,"ORIG_FID":2030,"source_tile":"f49c002003","source_layer":"resp","source_record":2031,"name":"东龙水库","name_source":"aanp_id"}}]};

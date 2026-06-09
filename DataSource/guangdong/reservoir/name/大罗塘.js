@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大罗塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.33594395731667,23.099838529958916]},"properties":{"GB":311105,"id":36946,"ORIG_FID":109,"source_tile":"f49c001004","source_layer":"resp","source_record":110,"name":"大罗塘","name_source":"aanp_id"}}]};

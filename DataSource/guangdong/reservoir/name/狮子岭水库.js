@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"狮子岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.25963351126053,22.61803492693648]},"properties":{"GB":310108,"id":60823,"ORIG_FID":374,"source_tile":"f50c002001","source_layer":"resp","source_record":375,"name":"狮子岭水库","name_source":"aanp_id"}}]};

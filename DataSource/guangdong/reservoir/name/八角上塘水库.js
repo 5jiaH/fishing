@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"八角上塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.4319100153792,25.052505707453587]},"properties":{"GB":310108,"id":182103,"ORIG_FID":91,"source_tile":"g50c003001","source_layer":"resp","source_record":92,"name":"八角上塘水库","name_source":"aanp_id"}}]};

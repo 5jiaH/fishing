@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鸭母坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.26581773059074,21.579306096045237]},"properties":{"GB":310108,"id":52682,"ORIG_FID":140,"source_tile":"f49c003003","source_layer":"resp","source_record":141,"name":"鸭母坑水库","name_source":"aanp_spatial"}}]};

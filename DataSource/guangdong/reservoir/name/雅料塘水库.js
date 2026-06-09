@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"雅料塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.31939834517223,24.934231704217957]},"properties":{"GB":310108,"id":159367,"ORIG_FID":1566,"source_tile":"g49c004003","source_layer":"resp","source_record":1567,"name":"雅料塘水库","name_source":"aanp_spatial"}}]};

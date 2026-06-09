@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"圆墩背水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.90197377956596,24.093077407613972]},"properties":{"GB":310107,"id":192659,"ORIG_FID":348,"source_tile":"g50c004002","source_layer":"resp","source_record":349,"name":"圆墩背水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"文革水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.48599012896598,23.08419249370859]},"properties":{"GB":310107,"id":32967,"ORIG_FID":397,"source_tile":"f49c001003","source_layer":"resp","source_record":398,"name":"文革水库","name_source":"aanp_id"}}]};

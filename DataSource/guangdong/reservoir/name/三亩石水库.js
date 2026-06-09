@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"三亩石水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.32669851740593,20.070788157313757]},"properties":{"GB":310300,"id":54278,"ORIG_FID":321,"source_tile":"f49c004002","source_layer":"resp","source_record":322,"name":"三亩石水库","name_source":"aanp_id"}}]};

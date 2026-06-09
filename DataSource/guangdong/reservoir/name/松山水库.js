@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"松山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.17954815406019,23.111889101712446]},"properties":{"GB":310107,"id":33001,"ORIG_FID":528,"source_tile":"f49c001003","source_layer":"resp","source_record":529,"name":"松山水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"龙和水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.86802340602932,23.048718332532125]},"properties":{"GB":310107,"id":32932,"ORIG_FID":226,"source_tile":"f49c001003","source_layer":"resp","source_record":227,"name":"龙和水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黑石塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.1434011716768,25.004019940000077]},"properties":{"GB":310108,"id":151504,"ORIG_FID":4,"source_tile":"g49c003003","source_layer":"resp","source_record":5,"name":"黑石塘水库","name_source":"aanp_spatial"}}]};

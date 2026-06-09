@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"下洋镇池公塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.81173567594251,24.631731770588416]},"properties":{"GB":310300,"id":195509,"ORIG_FID":2553,"source_tile":"g50c004002","source_layer":"resp","source_record":2554,"name":"下洋镇池公塘水库","name_source":"aanp_spatial"}}]};

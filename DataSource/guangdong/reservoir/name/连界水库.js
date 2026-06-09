@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"连界水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.96357834336706,22.968209029909392]},"properties":{"GB":310300,"id":61768,"ORIG_FID":246,"source_tile":"f50c002002","source_layer":"resp","source_record":247,"name":"连界水库","name_source":"aanp_id"}}]};

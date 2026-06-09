@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"竹兜垌水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.42462944411102,22.78680150728558]},"properties":{"GB":310300,"id":61502,"ORIG_FID":763,"source_tile":"f50c002001","source_layer":"resp","source_record":764,"name":"竹兜垌水库","name_source":"aanp_id"}}]};

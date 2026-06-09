@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"丁草塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.44548939516463,22.332626066824268]},"properties":{"GB":310107,"id":43076,"ORIG_FID":785,"source_tile":"f49c002003","source_layer":"resp","source_record":786,"name":"丁草塘水库","name_source":"aanp_id"}}]};

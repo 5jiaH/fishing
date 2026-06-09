@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"塔坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.74806303565504,23.548722081410745]},"properties":{"GB":310107,"id":37165,"ORIG_FID":947,"source_tile":"f49c001004","source_layer":"resp","source_record":948,"name":"塔坑水库","name_source":"aanp_spatial"}}]};

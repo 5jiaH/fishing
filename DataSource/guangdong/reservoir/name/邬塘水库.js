@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"邬塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.72266155896821,23.674286532666233]},"properties":{"GB":310300,"id":56757,"ORIG_FID":2576,"source_tile":"f50c001001","source_layer":"resp","source_record":2577,"name":"邬塘水库","name_source":"aanp_spatial"}}]};

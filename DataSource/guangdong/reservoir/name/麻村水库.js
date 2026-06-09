@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"麻村水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.51436446595233,23.08412350834299]},"properties":{"GB":311105,"id":36940,"ORIG_FID":88,"source_tile":"f49c001004","source_layer":"resp","source_record":89,"name":"麻村水库","name_source":"aanp_id"}}]};

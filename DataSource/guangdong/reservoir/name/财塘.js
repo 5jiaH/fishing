@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"财塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.10323497265384,25.47957047951188]},"properties":{"GB":311105,"id":180273,"ORIG_FID":856,"source_tile":"g50c003001","source_layer":"resp","source_record":857,"name":"财塘","name_source":"aanp_id"}}]};

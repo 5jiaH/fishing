@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"暗龙上级水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.39365548948376,20.017000388283357]},"properties":{"GB":310300,"id":54345,"ORIG_FID":133,"source_tile":"f49c004002","source_layer":"resp","source_record":134,"name":"暗龙上级水库","name_source":"aanp_id"}}]};

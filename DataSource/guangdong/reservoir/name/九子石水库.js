@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"九子石水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.29087044392901,25.260347544183315]},"properties":{"GB":310108,"id":182054,"ORIG_FID":472,"source_tile":"g50c003001","source_layer":"resp","source_record":473,"name":"九子石水库","name_source":"aanp_id"}}]};

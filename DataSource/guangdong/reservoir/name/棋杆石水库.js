@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"棋杆石水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.1022255726547,21.808432639590425]},"properties":{"GB":310107,"id":51370,"ORIG_FID":2834,"source_tile":"f49c003002","source_layer":"resp","source_record":2835,"name":"棋杆石水库","name_source":"aanp_id"}}]};

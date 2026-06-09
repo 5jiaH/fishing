@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"乌石塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.49653641810451,25.744271383111794]},"properties":{"GB":310108,"id":182120,"ORIG_FID":1336,"source_tile":"g50c003001","source_layer":"resp","source_record":1337,"name":"乌石塘水库","name_source":"aanp_id"}}]};

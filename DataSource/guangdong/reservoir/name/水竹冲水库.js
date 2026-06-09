@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"水竹冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.66269435355929,24.451078859289055]},"properties":{"GB":310108,"id":159567,"ORIG_FID":732,"source_tile":"g49c004003","source_layer":"resp","source_record":733,"name":"水竹冲水库","name_source":"aanp_spatial"}}]};

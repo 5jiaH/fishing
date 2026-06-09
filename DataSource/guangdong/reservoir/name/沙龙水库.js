@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"沙龙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.57684920001967,23.053061697233446]},"properties":{"GB":311105,"id":36931,"ORIG_FID":58,"source_tile":"f49c001004","source_layer":"resp","source_record":59,"name":"沙龙水库","name_source":"aanp_id"}}]};

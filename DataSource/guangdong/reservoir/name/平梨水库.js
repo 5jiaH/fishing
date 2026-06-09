@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"平梨水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.04524755824849,22.8533262044591]},"properties":{"GB":310108,"id":44277,"ORIG_FID":2195,"source_tile":"f49c002003","source_layer":"resp","source_record":2196,"name":"平梨水库","name_source":"aanp_id"}}]};

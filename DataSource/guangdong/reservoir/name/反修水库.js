@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"反修水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.44156609875286,23.168523749939762]},"properties":{"GB":310107,"id":33034,"ORIG_FID":805,"source_tile":"f49c001003","source_layer":"resp","source_record":806,"name":"反修水库","name_source":"aanp_id"}}]};

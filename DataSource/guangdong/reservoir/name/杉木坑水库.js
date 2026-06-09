@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"杉木坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.92593401767209,22.941469565273298]},"properties":{"GB":310107,"id":44189,"ORIG_FID":2459,"source_tile":"f49c002003","source_layer":"resp","source_record":2460,"name":"杉木坑水库","name_source":"aanp_id"}}]};

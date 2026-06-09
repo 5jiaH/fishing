@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大埔山塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.52837599356843,23.369922098059526]},"properties":{"GB":310107,"id":36967,"ORIG_FID":539,"source_tile":"f49c001004","source_layer":"resp","source_record":540,"name":"大埔山塘","name_source":"aanp_id"}}]};

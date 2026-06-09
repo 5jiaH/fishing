@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"潭江坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.32222259639673,20.318094499273442]},"properties":{"GB":311105,"id":54302,"ORIG_FID":384,"source_tile":"f49c004002","source_layer":"resp","source_record":385,"name":"潭江坑水库","name_source":"aanp_id"}}]};

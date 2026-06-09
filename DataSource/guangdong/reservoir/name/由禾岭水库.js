@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"由禾岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.1637343176942,23.258110274359733]},"properties":{"GB":310300,"id":57590,"ORIG_FID":1063,"source_tile":"f50c001001","source_layer":"resp","source_record":1064,"name":"由禾岭水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"武爽水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.15260096329773,23.13522165273527]},"properties":{"GB":310107,"id":32883,"ORIG_FID":631,"source_tile":"f49c001003","source_layer":"resp","source_record":632,"name":"武爽水库","name_source":"aanp_id"}}]};

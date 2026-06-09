@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"翁城水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.5301423799533,25.694364218369348]},"properties":{"GB":310107,"id":181010,"ORIG_FID":1242,"source_tile":"g50c003001","source_layer":"resp","source_record":1243,"name":"翁城水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"乐山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.74522035469823,22.67480010198426]},"properties":{"GB":310300,"id":61412,"ORIG_FID":486,"source_tile":"f50c002001","source_layer":"resp","source_record":487,"name":"乐山水库","name_source":"aanp_id"}}]};

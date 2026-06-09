@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"洞子水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.11602141719594,25.815742394916263]},"properties":{"GB":310107,"id":181162,"ORIG_FID":1478,"source_tile":"g50c003001","source_layer":"resp","source_record":1479,"name":"洞子水库","name_source":"aanp_id"}}]};

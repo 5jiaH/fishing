@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"罗汉山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.56368687537096,21.844490258719684]},"properties":{"GB":310107,"id":51532,"ORIG_FID":3018,"source_tile":"f49c003002","source_layer":"resp","source_record":3019,"name":"罗汉山水库","name_source":"aanp_id"}}]};

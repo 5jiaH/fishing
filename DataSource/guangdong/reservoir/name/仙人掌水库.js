@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"仙人掌水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.73044422765099,23.37996566340106]},"properties":{"GB":310107,"id":36982,"ORIG_FID":562,"source_tile":"f49c001004","source_layer":"resp","source_record":563,"name":"仙人掌水库","name_source":"aanp_id"}}]};

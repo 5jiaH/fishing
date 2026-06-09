@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"龙润水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.64637792779648,23.72719434189534]},"properties":{"GB":310300,"id":38247,"ORIG_FID":1333,"source_tile":"f49c001004","source_layer":"resp","source_record":1334,"name":"龙润水库","name_source":"aanp_id"}}]};

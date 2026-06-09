@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"那敢水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.83357449377834,22.806508201540776]},"properties":{"GB":310300,"id":61778,"ORIG_FID":31,"source_tile":"f50c002002","source_layer":"resp","source_record":32,"name":"那敢水库","name_source":"aanp_id"}}]};

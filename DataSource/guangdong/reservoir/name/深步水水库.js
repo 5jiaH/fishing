@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"深步水水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.35892980547209,21.946622467668053]},"properties":{"GB":310108,"id":50603,"ORIG_FID":3533,"source_tile":"f49c003002","source_layer":"resp","source_record":3534,"name":"深步水水库","name_source":"aanp_id"}}]};

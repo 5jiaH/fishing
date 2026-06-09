@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"小津口水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.13094963679404,23.31794973074759]},"properties":{"GB":310107,"id":38385,"ORIG_FID":446,"source_tile":"f49c001004","source_layer":"resp","source_record":447,"name":"小津口水库","name_source":"aanp_id"}}]};

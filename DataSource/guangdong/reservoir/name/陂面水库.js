@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"陂面水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.90605184020565,23.23163806111772]},"properties":{"GB":310107,"id":33105,"ORIG_FID":1044,"source_tile":"f49c001003","source_layer":"resp","source_record":1045,"name":"陂面水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"腰坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.05475780633012,23.24472991126365]},"properties":{"GB":310107,"id":38388,"ORIG_FID":324,"source_tile":"f49c001004","source_layer":"resp","source_record":325,"name":"腰坑水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大坑水塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.3256275821022,21.915592329276556]},"properties":{"GB":310108,"id":51829,"ORIG_FID":3373,"source_tile":"f49c003002","source_layer":"resp","source_record":3374,"name":"大坑水塘","name_source":"aanp_id"}}]};

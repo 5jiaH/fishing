@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鸡乸潭","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.49947168000392,21.467596310371295]},"properties":{"GB":310107,"id":51051,"ORIG_FID":1105,"source_tile":"f49c003002","source_layer":"resp","source_record":1106,"name":"鸡乸潭","name_source":"aanp_id"}}]};

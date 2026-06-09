@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"河儿口水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.56217189117959,23.175550129256095]},"properties":{"GB":310107,"id":33035,"ORIG_FID":831,"source_tile":"f49c001003","source_layer":"resp","source_record":832,"name":"河儿口水库","name_source":"aanp_id"}}]};

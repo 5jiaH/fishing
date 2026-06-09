@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"珠坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.31472616844019,20.045079141577204]},"properties":{"GB":310300,"id":54277,"ORIG_FID":253,"source_tile":"f49c004002","source_layer":"resp","source_record":254,"name":"珠坑水库","name_source":"aanp_id"}}]};

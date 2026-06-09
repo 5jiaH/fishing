@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"扶曹水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.21088272693945,22.476951877979534]},"properties":{"GB":310108,"id":44682,"ORIG_FID":1171,"source_tile":"f49c002003","source_layer":"resp","source_record":1172,"name":"扶曹水库","name_source":"aanp_spatial"}}]};

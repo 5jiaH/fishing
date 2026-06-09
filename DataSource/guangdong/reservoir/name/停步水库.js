@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"停步水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.28355206600074,20.032299800979292]},"properties":{"GB":310300,"id":54266,"ORIG_FID":206,"source_tile":"f49c004002","source_layer":"resp","source_record":207,"name":"停步水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"竹堆塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.87319235369026,24.242892166708785]},"properties":{"GB":310300,"id":192187,"ORIG_FID":609,"source_tile":"g50c004001","source_layer":"resp","source_record":610,"name":"竹堆塘水库","name_source":"aanp_spatial"}}]};

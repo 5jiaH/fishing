@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"赖公坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.2245021026381,24.599067077786074]},"properties":{"GB":310300,"id":195531,"ORIG_FID":2439,"source_tile":"g50c004002","source_layer":"resp","source_record":2440,"name":"赖公坑水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"长青水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.20303352046854,22.700103700147167]},"properties":{"GB":310300,"id":61347,"ORIG_FID":544,"source_tile":"f50c002001","source_layer":"resp","source_record":545,"name":"长青水库","name_source":"aanp_id"}}]};

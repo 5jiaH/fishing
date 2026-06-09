@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"温罗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.89319170171474,22.452104065250378]},"properties":{"GB":310107,"id":43233,"ORIG_FID":1097,"source_tile":"f49c002003","source_layer":"resp","source_record":1098,"name":"温罗水库","name_source":"aanp_id"}}]};

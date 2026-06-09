@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"平安洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.1412183303452,22.851694241182763]},"properties":{"GB":310109,"id":61090,"ORIG_FID":972,"source_tile":"f50c002001","source_layer":"resp","source_record":973,"name":"平安洞水库","name_source":"osm"}}]};

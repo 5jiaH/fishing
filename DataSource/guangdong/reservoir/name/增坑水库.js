@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"增坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.58935766374277,21.80983466797901]},"properties":{"GB":310108,"id":50456,"ORIG_FID":2844,"source_tile":"f49c003002","source_layer":"resp","source_record":2845,"name":"增坑水库","name_source":"aanp_id"}}]};

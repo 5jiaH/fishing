@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"蛇地坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.44000970968798,21.0245683620486]},"properties":{"GB":310300,"id":50841,"ORIG_FID":55,"source_tile":"f49c003002","source_layer":"resp","source_record":56,"name":"蛇地坑水库","name_source":"aanp_id"}}]};

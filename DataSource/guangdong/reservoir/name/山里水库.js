@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"山里水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.7372547206702,22.654314392488217]},"properties":{"GB":310300,"id":61328,"ORIG_FID":444,"source_tile":"f50c002001","source_layer":"resp","source_record":445,"name":"山里水库","name_source":"aanp_id"}}]};

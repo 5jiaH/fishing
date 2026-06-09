@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"西岸幸福水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.08593792775878,20.928547502897032]},"properties":{"GB":310300,"id":54245,"ORIG_FID":1161,"source_tile":"f49c004002","source_layer":"resp","source_record":1162,"name":"西岸幸福水库","name_source":"aanp_id"}}]};

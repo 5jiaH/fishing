@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石陂里水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.52131627455006,23.401046430476136]},"properties":{"GB":310300,"id":56941,"ORIG_FID":1491,"source_tile":"f50c001001","source_layer":"resp","source_record":1492,"name":"石陂里水库","name_source":"aanp_spatial"}}]};

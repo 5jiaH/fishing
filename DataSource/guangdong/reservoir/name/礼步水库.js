@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"礼步水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.02394236160416,23.10818172731972]},"properties":{"GB":310107,"id":33000,"ORIG_FID":514,"source_tile":"f49c001003","source_layer":"resp","source_record":515,"name":"礼步水库","name_source":"aanp_id"}}]};

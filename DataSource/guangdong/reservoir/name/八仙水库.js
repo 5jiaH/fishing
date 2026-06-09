@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"八仙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.74706461537082,24.237329691242593]},"properties":{"GB":310300,"id":195814,"ORIG_FID":912,"source_tile":"g50c004002","source_layer":"resp","source_record":913,"name":"八仙水库","name_source":"aanp_spatial"}}]};

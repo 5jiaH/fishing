@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大营盘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.93074628793644,21.840716467571575]},"properties":{"GB":310108,"id":50505,"ORIG_FID":2999,"source_tile":"f49c003002","source_layer":"resp","source_record":3000,"name":"大营盘水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大蓬降水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.84044053847998,21.99226829518972]},"properties":{"GB":310107,"id":48961,"ORIG_FID":3796,"source_tile":"f49c003002","source_layer":"resp","source_record":3797,"name":"大蓬降水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"牛栏山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.84146006826066,25.72846595112459]},"properties":{"GB":310107,"id":181042,"ORIG_FID":1307,"source_tile":"g50c003001","source_layer":"resp","source_record":1308,"name":"牛栏山水库","name_source":"aanp_id"}}]};

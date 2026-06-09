@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"坦塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.32943602058936,23.643046529667977]},"properties":{"GB":310300,"id":56776,"ORIG_FID":2492,"source_tile":"f50c001001","source_layer":"resp","source_record":2493,"name":"坦塘","name_source":"aanp_spatial"}}]};

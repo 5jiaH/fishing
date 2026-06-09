@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"小水大塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.6071400324793,25.045279344713922]},"properties":{"GB":310107,"id":180385,"ORIG_FID":75,"source_tile":"g50c003001","source_layer":"resp","source_record":76,"name":"小水大塘","name_source":"aanp_id"}}]};

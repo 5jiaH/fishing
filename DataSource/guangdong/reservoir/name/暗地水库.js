@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"暗地水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.10590646558948,22.970532266919808]},"properties":{"GB":310107,"id":44225,"ORIG_FID":2550,"source_tile":"f49c002003","source_layer":"resp","source_record":2551,"name":"暗地水库","name_source":"aanp_id"}}]};

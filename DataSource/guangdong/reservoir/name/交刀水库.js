@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"交刀水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.52660729752347,23.818073958857156]},"properties":{"GB":310300,"id":34415,"ORIG_FID":3092,"source_tile":"f49c001003","source_layer":"resp","source_record":3093,"name":"交刀水库","name_source":"aanp_spatial"}}]};

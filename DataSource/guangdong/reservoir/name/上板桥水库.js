@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"上板桥水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.31795223775285,24.0687562131483]},"properties":{"GB":310108,"id":190589,"ORIG_FID":180,"source_tile":"g50c004001","source_layer":"resp","source_record":181,"name":"上板桥水库","name_source":"aanp_spatial"}}]};

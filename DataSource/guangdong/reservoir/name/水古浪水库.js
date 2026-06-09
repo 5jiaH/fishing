@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"水古浪水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.55836035025217,23.098966181885494]},"properties":{"GB":310107,"id":32987,"ORIG_FID":471,"source_tile":"f49c001003","source_layer":"resp","source_record":472,"name":"水古浪水库","name_source":"aanp_id"}}]};

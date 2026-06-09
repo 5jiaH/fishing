@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"香粉厂水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.64671787744244,23.414605119000065]},"properties":{"GB":310107,"id":37000,"ORIG_FID":628,"source_tile":"f49c001004","source_layer":"resp","source_record":629,"name":"香粉厂水库","name_source":"aanp_id"}}]};

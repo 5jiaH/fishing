@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"洪水坑灌溉水塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.57368144615305,21.758437770485273]},"properties":{"GB":310108,"id":50346,"ORIG_FID":2616,"source_tile":"f49c003002","source_layer":"resp","source_record":2617,"name":"洪水坑灌溉水塘","name_source":"aanp_id"}}]};

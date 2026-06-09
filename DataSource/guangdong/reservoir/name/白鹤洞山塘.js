@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白鹤洞山塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.7122869793616,23.758386212805238]},"properties":{"GB":310108,"id":35997,"ORIG_FID":2866,"source_tile":"f49c001003","source_layer":"resp","source_record":2867,"name":"白鹤洞山塘","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"杭岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.46880920099973,23.457398046837596]},"properties":{"GB":310300,"id":56909,"ORIG_FID":1755,"source_tile":"f50c001001","source_layer":"resp","source_record":1756,"name":"杭岭水库","name_source":"aanp_spatial"}}]};

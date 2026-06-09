@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"富狗留水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.07643967928712,20.895560040580285]},"properties":{"GB":310300,"id":54241,"ORIG_FID":1098,"source_tile":"f49c004002","source_layer":"resp","source_record":1099,"name":"富狗留水库","name_source":"aanp_id"}}]};

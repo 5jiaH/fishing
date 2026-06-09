@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"那咀水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.77424322739162,21.849771950761188]},"properties":{"GB":310107,"id":50921,"ORIG_FID":3046,"source_tile":"f49c003002","source_layer":"resp","source_record":3047,"name":"那咀水库","name_source":"aanp_id"}}]};

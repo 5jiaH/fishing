@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"新金山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.75638557574905,21.62283655646009]},"properties":{"GB":310107,"id":48632,"ORIG_FID":1926,"source_tile":"f49c003002","source_layer":"resp","source_record":1927,"name":"新金山水库","name_source":"aanp_id"}}]};

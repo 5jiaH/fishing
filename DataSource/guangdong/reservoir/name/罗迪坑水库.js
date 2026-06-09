@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"罗迪坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.45972445865578,22.790821839664854]},"properties":{"GB":310109,"id":61045,"ORIG_FID":779,"source_tile":"f50c002001","source_layer":"resp","source_record":780,"name":"罗迪坑水库","name_source":"aanp_id"}}]};

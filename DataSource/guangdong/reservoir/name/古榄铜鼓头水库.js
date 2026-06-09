@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"古榄铜鼓头水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.98852958170362,21.61357756309732]},"properties":{"GB":310108,"id":48980,"ORIG_FID":1882,"source_tile":"f49c003002","source_layer":"resp","source_record":1883,"name":"古榄铜鼓头水库","name_source":"aanp_id"}}]};

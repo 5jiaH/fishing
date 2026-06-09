@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"后岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.25453624914545,25.626906077054468]},"properties":{"GB":310107,"id":180939,"ORIG_FID":1098,"source_tile":"g50c003001","source_layer":"resp","source_record":1099,"name":"后岭水库","name_source":"aanp_id"}}]};

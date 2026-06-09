@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"太平塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.95499971448751,23.029709718309466]},"properties":{"GB":310107,"id":32904,"ORIG_FID":134,"source_tile":"f49c001003","source_layer":"resp","source_record":135,"name":"太平塘水库","name_source":"aanp_id"}}]};

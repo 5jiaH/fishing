@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"砂子冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.2654673180887,24.249133849097326]},"properties":{"GB":310108,"id":159675,"ORIG_FID":430,"source_tile":"g49c004003","source_layer":"resp","source_record":431,"name":"砂子冲水库","name_source":"aanp_spatial"}}]};

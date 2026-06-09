@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"饶堀水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.93778220816054,22.974395993554086]},"properties":{"GB":310107,"id":61886,"ORIG_FID":260,"source_tile":"f50c002002","source_layer":"resp","source_record":261,"name":"饶堀水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"尾坑山塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.6185776734649,23.148309610065887]},"properties":{"GB":310300,"id":57207,"ORIG_FID":596,"source_tile":"f50c001001","source_layer":"resp","source_record":597,"name":"尾坑山塘","name_source":"aanp_spatial"}}]};

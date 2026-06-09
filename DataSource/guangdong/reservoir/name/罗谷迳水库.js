@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"罗谷迳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.45540557563123,21.995627007369567]},"properties":{"GB":310108,"id":52982,"ORIG_FID":1199,"source_tile":"f49c003003","source_layer":"resp","source_record":1200,"name":"罗谷迳水库","name_source":"aanp_spatial"}}]};

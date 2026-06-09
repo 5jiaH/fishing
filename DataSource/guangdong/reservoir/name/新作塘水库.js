@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"新作塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.72755017312855,23.511095197570953]},"properties":{"GB":310107,"id":54849,"ORIG_FID":1982,"source_tile":"f50c001001","source_layer":"resp","source_record":1983,"name":"新作塘水库","name_source":"aanp_spatial"}}]};

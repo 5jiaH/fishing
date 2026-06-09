@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"冲浮水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.84447946571865,23.182779906799578]},"properties":{"GB":310107,"id":33061,"ORIG_FID":861,"source_tile":"f49c001003","source_layer":"resp","source_record":862,"name":"冲浮水库","name_source":"aanp_id"}}]};

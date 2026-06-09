@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"罗柳塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.9081384590613,23.21315569748066]},"properties":{"GB":310107,"id":33087,"ORIG_FID":981,"source_tile":"f49c001003","source_layer":"resp","source_record":982,"name":"罗柳塘水库","name_source":"aanp_id"}}]};

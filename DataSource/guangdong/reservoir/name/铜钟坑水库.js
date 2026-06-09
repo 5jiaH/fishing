@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"铜钟坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.1882059155066,24.839319751800648]},"properties":{"GB":310108,"id":194846,"ORIG_FID":3270,"source_tile":"g50c004002","source_layer":"resp","source_record":3271,"name":"铜钟坑水库","name_source":"aanp_spatial"}}]};

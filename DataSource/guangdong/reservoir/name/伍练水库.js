@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"伍练水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.23074026938323,25.55466205418231]},"properties":{"GB":310108,"id":182033,"ORIG_FID":985,"source_tile":"g50c003001","source_layer":"resp","source_record":986,"name":"伍练水库","name_source":"aanp_id"}}]};

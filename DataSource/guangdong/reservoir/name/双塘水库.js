@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"双塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.18022695166212,22.15706553809751]},"properties":{"GB":310108,"id":44876,"ORIG_FID":378,"source_tile":"f49c002003","source_layer":"resp","source_record":379,"name":"双塘水库","name_source":"aanp_id"}}]};

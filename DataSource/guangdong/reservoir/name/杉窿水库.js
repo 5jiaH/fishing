@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"杉窿水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.63610386687162,23.34078200194627]},"properties":{"GB":310107,"id":38374,"ORIG_FID":485,"source_tile":"f49c001004","source_layer":"resp","source_record":486,"name":"杉窿水库","name_source":"aanp_id"}}]};

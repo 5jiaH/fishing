@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"清远抽水蓄能电站下水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.86616764499806,23.72966975075821]},"properties":{"GB":310108,"id":37728,"ORIG_FID":1342,"source_tile":"f49c001004","source_layer":"resp","source_record":1343,"name":"清远抽水蓄能电站下水库","name_source":"osm"}}]};

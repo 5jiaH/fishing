@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鸭迳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.23706449206267,21.947484738706535]},"properties":{"GB":310107,"id":48910,"ORIG_FID":3537,"source_tile":"f49c003002","source_layer":"resp","source_record":3538,"name":"鸭迳水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"那马水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.73197779172315,21.687510253796294]},"properties":{"GB":310107,"id":48687,"ORIG_FID":2245,"source_tile":"f49c003002","source_layer":"resp","source_record":2246,"name":"那马水库","name_source":"aanp_id"}}]};

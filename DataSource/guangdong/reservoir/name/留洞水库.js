@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"留洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.26015754184567,23.920520080041463]},"properties":{"GB":310108,"id":55535,"ORIG_FID":3164,"source_tile":"f50c001001","source_layer":"resp","source_record":3165,"name":"留洞水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"纸山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.17610971640055,20.059653788704868]},"properties":{"GB":310300,"id":54386,"ORIG_FID":294,"source_tile":"f49c004002","source_layer":"resp","source_record":295,"name":"纸山水库","name_source":"aanp_id"}}]};

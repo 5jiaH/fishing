@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"山狗堰水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.06264219158028,20.38633361412323]},"properties":{"GB":310108,"id":53875,"ORIG_FID":483,"source_tile":"f49c004002","source_layer":"resp","source_record":484,"name":"山狗堰水库","name_source":"aanp_spatial"}}]};

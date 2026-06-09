@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"余塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.1926119173061,23.09206586483512]},"properties":{"GB":310107,"id":32982,"ORIG_FID":435,"source_tile":"f49c001003","source_layer":"resp","source_record":436,"name":"余塘水库","name_source":"aanp_id"}}]};

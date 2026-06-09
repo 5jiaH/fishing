@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"武仙岩水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.74961392919656,24.228779936432865]},"properties":{"GB":310107,"id":192958,"ORIG_FID":875,"source_tile":"g50c004002","source_layer":"resp","source_record":876,"name":"武仙岩水库","name_source":"aanp_spatial"}}]};

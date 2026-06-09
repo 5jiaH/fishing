@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"坑美水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.39195955023193,24.59224434569718]},"properties":{"GB":310300,"id":195525,"ORIG_FID":2403,"source_tile":"g50c004002","source_layer":"resp","source_record":2404,"name":"坑美水库","name_source":"aanp_spatial"}}]};

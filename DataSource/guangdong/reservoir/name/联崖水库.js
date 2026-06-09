@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"联崖水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.8352261617867,21.430702470365137]},"properties":{"GB":310300,"id":50705,"ORIG_FID":968,"source_tile":"f49c003002","source_layer":"resp","source_record":969,"name":"联崖水库","name_source":"aanp_id"}}]};

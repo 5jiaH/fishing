@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"罗岗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.5152496256321,21.493721881115757]},"properties":{"GB":310300,"id":50772,"ORIG_FID":1209,"source_tile":"f49c003002","source_layer":"resp","source_record":1210,"name":"罗岗水库","name_source":"aanp_id"}}]};

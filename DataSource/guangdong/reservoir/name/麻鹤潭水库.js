@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"麻鹤潭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.90126838145717,21.758759664838223]},"properties":{"GB":310300,"id":53127,"ORIG_FID":514,"source_tile":"f49c003003","source_layer":"resp","source_record":515,"name":"麻鹤潭水库","name_source":"aanp_spatial"}}]};

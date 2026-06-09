@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"杨旗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.86238048744794,22.41893957683958]},"properties":{"GB":310107,"id":43193,"ORIG_FID":1017,"source_tile":"f49c002003","source_layer":"resp","source_record":1018,"name":"杨旗水库","name_source":"aanp_id"}}]};

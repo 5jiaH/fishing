@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"再背水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.9855939986951,22.84345995329433]},"properties":{"GB":310108,"id":60668,"ORIG_FID":943,"source_tile":"f50c002001","source_layer":"resp","source_record":944,"name":"再背水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"双枝塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.04311623992379,23.26706084027217]},"properties":{"GB":310107,"id":33157,"ORIG_FID":1197,"source_tile":"f49c001003","source_layer":"resp","source_record":1198,"name":"双枝塘水库","name_source":"aanp_spatial"}}]};

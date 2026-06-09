@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"覃米塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.29840468378187,22.850347862811837]},"properties":{"GB":310108,"id":44418,"ORIG_FID":2189,"source_tile":"f49c002003","source_layer":"resp","source_record":2190,"name":"覃米塘水库","name_source":"aanp_id"}}]};

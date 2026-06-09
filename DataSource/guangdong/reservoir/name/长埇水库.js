@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"长埇水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.2170384451906,22.285861302180443]},"properties":{"GB":311104,"id":60943,"ORIG_FID":43,"source_tile":"f50c002001","source_layer":"resp","source_record":44,"name":"长埇水库","name_source":"aanp_id"}}]};

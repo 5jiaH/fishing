@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"泊水水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.67889911084939,21.809755632013417]},"properties":{"GB":310109,"id":51584,"ORIG_FID":2843,"source_tile":"f49c003002","source_layer":"resp","source_record":2844,"name":"泊水水库","name_source":"osm"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"肚鼠水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.39564843489973,23.09800311398975]},"properties":{"GB":310107,"id":32983,"ORIG_FID":460,"source_tile":"f49c001003","source_layer":"resp","source_record":461,"name":"肚鼠水库","name_source":"aanp_id"}}]};

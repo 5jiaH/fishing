@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"老消塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.88808733575392,25.465359557869327]},"properties":{"GB":310107,"id":180799,"ORIG_FID":837,"source_tile":"g50c003001","source_layer":"resp","source_record":838,"name":"老消塘","name_source":"aanp_id"}}]};

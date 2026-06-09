@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"乾管水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[117.17690411849881,23.701901874744724]},"properties":{"GB":310300,"id":59604,"ORIG_FID":130,"source_tile":"f50c001003","source_layer":"resp","source_record":131,"name":"乾管水库","name_source":"aanp_id"}}]};

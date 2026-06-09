@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"芦山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.5199664294691,22.94109385651062]},"properties":{"GB":310108,"id":62034,"ORIG_FID":177,"source_tile":"f50c002002","source_layer":"resp","source_record":178,"name":"芦山水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"上蛇皮水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.04885769821092,25.270527604039916]},"properties":{"GB":310108,"id":181966,"ORIG_FID":495,"source_tile":"g50c003001","source_layer":"resp","source_record":496,"name":"上蛇皮水库","name_source":"aanp_id"}}]};

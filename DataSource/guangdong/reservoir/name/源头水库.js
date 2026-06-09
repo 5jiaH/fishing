@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"源头水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.42108574596861,25.92439449194215]},"properties":{"GB":310107,"id":150978,"ORIG_FID":1905,"source_tile":"g49c003003","source_layer":"resp","source_record":1906,"name":"源头水库","name_source":"aanp_spatial"}}]};

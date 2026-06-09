@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"过坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.65274020529185,23.950517610276112]},"properties":{"GB":310107,"id":59145,"ORIG_FID":1475,"source_tile":"f50c001002","source_layer":"resp","source_record":1476,"name":"过坑水库","name_source":"aanp_id"}}]};

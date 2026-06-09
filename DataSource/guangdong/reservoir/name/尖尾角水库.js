@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"尖尾角水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.13819783237533,25.57255355771364]},"properties":{"GB":310108,"id":181994,"ORIG_FID":1016,"source_tile":"g50c003001","source_layer":"resp","source_record":1017,"name":"尖尾角水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"木头冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.30601102229508,21.249382280635487]},"properties":{"GB":310108,"id":49517,"ORIG_FID":445,"source_tile":"f49c003002","source_layer":"resp","source_record":446,"name":"木头冲水库","name_source":"aanp_id"}}]};

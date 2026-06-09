@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"山雅水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[117.48223536780057,23.72316400768124]},"properties":{"GB":311105,"id":59727,"ORIG_FID":193,"source_tile":"f50c001003","source_layer":"resp","source_record":194,"name":"山雅水库","name_source":"aanp_id"}}]};

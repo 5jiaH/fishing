@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鸡牙石水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.6973458595518,23.93217212491292]},"properties":{"GB":310108,"id":55540,"ORIG_FID":3183,"source_tile":"f50c001001","source_layer":"resp","source_record":3184,"name":"鸡牙石水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白花庙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.72499950180432,22.94660047747783]},"properties":{"GB":310300,"id":61995,"ORIG_FID":186,"source_tile":"f50c002002","source_layer":"resp","source_record":187,"name":"白花庙水库","name_source":"aanp_id"}}]};

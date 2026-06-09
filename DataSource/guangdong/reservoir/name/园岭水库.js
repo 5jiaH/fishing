@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"园岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.08053824661381,25.39171647502876]},"properties":{"GB":311105,"id":180262,"ORIG_FID":702,"source_tile":"g50c003001","source_layer":"resp","source_record":703,"name":"园岭水库","name_source":"aanp_id"}}]};

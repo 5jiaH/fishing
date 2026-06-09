@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"符竹水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.0407100928403,21.89587107188231]},"properties":{"GB":310300,"id":62040,"ORIG_FID":1,"source_tile":"f50c003001","source_layer":"resp","source_record":2,"name":"符竹水库","name_source":"aanp_id"}}]};

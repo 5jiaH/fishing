@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"老管塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.3117624325449,25.73561466716363]},"properties":{"GB":310108,"id":182064,"ORIG_FID":1321,"source_tile":"g50c003001","source_layer":"resp","source_record":1322,"name":"老管塘水库","name_source":"aanp_id"}}]};

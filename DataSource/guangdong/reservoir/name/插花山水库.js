@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"插花山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.66900238543349,21.625419352696618]},"properties":{"GB":310107,"id":48634,"ORIG_FID":1942,"source_tile":"f49c003002","source_layer":"resp","source_record":1943,"name":"插花山水库","name_source":"aanp_id"}}]};

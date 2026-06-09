@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"树山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.54698617600529,25.788043095320923]},"properties":{"GB":311104,"id":180315,"ORIG_FID":1422,"source_tile":"g50c003001","source_layer":"resp","source_record":1423,"name":"树山水库","name_source":"aanp_id"}}]};

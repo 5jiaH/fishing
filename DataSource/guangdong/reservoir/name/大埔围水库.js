@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大埔围水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.65004681672212,23.712428256033213]},"properties":{"GB":310300,"id":38249,"ORIG_FID":1301,"source_tile":"f49c001004","source_layer":"resp","source_record":1302,"name":"大埔围水库","name_source":"aanp_id"}}]};

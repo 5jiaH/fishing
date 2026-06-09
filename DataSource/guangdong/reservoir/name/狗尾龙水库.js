@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"狗尾龙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.5012141838678,20.01621644167413]},"properties":{"GB":310300,"id":54341,"ORIG_FID":120,"source_tile":"f49c004002","source_layer":"resp","source_record":121,"name":"狗尾龙水库","name_source":"aanp_id"}}]};

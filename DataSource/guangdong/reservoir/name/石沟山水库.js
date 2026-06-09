@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石沟山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.38650384164532,22.43953590332115]},"properties":{"GB":310107,"id":45401,"ORIG_FID":604,"source_tile":"f49c002004","source_layer":"resp","source_record":605,"name":"石沟山水库","name_source":"aanp_id"}}]};

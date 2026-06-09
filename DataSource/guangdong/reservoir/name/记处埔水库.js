@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"记处埔水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.23870579241535,22.905124108473185]},"properties":{"GB":310108,"id":60724,"ORIG_FID":1141,"source_tile":"f50c002001","source_layer":"resp","source_record":1142,"name":"记处埔水库","name_source":"aanp_spatial"}}]};

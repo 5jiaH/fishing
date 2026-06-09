@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"凌清水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.6188724860244,22.65938190924821]},"properties":{"GB":310107,"id":43529,"ORIG_FID":1660,"source_tile":"f49c002003","source_layer":"resp","source_record":1661,"name":"凌清水库","name_source":"aanp_id"}}]};

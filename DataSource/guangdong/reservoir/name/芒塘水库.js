@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"芒塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.3383520734924,22.351576349364688]},"properties":{"GB":310107,"id":43107,"ORIG_FID":839,"source_tile":"f49c002003","source_layer":"resp","source_record":840,"name":"芒塘水库","name_source":"aanp_id"}}]};

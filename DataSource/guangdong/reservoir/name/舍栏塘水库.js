@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"舍栏塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.28547271860442,23.20752579259926]},"properties":{"GB":310107,"id":33075,"ORIG_FID":958,"source_tile":"f49c001003","source_layer":"resp","source_record":959,"name":"舍栏塘水库","name_source":"aanp_id"}}]};

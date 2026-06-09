@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"龙谷埚水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.66756765699145,22.884590031937257]},"properties":{"GB":310300,"id":61999,"ORIG_FID":100,"source_tile":"f50c002002","source_layer":"resp","source_record":101,"name":"龙谷埚水库","name_source":"aanp_id"}}]};

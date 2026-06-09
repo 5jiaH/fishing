@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"长坡水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.14233449140141,22.866530009379282]},"properties":{"GB":310109,"id":61096,"ORIG_FID":1025,"source_tile":"f50c002001","source_layer":"resp","source_record":1026,"name":"长坡水库","name_source":"aanp_id"}}]};

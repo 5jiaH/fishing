@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"婆庙塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.55542778364699,25.28874558957037]},"properties":{"GB":310107,"id":180655,"ORIG_FID":523,"source_tile":"g50c003001","source_layer":"resp","source_record":524,"name":"婆庙塘","name_source":"aanp_id"}}]};

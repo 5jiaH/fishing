@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"铜盘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.33272365972242,24.433283842140874]},"properties":{"GB":310108,"id":194565,"ORIG_FID":1767,"source_tile":"g50c004002","source_layer":"resp","source_record":1768,"name":"铜盘水库","name_source":"aanp_spatial"}}]};

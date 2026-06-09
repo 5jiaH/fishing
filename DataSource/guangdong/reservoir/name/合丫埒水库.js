@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"合丫埒水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.65761254375627,22.885680113507956]},"properties":{"GB":310300,"id":62003,"ORIG_FID":108,"source_tile":"f50c002002","source_layer":"resp","source_record":109,"name":"合丫埒水库","name_source":"aanp_id"}}]};

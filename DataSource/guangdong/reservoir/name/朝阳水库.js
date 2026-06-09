@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"朝阳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.99601573502086,21.14215219786777]},"properties":{"GB":310107,"id":48363,"ORIG_FID":222,"source_tile":"f49c003002","source_layer":"resp","source_record":223,"name":"朝阳水库","name_source":"aanp_id"}}]};

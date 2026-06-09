@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"朝岗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.65264691595937,23.09475431693544]},"properties":{"GB":311105,"id":36945,"ORIG_FID":103,"source_tile":"f49c001004","source_layer":"resp","source_record":104,"name":"朝岗水库","name_source":"aanp_id"}}]};

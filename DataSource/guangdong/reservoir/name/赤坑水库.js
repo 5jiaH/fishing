@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"赤坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.22489709968809,21.74484021347043]},"properties":{"GB":310107,"id":52311,"ORIG_FID":480,"source_tile":"f49c003003","source_layer":"resp","source_record":481,"name":"赤坑水库","name_source":"aanp_id"}}]};

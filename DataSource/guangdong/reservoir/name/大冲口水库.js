@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大冲口水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.71859977186122,21.00518629707535]},"properties":{"GB":310108,"id":48999,"ORIG_FID":8,"source_tile":"f49c003002","source_layer":"resp","source_record":9,"name":"大冲口水库","name_source":"aanp_id"}}]};

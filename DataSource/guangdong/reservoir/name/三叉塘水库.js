@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"三叉塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.75267306396333,25.644261767903842]},"properties":{"GB":310107,"id":181885,"ORIG_FID":1141,"source_tile":"g50c003001","source_layer":"resp","source_record":1142,"name":"三叉塘水库","name_source":"aanp_id"}}]};

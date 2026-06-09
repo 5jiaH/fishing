@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"秧坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.15104921096332,20.364580403411825]},"properties":{"GB":310300,"id":54206,"ORIG_FID":459,"source_tile":"f49c004002","source_layer":"resp","source_record":460,"name":"秧坑水库","name_source":"aanp_id"}}]};

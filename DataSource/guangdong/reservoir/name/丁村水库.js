@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"丁村水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.38875776938875,23.138643939058134]},"properties":{"GB":310300,"id":35422,"ORIG_FID":650,"source_tile":"f49c001003","source_layer":"resp","source_record":651,"name":"丁村水库","name_source":"aanp_spatial"}}]};

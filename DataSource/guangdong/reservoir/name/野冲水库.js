@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"野冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.2064255912756,23.102565693348254]},"properties":{"GB":310107,"id":32991,"ORIG_FID":489,"source_tile":"f49c001003","source_layer":"resp","source_record":490,"name":"野冲水库","name_source":"aanp_id"}}]};

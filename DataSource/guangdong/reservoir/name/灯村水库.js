@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"灯村水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.92151796380946,21.58278418691353]},"properties":{"GB":310108,"id":48976,"ORIG_FID":1699,"source_tile":"f49c003002","source_layer":"resp","source_record":1700,"name":"灯村水库","name_source":"aanp_id"}}]};

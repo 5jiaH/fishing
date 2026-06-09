@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大钵水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.11488504291756,23.080659626940392]},"properties":{"GB":310107,"id":32965,"ORIG_FID":372,"source_tile":"f49c001003","source_layer":"resp","source_record":373,"name":"大钵水库","name_source":"aanp_id"}}]};

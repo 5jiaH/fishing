@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大龙湖","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.99021492704222,23.34588727761373]},"properties":{"GB":310107,"id":36895,"ORIG_FID":493,"source_tile":"f49c001004","source_layer":"resp","source_record":494,"name":"大龙湖","name_source":"aanp_id"}}]};

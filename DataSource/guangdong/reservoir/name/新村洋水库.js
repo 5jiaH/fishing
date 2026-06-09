@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"新村洋水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.45092037231139,22.741866407546052]},"properties":{"GB":310107,"id":60277,"ORIG_FID":630,"source_tile":"f50c002001","source_layer":"resp","source_record":631,"name":"新村洋水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"牙象水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.82408347226664,22.842046399049565]},"properties":{"GB":310300,"id":61240,"ORIG_FID":936,"source_tile":"f50c002001","source_layer":"resp","source_record":937,"name":"牙象水库","name_source":"aanp_id"}}]};

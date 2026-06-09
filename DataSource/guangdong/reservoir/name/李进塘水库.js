@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"李进塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.56728017629084,21.837781945846224]},"properties":{"GB":310109,"id":53039,"ORIG_FID":746,"source_tile":"f49c003003","source_layer":"resp","source_record":747,"name":"李进塘水库","name_source":"aanp_spatial"}}]};

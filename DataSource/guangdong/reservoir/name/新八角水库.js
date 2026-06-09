@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"新八角水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.05494186409075,25.09878022401315]},"properties":{"GB":310108,"id":181968,"ORIG_FID":161,"source_tile":"g50c003001","source_layer":"resp","source_record":162,"name":"新八角水库","name_source":"aanp_id"}}]};

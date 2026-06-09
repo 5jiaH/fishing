@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"二濠水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.05596956616918,22.545629567096093]},"properties":{"GB":310108,"id":44644,"ORIG_FID":1361,"source_tile":"f49c002003","source_layer":"resp","source_record":1362,"name":"二濠水库","name_source":"aanp_spatial"}}]};

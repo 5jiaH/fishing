@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黄茅瓮水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.74348038672969,21.953389811557855]},"properties":{"GB":310107,"id":48918,"ORIG_FID":3566,"source_tile":"f49c003002","source_layer":"resp","source_record":3567,"name":"黄茅瓮水库","name_source":"aanp_id"}}]};

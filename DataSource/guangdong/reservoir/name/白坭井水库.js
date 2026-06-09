@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白坭井水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.97321238639014,21.745454391027952]},"properties":{"GB":310108,"id":51667,"ORIG_FID":2553,"source_tile":"f49c003002","source_layer":"resp","source_record":2554,"name":"白坭井水库","name_source":"aanp_id"}}]};

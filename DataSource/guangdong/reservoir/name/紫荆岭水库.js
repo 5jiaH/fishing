@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"紫荆岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.76216811032491,23.123454633735374]},"properties":{"GB":310107,"id":33012,"ORIG_FID":578,"source_tile":"f49c001003","source_layer":"resp","source_record":579,"name":"紫荆岭水库","name_source":"aanp_id"}}]};

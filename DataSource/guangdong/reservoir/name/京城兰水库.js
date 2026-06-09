@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"京城兰水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.58783402636257,22.73684557980813]},"properties":{"GB":310107,"id":61818,"ORIG_FID":18,"source_tile":"f50c002002","source_layer":"resp","source_record":19,"name":"京城兰水库","name_source":"aanp_spatial"}}]};

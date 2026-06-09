@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"汾水水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.46219770516095,23.56550162102158]},"properties":{"GB":310107,"id":37201,"ORIG_FID":995,"source_tile":"f49c001004","source_layer":"resp","source_record":996,"name":"汾水水库","name_source":"aanp_spatial"}}]};

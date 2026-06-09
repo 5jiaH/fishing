@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石泉坝水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.43316404457593,24.546063587181344]},"properties":{"GB":310108,"id":195003,"ORIG_FID":2229,"source_tile":"g50c004002","source_layer":"resp","source_record":2230,"name":"石泉坝水库","name_source":"aanp_spatial"}}]};

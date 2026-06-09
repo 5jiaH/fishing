@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"自力水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.18073161831303,25.39726541491243]},"properties":{"GB":310108,"id":181741,"ORIG_FID":715,"source_tile":"g50c003001","source_layer":"resp","source_record":716,"name":"自力水库","name_source":"aanp_id"}}]};

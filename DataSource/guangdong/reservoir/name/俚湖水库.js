@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"俚湖水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.25373555040855,25.107512045113722]},"properties":{"GB":310107,"id":180455,"ORIG_FID":180,"source_tile":"g50c003001","source_layer":"resp","source_record":181,"name":"俚湖水库","name_source":"aanp_spatial"}}]};

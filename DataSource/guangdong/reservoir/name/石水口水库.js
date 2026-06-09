@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石水口水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.98468234537646,21.912376272163847]},"properties":{"GB":310107,"id":52538,"ORIG_FID":955,"source_tile":"f49c003003","source_layer":"resp","source_record":956,"name":"石水口水库","name_source":"aanp_id"}}]};

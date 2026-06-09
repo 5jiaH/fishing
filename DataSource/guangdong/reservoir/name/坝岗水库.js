@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"坝岗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.48537845228941,22.636315971842436]},"properties":{"GB":310108,"id":60832,"ORIG_FID":396,"source_tile":"f50c002001","source_layer":"resp","source_record":397,"name":"坝岗水库","name_source":"osm"}}]};

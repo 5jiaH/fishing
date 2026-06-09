@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"寒山一库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.26356443389312,22.776692111719576]},"properties":{"GB":310107,"id":43934,"ORIG_FID":1985,"source_tile":"f49c002003","source_layer":"resp","source_record":1986,"name":"寒山一库","name_source":"aanp_id"}}]};

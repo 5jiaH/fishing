@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"尖峰山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.58363715538519,23.185795675930443]},"properties":{"GB":310108,"id":38416,"ORIG_FID":233,"source_tile":"f49c001004","source_layer":"resp","source_record":234,"name":"尖峰山水库","name_source":"aanp_id"}}]};

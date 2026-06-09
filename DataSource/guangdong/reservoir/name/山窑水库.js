@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"山窑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.67792011633814,22.80423157376852]},"properties":{"GB":310300,"id":61430,"ORIG_FID":816,"source_tile":"f50c002001","source_layer":"resp","source_record":817,"name":"山窑水库","name_source":"aanp_id"}}]};

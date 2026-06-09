@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"松山下水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.39294185914528,25.845159884265545]},"properties":{"GB":310107,"id":181180,"ORIG_FID":1558,"source_tile":"g50c003001","source_layer":"resp","source_record":1559,"name":"松山下水库","name_source":"aanp_id"}}]};

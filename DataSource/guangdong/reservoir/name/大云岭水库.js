@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大云岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.31796783549132,22.968969797322814]},"properties":{"GB":311104,"id":61035,"ORIG_FID":1377,"source_tile":"f50c002001","source_layer":"resp","source_record":1378,"name":"大云岭水库","name_source":"aanp_spatial"}}]};

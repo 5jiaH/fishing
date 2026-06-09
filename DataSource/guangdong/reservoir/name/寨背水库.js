@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"寨背水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.70673393132378,25.501184103401098]},"properties":{"GB":310108,"id":181880,"ORIG_FID":890,"source_tile":"g50c003001","source_layer":"resp","source_record":891,"name":"寨背水库","name_source":"aanp_id"}}]};

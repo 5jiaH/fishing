@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"干田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.97660959814402,25.636696543549853]},"properties":{"GB":310107,"id":181949,"ORIG_FID":1119,"source_tile":"g50c003001","source_layer":"resp","source_record":1120,"name":"干田水库","name_source":"aanp_id"}}]};

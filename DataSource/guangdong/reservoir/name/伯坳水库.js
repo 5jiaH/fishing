@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"伯坳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.21520282221138,22.793793541517804]},"properties":{"GB":310108,"id":60792,"ORIG_FID":789,"source_tile":"f50c002001","source_layer":"resp","source_record":790,"name":"伯坳水库","name_source":"aanp_spatial"}}]};

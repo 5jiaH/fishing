@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大湖洋水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.78347037482689,22.919745808019787]},"properties":{"GB":310108,"id":60624,"ORIG_FID":1185,"source_tile":"f50c002001","source_layer":"resp","source_record":1186,"name":"大湖洋水库","name_source":"aanp_spatial"}}]};

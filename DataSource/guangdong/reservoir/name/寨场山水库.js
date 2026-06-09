@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"寨场山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.73200398570941,22.893030100640654]},"properties":{"GB":310108,"id":60742,"ORIG_FID":1105,"source_tile":"f50c002001","source_layer":"resp","source_record":1106,"name":"寨场山水库","name_source":"aanp_spatial"}}]};

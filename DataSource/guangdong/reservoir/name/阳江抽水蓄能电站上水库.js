@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"阳江抽水蓄能电站上水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.38202739425392,21.877614741177442]},"properties":{"GB":310109,"id":53049,"ORIG_FID":871,"source_tile":"f49c003003","source_layer":"resp","source_record":872,"name":"阳江抽水蓄能电站上水库","name_source":"osm"}}]};

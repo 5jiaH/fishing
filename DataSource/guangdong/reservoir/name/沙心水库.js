@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"沙心水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.10634971149116,23.123736302317166]},"properties":{"GB":310107,"id":33010,"ORIG_FID":582,"source_tile":"f49c001003","source_layer":"resp","source_record":583,"name":"沙心水库","name_source":"aanp_id"}}]};

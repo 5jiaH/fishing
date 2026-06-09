@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黑坭冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.7779557530759,22.605509744382957]},"properties":{"GB":310107,"id":43461,"ORIG_FID":1523,"source_tile":"f49c002003","source_layer":"resp","source_record":1524,"name":"黑坭冲水库","name_source":"aanp_id"}}]};

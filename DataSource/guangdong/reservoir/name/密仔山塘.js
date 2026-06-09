@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"密仔山塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.99848681510534,21.855684635438433]},"properties":{"GB":310108,"id":49877,"ORIG_FID":3080,"source_tile":"f49c003002","source_layer":"resp","source_record":3081,"name":"密仔山塘","name_source":"aanp_id"}}]};

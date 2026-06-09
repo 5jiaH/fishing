@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"谭沙塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.26341808064905,23.02956022839391]},"properties":{"GB":310107,"id":32901,"ORIG_FID":132,"source_tile":"f49c001003","source_layer":"resp","source_record":133,"name":"谭沙塘水库","name_source":"aanp_id"}}]};

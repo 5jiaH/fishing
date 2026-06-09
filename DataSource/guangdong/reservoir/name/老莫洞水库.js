@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"老莫洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.72342669519762,25.70162192467995]},"properties":{"GB":310107,"id":181633,"ORIG_FID":1252,"source_tile":"g50c003001","source_layer":"resp","source_record":1253,"name":"老莫洞水库","name_source":"aanp_id"}}]};

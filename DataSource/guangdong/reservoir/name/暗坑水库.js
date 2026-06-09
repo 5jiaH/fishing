@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"暗坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.18055025946092,23.25913973494389]},"properties":{"GB":310108,"id":55902,"ORIG_FID":1065,"source_tile":"f50c001001","source_layer":"resp","source_record":1066,"name":"暗坑水库","name_source":"aanp_spatial"}}]};

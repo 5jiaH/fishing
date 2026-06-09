@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"胡村水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.99124173767625,23.321571854148182]},"properties":{"GB":310107,"id":36872,"ORIG_FID":454,"source_tile":"f49c001004","source_layer":"resp","source_record":455,"name":"胡村水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石门楼水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.23411013472025,25.55842221463056]},"properties":{"GB":310108,"id":181774,"ORIG_FID":991,"source_tile":"g50c003001","source_layer":"resp","source_record":992,"name":"石门楼水库","name_source":"aanp_id"}}]};

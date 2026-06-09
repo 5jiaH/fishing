@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"三亚山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.7647282016015,23.02702830570862]},"properties":{"GB":310300,"id":57825,"ORIG_FID":122,"source_tile":"f50c001001","source_layer":"resp","source_record":123,"name":"三亚山水库","name_source":"aanp_spatial"}}]};

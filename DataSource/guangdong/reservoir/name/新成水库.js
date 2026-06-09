@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"新成水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.36947255459117,22.66451802903786]},"properties":{"GB":310107,"id":45028,"ORIG_FID":1677,"source_tile":"f49c002003","source_layer":"resp","source_record":1678,"name":"新成水库","name_source":"aanp_id"}}]};

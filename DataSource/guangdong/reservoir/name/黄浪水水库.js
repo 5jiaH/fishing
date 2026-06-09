@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黄浪水水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.48946662695556,25.321823714955016]},"properties":{"GB":310108,"id":182114,"ORIG_FID":582,"source_tile":"g50c003001","source_layer":"resp","source_record":583,"name":"黄浪水水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"下洋水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.7011444059442,23.563941782802278]},"properties":{"GB":310107,"id":59544,"ORIG_FID":809,"source_tile":"f50c001002","source_layer":"resp","source_record":810,"name":"下洋水库","name_source":"aanp_id"}}]};

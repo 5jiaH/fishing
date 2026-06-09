@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"小涵洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.34852229041729,25.609376397590466]},"properties":{"GB":310300,"id":149708,"ORIG_FID":1210,"source_tile":"g49c003003","source_layer":"resp","source_record":1211,"name":"小涵洞水库","name_source":"aanp_spatial"}}]};

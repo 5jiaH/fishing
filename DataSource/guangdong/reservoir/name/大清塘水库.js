@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大清塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.64678156267529,25.16177048104611]},"properties":{"GB":310107,"id":149941,"ORIG_FID":308,"source_tile":"g49c003003","source_layer":"resp","source_record":309,"name":"大清塘水库","name_source":"aanp_spatial"}}]};

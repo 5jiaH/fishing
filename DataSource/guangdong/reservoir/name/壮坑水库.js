@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"壮坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.13942310384792,23.03059369179108]},"properties":{"GB":311104,"id":36917,"ORIG_FID":34,"source_tile":"f49c001004","source_layer":"resp","source_record":35,"name":"壮坑水库","name_source":"aanp_id"}}]};

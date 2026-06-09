@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"山塘坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.00562062184761,23.188547870613707]},"properties":{"GB":310107,"id":33067,"ORIG_FID":888,"source_tile":"f49c001003","source_layer":"resp","source_record":889,"name":"山塘坑水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"牛眠埔水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.04751191466528,22.816722220736008]},"properties":{"GB":310108,"id":60645,"ORIG_FID":858,"source_tile":"f50c002001","source_layer":"resp","source_record":859,"name":"牛眠埔水库","name_source":"aanp_spatial"}}]};

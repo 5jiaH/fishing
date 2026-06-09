@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"湖光湖","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.79335372079196,23.828566253327033]},"properties":{"GB":310107,"id":58986,"ORIG_FID":1249,"source_tile":"f50c001002","source_layer":"resp","source_record":1250,"name":"湖光湖","name_source":"aanp_id"}}]};

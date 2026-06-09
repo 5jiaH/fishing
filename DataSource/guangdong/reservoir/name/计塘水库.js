@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"计塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.65800490332308,21.982297676569562]},"properties":{"GB":310107,"id":52627,"ORIG_FID":1163,"source_tile":"f49c003003","source_layer":"resp","source_record":1164,"name":"计塘水库","name_source":"aanp_spatial"}}]};

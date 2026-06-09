@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白泥径水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.87495421640827,24.79598200942892]},"properties":{"GB":310108,"id":193297,"ORIG_FID":3119,"source_tile":"g50c004002","source_layer":"resp","source_record":3120,"name":"白泥径水库","name_source":"aanp_spatial"}}]};

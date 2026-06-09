@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"铜锣湾水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.2755836115637,23.743172015802028]},"properties":{"GB":310108,"id":35987,"ORIG_FID":2802,"source_tile":"f49c001003","source_layer":"resp","source_record":2803,"name":"铜锣湾水库","name_source":"aanp_id"}}]};

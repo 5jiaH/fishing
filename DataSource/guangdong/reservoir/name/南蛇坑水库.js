@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"南蛇坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.85302844648345,24.472364233543775]},"properties":{"GB":310108,"id":196080,"ORIG_FID":1938,"source_tile":"g50c004002","source_layer":"resp","source_record":1939,"name":"南蛇坑水库","name_source":"aanp_spatial"}}]};

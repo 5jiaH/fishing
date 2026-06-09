@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"九仔冚水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.26522332306999,23.095069528339263]},"properties":{"GB":311105,"id":36938,"ORIG_FID":104,"source_tile":"f49c001004","source_layer":"resp","source_record":105,"name":"九仔冚水库","name_source":"aanp_id"}}]};

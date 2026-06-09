@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"肖和背水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.46741229213859,25.880353635290465]},"properties":{"GB":310108,"id":182122,"ORIG_FID":1644,"source_tile":"g50c003001","source_layer":"resp","source_record":1645,"name":"肖和背水库","name_source":"aanp_id"}}]};

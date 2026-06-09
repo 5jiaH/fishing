@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"猫爪水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.23999205751551,21.92268485068869]},"properties":{"GB":310107,"id":53261,"ORIG_FID":98,"source_tile":"f49c003004","source_layer":"resp","source_record":99,"name":"猫爪水库","name_source":"aanp_id"}}]};

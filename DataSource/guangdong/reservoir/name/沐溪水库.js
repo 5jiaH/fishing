@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"沐溪水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.92915950522215,25.92724031846947]},"properties":{"GB":310107,"id":181282,"ORIG_FID":1749,"source_tile":"g50c003001","source_layer":"resp","source_record":1750,"name":"沐溪水库","name_source":"aanp_id"}}]};

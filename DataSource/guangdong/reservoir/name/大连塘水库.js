@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大连塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.39545471887313,23.892158125061957]},"properties":{"GB":310300,"id":34304,"ORIG_FID":3338,"source_tile":"f49c001003","source_layer":"resp","source_record":3339,"name":"大连塘水库","name_source":"aanp_id"}}]};

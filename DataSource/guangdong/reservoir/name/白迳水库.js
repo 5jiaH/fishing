@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白迳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.32391763678343,20.061024089203983]},"properties":{"GB":310300,"id":54282,"ORIG_FID":302,"source_tile":"f49c004002","source_layer":"resp","source_record":303,"name":"白迳水库","name_source":"aanp_id"}}]};

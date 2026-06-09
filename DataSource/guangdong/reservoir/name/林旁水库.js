@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"林旁水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.25698008997841,23.187056447497145]},"properties":{"GB":310107,"id":33071,"ORIG_FID":879,"source_tile":"f49c001003","source_layer":"resp","source_record":880,"name":"林旁水库","name_source":"aanp_id"}}]};

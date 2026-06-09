@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"螺山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.26911189906431,21.46386856430933]},"properties":{"GB":310107,"id":51050,"ORIG_FID":1095,"source_tile":"f49c003002","source_layer":"resp","source_record":1096,"name":"螺山水库","name_source":"aanp_id"}}]};

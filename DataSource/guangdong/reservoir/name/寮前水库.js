@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"寮前水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.61175600567121,21.903065747223582]},"properties":{"GB":310108,"id":52884,"ORIG_FID":933,"source_tile":"f49c003003","source_layer":"resp","source_record":934,"name":"寮前水库","name_source":"aanp_id"}}]};

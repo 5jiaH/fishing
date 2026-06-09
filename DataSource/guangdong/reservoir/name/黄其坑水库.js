@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黄其坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.45891240683065,23.47827871701531]},"properties":{"GB":310300,"id":57003,"ORIG_FID":1829,"source_tile":"f50c001001","source_layer":"resp","source_record":1830,"name":"黄其坑水库","name_source":"aanp_spatial"}}]};

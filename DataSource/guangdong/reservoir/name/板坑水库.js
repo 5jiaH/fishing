@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"板坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.56261283472554,24.793060849934445]},"properties":{"GB":310108,"id":191450,"ORIG_FID":1974,"source_tile":"g50c004001","source_layer":"resp","source_record":1975,"name":"板坑水库","name_source":"aanp_spatial"}}]};

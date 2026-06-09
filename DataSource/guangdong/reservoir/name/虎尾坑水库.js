@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"虎尾坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.51658439281093,21.50318010581067]},"properties":{"GB":310300,"id":50891,"ORIG_FID":1273,"source_tile":"f49c003002","source_layer":"resp","source_record":1274,"name":"虎尾坑水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"狗仔坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.9705600346196,21.575412192917565]},"properties":{"GB":310108,"id":48975,"ORIG_FID":1649,"source_tile":"f49c003002","source_layer":"resp","source_record":1650,"name":"狗仔坑水库","name_source":"aanp_id"}}]};

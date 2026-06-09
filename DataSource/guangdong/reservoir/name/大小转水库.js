@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大小转水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.68164593272786,25.433319852699565]},"properties":{"GB":310108,"id":181879,"ORIG_FID":778,"source_tile":"g50c003001","source_layer":"resp","source_record":779,"name":"大小转水库","name_source":"aanp_id"}}]};

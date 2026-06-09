@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"南生坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.84824917672475,22.264772165323343]},"properties":{"GB":310300,"id":45099,"ORIG_FID":610,"source_tile":"f49c002003","source_layer":"resp","source_record":611,"name":"南生坑水库","name_source":"aanp_spatial"}}]};

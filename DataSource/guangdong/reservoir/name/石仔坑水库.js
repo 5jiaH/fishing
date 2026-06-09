@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石仔坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.76789371567142,21.023474103778206]},"properties":{"GB":310108,"id":48972,"ORIG_FID":51,"source_tile":"f49c003002","source_layer":"resp","source_record":52,"name":"石仔坑水库","name_source":"aanp_id"}}]};

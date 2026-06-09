@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大泽第二水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.98989980824436,21.493476916230225]},"properties":{"GB":310108,"id":51711,"ORIG_FID":1207,"source_tile":"f49c003002","source_layer":"resp","source_record":1208,"name":"大泽第二水库","name_source":"aanp_id"}}]};

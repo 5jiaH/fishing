@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"坪径水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.53522531509427,21.14155223545673]},"properties":{"GB":310107,"id":51251,"ORIG_FID":221,"source_tile":"f49c003002","source_layer":"resp","source_record":222,"name":"坪径水库","name_source":"aanp_id"}}]};

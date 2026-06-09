@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"水塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.0432557114539,22.25413364308153]},"properties":{"GB":310300,"id":61264,"ORIG_FID":27,"source_tile":"f50c002001","source_layer":"resp","source_record":28,"name":"水塘","name_source":"osm"}}]};

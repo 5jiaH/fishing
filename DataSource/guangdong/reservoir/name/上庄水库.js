@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"上庄水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.73858214883117,22.84481749621463]},"properties":{"GB":310107,"id":44044,"ORIG_FID":2181,"source_tile":"f49c002003","source_layer":"resp","source_record":2182,"name":"上庄水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"维白水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.39540328762482,22.83563795033734]},"properties":{"GB":310109,"id":61089,"ORIG_FID":913,"source_tile":"f50c002001","source_layer":"resp","source_record":914,"name":"维白水库","name_source":"aanp_spatial"}}]};

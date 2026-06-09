@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"钟边水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.65496618566972,23.72776158836798]},"properties":{"GB":310107,"id":38360,"ORIG_FID":1336,"source_tile":"f49c001004","source_layer":"resp","source_record":1337,"name":"钟边水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石堰水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.88260023407997,22.97209947876997]},"properties":{"GB":310300,"id":44897,"ORIG_FID":2554,"source_tile":"f49c002003","source_layer":"resp","source_record":2555,"name":"石堰水库","name_source":"aanp_id"}}]};

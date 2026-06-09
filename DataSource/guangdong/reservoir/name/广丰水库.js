@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"广丰水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.80696788591601,23.936750289106623]},"properties":{"GB":310107,"id":59123,"ORIG_FID":1443,"source_tile":"f50c001002","source_layer":"resp","source_record":1444,"name":"广丰水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"彭山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.37191751008666,22.369454265241373]},"properties":{"GB":310107,"id":45035,"ORIG_FID":891,"source_tile":"f49c002003","source_layer":"resp","source_record":892,"name":"彭山水库","name_source":"aanp_id"}}]};

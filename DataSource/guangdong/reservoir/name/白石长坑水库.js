@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白石长坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.246006965306,20.03183227528087]},"properties":{"GB":310300,"id":54262,"ORIG_FID":205,"source_tile":"f49c004002","source_layer":"resp","source_record":206,"name":"白石长坑水库","name_source":"aanp_id"}}]};

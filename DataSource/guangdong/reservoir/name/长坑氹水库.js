@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"长坑氹水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.28127649462051,20.023120480681644]},"properties":{"GB":310300,"id":54268,"ORIG_FID":158,"source_tile":"f49c004002","source_layer":"resp","source_record":159,"name":"长坑氹水库","name_source":"aanp_id"}}]};

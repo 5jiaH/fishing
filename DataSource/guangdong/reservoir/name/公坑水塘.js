@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"公坑水塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.21672206838433,21.279807415782148]},"properties":{"GB":310107,"id":51261,"ORIG_FID":530,"source_tile":"f49c003002","source_layer":"resp","source_record":531,"name":"公坑水塘","name_source":"aanp_id"}}]};

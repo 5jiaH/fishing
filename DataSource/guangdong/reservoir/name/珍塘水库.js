@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"珍塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.74354991655015,22.67451241137488]},"properties":{"GB":310300,"id":61409,"ORIG_FID":484,"source_tile":"f50c002001","source_layer":"resp","source_record":485,"name":"珍塘水库","name_source":"aanp_id"}}]};

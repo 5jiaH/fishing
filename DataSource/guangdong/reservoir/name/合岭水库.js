@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"合岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.2341780000361,25.778239830062688]},"properties":{"GB":310108,"id":182030,"ORIG_FID":1400,"source_tile":"g50c003001","source_layer":"resp","source_record":1401,"name":"合岭水库","name_source":"aanp_id"}}]};

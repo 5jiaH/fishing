@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"草皮陇水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.0238510972863,25.36584237506574]},"properties":{"GB":310108,"id":181964,"ORIG_FID":664,"source_tile":"g50c003001","source_layer":"resp","source_record":665,"name":"草皮陇水库","name_source":"aanp_id"}}]};

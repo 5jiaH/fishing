@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"转塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.21973379698638,24.82223690550791]},"properties":{"GB":310300,"id":191852,"ORIG_FID":2061,"source_tile":"g50c004001","source_layer":"resp","source_record":2062,"name":"转塘水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"旺水水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.17882164576426,22.331786263509823]},"properties":{"GB":310108,"id":44772,"ORIG_FID":782,"source_tile":"f49c002003","source_layer":"resp","source_record":783,"name":"旺水水库","name_source":"aanp_id"}}]};

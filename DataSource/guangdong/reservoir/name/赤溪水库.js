@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"赤溪水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.76900096480847,23.861647256868235]},"properties":{"GB":310107,"id":59031,"ORIG_FID":1307,"source_tile":"f50c001002","source_layer":"resp","source_record":1308,"name":"赤溪水库","name_source":"aanp_id"}}]};

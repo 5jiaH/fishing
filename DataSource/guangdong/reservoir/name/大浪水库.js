@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大浪水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.601288388115,24.410262662374738]},"properties":{"GB":310300,"id":195658,"ORIG_FID":1671,"source_tile":"g50c004002","source_layer":"resp","source_record":1672,"name":"大浪水库","name_source":"aanp_spatial"}}]};

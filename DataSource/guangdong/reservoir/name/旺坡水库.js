@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"旺坡水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.21945820943597,22.990941798132436]},"properties":{"GB":310107,"id":44261,"ORIG_FID":2627,"source_tile":"f49c002003","source_layer":"resp","source_record":2628,"name":"旺坡水库","name_source":"aanp_id"}}]};

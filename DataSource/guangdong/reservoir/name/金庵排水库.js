@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"金庵排水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.57984245462427,23.4781395425828]},"properties":{"GB":310107,"id":54815,"ORIG_FID":1827,"source_tile":"f50c001001","source_layer":"resp","source_record":1828,"name":"金庵排水库","name_source":"aanp_spatial"}}]};

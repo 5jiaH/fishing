@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"下岭背水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.91986554758631,25.49341251490702]},"properties":{"GB":310107,"id":181932,"ORIG_FID":881,"source_tile":"g50c003001","source_layer":"resp","source_record":882,"name":"下岭背水库","name_source":"aanp_id"}}]};

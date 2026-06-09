@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"雁塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.8367684359891,21.13977373174354]},"properties":{"GB":310109,"id":50044,"ORIG_FID":219,"source_tile":"f49c003002","source_layer":"resp","source_record":220,"name":"雁塘水库","name_source":"aanp_id"}}]};

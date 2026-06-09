@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鸦路塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.89141174754775,23.208348301341797]},"properties":{"GB":310107,"id":33081,"ORIG_FID":966,"source_tile":"f49c001003","source_layer":"resp","source_record":967,"name":"鸦路塘水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"六仔塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.78347389565971,24.057529562776914]},"properties":{"GB":310107,"id":160288,"ORIG_FID":125,"source_tile":"g49c004004","source_layer":"resp","source_record":126,"name":"六仔塘","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"龙形头水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.06484989634315,25.817253259962047]},"properties":{"GB":310107,"id":150823,"ORIG_FID":1652,"source_tile":"g49c003003","source_layer":"resp","source_record":1653,"name":"龙形头水库","name_source":"aanp_spatial"}}]};

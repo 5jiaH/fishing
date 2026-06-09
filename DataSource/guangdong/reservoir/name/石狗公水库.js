@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石狗公水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.32177167009948,21.83366599852299]},"properties":{"GB":310108,"id":52841,"ORIG_FID":730,"source_tile":"f49c003003","source_layer":"resp","source_record":731,"name":"石狗公水库","name_source":"aanp_id"}}]};

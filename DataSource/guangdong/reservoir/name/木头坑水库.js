@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"木头坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.53603291814369,21.26055838723575]},"properties":{"GB":310107,"id":48383,"ORIG_FID":467,"source_tile":"f49c003002","source_layer":"resp","source_record":468,"name":"木头坑水库","name_source":"aanp_id"}}]};

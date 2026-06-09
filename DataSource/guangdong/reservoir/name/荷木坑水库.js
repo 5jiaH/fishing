@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"荷木坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.70145859480175,21.612719946810266]},"properties":{"GB":310107,"id":48618,"ORIG_FID":1877,"source_tile":"f49c003002","source_layer":"resp","source_record":1878,"name":"荷木坑水库","name_source":"aanp_id"}}]};

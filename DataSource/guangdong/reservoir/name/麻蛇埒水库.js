@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"麻蛇埒水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.97485543554063,23.330762058534305]},"properties":{"GB":310300,"id":59420,"ORIG_FID":454,"source_tile":"f50c001002","source_layer":"resp","source_record":455,"name":"麻蛇埒水库","name_source":"aanp_id"}}]};

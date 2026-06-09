@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"金龙高水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.43921520856547,21.900279221133268]},"properties":{"GB":310109,"id":53052,"ORIG_FID":927,"source_tile":"f49c003003","source_layer":"resp","source_record":928,"name":"金龙高水库","name_source":"aanp_id"}}]};

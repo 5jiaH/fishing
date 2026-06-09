@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"盐田大水坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.27467640736583,22.63098980948115]},"properties":{"GB":310108,"id":60822,"ORIG_FID":388,"source_tile":"f50c002001","source_layer":"resp","source_record":389,"name":"盐田大水坑水库","name_source":"aanp_spatial"}}]};

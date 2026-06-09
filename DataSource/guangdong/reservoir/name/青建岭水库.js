@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"青建岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.54354821726935,23.78474227129086]},"properties":{"GB":310300,"id":59310,"ORIG_FID":1182,"source_tile":"f50c001002","source_layer":"resp","source_record":1183,"name":"青建岭水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"松木山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.37463354789251,21.759942160475543]},"properties":{"GB":310108,"id":52780,"ORIG_FID":519,"source_tile":"f49c003003","source_layer":"resp","source_record":520,"name":"松木山水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"六蒙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.1499917805422,22.941881639339368]},"properties":{"GB":310300,"id":44925,"ORIG_FID":2464,"source_tile":"f49c002003","source_layer":"resp","source_record":2465,"name":"六蒙水库","name_source":"aanp_id"}}]};

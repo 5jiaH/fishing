@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":null,"features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.53210551898391,21.709632717885796]},"properties":{"GB":310108,"id":52745,"ORIG_FID":390,"source_tile":"f49c003003","source_layer":"resp","source_record":391}}]};

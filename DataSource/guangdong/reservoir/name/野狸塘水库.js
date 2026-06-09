@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"野狸塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.61624001476025,22.645143873130102]},"properties":{"GB":310107,"id":41818,"ORIG_FID":1192,"source_tile":"f49c002002","source_layer":"resp","source_record":1193,"name":"野狸塘水库","name_source":"aanp_spatial"}}]};

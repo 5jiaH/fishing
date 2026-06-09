@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"陆透水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.2529036677791,22.883441174408414]},"properties":{"GB":310107,"id":44096,"ORIG_FID":2286,"source_tile":"f49c002003","source_layer":"resp","source_record":2287,"name":"陆透水库","name_source":"aanp_id"}}]};

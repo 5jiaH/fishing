@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"羊古山塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.42938244816992,25.777311724491536]},"properties":{"GB":310107,"id":181104,"ORIG_FID":1399,"source_tile":"g50c003001","source_layer":"resp","source_record":1400,"name":"羊古山塘","name_source":"aanp_id"}}]};

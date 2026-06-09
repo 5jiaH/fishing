@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"蛇肚冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.44179809752285,22.2372434852927]},"properties":{"GB":310108,"id":44835,"ORIG_FID":542,"source_tile":"f49c002003","source_layer":"resp","source_record":543,"name":"蛇肚冲水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"合水塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.93338030817517,21.664453381354498]},"properties":{"GB":310108,"id":48981,"ORIG_FID":2142,"source_tile":"f49c003002","source_layer":"resp","source_record":2143,"name":"合水塘水库","name_source":"aanp_id"}}]};

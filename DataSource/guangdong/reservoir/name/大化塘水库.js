@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大化塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.1951103913299,25.591807854597093]},"properties":{"GB":310108,"id":181749,"ORIG_FID":1047,"source_tile":"g50c003001","source_layer":"resp","source_record":1048,"name":"大化塘水库","name_source":"aanp_id"}}]};

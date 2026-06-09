@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"河达塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.48510224436696,23.03164643061324]},"properties":{"GB":310107,"id":32909,"ORIG_FID":143,"source_tile":"f49c001003","source_layer":"resp","source_record":144,"name":"河达塘","name_source":"aanp_id"}}]};

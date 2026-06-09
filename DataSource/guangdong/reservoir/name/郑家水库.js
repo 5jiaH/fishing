@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"郑家水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.79724906858843,20.77978228825854]},"properties":{"GB":310300,"id":54639,"ORIG_FID":952,"source_tile":"f49c004002","source_layer":"resp","source_record":953,"name":"郑家水库","name_source":"aanp_spatial"}}]};

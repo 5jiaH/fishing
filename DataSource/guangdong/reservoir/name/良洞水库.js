@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"良洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.37834189157752,23.398906315266288]},"properties":{"GB":310107,"id":36997,"ORIG_FID":593,"source_tile":"f49c001004","source_layer":"resp","source_record":594,"name":"良洞水库","name_source":"aanp_id"}}]};

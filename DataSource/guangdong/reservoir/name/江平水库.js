@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"江平水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.19437586321419,22.709313778006113]},"properties":{"GB":310300,"id":44917,"ORIG_FID":1794,"source_tile":"f49c002003","source_layer":"resp","source_record":1795,"name":"江平水库","name_source":"aanp_id"}}]};

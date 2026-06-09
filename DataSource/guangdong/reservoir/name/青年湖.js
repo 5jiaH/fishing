@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"青年湖","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.68654238917381,23.65059410519752]},"properties":{"GB":310300,"id":59371,"ORIG_FID":959,"source_tile":"f50c001002","source_layer":"resp","source_record":960,"name":"青年湖","name_source":"aanp_id"}}]};

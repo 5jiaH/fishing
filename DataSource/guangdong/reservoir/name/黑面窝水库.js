@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黑面窝水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.0643282252238,24.300271444478305]},"properties":{"GB":310300,"id":192137,"ORIG_FID":760,"source_tile":"g50c004001","source_layer":"resp","source_record":761,"name":"黑面窝水库","name_source":"aanp_spatial"}}]};

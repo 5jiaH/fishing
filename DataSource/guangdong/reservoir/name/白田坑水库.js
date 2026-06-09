@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白田坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.77394157357449,22.608393943575944]},"properties":{"GB":310108,"id":61718,"ORIG_FID":349,"source_tile":"f50c002001","source_layer":"resp","source_record":350,"name":"白田坑水库","name_source":"osm"}}]};

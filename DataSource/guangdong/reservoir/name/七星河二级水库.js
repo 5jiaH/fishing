@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"七星河二级水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.77976021203592,23.17137215290659]},"properties":{"GB":310107,"id":33033,"ORIG_FID":811,"source_tile":"f49c001003","source_layer":"resp","source_record":812,"name":"七星河二级水库","name_source":"aanp_id"}}]};

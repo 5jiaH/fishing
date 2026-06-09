@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"共青水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.97609442942465,23.577618691871205]},"properties":{"GB":310107,"id":38259,"ORIG_FID":1021,"source_tile":"f49c001004","source_layer":"resp","source_record":1022,"name":"共青水库","name_source":"aanp_id"}}]};

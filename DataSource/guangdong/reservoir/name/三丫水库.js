@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"三丫水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.90014150571511,22.86685764999339]},"properties":{"GB":310108,"id":62036,"ORIG_FID":75,"source_tile":"f50c002002","source_layer":"resp","source_record":76,"name":"三丫水库","name_source":"aanp_id"}}]};

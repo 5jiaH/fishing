@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"小罗塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.47403626978405,23.0956802449219]},"properties":{"GB":311105,"id":36944,"ORIG_FID":105,"source_tile":"f49c001004","source_layer":"resp","source_record":106,"name":"小罗塘","name_source":"aanp_id"}}]};

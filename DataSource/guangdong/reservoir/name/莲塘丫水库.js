@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"莲塘丫水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.58411627399529,23.509296473085417]},"properties":{"GB":310300,"id":57016,"ORIG_FID":1972,"source_tile":"f50c001001","source_layer":"resp","source_record":1973,"name":"莲塘丫水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"夹水潭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.35964108407607,25.22756952384686]},"properties":{"GB":310107,"id":180577,"ORIG_FID":412,"source_tile":"g50c003001","source_layer":"resp","source_record":413,"name":"夹水潭水库","name_source":"aanp_id"}}]};

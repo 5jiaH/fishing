@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鸭麻塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.03267817223035,25.043152272913982]},"properties":{"GB":310108,"id":181969,"ORIG_FID":73,"source_tile":"g50c003001","source_layer":"resp","source_record":74,"name":"鸭麻塘水库","name_source":"aanp_id"}}]};

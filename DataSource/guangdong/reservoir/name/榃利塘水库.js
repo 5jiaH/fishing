@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"榃利塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.67570555040571,23.124936292038356]},"properties":{"GB":310107,"id":33014,"ORIG_FID":590,"source_tile":"f49c001003","source_layer":"resp","source_record":591,"name":"榃利塘水库","name_source":"aanp_id"}}]};

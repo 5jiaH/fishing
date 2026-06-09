@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大陂冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.65474752629754,23.233743943128538]},"properties":{"GB":310107,"id":33110,"ORIG_FID":1054,"source_tile":"f49c001003","source_layer":"resp","source_record":1055,"name":"大陂冲水库","name_source":"aanp_id"}}]};

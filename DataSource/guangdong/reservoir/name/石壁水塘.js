@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石壁水塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.27847489550942,21.41368038035054]},"properties":{"GB":310300,"id":50696,"ORIG_FID":905,"source_tile":"f49c003002","source_layer":"resp","source_record":906,"name":"石壁水塘","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"众家塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.4069821409168,25.67856551652694]},"properties":{"GB":310108,"id":182096,"ORIG_FID":1204,"source_tile":"g50c003001","source_layer":"resp","source_record":1205,"name":"众家塘","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"草塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.95750381716411,21.653760389324983]},"properties":{"GB":310300,"id":53135,"ORIG_FID":270,"source_tile":"f49c003003","source_layer":"resp","source_record":271,"name":"草塘水库","name_source":"aanp_id"}}]};

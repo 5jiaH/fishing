@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"谭双水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.06115619641628,23.145724207213902]},"properties":{"GB":310107,"id":32892,"ORIG_FID":679,"source_tile":"f49c001003","source_layer":"resp","source_record":680,"name":"谭双水库","name_source":"aanp_id"}}]};

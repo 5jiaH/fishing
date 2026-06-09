@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白露坳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.83793043192446,23.025732026001844]},"properties":{"GB":310300,"id":57327,"ORIG_FID":118,"source_tile":"f50c001001","source_layer":"resp","source_record":119,"name":"白露坳水库","name_source":"aanp_spatial"}}]};

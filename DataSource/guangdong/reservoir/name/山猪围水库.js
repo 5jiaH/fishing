@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"山猪围水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.97939996848166,21.989969586752167]},"properties":{"GB":310108,"id":49995,"ORIG_FID":3785,"source_tile":"f49c003002","source_layer":"resp","source_record":3786,"name":"山猪围水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"五指尖水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.71494838234122,21.455524240024015]},"properties":{"GB":310107,"id":51151,"ORIG_FID":1055,"source_tile":"f49c003002","source_layer":"resp","source_record":1056,"name":"五指尖水库","name_source":"aanp_id"}}]};

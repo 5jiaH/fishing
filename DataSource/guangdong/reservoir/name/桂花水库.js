@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"桂花水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.40864182643743,22.579770078077388]},"properties":{"GB":310107,"id":43429,"ORIG_FID":1458,"source_tile":"f49c002003","source_layer":"resp","source_record":1459,"name":"桂花水库","name_source":"aanp_id"}}]};

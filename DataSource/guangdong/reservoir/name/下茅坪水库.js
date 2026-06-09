@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"下茅坪水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.8290528939178,21.697713722777134]},"properties":{"GB":310107,"id":48693,"ORIG_FID":2306,"source_tile":"f49c003002","source_layer":"resp","source_record":2307,"name":"下茅坪水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"放牛洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.63999405523506,23.371440239901986]},"properties":{"GB":310107,"id":36972,"ORIG_FID":541,"source_tile":"f49c001004","source_layer":"resp","source_record":542,"name":"放牛洞水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大坑山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.05485500090123,25.418570048131173]},"properties":{"GB":310108,"id":181963,"ORIG_FID":757,"source_tile":"g50c003001","source_layer":"resp","source_record":758,"name":"大坑山水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"吴村塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.28211208746592,22.981426728705312]},"properties":{"GB":310108,"id":60541,"ORIG_FID":1419,"source_tile":"f50c002001","source_layer":"resp","source_record":1420,"name":"吴村塘水库","name_source":"aanp_spatial"}}]};

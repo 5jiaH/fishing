@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"花木桥水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.8133220670249,25.698668460226326]},"properties":{"GB":310107,"id":153166,"ORIG_FID":1109,"source_tile":"g49c003004","source_layer":"resp","source_record":1110,"name":"花木桥水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大窑坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.59882586529125,23.155419920286135]},"properties":{"GB":310300,"id":57736,"ORIG_FID":626,"source_tile":"f50c001001","source_layer":"resp","source_record":627,"name":"大窑坑水库","name_source":"aanp_spatial"}}]};

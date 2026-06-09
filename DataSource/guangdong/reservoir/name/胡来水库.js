@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"胡来水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.27282082544772,23.651179926155397]},"properties":{"GB":310108,"id":36068,"ORIG_FID":2498,"source_tile":"f49c001003","source_layer":"resp","source_record":2499,"name":"胡来水库","name_source":"aanp_spatial"}}]};

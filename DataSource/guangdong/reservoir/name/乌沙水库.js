@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"乌沙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.37267984933949,20.0144785816053]},"properties":{"GB":310300,"id":54375,"ORIG_FID":110,"source_tile":"f49c004002","source_layer":"resp","source_record":111,"name":"乌沙水库","name_source":"aanp_id"}}]};

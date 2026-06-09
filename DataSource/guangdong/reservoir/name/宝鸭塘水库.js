@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"宝鸭塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.55251646015218,20.897711618648174]},"properties":{"GB":311105,"id":54327,"ORIG_FID":1106,"source_tile":"f49c004002","source_layer":"resp","source_record":1107,"name":"宝鸭塘水库","name_source":"aanp_id"}}]};

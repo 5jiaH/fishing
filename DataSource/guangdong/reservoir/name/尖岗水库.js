@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"尖岗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.09184363911106,21.772788097217255]},"properties":{"GB":310109,"id":53023,"ORIG_FID":549,"source_tile":"f49c003003","source_layer":"resp","source_record":550,"name":"尖岗水库","name_source":"aanp_id"}}]};

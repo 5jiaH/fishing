@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石牛塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.35639778778074,22.35570806858007]},"properties":{"GB":310108,"id":60937,"ORIG_FID":77,"source_tile":"f50c002001","source_layer":"resp","source_record":78,"name":"石牛塘水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"钟塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.08407346542305,25.480090580661585]},"properties":{"GB":310107,"id":180810,"ORIG_FID":858,"source_tile":"g50c003001","source_layer":"resp","source_record":859,"name":"钟塘水库","name_source":"aanp_id"}}]};

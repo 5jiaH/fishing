@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"南充水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.16203362435567,22.635393684898997]},"properties":{"GB":310108,"id":43762,"ORIG_FID":1589,"source_tile":"f49c002003","source_layer":"resp","source_record":1590,"name":"南充水库","name_source":"aanp_spatial"}}]};

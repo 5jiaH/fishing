@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鹅公带山塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.05783367316215,25.46322532108718]},"properties":{"GB":310107,"id":180797,"ORIG_FID":832,"source_tile":"g50c003001","source_layer":"resp","source_record":833,"name":"鹅公带山塘","name_source":"aanp_id"}}]};

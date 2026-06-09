@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"新开坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.49466815565867,23.227853010687838]},"properties":{"GB":310107,"id":33109,"ORIG_FID":1035,"source_tile":"f49c001003","source_layer":"resp","source_record":1036,"name":"新开坑水库","name_source":"aanp_id"}}]};

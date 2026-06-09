@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"江坪水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.1082980008069,22.302694917611365]},"properties":{"GB":311105,"id":44811,"ORIG_FID":695,"source_tile":"f49c002003","source_layer":"resp","source_record":696,"name":"江坪水库","name_source":"aanp_id"}}]};

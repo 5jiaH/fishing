@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"孖髻水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.9055243414746,21.960652370441558]},"properties":{"GB":310108,"id":50644,"ORIG_FID":3604,"source_tile":"f49c003002","source_layer":"resp","source_record":3605,"name":"孖髻水库","name_source":"aanp_id"}}]};

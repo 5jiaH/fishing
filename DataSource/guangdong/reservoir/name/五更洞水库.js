@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"五更洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.00401917976754,21.992904064449625]},"properties":{"GB":310108,"id":50009,"ORIG_FID":3802,"source_tile":"f49c003002","source_layer":"resp","source_record":3803,"name":"五更洞水库","name_source":"aanp_id"}}]};

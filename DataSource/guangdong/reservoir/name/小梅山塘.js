@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"小梅山塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.33151020077943,21.357368099127694]},"properties":{"GB":310107,"id":51037,"ORIG_FID":740,"source_tile":"f49c003002","source_layer":"resp","source_record":741,"name":"小梅山塘","name_source":"aanp_id"}}]};

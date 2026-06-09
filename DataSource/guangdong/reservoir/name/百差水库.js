@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"百差水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.24653798260616,22.90385849133587]},"properties":{"GB":310107,"id":44126,"ORIG_FID":2343,"source_tile":"f49c002003","source_layer":"resp","source_record":2344,"name":"百差水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"赤眼鱼塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.30358969242693,20.03637171921593]},"properties":{"GB":310300,"id":54361,"ORIG_FID":232,"source_tile":"f49c004002","source_layer":"resp","source_record":233,"name":"赤眼鱼塘水库","name_source":"aanp_id"}}]};

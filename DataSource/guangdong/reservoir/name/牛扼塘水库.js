@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"牛扼塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.19328388413632,25.569279956394286]},"properties":{"GB":310108,"id":181748,"ORIG_FID":1010,"source_tile":"g50c003001","source_layer":"resp","source_record":1011,"name":"牛扼塘水库","name_source":"aanp_id"}}]};

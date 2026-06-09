@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"田螺湖水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.56411033311755,23.862245650719327]},"properties":{"GB":310107,"id":59025,"ORIG_FID":1308,"source_tile":"f50c001002","source_layer":"resp","source_record":1309,"name":"田螺湖水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白云石水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.41625324804411,22.13307421264501]},"properties":{"GB":310108,"id":44879,"ORIG_FID":324,"source_tile":"f49c002003","source_layer":"resp","source_record":325,"name":"白云石水库","name_source":"aanp_spatial"}}]};

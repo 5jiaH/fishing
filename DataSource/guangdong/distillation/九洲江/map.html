@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>九洲江 — 河流上下级 v4</title>
+  <style>
+    body { font-family: system-ui, sans-serif; margin: 12px; }
+    canvas { border: 1px solid #ccc; max-width: 100%; height: auto; display: block; touch-action: none; user-select: none; cursor: grab; }
+    canvas.dragging { cursor: grabbing; }
+    #status { margin: 8px 0; color: #444; white-space: pre-wrap; }
+  </style>
+</head>
+<body>
+  <p>
+    <strong>九洲江</strong>（廉江）：本文件夹内各河段模块 + 省界 <code>_shared/440000.json</code>。
+    支流浅蓝描边，干流（与文件夹同名 .js）红色描边；省界浅绿填充、绿色描边；无阴影。
+    请从 <code>api/demo/440000</code> 起用 HTTP 服务打开；滚轮缩放，左键拖拽。
+  </p>
+  <div id="status">正在加载…</div>
+  <canvas id="c" width="1400" height="1000"></canvas>
+  <script type="module" src="./map_app.js"></script>
+</body>
+</html>

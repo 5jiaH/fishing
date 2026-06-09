@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"七盏灯","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.25801685107683,21.91743183989665]},"properties":{"GB":310300,"id":53141,"ORIG_FID":972,"source_tile":"f49c003003","source_layer":"resp","source_record":973,"name":"七盏灯","name_source":"aanp_id"}}]};

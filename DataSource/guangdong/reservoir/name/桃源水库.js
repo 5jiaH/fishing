@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"桃源水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.68551151833972,22.06288568113397]},"properties":{"GB":310108,"id":43809,"ORIG_FID":161,"source_tile":"f49c002003","source_layer":"resp","source_record":162,"name":"桃源水库","name_source":"aanp_id"}}]};

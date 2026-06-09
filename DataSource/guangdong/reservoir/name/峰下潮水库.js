@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"峰下潮水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.5077296892327,24.77640403559711]},"properties":{"GB":310108,"id":193290,"ORIG_FID":3069,"source_tile":"g50c004002","source_layer":"resp","source_record":3070,"name":"峰下潮水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大西坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.34298568604191,20.052436821096187]},"properties":{"GB":311105,"id":54297,"ORIG_FID":271,"source_tile":"f49c004002","source_layer":"resp","source_record":272,"name":"大西坑水库","name_source":"aanp_id"}}]};

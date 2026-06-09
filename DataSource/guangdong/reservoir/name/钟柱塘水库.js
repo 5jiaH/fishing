@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"钟柱塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.14973597158038,20.31767355564993]},"properties":{"GB":310300,"id":54218,"ORIG_FID":382,"source_tile":"f49c004002","source_layer":"resp","source_record":383,"name":"钟柱塘水库","name_source":"aanp_id"}}]};

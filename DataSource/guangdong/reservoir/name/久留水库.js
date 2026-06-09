@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"久留水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.7885978952978,23.262575869806668]},"properties":{"GB":310107,"id":36835,"ORIG_FID":353,"source_tile":"f49c001004","source_layer":"resp","source_record":354,"name":"久留水库","name_source":"aanp_id"}}]};

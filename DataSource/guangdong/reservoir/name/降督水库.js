@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"降督水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.29635225197231,23.192399762726]},"properties":{"GB":310107,"id":33072,"ORIG_FID":899,"source_tile":"f49c001003","source_layer":"resp","source_record":900,"name":"降督水库","name_source":"aanp_id"}}]};

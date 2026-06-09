@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黄赵塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.11660860774418,25.530032361115484]},"properties":{"GB":310107,"id":180857,"ORIG_FID":932,"source_tile":"g50c003001","source_layer":"resp","source_record":933,"name":"黄赵塘","name_source":"aanp_id"}}]};

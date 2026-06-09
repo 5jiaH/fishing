@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"西牛水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[117.01851242681744,23.990980083172975]},"properties":{"GB":311105,"id":59966,"ORIG_FID":571,"source_tile":"f50c001003","source_layer":"resp","source_record":572,"name":"西牛水库","name_source":"aanp_id"}}]};

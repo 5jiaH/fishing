@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"那湖水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.40306095621594,21.964341838797008]},"properties":{"GB":310108,"id":52935,"ORIG_FID":1105,"source_tile":"f49c003003","source_layer":"resp","source_record":1106,"name":"那湖水库","name_source":"aanp_spatial"}}]};

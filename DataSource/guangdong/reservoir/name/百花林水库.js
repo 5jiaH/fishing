@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"百花林水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.88268779911749,23.457091873307157]},"properties":{"GB":310107,"id":38378,"ORIG_FID":728,"source_tile":"f49c001004","source_layer":"resp","source_record":729,"name":"百花林水库","name_source":"aanp_id"}}]};

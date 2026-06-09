@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鸡公坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.34689305883595,21.39024774462026]},"properties":{"GB":310108,"id":51759,"ORIG_FID":811,"source_tile":"f49c003002","source_layer":"resp","source_record":812,"name":"鸡公坑水库","name_source":"aanp_id"}}]};

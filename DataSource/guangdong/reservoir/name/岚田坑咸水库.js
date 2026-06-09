@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"岚田坑咸水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.19439613489439,23.722827362429744]},"properties":{"GB":310107,"id":54993,"ORIG_FID":2736,"source_tile":"f50c001001","source_layer":"resp","source_record":2737,"name":"岚田坑咸水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"同沙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.87329672860054,21.939784020776454]},"properties":{"GB":310107,"id":53249,"ORIG_FID":116,"source_tile":"f49c003004","source_layer":"resp","source_record":117,"name":"同沙水库","name_source":"aanp_id"}}]};

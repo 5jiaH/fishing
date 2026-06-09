@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"火甲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.97164643570174,22.750892836382697]},"properties":{"GB":310108,"id":61630,"ORIG_FID":651,"source_tile":"f50c002001","source_layer":"resp","source_record":652,"name":"火甲水库","name_source":"aanp_id"}}]};

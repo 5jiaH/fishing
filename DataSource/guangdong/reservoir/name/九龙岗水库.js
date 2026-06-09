@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"九龙岗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.25196155184165,23.693570027761623]},"properties":{"GB":310108,"id":36016,"ORIG_FID":2638,"source_tile":"f49c001003","source_layer":"resp","source_record":2639,"name":"九龙岗水库","name_source":"aanp_id"}}]};

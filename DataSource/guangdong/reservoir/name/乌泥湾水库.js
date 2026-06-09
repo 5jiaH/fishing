@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"乌泥湾水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.41016395332983,25.571305661268262]},"properties":{"GB":310108,"id":181826,"ORIG_FID":1015,"source_tile":"g50c003001","source_layer":"resp","source_record":1016,"name":"乌泥湾水库","name_source":"aanp_id"}}]};

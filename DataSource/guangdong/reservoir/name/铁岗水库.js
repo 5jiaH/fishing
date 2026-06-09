@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"铁岗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.28575581388944,21.584627724855387]},"properties":{"GB":310107,"id":50971,"ORIG_FID":1718,"source_tile":"f49c003002","source_layer":"resp","source_record":1719,"name":"铁岗水库","name_source":"aanp_id"}}]};

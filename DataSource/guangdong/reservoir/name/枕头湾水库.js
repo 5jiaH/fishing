@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"枕头湾水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.11237567029528,23.669577666256103]},"properties":{"GB":310108,"id":36052,"ORIG_FID":2561,"source_tile":"f49c001003","source_layer":"resp","source_record":2562,"name":"枕头湾水库","name_source":"aanp_id"}}]};

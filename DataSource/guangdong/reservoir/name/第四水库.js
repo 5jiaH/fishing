@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"第四水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.02378813080966,22.759928470155977]},"properties":{"GB":310109,"id":61068,"ORIG_FID":679,"source_tile":"f50c002001","source_layer":"resp","source_record":680,"name":"第四水库","name_source":"aanp_id"}}]};

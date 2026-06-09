@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"杨村水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.23772782455188,25.030571638465293]},"properties":{"GB":310108,"id":181784,"ORIG_FID":54,"source_tile":"g50c003001","source_layer":"resp","source_record":55,"name":"杨村水库","name_source":"aanp_id"}}]};

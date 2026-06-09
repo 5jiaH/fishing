@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"望高水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.46449599154272,23.9434867139404]},"properties":{"GB":310107,"id":59129,"ORIG_FID":1459,"source_tile":"f50c001002","source_layer":"resp","source_record":1460,"name":"望高水库","name_source":"aanp_id"}}]};

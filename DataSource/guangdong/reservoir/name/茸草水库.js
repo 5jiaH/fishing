@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"茸草水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.76628409495004,23.892587971207746]},"properties":{"GB":311105,"id":34055,"ORIG_FID":3339,"source_tile":"f49c001003","source_layer":"resp","source_record":3340,"name":"茸草水库","name_source":"aanp_id"}}]};

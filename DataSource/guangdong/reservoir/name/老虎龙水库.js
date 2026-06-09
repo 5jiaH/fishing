@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"老虎龙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.0959902482411,21.783080834644952]},"properties":{"GB":310108,"id":50398,"ORIG_FID":2718,"source_tile":"f49c003002","source_layer":"resp","source_record":2719,"name":"老虎龙水库","name_source":"aanp_spatial"}}]};

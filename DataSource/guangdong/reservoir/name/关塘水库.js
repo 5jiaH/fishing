@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"关塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.1861059519357,21.495017285324103]},"properties":{"GB":310108,"id":48989,"ORIG_FID":1219,"source_tile":"f49c003002","source_layer":"resp","source_record":1220,"name":"关塘水库","name_source":"aanp_id"}}]};

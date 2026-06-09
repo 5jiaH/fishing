@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.33135844181984,23.45350552377594]},"properties":{"GB":310108,"id":38411,"ORIG_FID":717,"source_tile":"f49c001004","source_layer":"resp","source_record":718,"name":"白洞水库","name_source":"aanp_id"}}]};

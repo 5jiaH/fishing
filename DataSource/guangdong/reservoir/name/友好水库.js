@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"友好水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.49831238668108,20.47658791951843]},"properties":{"GB":310108,"id":53910,"ORIG_FID":582,"source_tile":"f49c004002","source_layer":"resp","source_record":583,"name":"友好水库","name_source":"aanp_spatial"}}]};

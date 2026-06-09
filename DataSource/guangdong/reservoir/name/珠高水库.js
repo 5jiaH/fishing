@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"珠高水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.20503084822874,23.6369816957132]},"properties":{"GB":310108,"id":36045,"ORIG_FID":2458,"source_tile":"f49c001003","source_layer":"resp","source_record":2459,"name":"珠高水库","name_source":"aanp_id"}}]};

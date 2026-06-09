@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"群丰(大坑)水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.3284035039687,20.073399873824904]},"properties":{"GB":310300,"id":54371,"ORIG_FID":323,"source_tile":"f49c004002","source_layer":"resp","source_record":324,"name":"群丰(大坑)水库","name_source":"aanp_id"}}]};

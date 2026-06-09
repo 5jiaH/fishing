@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"根竹坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.801918085616,21.615615824553913]},"properties":{"GB":310109,"id":51578,"ORIG_FID":1894,"source_tile":"f49c003002","source_layer":"resp","source_record":1895,"name":"根竹坑水库","name_source":"aanp_id"}}]};

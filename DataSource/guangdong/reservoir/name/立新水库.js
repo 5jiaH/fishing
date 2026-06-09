@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"立新水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.64306285566158,21.536473719141913]},"properties":{"GB":310107,"id":52123,"ORIG_FID":79,"source_tile":"f49c003003","source_layer":"resp","source_record":80,"name":"立新水库","name_source":"aanp_id"}}]};

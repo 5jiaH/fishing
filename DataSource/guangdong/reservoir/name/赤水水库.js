@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"赤水水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.63399176730672,22.649945558002305]},"properties":{"GB":310300,"id":45022,"ORIG_FID":1635,"source_tile":"f49c002003","source_layer":"resp","source_record":1636,"name":"赤水水库","name_source":"aanp_id"}}]};

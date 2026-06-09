@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大井山塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.35288112237461,21.890393728731805]},"properties":{"GB":310108,"id":52878,"ORIG_FID":907,"source_tile":"f49c003003","source_layer":"resp","source_record":908,"name":"大井山塘","name_source":"aanp_id"}}]};

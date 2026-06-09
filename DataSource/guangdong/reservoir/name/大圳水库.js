@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大圳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.94640294948564,23.40311550464662]},"properties":{"GB":310107,"id":37014,"ORIG_FID":604,"source_tile":"f49c001004","source_layer":"resp","source_record":605,"name":"大圳水库","name_source":"aanp_id"}}]};

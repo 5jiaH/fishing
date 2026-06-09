@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黄杰水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[117.44362406621444,23.6655175698135]},"properties":{"GB":310107,"id":59763,"ORIG_FID":83,"source_tile":"f50c001003","source_layer":"resp","source_record":84,"name":"黄杰水库","name_source":"aanp_id"}}]};

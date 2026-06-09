@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"名湖水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[117.6716617823711,23.96387418267203]},"properties":{"GB":310107,"id":59788,"ORIG_FID":537,"source_tile":"f50c001003","source_layer":"resp","source_record":538,"name":"名湖水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大崩岗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.74325374992284,23.06495042975829]},"properties":{"GB":310108,"id":57981,"ORIG_FID":303,"source_tile":"f50c001001","source_layer":"resp","source_record":304,"name":"大崩岗水库","name_source":"aanp_spatial"}}]};

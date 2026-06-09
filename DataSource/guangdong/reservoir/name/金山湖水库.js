@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"金山湖水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.31539827915608,20.056783613140272]},"properties":{"GB":310300,"id":54224,"ORIG_FID":283,"source_tile":"f49c004002","source_layer":"resp","source_record":284,"name":"金山湖水库","name_source":"aanp_id"}}]};

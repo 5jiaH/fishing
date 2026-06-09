@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"迳底水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.74125869266206,22.34973606918791]},"properties":{"GB":310108,"id":46214,"ORIG_FID":475,"source_tile":"f49c002004","source_layer":"resp","source_record":476,"name":"迳底水库","name_source":"osm"}}]};

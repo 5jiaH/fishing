@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"三角山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[117.626101688022,23.920048517776316]},"properties":{"GB":310300,"id":60033,"ORIG_FID":460,"source_tile":"f50c001003","source_layer":"resp","source_record":461,"name":"三角山水库","name_source":"aanp_id"}}]};

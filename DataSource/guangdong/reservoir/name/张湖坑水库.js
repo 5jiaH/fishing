@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"张湖坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.56914760851996,22.65358805072637]},"properties":{"GB":310107,"id":43520,"ORIG_FID":1648,"source_tile":"f49c002003","source_layer":"resp","source_record":1649,"name":"张湖坑水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"牛屎洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.88093002603392,25.954199843785908]},"properties":{"GB":310300,"id":180858,"ORIG_FID":1806,"source_tile":"g50c003001","source_layer":"resp","source_record":1807,"name":"牛屎洞水库","name_source":"aanp_id"}}]};

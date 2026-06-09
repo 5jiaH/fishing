@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"较椅山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.97328543673692,21.27553391786705]},"properties":{"GB":310108,"id":51855,"ORIG_FID":518,"source_tile":"f49c003002","source_layer":"resp","source_record":519,"name":"较椅山水库","name_source":"aanp_id"}}]};

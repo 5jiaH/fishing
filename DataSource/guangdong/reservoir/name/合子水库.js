@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"合子水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.47550842038055,25.293009050426107]},"properties":{"GB":310108,"id":182113,"ORIG_FID":530,"source_tile":"g50c003001","source_layer":"resp","source_record":531,"name":"合子水库","name_source":"aanp_id"}}]};

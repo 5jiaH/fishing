@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"清耳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.89930244287697,22.90949833704614]},"properties":{"GB":310300,"id":61782,"ORIG_FID":136,"source_tile":"f50c002002","source_layer":"resp","source_record":137,"name":"清耳水库","name_source":"aanp_id"}}]};

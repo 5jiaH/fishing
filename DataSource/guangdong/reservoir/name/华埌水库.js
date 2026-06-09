@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"华埌水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.44143478825991,22.07529855668593]},"properties":{"GB":310108,"id":43806,"ORIG_FID":196,"source_tile":"f49c002003","source_layer":"resp","source_record":197,"name":"华埌水库","name_source":"aanp_id"}}]};

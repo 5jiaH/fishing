@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"风车岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.47617964225027,25.235438588388526]},"properties":{"GB":310108,"id":182112,"ORIG_FID":426,"source_tile":"g50c003001","source_layer":"resp","source_record":427,"name":"风车岭水库","name_source":"aanp_id"}}]};

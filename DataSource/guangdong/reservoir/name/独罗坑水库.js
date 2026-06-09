@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"独罗坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.8207642269555,25.400554480879123]},"properties":{"GB":311105,"id":180261,"ORIG_FID":721,"source_tile":"g50c003001","source_layer":"resp","source_record":722,"name":"独罗坑水库","name_source":"aanp_id"}}]};

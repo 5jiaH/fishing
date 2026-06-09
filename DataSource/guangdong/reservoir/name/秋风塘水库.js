@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"秋风塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.05675179172438,23.154539909456773]},"properties":{"GB":310107,"id":32980,"ORIG_FID":728,"source_tile":"f49c001003","source_layer":"resp","source_record":729,"name":"秋风塘水库","name_source":"aanp_id"}}]};

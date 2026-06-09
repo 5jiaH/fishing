@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"小罗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.03483646866141,23.20800745141316]},"properties":{"GB":310107,"id":33083,"ORIG_FID":961,"source_tile":"f49c001003","source_layer":"resp","source_record":962,"name":"小罗水库","name_source":"aanp_id"}}]};

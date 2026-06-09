@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"沙口新作塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.32220905191039,25.905723944630843]},"properties":{"GB":310108,"id":181802,"ORIG_FID":1706,"source_tile":"g50c003001","source_layer":"resp","source_record":1707,"name":"沙口新作塘水库","name_source":"aanp_id"}}]};

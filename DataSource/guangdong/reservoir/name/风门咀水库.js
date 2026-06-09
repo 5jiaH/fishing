@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"风门咀水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.43116587656962,23.44456152102099]},"properties":{"GB":310300,"id":57466,"ORIG_FID":1705,"source_tile":"f50c001001","source_layer":"resp","source_record":1706,"name":"风门咀水库","name_source":"aanp_spatial"}}]};

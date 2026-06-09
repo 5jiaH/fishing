@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"下边水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.36810589631914,22.905147934552694]},"properties":{"GB":310107,"id":60432,"ORIG_FID":1143,"source_tile":"f50c002001","source_layer":"resp","source_record":1144,"name":"下边水库","name_source":"aanp_spatial"}}]};

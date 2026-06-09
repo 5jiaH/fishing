@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大贤水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.11926676135207,22.89324291526107]},"properties":{"GB":310107,"id":44114,"ORIG_FID":2311,"source_tile":"f49c002003","source_layer":"resp","source_record":2312,"name":"大贤水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"桐油呈水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.54359609704989,21.98368364440686]},"properties":{"GB":310107,"id":48951,"ORIG_FID":3742,"source_tile":"f49c003002","source_layer":"resp","source_record":3743,"name":"桐油呈水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黄土坪水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.1907175260448,25.058281897318313]},"properties":{"GB":310108,"id":151469,"ORIG_FID":113,"source_tile":"g49c003003","source_layer":"resp","source_record":114,"name":"黄土坪水库","name_source":"aanp_spatial"}}]};

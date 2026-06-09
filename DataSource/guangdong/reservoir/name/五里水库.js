@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"五里水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.4082910336047,23.89935422384344]},"properties":{"GB":310107,"id":59076,"ORIG_FID":1370,"source_tile":"f50c001002","source_layer":"resp","source_record":1371,"name":"五里水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"田冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.38851232560806,24.41473186150276]},"properties":{"GB":310108,"id":159597,"ORIG_FID":663,"source_tile":"g49c004003","source_layer":"resp","source_record":664,"name":"田冲水库","name_source":"aanp_spatial"}}]};

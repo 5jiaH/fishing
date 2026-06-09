@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"拖罗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.87809980414832,23.711041111921727]},"properties":{"GB":310108,"id":36041,"ORIG_FID":2696,"source_tile":"f49c001003","source_layer":"resp","source_record":2697,"name":"拖罗水库","name_source":"aanp_id"}}]};

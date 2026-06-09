@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"三桠塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.7372367511297,23.352905929195078]},"properties":{"GB":310107,"id":36958,"ORIG_FID":505,"source_tile":"f49c001004","source_layer":"resp","source_record":506,"name":"三桠塘水库","name_source":"aanp_id"}}]};

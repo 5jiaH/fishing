@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"官田水库东库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.60385066762746,23.88009673167133]},"properties":{"GB":310107,"id":59051,"ORIG_FID":1339,"source_tile":"f50c001002","source_layer":"resp","source_record":1340,"name":"官田水库东库","name_source":"aanp_id"}}]};

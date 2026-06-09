@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"妈坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.274705607197,21.807839455388134]},"properties":{"GB":310109,"id":51600,"ORIG_FID":2833,"source_tile":"f49c003002","source_layer":"resp","source_record":2834,"name":"妈坑水库","name_source":"aanp_id"}}]};

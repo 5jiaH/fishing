@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"九澳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.49770443179438,21.632690249826325]},"properties":{"GB":310108,"id":50100,"ORIG_FID":1975,"source_tile":"f49c003002","source_layer":"resp","source_record":1976,"name":"九澳水库","name_source":"aanp_id"}}]};

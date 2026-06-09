@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"新荣水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.06985796632492,22.79342140759697]},"properties":{"GB":310107,"id":43954,"ORIG_FID":2031,"source_tile":"f49c002003","source_layer":"resp","source_record":2032,"name":"新荣水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"武陵水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[117.17032792343005,23.969972252873806]},"properties":{"GB":310107,"id":59791,"ORIG_FID":543,"source_tile":"f50c001003","source_layer":"resp","source_record":544,"name":"武陵水库","name_source":"aanp_id"}}]};

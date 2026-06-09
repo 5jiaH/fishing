@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"埤习水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.71499227380804,22.985736090720543]},"properties":{"GB":311104,"id":61037,"ORIG_FID":1436,"source_tile":"f50c002001","source_layer":"resp","source_record":1437,"name":"埤习水库","name_source":"aanp_id"}}]};

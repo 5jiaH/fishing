@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"饶建水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.9004462982098,24.94123078106636]},"properties":{"GB":310300,"id":195257,"ORIG_FID":3624,"source_tile":"g50c004002","source_layer":"resp","source_record":3625,"name":"饶建水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"坳洞潭","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.74577961926839,23.40746734297392]},"properties":{"GB":310107,"id":36996,"ORIG_FID":612,"source_tile":"f49c001004","source_layer":"resp","source_record":613,"name":"坳洞潭","name_source":"aanp_id"}}]};

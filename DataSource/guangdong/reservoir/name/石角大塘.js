@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石角大塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.42609150291031,25.501334400705744]},"properties":{"GB":310107,"id":180838,"ORIG_FID":891,"source_tile":"g50c003001","source_layer":"resp","source_record":892,"name":"石角大塘","name_source":"aanp_id"}}]};

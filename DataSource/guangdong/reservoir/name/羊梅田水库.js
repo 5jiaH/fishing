@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"羊梅田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.07631016945246,21.003847154606703]},"properties":{"GB":310108,"id":48997,"ORIG_FID":5,"source_tile":"f49c003002","source_layer":"resp","source_record":6,"name":"羊梅田水库","name_source":"aanp_id"}}]};

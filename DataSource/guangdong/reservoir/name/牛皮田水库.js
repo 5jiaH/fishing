@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"牛皮田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.4691218888652,25.015856768804934]},"properties":{"GB":310108,"id":181843,"ORIG_FID":33,"source_tile":"g50c003001","source_layer":"resp","source_record":34,"name":"牛皮田水库","name_source":"aanp_id"}}]};

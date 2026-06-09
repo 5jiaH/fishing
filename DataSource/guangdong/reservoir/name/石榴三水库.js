@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石榴三水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.48444920800672,21.826879176711955]},"properties":{"GB":310107,"id":48826,"ORIG_FID":2934,"source_tile":"f49c003002","source_layer":"resp","source_record":2935,"name":"石榴三水库","name_source":"aanp_id"}}]};

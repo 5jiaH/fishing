@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"陂米河水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.58224369007607,22.968199697050906]},"properties":{"GB":310107,"id":60500,"ORIG_FID":1372,"source_tile":"f50c002001","source_layer":"resp","source_record":1373,"name":"陂米河水库","name_source":"aanp_id"}}]};

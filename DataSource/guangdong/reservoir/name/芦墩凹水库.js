@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"芦墩凹水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.32428752173709,24.661678662487585]},"properties":{"GB":310108,"id":194918,"ORIG_FID":2672,"source_tile":"g50c004002","source_layer":"resp","source_record":2673,"name":"芦墩凹水库","name_source":"aanp_spatial"}}]};

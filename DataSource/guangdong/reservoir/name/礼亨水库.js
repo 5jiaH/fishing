@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"礼亨水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.99432027676795,24.802385655465997]},"properties":{"GB":310300,"id":191835,"ORIG_FID":2008,"source_tile":"g50c004001","source_layer":"resp","source_record":2009,"name":"礼亨水库","name_source":"osm"}}]};

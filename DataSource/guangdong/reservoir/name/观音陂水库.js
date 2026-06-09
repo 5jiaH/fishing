@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"观音陂水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.34789554841274,20.789397602117354]},"properties":{"GB":311105,"id":54322,"ORIG_FID":969,"source_tile":"f49c004002","source_layer":"resp","source_record":970,"name":"观音陂水库","name_source":"aanp_id"}}]};

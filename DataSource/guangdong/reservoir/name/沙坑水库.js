@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"沙坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.42234371153714,22.70214203719121]},"properties":{"GB":310107,"id":60254,"ORIG_FID":547,"source_tile":"f50c002001","source_layer":"resp","source_record":548,"name":"沙坑水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"茅坪水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.71524395352203,24.642903555596618]},"properties":{"GB":310108,"id":194902,"ORIG_FID":2601,"source_tile":"g50c004002","source_layer":"resp","source_record":2602,"name":"茅坪水库","name_source":"aanp_spatial"}}]};

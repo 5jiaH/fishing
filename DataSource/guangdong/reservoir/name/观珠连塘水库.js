@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"观珠连塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.25217791824635,21.735400816114048]},"properties":{"GB":310108,"id":52759,"ORIG_FID":446,"source_tile":"f49c003003","source_layer":"resp","source_record":447,"name":"观珠连塘水库","name_source":"aanp_spatial"}}]};

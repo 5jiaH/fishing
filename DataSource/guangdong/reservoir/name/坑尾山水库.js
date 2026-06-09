@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"坑尾山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.20839790378014,25.60684292148032]},"properties":{"GB":310108,"id":181751,"ORIG_FID":1067,"source_tile":"g50c003001","source_layer":"resp","source_record":1068,"name":"坑尾山水库","name_source":"aanp_id"}}]};

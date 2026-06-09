@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"响滩水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[117.36233976549809,23.891688674537903]},"properties":{"GB":310300,"id":60058,"ORIG_FID":431,"source_tile":"f50c001003","source_layer":"resp","source_record":432,"name":"响滩水库","name_source":"aanp_id"}}]};

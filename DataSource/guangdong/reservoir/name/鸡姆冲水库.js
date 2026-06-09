@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鸡姆冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.20922257456486,21.99010233445504]},"properties":{"GB":310107,"id":48953,"ORIG_FID":3786,"source_tile":"f49c003002","source_layer":"resp","source_record":3787,"name":"鸡姆冲水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"企径水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.92396191640123,21.370511626183575]},"properties":{"GB":310107,"id":51515,"ORIG_FID":765,"source_tile":"f49c003002","source_layer":"resp","source_record":766,"name":"企径水库","name_source":"aanp_id"}}]};

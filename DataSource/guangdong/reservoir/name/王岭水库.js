@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"王岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.63080614381302,21.64702818402766]},"properties":{"GB":310108,"id":52710,"ORIG_FID":260,"source_tile":"f49c003003","source_layer":"resp","source_record":261,"name":"王岭水库","name_source":"aanp_id"}}]};

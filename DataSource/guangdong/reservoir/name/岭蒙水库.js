@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"岭蒙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.44228613061296,22.386999745858027]},"properties":{"GB":311105,"id":45266,"ORIG_FID":942,"source_tile":"f49c002003","source_layer":"resp","source_record":943,"name":"岭蒙水库","name_source":"aanp_id"}}]};

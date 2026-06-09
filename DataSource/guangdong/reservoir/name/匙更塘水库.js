@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"匙更塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.17689925740646,20.05893786305455]},"properties":{"GB":310300,"id":54384,"ORIG_FID":290,"source_tile":"f49c004002","source_layer":"resp","source_record":291,"name":"匙更塘水库","name_source":"aanp_id"}}]};

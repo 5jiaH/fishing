@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"严屋大塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.03513980612513,25.41424239536676]},"properties":{"GB":310107,"id":180777,"ORIG_FID":748,"source_tile":"g50c003001","source_layer":"resp","source_record":749,"name":"严屋大塘","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"松树夫人水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.49171152722721,20.015491806806285]},"properties":{"GB":310300,"id":54370,"ORIG_FID":114,"source_tile":"f49c004002","source_layer":"resp","source_record":115,"name":"松树夫人水库","name_source":"aanp_id"}}]};

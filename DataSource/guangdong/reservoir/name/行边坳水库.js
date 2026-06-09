@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"行边坳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.39073248982471,25.418082395040198]},"properties":{"GB":310107,"id":182083,"ORIG_FID":756,"source_tile":"g50c003001","source_layer":"resp","source_record":757,"name":"行边坳水库","name_source":"aanp_id"}}]};

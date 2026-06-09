@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石门口水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.38049352744217,25.452624634193022]},"properties":{"GB":310108,"id":181455,"ORIG_FID":809,"source_tile":"g50c003001","source_layer":"resp","source_record":810,"name":"石门口水库","name_source":"aanp_spatial"}}]};

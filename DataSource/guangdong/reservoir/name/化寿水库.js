@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"化寿水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.10329200089974,22.98242881760677]},"properties":{"GB":310300,"id":44956,"ORIG_FID":2593,"source_tile":"f49c002003","source_layer":"resp","source_record":2594,"name":"化寿水库","name_source":"aanp_id"}}]};

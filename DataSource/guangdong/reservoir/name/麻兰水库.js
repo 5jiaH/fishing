@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"麻兰水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.74016586405307,22.94087467758743]},"properties":{"GB":310107,"id":44184,"ORIG_FID":2458,"source_tile":"f49c002003","source_layer":"resp","source_record":2459,"name":"麻兰水库","name_source":"aanp_id"}}]};

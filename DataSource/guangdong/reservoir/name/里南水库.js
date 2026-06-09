@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"里南水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.04603510652237,25.717127830096853]},"properties":{"GB":310108,"id":181959,"ORIG_FID":1275,"source_tile":"g50c003001","source_layer":"resp","source_record":1276,"name":"里南水库","name_source":"aanp_spatial"}}]};

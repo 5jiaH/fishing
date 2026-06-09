@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鹅坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.23647749346662,21.989817355384922]},"properties":{"GB":310108,"id":49992,"ORIG_FID":3780,"source_tile":"f49c003002","source_layer":"resp","source_record":3781,"name":"鹅坑水库","name_source":"aanp_id"}}]};

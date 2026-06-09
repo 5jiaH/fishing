@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"虎冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.14522156089163,25.59686442851623]},"properties":{"GB":310108,"id":181993,"ORIG_FID":1056,"source_tile":"g50c003001","source_layer":"resp","source_record":1057,"name":"虎冲水库","name_source":"aanp_id"}}]};

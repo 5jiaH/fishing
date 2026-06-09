@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"文壮水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.56626848617555,23.50456019748295]},"properties":{"GB":310300,"id":56872,"ORIG_FID":1951,"source_tile":"f50c001001","source_layer":"resp","source_record":1952,"name":"文壮水库","name_source":"aanp_id"}}]};

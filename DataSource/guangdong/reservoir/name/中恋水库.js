@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"中恋水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.06690581024975,23.069903512764167]},"properties":{"GB":310107,"id":32947,"ORIG_FID":334,"source_tile":"f49c001003","source_layer":"resp","source_record":335,"name":"中恋水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"马头岗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.89899574968544,21.972959815823234]},"properties":{"GB":310107,"id":48937,"ORIG_FID":3685,"source_tile":"f49c003002","source_layer":"resp","source_record":3686,"name":"马头岗水库","name_source":"aanp_id"}}]};

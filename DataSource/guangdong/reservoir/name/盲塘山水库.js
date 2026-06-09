@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"盲塘山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.48341632873456,23.47106799947989]},"properties":{"GB":310300,"id":56911,"ORIG_FID":1794,"source_tile":"f50c001001","source_layer":"resp","source_record":1795,"name":"盲塘山水库","name_source":"aanp_spatial"}}]};

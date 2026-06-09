@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"长明塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.00151614049219,22.57263907857361]},"properties":{"GB":310108,"id":45048,"ORIG_FID":1433,"source_tile":"f49c002003","source_layer":"resp","source_record":1434,"name":"长明塘水库","name_source":"aanp_id"}}]};

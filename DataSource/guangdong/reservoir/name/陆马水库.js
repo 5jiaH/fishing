@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"陆马水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.15941046821337,22.846045229625833]},"properties":{"GB":311105,"id":61023,"ORIG_FID":951,"source_tile":"f50c002001","source_layer":"resp","source_record":952,"name":"陆马水库","name_source":"aanp_id"}}]};

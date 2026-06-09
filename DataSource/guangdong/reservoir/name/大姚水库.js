@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大姚水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.35796181092985,24.20701753898875]},"properties":{"GB":310107,"id":158519,"ORIG_FID":373,"source_tile":"g49c004003","source_layer":"resp","source_record":374,"name":"大姚水库","name_source":"aanp_spatial"}}]};

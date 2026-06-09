@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"后井水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.98978215805617,23.99377843884638]},"properties":{"GB":310107,"id":59202,"ORIG_FID":1570,"source_tile":"f50c001002","source_layer":"resp","source_record":1571,"name":"后井水库","name_source":"aanp_id"}}]};

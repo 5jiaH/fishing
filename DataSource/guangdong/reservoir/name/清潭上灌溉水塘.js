@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"清潭上灌溉水塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.0834553850901,22.416965521874932]},"properties":{"GB":310108,"id":60912,"ORIG_FID":127,"source_tile":"f50c002001","source_layer":"resp","source_record":128,"name":"清潭上灌溉水塘","name_source":"aanp_spatial"}}]};

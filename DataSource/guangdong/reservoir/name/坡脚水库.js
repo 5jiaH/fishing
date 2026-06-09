@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"坡脚水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.38161005258672,22.74592222151881]},"properties":{"GB":310108,"id":43684,"ORIG_FID":1906,"source_tile":"f49c002003","source_layer":"resp","source_record":1907,"name":"坡脚水库","name_source":"aanp_id"}}]};

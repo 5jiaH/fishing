@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"上游水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.88992815148622,24.920211050784324]},"properties":{"GB":310107,"id":192372,"ORIG_FID":2341,"source_tile":"g50c004001","source_layer":"resp","source_record":2342,"name":"上游水库","name_source":"aanp_spatial"}}]};

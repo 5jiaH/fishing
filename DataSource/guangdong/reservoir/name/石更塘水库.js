@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石更塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.21409710685765,23.06395388078082]},"properties":{"GB":310107,"id":32945,"ORIG_FID":302,"source_tile":"f49c001003","source_layer":"resp","source_record":303,"name":"石更塘水库","name_source":"aanp_id"}}]};

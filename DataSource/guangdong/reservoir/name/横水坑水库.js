@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"横水坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.13185347059004,23.187811803818015]},"properties":{"GB":310107,"id":33070,"ORIG_FID":885,"source_tile":"f49c001003","source_layer":"resp","source_record":886,"name":"横水坑水库","name_source":"aanp_id"}}]};

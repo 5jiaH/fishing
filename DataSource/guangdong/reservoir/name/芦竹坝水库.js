@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"芦竹坝水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.2350843587281,25.719853211868227]},"properties":{"GB":310108,"id":182032,"ORIG_FID":1284,"source_tile":"g50c003001","source_layer":"resp","source_record":1285,"name":"芦竹坝水库","name_source":"aanp_id"}}]};

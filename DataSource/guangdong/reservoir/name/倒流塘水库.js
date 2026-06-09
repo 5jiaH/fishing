@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"倒流塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.23787644034903,22.730446079238575]},"properties":{"GB":310107,"id":43633,"ORIG_FID":1864,"source_tile":"f49c002003","source_layer":"resp","source_record":1865,"name":"倒流塘水库","name_source":"aanp_id"}}]};

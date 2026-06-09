@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"水筒颈水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.78735212768784,21.541577642611998]},"properties":{"GB":310108,"id":49655,"ORIG_FID":1480,"source_tile":"f49c003002","source_layer":"resp","source_record":1481,"name":"水筒颈水库","name_source":"aanp_id"}}]};

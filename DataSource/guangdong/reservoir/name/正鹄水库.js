@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"正鹄水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.62667005549798,25.655199962488062]},"properties":{"GB":310107,"id":150596,"ORIG_FID":1313,"source_tile":"g49c003003","source_layer":"resp","source_record":1314,"name":"正鹄水库","name_source":"aanp_spatial"}}]};

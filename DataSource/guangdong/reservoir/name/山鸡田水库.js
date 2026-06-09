@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"山鸡田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.13465618822697,21.795016964785052]},"properties":{"GB":310107,"id":52376,"ORIG_FID":612,"source_tile":"f49c003003","source_layer":"resp","source_record":613,"name":"山鸡田水库","name_source":"aanp_spatial"}}]};

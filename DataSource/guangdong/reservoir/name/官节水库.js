@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"官节水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.92849133984862,23.675311639004804]},"properties":{"GB":310107,"id":58828,"ORIG_FID":1000,"source_tile":"f50c001002","source_layer":"resp","source_record":1001,"name":"官节水库","name_source":"aanp_id"}}]};

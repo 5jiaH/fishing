@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"王律水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.80190352123606,22.95966332968975]},"properties":{"GB":310109,"id":61125,"ORIG_FID":1336,"source_tile":"f50c002001","source_layer":"resp","source_record":1337,"name":"王律水库","name_source":"aanp_id"}}]};

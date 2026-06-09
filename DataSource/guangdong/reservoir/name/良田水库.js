@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"良田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.01854951278295,22.995265737451298]},"properties":{"GB":310107,"id":44269,"ORIG_FID":2649,"source_tile":"f49c002003","source_layer":"resp","source_record":2650,"name":"良田水库","name_source":"aanp_id"}}]};

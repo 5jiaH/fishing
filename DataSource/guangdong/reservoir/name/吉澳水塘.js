@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"吉澳水塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.29311193071817,22.49840843929789]},"properties":{"GB":310108,"id":60888,"ORIG_FID":219,"source_tile":"f50c002001","source_layer":"resp","source_record":220,"name":"吉澳水塘","name_source":"osm"}}]};

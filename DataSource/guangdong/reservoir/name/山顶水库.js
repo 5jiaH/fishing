@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"山顶水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.34159202865447,22.920821598664975]},"properties":{"GB":310300,"id":61486,"ORIG_FID":1191,"source_tile":"f50c002001","source_layer":"resp","source_record":1192,"name":"山顶水库","name_source":"aanp_spatial"}}]};

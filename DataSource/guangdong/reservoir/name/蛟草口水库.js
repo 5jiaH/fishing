@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"蛟草口水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.40427392846667,23.086697210108653]},"properties":{"GB":310107,"id":32969,"ORIG_FID":407,"source_tile":"f49c001003","source_layer":"resp","source_record":408,"name":"蛟草口水库","name_source":"aanp_id"}}]};

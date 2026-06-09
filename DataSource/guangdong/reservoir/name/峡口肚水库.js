@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"峡口肚水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.29019780995318,24.124247426747658]},"properties":{"GB":310108,"id":159749,"ORIG_FID":249,"source_tile":"g49c004003","source_layer":"resp","source_record":250,"name":"峡口肚水库","name_source":"aanp_spatial"}}]};

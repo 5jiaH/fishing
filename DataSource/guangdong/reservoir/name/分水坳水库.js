@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"分水坳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.42829025132241,25.237457849600098]},"properties":{"GB":310107,"id":150004,"ORIG_FID":439,"source_tile":"g49c003003","source_layer":"resp","source_record":440,"name":"分水坳水库","name_source":"aanp_spatial"}}]};

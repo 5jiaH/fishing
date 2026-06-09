@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鸡婆头水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.83225207679712,21.54207055796027]},"properties":{"GB":310108,"id":51683,"ORIG_FID":1482,"source_tile":"f49c003002","source_layer":"resp","source_record":1483,"name":"鸡婆头水库","name_source":"aanp_id"}}]};

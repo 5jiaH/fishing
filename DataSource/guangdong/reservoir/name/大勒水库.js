@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大勒水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.99117358617943,20.334940104579502]},"properties":{"GB":311105,"id":54307,"ORIG_FID":417,"source_tile":"f49c004002","source_layer":"resp","source_record":418,"name":"大勒水库","name_source":"aanp_id"}}]};

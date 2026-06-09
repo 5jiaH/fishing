@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"武思江水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.21836215250141,22.77181484161943]},"properties":{"GB":310107,"id":43924,"ORIG_FID":1974,"source_tile":"f49c002003","source_layer":"resp","source_record":1975,"name":"武思江水库","name_source":"aanp_id"}}]};

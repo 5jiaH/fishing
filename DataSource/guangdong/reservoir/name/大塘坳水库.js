@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大塘坳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.84929509432254,25.44759987323859]},"properties":{"GB":310107,"id":181909,"ORIG_FID":802,"source_tile":"g50c003001","source_layer":"resp","source_record":803,"name":"大塘坳水库","name_source":"aanp_id"}}]};

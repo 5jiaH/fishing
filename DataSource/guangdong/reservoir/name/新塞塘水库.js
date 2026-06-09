@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"新塞塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.49049598307377,23.04018793967879]},"properties":{"GB":310107,"id":32912,"ORIG_FID":182,"source_tile":"f49c001003","source_layer":"resp","source_record":183,"name":"新塞塘水库","name_source":"aanp_id"}}]};

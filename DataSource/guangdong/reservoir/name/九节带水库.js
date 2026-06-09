@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"九节带水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.36466870224689,25.560928155019624]},"properties":{"GB":310107,"id":152987,"ORIG_FID":873,"source_tile":"g49c003004","source_layer":"resp","source_record":874,"name":"九节带水库","name_source":"aanp_spatial"}}]};

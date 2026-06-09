@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"茂田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.20996399947083,22.918410752141938]},"properties":{"GB":310107,"id":44151,"ORIG_FID":2386,"source_tile":"f49c002003","source_layer":"resp","source_record":2387,"name":"茂田水库","name_source":"aanp_id"}}]};

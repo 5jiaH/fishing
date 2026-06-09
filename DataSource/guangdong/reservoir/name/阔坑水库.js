@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"阔坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.41313364815863,20.01588862579231]},"properties":{"GB":310300,"id":54368,"ORIG_FID":116,"source_tile":"f49c004002","source_layer":"resp","source_record":117,"name":"阔坑水库","name_source":"aanp_id"}}]};

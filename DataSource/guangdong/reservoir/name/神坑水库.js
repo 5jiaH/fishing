@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"神坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.5090778242805,20.012467988287597]},"properties":{"GB":310300,"id":54339,"ORIG_FID":96,"source_tile":"f49c004002","source_layer":"resp","source_record":97,"name":"神坑水库","name_source":"aanp_id"}}]};

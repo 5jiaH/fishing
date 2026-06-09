@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"团结塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.0368336155437,23.03021463571646]},"properties":{"GB":310107,"id":32903,"ORIG_FID":138,"source_tile":"f49c001003","source_layer":"resp","source_record":139,"name":"团结塘水库","name_source":"aanp_id"}}]};

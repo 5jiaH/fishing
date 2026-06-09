@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"猪头潭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.4197084533725,21.972536462236647]},"properties":{"GB":310108,"id":50674,"ORIG_FID":3680,"source_tile":"f49c003002","source_layer":"resp","source_record":3681,"name":"猪头潭水库","name_source":"aanp_id"}}]};

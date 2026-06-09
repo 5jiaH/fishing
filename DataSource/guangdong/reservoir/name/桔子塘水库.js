@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"桔子塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.53763424529743,23.099011054345198]},"properties":{"GB":311105,"id":36949,"ORIG_FID":107,"source_tile":"f49c001004","source_layer":"resp","source_record":108,"name":"桔子塘水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黄落冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.09865973724791,20.92008913656409]},"properties":{"GB":310300,"id":54242,"ORIG_FID":1142,"source_tile":"f49c004002","source_layer":"resp","source_record":1143,"name":"黄落冲水库","name_source":"aanp_id"}}]};

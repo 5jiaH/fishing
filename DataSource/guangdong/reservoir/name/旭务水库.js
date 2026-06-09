@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"旭务水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.91625860771347,21.898991577399674]},"properties":{"GB":310108,"id":51650,"ORIG_FID":3295,"source_tile":"f49c003002","source_layer":"resp","source_record":3296,"name":"旭务水库","name_source":"osm"}}]};

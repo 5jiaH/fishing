@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大岸山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.16757241437958,20.313015001384027]},"properties":{"GB":310300,"id":54220,"ORIG_FID":373,"source_tile":"f49c004002","source_layer":"resp","source_record":374,"name":"大岸山水库","name_source":"aanp_id"}}]};

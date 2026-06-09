@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"犁田垌水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[117.36527565130564,23.897734317031016]},"properties":{"GB":310107,"id":59868,"ORIG_FID":438,"source_tile":"f50c001003","source_layer":"resp","source_record":439,"name":"犁田垌水库","name_source":"aanp_id"}}]};

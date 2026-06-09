@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"洞口大头坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.25139205863485,20.002765831233038]},"properties":{"GB":310300,"id":54261,"ORIG_FID":21,"source_tile":"f49c004002","source_layer":"resp","source_record":22,"name":"洞口大头坑水库","name_source":"aanp_id"}}]};

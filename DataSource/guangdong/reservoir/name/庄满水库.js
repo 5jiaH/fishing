@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"庄满水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.99592017206814,24.867153641233042]},"properties":{"GB":310300,"id":195315,"ORIG_FID":3356,"source_tile":"g50c004002","source_layer":"resp","source_record":3357,"name":"庄满水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"云茂一水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.85821078010915,22.73408768525025]},"properties":{"GB":310107,"id":43865,"ORIG_FID":1872,"source_tile":"f49c002003","source_layer":"resp","source_record":1873,"name":"云茂一水库","name_source":"aanp_id"}}]};

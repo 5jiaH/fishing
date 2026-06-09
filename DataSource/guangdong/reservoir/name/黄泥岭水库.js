@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黄泥岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.39606388183995,25.106756173454414]},"properties":{"GB":310108,"id":182078,"ORIG_FID":177,"source_tile":"g50c003001","source_layer":"resp","source_record":178,"name":"黄泥岭水库","name_source":"aanp_spatial"}}]};

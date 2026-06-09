@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"六儒塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.97535379902013,21.99211417321525]},"properties":{"GB":310107,"id":48954,"ORIG_FID":3794,"source_tile":"f49c003002","source_layer":"resp","source_record":3795,"name":"六儒塘水库","name_source":"aanp_id"}}]};

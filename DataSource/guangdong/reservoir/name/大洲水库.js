@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大洲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.92476420711294,22.713068550019067]},"properties":{"GB":310108,"id":60809,"ORIG_FID":574,"source_tile":"f50c002001","source_layer":"resp","source_record":575,"name":"大洲水库","name_source":"aanp_spatial"}}]};

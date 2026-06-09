@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"老珠塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.01768684681998,25.5562598361025]},"properties":{"GB":310107,"id":180902,"ORIG_FID":987,"source_tile":"g50c003001","source_layer":"resp","source_record":988,"name":"老珠塘水库","name_source":"aanp_id"}}]};

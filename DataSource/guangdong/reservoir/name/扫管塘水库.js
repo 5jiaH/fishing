@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"扫管塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.0122616451915,21.396462574822817]},"properties":{"GB":310107,"id":51123,"ORIG_FID":836,"source_tile":"f49c003002","source_layer":"resp","source_record":837,"name":"扫管塘水库","name_source":"aanp_id"}}]};

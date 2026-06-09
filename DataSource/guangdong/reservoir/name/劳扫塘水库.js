@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"劳扫塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.0396712498275,23.048249055364067]},"properties":{"GB":310107,"id":32926,"ORIG_FID":222,"source_tile":"f49c001003","source_layer":"resp","source_record":223,"name":"劳扫塘水库","name_source":"aanp_id"}}]};

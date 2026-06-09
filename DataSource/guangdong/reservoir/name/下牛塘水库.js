@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"下牛塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.29520784890346,24.406720131586734]},"properties":{"GB":310109,"id":159838,"ORIG_FID":645,"source_tile":"g49c004003","source_layer":"resp","source_record":646,"name":"下牛塘水库","name_source":"aanp_spatial"}}]};

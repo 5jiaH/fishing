@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"赤黎岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.77951405089371,21.967256882995745]},"properties":{"GB":310107,"id":48932,"ORIG_FID":3645,"source_tile":"f49c003002","source_layer":"resp","source_record":3646,"name":"赤黎岭水库","name_source":"aanp_id"}}]};

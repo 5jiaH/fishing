@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黄芏塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.07024031580349,20.908901984773554]},"properties":{"GB":310300,"id":54240,"ORIG_FID":1120,"source_tile":"f49c004002","source_layer":"resp","source_record":1121,"name":"黄芏塘水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"小坳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.21784551981096,22.603901611559696]},"properties":{"GB":310108,"id":60855,"ORIG_FID":341,"source_tile":"f50c002001","source_layer":"resp","source_record":342,"name":"小坳水库","name_source":"aanp_spatial"}}]};

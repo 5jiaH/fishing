@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"竹银水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.39748299493021,23.798925991157116]},"properties":{"GB":310107,"id":55043,"ORIG_FID":2922,"source_tile":"f50c001001","source_layer":"resp","source_record":2923,"name":"竹银水库","name_source":"aanp_id"}}]};

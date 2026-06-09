@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"连环水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.00078439179055,21.88477038743022]},"properties":{"GB":310300,"id":53102,"ORIG_FID":894,"source_tile":"f49c003003","source_layer":"resp","source_record":895,"name":"连环水库","name_source":"aanp_spatial"}}]};

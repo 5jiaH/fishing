@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"山塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.9426600299875,22.250771880435583]},"properties":{"GB":310300,"id":45338,"ORIG_FID":290,"source_tile":"f49c002004","source_layer":"resp","source_record":291,"name":"山塘","name_source":"aanp_id"}}]};

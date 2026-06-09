@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"西陂水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.34181280139892,20.008494503300067]},"properties":{"GB":310300,"id":54232,"ORIG_FID":61,"source_tile":"f49c004002","source_layer":"resp","source_record":62,"name":"西陂水库","name_source":"aanp_id"}}]};

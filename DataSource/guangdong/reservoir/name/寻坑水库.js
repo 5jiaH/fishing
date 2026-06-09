@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"寻坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.70840130278688,21.881723754993843]},"properties":{"GB":310107,"id":48897,"ORIG_FID":3204,"source_tile":"f49c003002","source_layer":"resp","source_record":3205,"name":"寻坑水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"花輋尾水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.8930896084763,23.28457578338341]},"properties":{"GB":310300,"id":38047,"ORIG_FID":388,"source_tile":"f49c001004","source_layer":"resp","source_record":389,"name":"花輋尾水库","name_source":"aanp_spatial"}}]};

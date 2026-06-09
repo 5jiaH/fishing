@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"牛牯嶂水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.5195878857977,23.33320895403439]},"properties":{"GB":310107,"id":36889,"ORIG_FID":477,"source_tile":"f49c001004","source_layer":"resp","source_record":478,"name":"牛牯嶂水库","name_source":"aanp_id"}}]};

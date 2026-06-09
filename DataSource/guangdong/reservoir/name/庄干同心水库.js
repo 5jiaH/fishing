@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"庄干同心水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.63620864002536,24.763359929122508]},"properties":{"GB":310300,"id":195406,"ORIG_FID":3017,"source_tile":"g50c004002","source_layer":"resp","source_record":3018,"name":"庄干同心水库","name_source":"aanp_spatial"}}]};

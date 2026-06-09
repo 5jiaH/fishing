@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"铁炉山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.03789820224465,21.8719717865552]},"properties":{"GB":310108,"id":50512,"ORIG_FID":3157,"source_tile":"f49c003002","source_layer":"resp","source_record":3158,"name":"铁炉山水库","name_source":"aanp_id"}}]};

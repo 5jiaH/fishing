@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大恋水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.28603875643995,23.06895432342717]},"properties":{"GB":310107,"id":32946,"ORIG_FID":329,"source_tile":"f49c001003","source_layer":"resp","source_record":330,"name":"大恋水库","name_source":"aanp_id"}}]};

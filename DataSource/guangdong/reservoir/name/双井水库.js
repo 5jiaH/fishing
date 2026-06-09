@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"双井水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.6396105132078,25.12819221969327]},"properties":{"GB":310107,"id":149867,"ORIG_FID":245,"source_tile":"g49c003003","source_layer":"resp","source_record":246,"name":"双井水库","name_source":"aanp_spatial"}}]};

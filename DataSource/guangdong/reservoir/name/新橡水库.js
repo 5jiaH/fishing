@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"新橡水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.69160016909422,22.363274962453872]},"properties":{"GB":310107,"id":43121,"ORIG_FID":871,"source_tile":"f49c002003","source_layer":"resp","source_record":872,"name":"新橡水库","name_source":"aanp_id"}}]};

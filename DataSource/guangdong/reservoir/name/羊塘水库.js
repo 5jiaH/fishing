@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"羊塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.75946147796367,21.883186337513028]},"properties":{"GB":310107,"id":48899,"ORIG_FID":3211,"source_tile":"f49c003002","source_layer":"resp","source_record":3212,"name":"羊塘水库","name_source":"aanp_id"}}]};

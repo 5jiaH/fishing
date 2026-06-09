@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"红岩水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.94233003126637,24.173929912195913]},"properties":{"GB":310108,"id":193471,"ORIG_FID":644,"source_tile":"g50c004002","source_layer":"resp","source_record":645,"name":"红岩水库","name_source":"aanp_spatial"}}]};

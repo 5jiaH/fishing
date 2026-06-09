@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"瓦窑坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.93275219920972,21.781541819010908]},"properties":{"GB":310108,"id":50395,"ORIG_FID":2711,"source_tile":"f49c003002","source_layer":"resp","source_record":2712,"name":"瓦窑坑水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"桃子坪水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.47775636290669,23.869644688631286]},"properties":{"GB":311105,"id":34051,"ORIG_FID":3263,"source_tile":"f49c001003","source_layer":"resp","source_record":3264,"name":"桃子坪水库","name_source":"aanp_id"}}]};

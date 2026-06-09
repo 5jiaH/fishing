@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"飞神水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.83018408233167,25.442472008235306]},"properties":{"GB":310107,"id":180783,"ORIG_FID":793,"source_tile":"g50c003001","source_layer":"resp","source_record":794,"name":"飞神水库","name_source":"aanp_id"}}]};

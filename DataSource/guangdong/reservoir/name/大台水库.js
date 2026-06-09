@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大台水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.76457426015773,21.649658462664867]},"properties":{"GB":310107,"id":48657,"ORIG_FID":2064,"source_tile":"f49c003002","source_layer":"resp","source_record":2065,"name":"大台水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"花塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.64721306467996,23.358014784928027]},"properties":{"GB":310107,"id":36903,"ORIG_FID":516,"source_tile":"f49c001004","source_layer":"resp","source_record":517,"name":"花塘","name_source":"aanp_id"}}]};

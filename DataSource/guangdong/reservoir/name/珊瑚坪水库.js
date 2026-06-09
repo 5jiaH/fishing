@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"珊瑚坪水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.09518037830416,22.280626135813097]},"properties":{"GB":310108,"id":44805,"ORIG_FID":642,"source_tile":"f49c002003","source_layer":"resp","source_record":643,"name":"珊瑚坪水库","name_source":"aanp_id"}}]};

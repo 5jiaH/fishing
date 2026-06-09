@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"竹源坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.78841715515387,21.638592039974203]},"properties":{"GB":310108,"id":50107,"ORIG_FID":2010,"source_tile":"f49c003002","source_layer":"resp","source_record":2011,"name":"竹源坑水库","name_source":"aanp_id"}}]};

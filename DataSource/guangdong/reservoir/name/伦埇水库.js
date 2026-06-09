@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"伦埇水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.09122149783934,20.93340068796614]},"properties":{"GB":310300,"id":54246,"ORIG_FID":1171,"source_tile":"f49c004002","source_layer":"resp","source_record":1172,"name":"伦埇水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大志水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.04560638606566,25.67508253755202]},"properties":{"GB":310108,"id":181698,"ORIG_FID":1193,"source_tile":"g50c003001","source_layer":"resp","source_record":1194,"name":"大志水库","name_source":"aanp_id"}}]};

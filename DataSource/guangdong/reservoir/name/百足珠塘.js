@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"百足珠塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[117.41878151859106,23.71051619561113]},"properties":{"GB":310300,"id":59683,"ORIG_FID":156,"source_tile":"f50c001003","source_layer":"resp","source_record":157,"name":"百足珠塘","name_source":"aanp_id"}}]};

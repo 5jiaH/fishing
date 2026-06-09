@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大迳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.00225667389407,23.68116354788432]},"properties":{"GB":310108,"id":36033,"ORIG_FID":2600,"source_tile":"f49c001003","source_layer":"resp","source_record":2601,"name":"大迳水库","name_source":"aanp_id"}}]};

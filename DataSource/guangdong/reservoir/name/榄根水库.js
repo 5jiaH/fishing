@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"榄根水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.92449453314579,22.835963676393156]},"properties":{"GB":310300,"id":61498,"ORIG_FID":915,"source_tile":"f50c002001","source_layer":"resp","source_record":916,"name":"榄根水库","name_source":"aanp_id"}}]};

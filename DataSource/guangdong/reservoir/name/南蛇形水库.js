@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"南蛇形水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.77871188691681,23.03018038896303]},"properties":{"GB":311105,"id":36924,"ORIG_FID":33,"source_tile":"f49c001004","source_layer":"resp","source_record":34,"name":"南蛇形水库","name_source":"aanp_id"}}]};

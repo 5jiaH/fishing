@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"苦竹水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.02705427383282,25.65149502996178]},"properties":{"GB":310108,"id":181697,"ORIG_FID":1152,"source_tile":"g50c003001","source_layer":"resp","source_record":1153,"name":"苦竹水库","name_source":"aanp_id"}}]};

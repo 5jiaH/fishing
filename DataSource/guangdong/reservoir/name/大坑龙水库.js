@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大坑龙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.2220890844487,20.04024347699138]},"properties":{"GB":310300,"id":54381,"ORIG_FID":241,"source_tile":"f49c004002","source_layer":"resp","source_record":242,"name":"大坑龙水库","name_source":"aanp_id"}}]};

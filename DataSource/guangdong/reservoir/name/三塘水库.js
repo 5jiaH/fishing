@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"三塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.47314765410903,22.952031933954142]},"properties":{"GB":310107,"id":60488,"ORIG_FID":1302,"source_tile":"f50c002001","source_layer":"resp","source_record":1303,"name":"三塘水库","name_source":"aanp_id"}}]};

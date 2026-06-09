@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"打必塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.64759383216136,22.921448684105616]},"properties":{"GB":311104,"id":61983,"ORIG_FID":153,"source_tile":"f50c002002","source_layer":"resp","source_record":154,"name":"打必塘水库","name_source":"aanp_id"}}]};

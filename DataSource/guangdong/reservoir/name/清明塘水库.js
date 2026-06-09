@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"清明塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.247009387041,25.052832642552136]},"properties":{"GB":310107,"id":149841,"ORIG_FID":101,"source_tile":"g49c003003","source_layer":"resp","source_record":102,"name":"清明塘水库","name_source":"aanp_spatial"}}]};

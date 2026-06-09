@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"温泉人工湖","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.52443341392275,23.06538165737182]},"properties":{"GB":311105,"id":36936,"ORIG_FID":67,"source_tile":"f49c001004","source_layer":"resp","source_record":68,"name":"温泉人工湖","name_source":"aanp_id"}}]};

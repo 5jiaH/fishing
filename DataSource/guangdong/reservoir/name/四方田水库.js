@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"四方田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.82505973204198,22.82084327072118]},"properties":{"GB":310300,"id":61281,"ORIG_FID":875,"source_tile":"f50c002001","source_layer":"resp","source_record":876,"name":"四方田水库","name_source":"aanp_id"}}]};

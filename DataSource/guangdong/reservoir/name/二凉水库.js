@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"二凉水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.00692839729808,22.98409693224226]},"properties":{"GB":311105,"id":45333,"ORIG_FID":1361,"source_tile":"f49c002004","source_layer":"resp","source_record":1362,"name":"二凉水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"念塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.22316607222515,23.754445139312885]},"properties":{"GB":310108,"id":36001,"ORIG_FID":2851,"source_tile":"f49c001003","source_layer":"resp","source_record":2852,"name":"念塘水库","name_source":"aanp_id"}}]};

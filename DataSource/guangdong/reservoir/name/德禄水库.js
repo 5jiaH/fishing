@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"德禄水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.04358205801816,22.77945178894516]},"properties":{"GB":310300,"id":61357,"ORIG_FID":736,"source_tile":"f50c002001","source_layer":"resp","source_record":737,"name":"德禄水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"吊钟形水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.01708169378347,23.736634669189716]},"properties":{"GB":310108,"id":36003,"ORIG_FID":2784,"source_tile":"f49c001003","source_layer":"resp","source_record":2785,"name":"吊钟形水库","name_source":"aanp_id"}}]};

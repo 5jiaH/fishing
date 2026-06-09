@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"深涌水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.04827440646065,22.843391931889467]},"properties":{"GB":310108,"id":60763,"ORIG_FID":942,"source_tile":"f50c002001","source_layer":"resp","source_record":943,"name":"深涌水库","name_source":"aanp_spatial"}}]};

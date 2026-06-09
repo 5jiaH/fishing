@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"仙塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.54393552088627,22.947791578863264]},"properties":{"GB":310300,"id":62008,"ORIG_FID":190,"source_tile":"f50c002002","source_layer":"resp","source_record":191,"name":"仙塘水库","name_source":"aanp_id"}}]};

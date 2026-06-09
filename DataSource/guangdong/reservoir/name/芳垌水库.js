@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"芳垌水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.13897558204808,21.631454798856087]},"properties":{"GB":310107,"id":52109,"ORIG_FID":228,"source_tile":"f49c003003","source_layer":"resp","source_record":229,"name":"芳垌水库","name_source":"aanp_spatial"}}]};

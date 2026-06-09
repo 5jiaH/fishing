@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"岭背塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.74078589165507,25.414869620381886]},"properties":{"GB":310107,"id":180770,"ORIG_FID":752,"source_tile":"g50c003001","source_layer":"resp","source_record":753,"name":"岭背塘","name_source":"aanp_id"}}]};

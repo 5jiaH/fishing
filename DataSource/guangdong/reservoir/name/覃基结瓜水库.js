@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"覃基结瓜水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.24272192749397,21.794066373567045]},"properties":{"GB":310109,"id":53030,"ORIG_FID":610,"source_tile":"f49c003003","source_layer":"resp","source_record":611,"name":"覃基结瓜水库","name_source":"aanp_spatial"}}]};

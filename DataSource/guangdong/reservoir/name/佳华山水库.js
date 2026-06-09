@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"佳华山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.65638016832159,22.949053651095852]},"properties":{"GB":311105,"id":62005,"ORIG_FID":200,"source_tile":"f50c002002","source_layer":"resp","source_record":201,"name":"佳华山水库","name_source":"aanp_id"}}]};

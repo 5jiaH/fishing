@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"曹军洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.700128048901,23.818171740698357]},"properties":{"GB":310300,"id":56704,"ORIG_FID":2965,"source_tile":"f50c001001","source_layer":"resp","source_record":2966,"name":"曹军洞水库","name_source":"aanp_spatial"}}]};

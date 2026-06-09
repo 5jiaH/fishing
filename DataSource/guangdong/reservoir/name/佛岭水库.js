@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"佛岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.03163152630938,21.564050940141666]},"properties":{"GB":310300,"id":53206,"ORIG_FID":116,"source_tile":"f49c003003","source_layer":"resp","source_record":117,"name":"佛岭水库","name_source":"aanp_id"}}]};

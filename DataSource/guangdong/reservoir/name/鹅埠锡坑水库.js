@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鹅埠锡坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.96734958229648,22.808225149520744]},"properties":{"GB":310107,"id":60326,"ORIG_FID":831,"source_tile":"f50c002001","source_layer":"resp","source_record":832,"name":"鹅埠锡坑水库","name_source":"aanp_spatial"}}]};

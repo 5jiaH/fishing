@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"东升水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.40515956404587,21.296139515923507]},"properties":{"GB":311105,"id":48242,"ORIG_FID":581,"source_tile":"f49c003002","source_layer":"resp","source_record":582,"name":"东升水库","name_source":"aanp_id"}}]};

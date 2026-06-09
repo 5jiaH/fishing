@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"南萍水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.31172017922184,23.098521516042503]},"properties":{"GB":310107,"id":32984,"ORIG_FID":466,"source_tile":"f49c001003","source_layer":"resp","source_record":467,"name":"南萍水库","name_source":"aanp_id"}}]};

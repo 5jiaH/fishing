@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"社排坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.0531639106357,24.305124101643028]},"properties":{"GB":310300,"id":192135,"ORIG_FID":768,"source_tile":"g50c004001","source_layer":"resp","source_record":769,"name":"社排坑水库","name_source":"aanp_spatial"}}]};

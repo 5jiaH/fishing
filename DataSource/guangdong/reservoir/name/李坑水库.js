@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"李坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.15960603542875,21.399076235187486]},"properties":{"GB":310108,"id":51763,"ORIG_FID":847,"source_tile":"f49c003002","source_layer":"resp","source_record":848,"name":"李坑水库","name_source":"aanp_id"}}]};

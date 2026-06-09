@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"梅州抽水蓄能电站下水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.46620912427832,23.402928324030547]},"properties":{"GB":310107,"id":54676,"ORIG_FID":1500,"source_tile":"f50c001001","source_layer":"resp","source_record":1501,"name":"梅州抽水蓄能电站下水库","name_source":"osm"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"旧屋地水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.09562854159292,22.903664304252924]},"properties":{"GB":310300,"id":61488,"ORIG_FID":1138,"source_tile":"f50c002001","source_layer":"resp","source_record":1139,"name":"旧屋地水库","name_source":"aanp_id"}}]};

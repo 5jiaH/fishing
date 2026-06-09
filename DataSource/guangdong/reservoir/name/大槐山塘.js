@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大槐山塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.53045133201404,21.709358236562615]},"properties":{"GB":310108,"id":50254,"ORIG_FID":2376,"source_tile":"f49c003002","source_layer":"resp","source_record":2377,"name":"大槐山塘","name_source":"aanp_id"}}]};

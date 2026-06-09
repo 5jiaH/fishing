@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大贡塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.33531557773756,23.176638732895505]},"properties":{"GB":310107,"id":33058,"ORIG_FID":837,"source_tile":"f49c001003","source_layer":"resp","source_record":838,"name":"大贡塘","name_source":"aanp_id"}}]};

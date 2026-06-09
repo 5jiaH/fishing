@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"十八塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.92094415958073,24.745533526732277]},"properties":{"GB":310107,"id":194280,"ORIG_FID":2952,"source_tile":"g50c004002","source_layer":"resp","source_record":2953,"name":"十八塘水库","name_source":"aanp_spatial"}}]};

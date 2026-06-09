@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"先锋水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.95598578785183,25.758113607965782]},"properties":{"GB":310107,"id":181068,"ORIG_FID":1361,"source_tile":"g50c003001","source_layer":"resp","source_record":1362,"name":"先锋水库","name_source":"aanp_id"}}]};

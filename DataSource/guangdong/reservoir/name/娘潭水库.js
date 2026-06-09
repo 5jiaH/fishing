@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"娘潭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.97932380367209,21.3214027949717]},"properties":{"GB":310108,"id":51926,"ORIG_FID":649,"source_tile":"f49c003002","source_layer":"resp","source_record":650,"name":"娘潭水库","name_source":"aanp_id"}}]};

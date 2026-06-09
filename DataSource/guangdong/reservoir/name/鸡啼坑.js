@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鸡啼坑","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.86498005738969,23.297377734973335]},"properties":{"GB":310107,"id":36863,"ORIG_FID":413,"source_tile":"f49c001004","source_layer":"resp","source_record":414,"name":"鸡啼坑","name_source":"aanp_id"}}]};

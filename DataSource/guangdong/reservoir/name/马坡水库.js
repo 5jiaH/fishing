@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"马坡水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.35201135343695,22.550617715205057]},"properties":{"GB":310107,"id":45159,"ORIG_FID":1375,"source_tile":"f49c002003","source_layer":"resp","source_record":1376,"name":"马坡水库","name_source":"aanp_id"}}]};

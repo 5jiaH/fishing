@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"二营盘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.18553192564039,20.061636786372183]},"properties":{"GB":310300,"id":54354,"ORIG_FID":306,"source_tile":"f49c004002","source_layer":"resp","source_record":307,"name":"二营盘水库","name_source":"aanp_id"}}]};

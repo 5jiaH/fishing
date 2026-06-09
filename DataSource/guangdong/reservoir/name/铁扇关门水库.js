@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"铁扇关门水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.53346412721598,22.500775791519878]},"properties":{"GB":310108,"id":60893,"ORIG_FID":221,"source_tile":"f50c002001","source_layer":"resp","source_record":222,"name":"铁扇关门水库","name_source":"aanp_spatial"}}]};

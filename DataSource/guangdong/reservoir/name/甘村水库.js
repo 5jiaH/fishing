@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"甘村水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.43226272797622,22.7596673468609]},"properties":{"GB":310107,"id":60296,"ORIG_FID":678,"source_tile":"f50c002001","source_layer":"resp","source_record":679,"name":"甘村水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"刀山劈水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.5590483962448,22.672303901069668]},"properties":{"GB":311105,"id":61991,"ORIG_FID":4,"source_tile":"f50c002002","source_layer":"resp","source_record":5,"name":"刀山劈水库","name_source":"aanp_id"}}]};

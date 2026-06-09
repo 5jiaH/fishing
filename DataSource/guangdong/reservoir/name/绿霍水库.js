@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"绿霍水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.12808944881711,22.812916187810917]},"properties":{"GB":310107,"id":43993,"ORIG_FID":2088,"source_tile":"f49c002003","source_layer":"resp","source_record":2089,"name":"绿霍水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"雷公塘水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.18501927998815,25.455596261024738]},"properties":{"GB":310108,"id":181743,"ORIG_FID":815,"source_tile":"g50c003001","source_layer":"resp","source_record":816,"name":"雷公塘水库","name_source":"aanp_id"}}]};

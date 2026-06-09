@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"火利冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.39614985474368,22.366390223217003]},"properties":{"GB":310107,"id":45239,"ORIG_FID":884,"source_tile":"f49c002003","source_layer":"resp","source_record":885,"name":"火利冲水库","name_source":"aanp_id"}}]};

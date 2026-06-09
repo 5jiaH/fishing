@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"双学水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.15103980816292,22.53122741806184]},"properties":{"GB":310300,"id":61510,"ORIG_FID":264,"source_tile":"f50c002001","source_layer":"resp","source_record":265,"name":"双学水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"那围水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.916739586279,21.95697011374822]},"properties":{"GB":310107,"id":50929,"ORIG_FID":3582,"source_tile":"f49c003002","source_layer":"resp","source_record":3583,"name":"那围水库","name_source":"aanp_id"}}]};

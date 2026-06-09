@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"江边院水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.65471203739745,25.875629710074488]},"properties":{"GB":310107,"id":150901,"ORIG_FID":1776,"source_tile":"g49c003003","source_layer":"resp","source_record":1777,"name":"江边院水库","name_source":"aanp_spatial"}}]};

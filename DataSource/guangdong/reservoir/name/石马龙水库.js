@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石马龙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.96222487918254,23.01998801446281]},"properties":{"GB":311105,"id":36920,"ORIG_FID":16,"source_tile":"f49c001004","source_layer":"resp","source_record":17,"name":"石马龙水库","name_source":"aanp_id"}}]};

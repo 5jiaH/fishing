@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"良水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.05869359017402,22.445022247316526]},"properties":{"GB":310107,"id":45402,"ORIG_FID":613,"source_tile":"f49c002004","source_layer":"resp","source_record":614,"name":"良水库","name_source":"aanp_id"}}]};

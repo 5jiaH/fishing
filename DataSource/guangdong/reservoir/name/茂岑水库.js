@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"茂岑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.3119220928017,22.267324395193544]},"properties":{"GB":310108,"id":46399,"ORIG_FID":322,"source_tile":"f49c002004","source_layer":"resp","source_record":323,"name":"茂岑水库","name_source":"aanp_id"}}]};

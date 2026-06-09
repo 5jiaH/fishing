@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"川瓷水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.58730374353549,22.83069564242366]},"properties":{"GB":310108,"id":43641,"ORIG_FID":2140,"source_tile":"f49c002003","source_layer":"resp","source_record":2141,"name":"川瓷水库","name_source":"aanp_id"}}]};

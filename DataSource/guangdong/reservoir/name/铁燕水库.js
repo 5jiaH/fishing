@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"铁燕水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.88862548075804,21.953699698319884]},"properties":{"GB":310108,"id":50619,"ORIG_FID":3569,"source_tile":"f49c003002","source_layer":"resp","source_record":3570,"name":"铁燕水库","name_source":"aanp_id"}}]};

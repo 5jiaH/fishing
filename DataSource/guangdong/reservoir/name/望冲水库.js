@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"望冲水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.42798194701182,23.113632686225927]},"properties":{"GB":310107,"id":33005,"ORIG_FID":534,"source_tile":"f49c001003","source_layer":"resp","source_record":535,"name":"望冲水库","name_source":"aanp_id"}}]};

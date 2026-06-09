@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"翠江水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.10887157291666,25.93172361712206]},"properties":{"GB":310107,"id":152476,"ORIG_FID":1532,"source_tile":"g49c003004","source_layer":"resp","source_record":1533,"name":"翠江水库","name_source":"aanp_spatial"}}]};

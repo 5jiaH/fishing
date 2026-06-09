@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"清泉水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.29163378172481,21.591627119093904]},"properties":{"GB":310108,"id":52686,"ORIG_FID":156,"source_tile":"f49c003003","source_layer":"resp","source_record":157,"name":"清泉水库","name_source":"aanp_id"}}]};

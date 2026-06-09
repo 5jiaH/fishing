@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"六栏水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.5764260825932,20.025982337266424]},"properties":{"GB":311105,"id":54237,"ORIG_FID":178,"source_tile":"f49c004002","source_layer":"resp","source_record":179,"name":"六栏水库","name_source":"aanp_id"}}]};

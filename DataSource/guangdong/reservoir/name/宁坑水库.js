@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"宁坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.65074972577251,22.938957847377583]},"properties":{"GB":310300,"id":61993,"ORIG_FID":171,"source_tile":"f50c002002","source_layer":"resp","source_record":172,"name":"宁坑水库","name_source":"aanp_id"}}]};

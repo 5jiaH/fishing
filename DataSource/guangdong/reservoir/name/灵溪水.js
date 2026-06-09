@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"灵溪水","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.53945970593375,25.81448668977613]},"properties":{"GB":310107,"id":181636,"ORIG_FID":1474,"source_tile":"g50c003001","source_layer":"resp","source_record":1475,"name":"灵溪水","name_source":"aanp_id"}}]};

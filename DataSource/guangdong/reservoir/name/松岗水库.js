@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"松岗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.81875814348676,23.45550168054329]},"properties":{"GB":310107,"id":38369,"ORIG_FID":724,"source_tile":"f49c001004","source_layer":"resp","source_record":725,"name":"松岗水库","name_source":"aanp_id"}}]};

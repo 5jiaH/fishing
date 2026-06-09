@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"横田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.18937002181656,23.68034444614384]},"properties":{"GB":310300,"id":56741,"ORIG_FID":2593,"source_tile":"f50c001001","source_layer":"resp","source_record":2594,"name":"横田水库","name_source":"aanp_spatial"}}]};

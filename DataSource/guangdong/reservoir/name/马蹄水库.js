@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"马蹄水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.48823145479972,22.403807775978102]},"properties":{"GB":310107,"id":43176,"ORIG_FID":983,"source_tile":"f49c002003","source_layer":"resp","source_record":984,"name":"马蹄水库","name_source":"aanp_id"}}]};

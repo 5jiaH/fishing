@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"简屋水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.13111644247704,25.547923643412407]},"properties":{"GB":310108,"id":181995,"ORIG_FID":971,"source_tile":"g50c003001","source_layer":"resp","source_record":972,"name":"简屋水库","name_source":"aanp_id"}}]};

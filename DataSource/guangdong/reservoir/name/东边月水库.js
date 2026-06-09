@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"东边月水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.64993961995214,22.967452650793607]},"properties":{"GB":311105,"id":61980,"ORIG_FID":244,"source_tile":"f50c002002","source_layer":"resp","source_record":245,"name":"东边月水库","name_source":"aanp_id"}}]};

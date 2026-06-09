@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"新陂水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.74937236457717,23.21336405851353]},"properties":{"GB":310108,"id":38415,"ORIG_FID":280,"source_tile":"f49c001004","source_layer":"resp","source_record":281,"name":"新陂水库","name_source":"aanp_id"}}]};

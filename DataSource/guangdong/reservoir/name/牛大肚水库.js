@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"牛大肚水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.57857207096148,23.31918381937479]},"properties":{"GB":310107,"id":36878,"ORIG_FID":448,"source_tile":"f49c001004","source_layer":"resp","source_record":449,"name":"牛大肚水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"金台寺水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.96708877226274,21.013712205999546]},"properties":{"GB":310300,"id":50713,"ORIG_FID":21,"source_tile":"f49c003002","source_layer":"resp","source_record":22,"name":"金台寺水库","name_source":"aanp_id"}}]};

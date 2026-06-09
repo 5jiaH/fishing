@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"安垌水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.42988675935736,22.51525599930897]},"properties":{"GB":310107,"id":43325,"ORIG_FID":1271,"source_tile":"f49c002003","source_layer":"resp","source_record":1272,"name":"安垌水库","name_source":"aanp_id"}}]};

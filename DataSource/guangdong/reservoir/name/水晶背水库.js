@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"水晶背水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.10244768445654,25.692065744583736]},"properties":{"GB":310107,"id":181015,"ORIG_FID":1233,"source_tile":"g50c003001","source_layer":"resp","source_record":1234,"name":"水晶背水库","name_source":"aanp_id"}}]};

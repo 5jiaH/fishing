@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"更鼓楼水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.51060619654817,20.014214313588408]},"properties":{"GB":310300,"id":54338,"ORIG_FID":105,"source_tile":"f49c004002","source_layer":"resp","source_record":106,"name":"更鼓楼水库","name_source":"aanp_id"}}]};

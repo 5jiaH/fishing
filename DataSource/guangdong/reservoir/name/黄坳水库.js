@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黄坳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.34674818141394,24.2772623712888]},"properties":{"GB":310107,"id":192802,"ORIG_FID":1067,"source_tile":"g50c004002","source_layer":"resp","source_record":1068,"name":"黄坳水库","name_source":"aanp_spatial"}}]};

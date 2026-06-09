@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"迳仔水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.46756154638834,25.386824864405]},"properties":{"GB":310107,"id":180732,"ORIG_FID":694,"source_tile":"g50c003001","source_layer":"resp","source_record":695,"name":"迳仔水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"城围水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.91799604566586,21.330019957520374]},"properties":{"GB":311105,"id":48244,"ORIG_FID":668,"source_tile":"f49c003002","source_layer":"resp","source_record":669,"name":"城围水库","name_source":"aanp_id"}}]};

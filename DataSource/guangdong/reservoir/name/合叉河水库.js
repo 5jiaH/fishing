@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"合叉河水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.50881604754352,21.98736009930151]},"properties":{"GB":310107,"id":48958,"ORIG_FID":3765,"source_tile":"f49c003002","source_layer":"resp","source_record":3766,"name":"合叉河水库","name_source":"aanp_id"}}]};

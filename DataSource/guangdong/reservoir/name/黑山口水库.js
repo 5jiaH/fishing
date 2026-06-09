@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黑山口水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.57713434982499,25.001392443349335]},"properties":{"GB":310107,"id":149782,"ORIG_FID":1,"source_tile":"g49c003003","source_layer":"resp","source_record":2,"name":"黑山口水库","name_source":"aanp_spatial"}}]};

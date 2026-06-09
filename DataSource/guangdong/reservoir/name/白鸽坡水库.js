@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白鸽坡水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.87033432309138,21.976351811325845]},"properties":{"GB":310108,"id":52948,"ORIG_FID":1148,"source_tile":"f49c003003","source_layer":"resp","source_record":1149,"name":"白鸽坡水库","name_source":"aanp_id"}}]};

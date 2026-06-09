@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"公德坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.15668133058067,21.002989897914848]},"properties":{"GB":310108,"id":48995,"ORIG_FID":4,"source_tile":"f49c003002","source_layer":"resp","source_record":5,"name":"公德坑水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"龙坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.1839957991721,23.163428818104315]},"properties":{"GB":310107,"id":33025,"ORIG_FID":776,"source_tile":"f49c001003","source_layer":"resp","source_record":777,"name":"龙坑水库","name_source":"aanp_id"}}]};

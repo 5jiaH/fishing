@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"洪秀全水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.09027294612588,23.697240118685503]},"properties":{"GB":310108,"id":36011,"ORIG_FID":2652,"source_tile":"f49c001003","source_layer":"resp","source_record":2653,"name":"洪秀全水库","name_source":"aanp_id"}}]};

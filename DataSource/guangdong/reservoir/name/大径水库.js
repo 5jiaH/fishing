@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大径水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.91538401242528,22.664633458078143]},"properties":{"GB":310108,"id":60758,"ORIG_FID":477,"source_tile":"f50c002001","source_layer":"resp","source_record":478,"name":"大径水库","name_source":"aanp_id"}}]};

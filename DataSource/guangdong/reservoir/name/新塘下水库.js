@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"新塘下水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.96202990848539,23.961655671906357]},"properties":{"GB":310108,"id":35809,"ORIG_FID":3595,"source_tile":"f49c001003","source_layer":"resp","source_record":3596,"name":"新塘下水库","name_source":"osm"}}]};

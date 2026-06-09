@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"西村水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.27539770757241,21.955389825223826]},"properties":{"GB":310107,"id":48915,"ORIG_FID":3579,"source_tile":"f49c003002","source_layer":"resp","source_record":3580,"name":"西村水库","name_source":"aanp_id"}}]};

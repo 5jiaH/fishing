@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"双桥水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.10484659647295,25.619966387430004]},"properties":{"GB":310108,"id":181714,"ORIG_FID":1088,"source_tile":"g50c003001","source_layer":"resp","source_record":1089,"name":"双桥水库","name_source":"aanp_id"}}]};

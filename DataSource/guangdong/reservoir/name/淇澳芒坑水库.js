@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"淇澳芒坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.84498809100253,20.841263667296417]},"properties":{"GB":311105,"id":54325,"ORIG_FID":1040,"source_tile":"f49c004002","source_layer":"resp","source_record":1041,"name":"淇澳芒坑水库","name_source":"aanp_id"}}]};

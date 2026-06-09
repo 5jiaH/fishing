@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"古达水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.7902225687576,23.126012714060007]},"properties":{"GB":310107,"id":33015,"ORIG_FID":594,"source_tile":"f49c001003","source_layer":"resp","source_record":595,"name":"古达水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鲤鱼江水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.23929284149762,25.949141837013023]},"properties":{"GB":310300,"id":152111,"ORIG_FID":1568,"source_tile":"g49c003004","source_layer":"resp","source_record":1569,"name":"鲤鱼江水库","name_source":"aanp_spatial"}}]};

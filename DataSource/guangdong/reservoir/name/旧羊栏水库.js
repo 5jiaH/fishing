@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"旧羊栏水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.40366571785052,20.060253186731813]},"properties":{"GB":310300,"id":54388,"ORIG_FID":300,"source_tile":"f49c004002","source_layer":"resp","source_record":301,"name":"旧羊栏水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"十字坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.1087815563254,21.112015935854078]},"properties":{"GB":310108,"id":51777,"ORIG_FID":172,"source_tile":"f49c003002","source_layer":"resp","source_record":173,"name":"十字坑水库","name_source":"aanp_id"}}]};

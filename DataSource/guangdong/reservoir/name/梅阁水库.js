@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"梅阁水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.9364234878048,21.92071228998831]},"properties":{"GB":310108,"id":49957,"ORIG_FID":3404,"source_tile":"f49c003002","source_layer":"resp","source_record":3405,"name":"梅阁水库","name_source":"aanp_id"}}]};

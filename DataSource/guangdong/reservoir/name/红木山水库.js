@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"红木山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.01490958865637,22.61654383812237]},"properties":{"GB":310300,"id":61472,"ORIG_FID":369,"source_tile":"f50c002001","source_layer":"resp","source_record":370,"name":"红木山水库","name_source":"osm"}}]};

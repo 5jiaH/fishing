@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"拳锤岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.54479211813752,22.899584352606883]},"properties":{"GB":310300,"id":45106,"ORIG_FID":2328,"source_tile":"f49c002003","source_layer":"resp","source_record":2329,"name":"拳锤岭水库","name_source":"aanp_id"}}]};

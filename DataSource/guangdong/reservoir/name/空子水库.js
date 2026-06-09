@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"空子水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.90575553591569,25.597256411387193]},"properties":{"GB":310107,"id":180917,"ORIG_FID":1057,"source_tile":"g50c003001","source_layer":"resp","source_record":1058,"name":"空子水库","name_source":"aanp_id"}}]};

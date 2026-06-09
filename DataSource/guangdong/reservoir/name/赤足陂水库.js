@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"赤足陂水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.14035796866439,20.358795592291923]},"properties":{"GB":310300,"id":54254,"ORIG_FID":452,"source_tile":"f49c004002","source_layer":"resp","source_record":453,"name":"赤足陂水库","name_source":"aanp_id"}}]};

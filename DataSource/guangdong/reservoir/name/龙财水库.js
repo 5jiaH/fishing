@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"龙财水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.32244614003478,25.09062638834294]},"properties":{"GB":310108,"id":151165,"ORIG_FID":171,"source_tile":"g49c003003","source_layer":"resp","source_record":172,"name":"龙财水库","name_source":"aanp_spatial"}}]};

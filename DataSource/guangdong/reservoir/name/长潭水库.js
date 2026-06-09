@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"长潭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.95072185845014,25.60169478677823]},"properties":{"GB":310107,"id":181929,"ORIG_FID":1064,"source_tile":"g50c003001","source_layer":"resp","source_record":1065,"name":"长潭水库","name_source":"aanp_id"}}]};

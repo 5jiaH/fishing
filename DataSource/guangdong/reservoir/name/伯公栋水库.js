@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"伯公栋水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.39049628804132,24.639811630053643]},"properties":{"GB":310108,"id":194915,"ORIG_FID":2588,"source_tile":"g50c004002","source_layer":"resp","source_record":2589,"name":"伯公栋水库","name_source":"osm"}}]};

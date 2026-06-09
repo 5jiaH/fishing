@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"寺前水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.1022653637135,25.00527755485029]},"properties":{"GB":310107,"id":180365,"ORIG_FID":11,"source_tile":"g50c003001","source_layer":"resp","source_record":12,"name":"寺前水库","name_source":"aanp_id"}}]};

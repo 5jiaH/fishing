@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"鸭山塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.15408004929208,21.042017123081447]},"properties":{"GB":310107,"id":51183,"ORIG_FID":75,"source_tile":"f49c003002","source_layer":"resp","source_record":76,"name":"鸭山塘","name_source":"aanp_id"}}]};

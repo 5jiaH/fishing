@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"白芒林水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.88009109871271,25.208395875810385]},"properties":{"GB":310108,"id":181497,"ORIG_FID":377,"source_tile":"g50c003001","source_layer":"resp","source_record":378,"name":"白芒林水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"红坳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.519893086477,21.937369583149113]},"properties":{"GB":310108,"id":50595,"ORIG_FID":3487,"source_tile":"f49c003002","source_layer":"resp","source_record":3488,"name":"红坳水库","name_source":"aanp_id"}}]};

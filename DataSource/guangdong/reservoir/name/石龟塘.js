@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石龟塘","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.14401076389495,25.02846612456988]},"properties":{"GB":311105,"id":180218,"ORIG_FID":50,"source_tile":"g50c003001","source_layer":"resp","source_record":51,"name":"石龟塘","name_source":"aanp_id"}}]};

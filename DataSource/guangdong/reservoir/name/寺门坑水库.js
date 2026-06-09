@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"寺门坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.76344293160585,23.459117597765022]},"properties":{"GB":310107,"id":38376,"ORIG_FID":732,"source_tile":"f49c001004","source_layer":"resp","source_record":733,"name":"寺门坑水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"谭台水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.173458683973,23.08388008832205]},"properties":{"GB":310107,"id":32962,"ORIG_FID":393,"source_tile":"f49c001003","source_layer":"resp","source_record":394,"name":"谭台水库","name_source":"aanp_id"}}]};

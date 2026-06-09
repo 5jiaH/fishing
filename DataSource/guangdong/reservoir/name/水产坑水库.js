@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"水产坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.36000184535605,20.05499792998524]},"properties":{"GB":311105,"id":54299,"ORIG_FID":274,"source_tile":"f49c004002","source_layer":"resp","source_record":275,"name":"水产坑水库","name_source":"aanp_id"}}]};

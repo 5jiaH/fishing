@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"东坪白竹水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.10098766452845,25.91962763645901]},"properties":{"GB":310107,"id":181276,"ORIG_FID":1733,"source_tile":"g50c003001","source_layer":"resp","source_record":1734,"name":"东坪白竹水库","name_source":"aanp_id"}}]};

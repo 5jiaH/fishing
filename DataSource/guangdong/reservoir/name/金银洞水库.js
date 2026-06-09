@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"金银洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.33354199076575,20.07340967237834]},"properties":{"GB":310300,"id":54223,"ORIG_FID":324,"source_tile":"f49c004002","source_layer":"resp","source_record":325,"name":"金银洞水库","name_source":"aanp_id"}}]};

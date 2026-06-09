@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"塘卜水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.69422733022836,24.24479431425901]},"properties":{"GB":310107,"id":192976,"ORIG_FID":935,"source_tile":"g50c004002","source_layer":"resp","source_record":936,"name":"塘卜水库","name_source":"osm"}}]};

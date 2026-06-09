@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"八宝山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.22222367014984,25.10128180648863]},"properties":{"GB":310108,"id":181510,"ORIG_FID":166,"source_tile":"g50c003001","source_layer":"resp","source_record":167,"name":"八宝山水库","name_source":"aanp_id"}}]};

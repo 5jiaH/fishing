@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"湖仔洋水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.49343169201381,22.64634151498921]},"properties":{"GB":310107,"id":60253,"ORIG_FID":419,"source_tile":"f50c002001","source_layer":"resp","source_record":420,"name":"湖仔洋水库","name_source":"aanp_id"}}]};

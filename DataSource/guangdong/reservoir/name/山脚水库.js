@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"山脚水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.25929727487423,22.772696936812675]},"properties":{"GB":310108,"id":43696,"ORIG_FID":1976,"source_tile":"f49c002003","source_layer":"resp","source_record":1977,"name":"山脚水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"骑马石水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.41079989221694,23.24708590579805]},"properties":{"GB":310107,"id":33132,"ORIG_FID":1104,"source_tile":"f49c001003","source_layer":"resp","source_record":1105,"name":"骑马石水库","name_source":"aanp_id"}}]};

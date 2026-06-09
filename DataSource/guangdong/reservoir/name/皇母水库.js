@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"皇母水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.54804787762228,23.733480796211026]},"properties":{"GB":310108,"id":35998,"ORIG_FID":2773,"source_tile":"f49c001003","source_layer":"resp","source_record":2774,"name":"皇母水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"宝树水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.30509036954885,22.324991669004568]},"properties":{"GB":310107,"id":43063,"ORIG_FID":764,"source_tile":"f49c002003","source_layer":"resp","source_record":765,"name":"宝树水库","name_source":"aanp_id"}}]};

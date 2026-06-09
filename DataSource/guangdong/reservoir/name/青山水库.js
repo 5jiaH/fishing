@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"青山水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.24465477739618,22.69556449875223]},"properties":{"GB":310300,"id":61452,"ORIG_FID":535,"source_tile":"f50c002001","source_layer":"resp","source_record":536,"name":"青山水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"高新沙水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[113.41702009007948,22.836080305105533]},"properties":{"GB":310107,"id":45908,"ORIG_FID":1163,"source_tile":"f49c002004","source_layer":"resp","source_record":1164,"name":"高新沙水库","name_source":"osm"}}]};

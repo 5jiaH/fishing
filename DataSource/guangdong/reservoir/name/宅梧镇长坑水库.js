@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"宅梧镇长坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.95256214361726,20.26335011843514]},"properties":{"GB":311105,"id":54300,"ORIG_FID":338,"source_tile":"f49c004002","source_layer":"resp","source_record":339,"name":"宅梧镇长坑水库","name_source":"aanp_id"}}]};

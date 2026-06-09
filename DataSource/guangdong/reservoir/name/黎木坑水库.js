@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黎木坑水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.56972603683565,21.956442747293803]},"properties":{"GB":310107,"id":48920,"ORIG_FID":3580,"source_tile":"f49c003002","source_layer":"resp","source_record":3581,"name":"黎木坑水库","name_source":"aanp_id"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"黄麻布水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[109.92132629250699,21.73814447650919]},"properties":{"GB":310107,"id":51444,"ORIG_FID":2510,"source_tile":"f49c003002","source_layer":"resp","source_record":2511,"name":"黄麻布水库","name_source":"aanp_id"}}]};

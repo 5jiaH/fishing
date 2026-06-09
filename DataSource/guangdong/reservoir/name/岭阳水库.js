@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"岭阳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.55027719983107,24.865567543085465]},"properties":{"GB":310108,"id":194770,"ORIG_FID":3348,"source_tile":"g50c004002","source_layer":"resp","source_record":3349,"name":"岭阳水库","name_source":"aanp_spatial"}}]};

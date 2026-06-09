@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"后沟水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.16884954491067,21.301898266484987]},"properties":{"GB":310108,"id":49165,"ORIG_FID":605,"source_tile":"f49c003002","source_layer":"resp","source_record":606,"name":"后沟水库","name_source":"aanp_spatial"}}]};

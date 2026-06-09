@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"虹岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.92269275609743,21.964791639911674]},"properties":{"GB":310107,"id":50932,"ORIG_FID":3626,"source_tile":"f49c003002","source_layer":"resp","source_record":3627,"name":"虹岭水库","name_source":"aanp_id"}}]};

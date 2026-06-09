@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"清溪湖","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.18304532643864,22.87358449860095]},"properties":{"GB":310108,"id":61697,"ORIG_FID":1055,"source_tile":"f50c002001","source_layer":"resp","source_record":1056,"name":"清溪湖","name_source":"aanp_spatial"}}]};

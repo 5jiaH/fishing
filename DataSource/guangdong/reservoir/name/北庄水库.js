@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"北庄水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.52363769684402,22.749188461687808]},"properties":{"GB":310300,"id":61387,"ORIG_FID":644,"source_tile":"f50c002001","source_layer":"resp","source_record":645,"name":"北庄水库","name_source":"aanp_id"}}]};

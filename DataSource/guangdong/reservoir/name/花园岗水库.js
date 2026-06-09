@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"花园岗水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.37178176269808,20.03811160273843]},"properties":{"GB":310300,"id":54227,"ORIG_FID":238,"source_tile":"f49c004002","source_layer":"resp","source_record":239,"name":"花园岗水库","name_source":"aanp_id"}}]};

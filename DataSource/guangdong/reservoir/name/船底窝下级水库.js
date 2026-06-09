@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"船底窝下级水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.39655207067759,20.01099166472713]},"properties":{"GB":310300,"id":54343,"ORIG_FID":80,"source_tile":"f49c004002","source_layer":"resp","source_record":81,"name":"船底窝下级水库","name_source":"aanp_id"}}]};

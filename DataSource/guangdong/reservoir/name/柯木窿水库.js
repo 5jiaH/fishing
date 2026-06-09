@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"柯木窿水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.6094696818927,23.60530386460633]},"properties":{"GB":310108,"id":38405,"ORIG_FID":1071,"source_tile":"f49c001004","source_layer":"resp","source_record":1072,"name":"柯木窿水库","name_source":"aanp_id"}}]};

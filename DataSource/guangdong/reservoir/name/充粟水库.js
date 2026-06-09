@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"充粟水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.02052238037794,22.21225057687448]},"properties":{"GB":310109,"id":44433,"ORIG_FID":493,"source_tile":"f49c002003","source_layer":"resp","source_record":494,"name":"充粟水库","name_source":"aanp_id"}}]};

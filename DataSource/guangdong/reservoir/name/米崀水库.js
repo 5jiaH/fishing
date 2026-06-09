@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"米崀水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.34538190643698,25.535523865069898]},"properties":{"GB":310107,"id":180863,"ORIG_FID":945,"source_tile":"g50c003001","source_layer":"resp","source_record":946,"name":"米崀水库","name_source":"aanp_id"}}]};

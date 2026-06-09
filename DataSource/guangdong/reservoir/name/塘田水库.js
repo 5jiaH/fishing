@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"塘田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[110.01057753780393,21.99112371013161]},"properties":{"GB":310108,"id":49998,"ORIG_FID":3791,"source_tile":"f49c003002","source_layer":"resp","source_record":3792,"name":"塘田水库","name_source":"aanp_id"}}]};

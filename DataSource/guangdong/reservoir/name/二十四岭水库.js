@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"二十四岭水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.81488674264222,22.827848727805478]},"properties":{"GB":310300,"id":61497,"ORIG_FID":893,"source_tile":"f50c002001","source_layer":"resp","source_record":894,"name":"二十四岭水库","name_source":"aanp_id"}}]};

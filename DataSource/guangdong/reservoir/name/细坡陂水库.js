@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"细坡陂水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.94932229561473,22.694789928224157]},"properties":{"GB":310109,"id":61057,"ORIG_FID":533,"source_tile":"f50c002001","source_layer":"resp","source_record":534,"name":"细坡陂水库","name_source":"aanp_id"}}]};

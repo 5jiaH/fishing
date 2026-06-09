@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"张山窿水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.04342322030902,23.710491003238854]},"properties":{"GB":310108,"id":36005,"ORIG_FID":2694,"source_tile":"f49c001003","source_layer":"resp","source_record":2695,"name":"张山窿水库","name_source":"aanp_id"}}]};

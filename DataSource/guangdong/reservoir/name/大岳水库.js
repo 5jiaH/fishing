@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大岳水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.40134586438074,24.603588089734796]},"properties":{"GB":310300,"id":191962,"ORIG_FID":1486,"source_tile":"g50c004001","source_layer":"resp","source_record":1487,"name":"大岳水库","name_source":"aanp_spatial"}}]};

@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"园墩洞水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[114.57958446258702,23.44818221768108]},"properties":{"GB":310300,"id":56904,"ORIG_FID":1724,"source_tile":"f50c001001","source_layer":"resp","source_record":1725,"name":"园墩洞水库","name_source":"aanp_spatial"}}]};

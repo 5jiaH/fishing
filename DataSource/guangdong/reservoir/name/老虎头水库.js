@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"老虎头水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[117.4889599182464,23.894372401065045]},"properties":{"GB":310107,"id":59866,"ORIG_FID":434,"source_tile":"f50c001003","source_layer":"resp","source_record":435,"name":"老虎头水库","name_source":"aanp_id"}}]};

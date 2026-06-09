@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"石栏柱水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[116.48281460676921,23.88237969076581]},"properties":{"GB":310107,"id":59055,"ORIG_FID":1341,"source_tile":"f50c001002","source_layer":"resp","source_record":1342,"name":"石栏柱水库","name_source":"aanp_id"}}]};

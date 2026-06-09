@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"瘦田水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[111.2171397163065,23.209712436181196]},"properties":{"GB":310107,"id":33079,"ORIG_FID":973,"source_tile":"f49c001003","source_layer":"resp","source_record":974,"name":"瘦田水库","name_source":"aanp_id"}}]};

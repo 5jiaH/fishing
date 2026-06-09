@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"大田洋水库","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[115.59003812204817,23.745210170441045]},"properties":{"GB":310107,"id":58894,"ORIG_FID":1117,"source_tile":"f50c001002","source_layer":"resp","source_record":1118,"name":"大田洋水库","name_source":"aanp_id"}}]};

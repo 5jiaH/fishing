@@ -1,0 +1,1 @@
+export default {"type":"FeatureCollection","name":"天湖","features":[{"type":"Feature","geometry":{"type":"Point","coordinates":[112.71954048829409,23.377736114010528]},"properties":{"GB":310107,"id":38364,"ORIG_FID":557,"source_tile":"f49c001004","source_layer":"resp","source_record":558,"name":"天湖","name_source":"aanp_id"}}]};
