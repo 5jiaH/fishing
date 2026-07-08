@@ -1208,6 +1208,325 @@ MVP 规则：
 - 支持回滚。
 - 支持追溯某次推荐使用的数据版本。
 
+### 8.14 最优技术选型
+
+推荐采用“PostGIS + Python GIS/遥感流水线 + Google Earth Engine + FastAPI + MapLibre + 对象存储”的方案。
+
+这是当前阶段的最优组合，原因是：
+
+- OSM、天地图矢量、遥感结果、POI、河段 graph 都是空间数据，核心数据库必须是 PostGIS。
+- 遥感处理前期用 GEE 可以显著降低本地算力和影像下载成本。
+- Python 生态在 GIS、遥感、机器学习、自动化任务上最完整。
+- FastAPI 适合快速提供河段、评分、实时数据和审核后台 API。
+- MapLibre + 自建矢量瓦片适合展示自有河段数据，不依赖批量抓第三方瓦片。
+- 这套方案 MVP 成本低，后续也可以扩展到分布式任务和高分影像处理。
+
+#### 总体架构选型
+
+最优推荐：
+
+1. 数据库：PostgreSQL + PostGIS。
+2. 空间数据处理：GDAL/OGR + Osmium + osm2pgsql + Shapely + GeoPandas。
+3. 河网 graph：PostGIS 拓扑计算 + pgRouting，复杂分析可补 NetworkX。
+4. 遥感处理：Google Earth Engine 优先，本地用 Rasterio + rioxarray + GDAL。
+5. 任务调度：Prefect。
+6. 后端 API：FastAPI。
+7. 异步任务：Celery + Redis，或 Prefect worker。
+8. 缓存：Redis。
+9. 对象存储：MinIO，云上可替换为 S3/OSS/COS。
+10. 矢量瓦片：Martin 或 Tegola，从 PostGIS 发布 MVT。
+11. 前端地图：MapLibre GL JS。
+12. 管理后台：React/Next.js + MapLibre。
+13. 模型服务：PyTorch + Ultralytics/RT-DETR + Segment Anything 辅助标注。
+14. VLM 辅助：Qwen2.5-VL 或 RSCoVLM，只做解释和质检，不直接产出权威几何。
+15. 部署：Docker Compose 起步，正式环境用 Kubernetes 或云容器服务。
+
+#### 数据库选型
+
+选择：
+
+- PostgreSQL 16+
+- PostGIS 3+
+- pgRouting
+- TimescaleDB 可选
+
+用途：
+
+- 存储 OSM 水系线、水面、POI、道路、停车点。
+- 存储天地图 1:25万对照数据。
+- 存储遥感提取水体、河段中心线、河段 AOI。
+- 存储河网 node/edge、上下游关系。
+- 存储名称候选、置信度、审核结果。
+- 存储天气、水位、潮汐快照。
+
+为什么选 PostGIS：
+
+- 空间索引、缓冲区、距离、相交、最近邻、矢量切分等能力成熟。
+- 和 OSM、GDAL、QGIS、Martin、Tegola 兼容最好。
+- 可以直接发布矢量瓦片。
+- 比 MongoDB、普通 MySQL 更适合复杂 GIS 分析。
+
+不推荐：
+
+- 不推荐只用 MongoDB 存 GeoJSON，复杂空间计算、拓扑和索引能力不够。
+- 不推荐把河段数据只存在 Elasticsearch，ES 适合搜索，不适合作为 GIS 主库。
+
+#### OSM 数据处理选型
+
+选择：
+
+- Osmium Tool：裁切、过滤、增量处理 PBF。
+- osm2pgsql：导入 OSM 到 PostGIS。
+- GDAL/OGR：格式转换。
+
+推荐流程：
+
+1. `osmium extract` 按 AOI 裁切 `china-latest.osm.pbf`。
+2. `osmium tags-filter` 过滤水系、道路、停车点、电力设施标签。
+3. `osm2pgsql` 导入 PostGIS。
+4. 用 SQL 将 OSM 原始表转换成项目统一 schema。
+5. 每月或每周重新跑，正式上线后再做增量更新。
+
+为什么选这个组合：
+
+- 稳定、开源、适合大体量 OSM 数据。
+- 不需要抓瓦片。
+- 能保留 OSM id 和 tags，方便追溯来源。
+
+#### 遥感处理选型
+
+MVP 选择：
+
+- Google Earth Engine。
+- Sentinel-2 L2A：`COPERNICUS/S2_SR_HARMONIZED`。
+- Sentinel-1 GRD：`COPERNICUS/S1_GRD`。
+- Landsat 8/9：历史变化。
+
+本地增强选择：
+
+- Rasterio。
+- rioxarray。
+- xarray。
+- GDAL。
+- scikit-image。
+- OpenCV。
+- Dask，可选，用于大区域并行处理。
+
+为什么 MVP 先用 GEE：
+
+- 不需要本地下载和管理海量 Sentinel/Landsat 影像。
+- 水体指数、云掩膜、时间序列合成可以直接在云端完成。
+- 适合快速验证样区算法。
+- 后续只把结果 mask、统计值、矢量边界导回 PostGIS。
+
+什么时候转本地：
+
+- 采购 GF-2、SkySat、Maxar 等商业高分影像后。
+- 需要训练自有模型。
+- 需要处理不能上传到 GEE 的授权影像。
+- 需要更强的数据闭环和可控性。
+
+#### 河网和河段分析选型
+
+选择：
+
+- PostGIS：基础空间计算。
+- pgRouting：上下游、路径、连通性。
+- NetworkX：复杂 graph 实验和离线算法。
+- Shapely：Python 中的几何修复和辅助计算。
+
+用途：
+
+- 河流线 snap。
+- 交汇点 split。
+- node/edge graph 构建。
+- 上下游推断。
+- 名称沿 graph 传播。
+- 支流交汇识别。
+- 河段切分。
+
+推荐原则：
+
+- 能在 PostGIS 里完成的计算优先放数据库，减少数据搬运。
+- 算法试验用 NetworkX，稳定后尽量固化为 SQL 或批处理脚本。
+
+#### 后端服务选型
+
+选择：
+
+- FastAPI。
+- SQLAlchemy 或 SQLModel。
+- GeoAlchemy2。
+- Pydantic。
+- Uvicorn/Gunicorn。
+
+核心 API：
+
+- `/segments`：河段列表。
+- `/segments/{id}`：河段详情。
+- `/segments/{id}/score`：钓鱼适宜性评分。
+- `/segments/{id}/realtime`：天气、水位、潮汐。
+- `/segments/{id}/imagery`：遥感结果。
+- `/review/tasks`：审核任务。
+- `/feedback`：用户反馈。
+
+为什么选 FastAPI：
+
+- Python 后端可以直接复用 GIS/遥感/模型代码。
+- API 开发快。
+- 类型校验清晰。
+- 对异步任务和后台管理友好。
+
+不推荐：
+
+- 不建议 MVP 直接上 Java 微服务体系，开发和部署成本较高。
+- 不建议把 GIS 分析放在 Node.js 里做，生态不如 Python/PostGIS。
+
+#### 前端和地图选型
+
+选择：
+
+- React 或 Next.js。
+- MapLibre GL JS。
+- deck.gl 可选，用于大规模点线面渲染。
+- Martin 或 Tegola 发布 PostGIS 矢量瓦片。
+- 天地图瓦片只作为授权底图和审核参考。
+
+地图图层：
+
+1. 天地图矢量底图。
+2. 天地图影像底图。
+3. 自有河段中心线 MVT。
+4. 遥感水体边界 MVT。
+5. OSM 原始河线对照 MVT。
+6. 名称候选点。
+7. 风险点：电塔、禁钓、危险岸线、闸坝。
+8. 审核任务点。
+
+为什么选 MapLibre：
+
+- 开源，不绑定商业地图 SDK。
+- 支持自建矢量瓦片。
+- 适合叠加多源 GIS 图层。
+- 前端性能较好。
+
+#### 任务调度和数据流水线选型
+
+选择：
+
+- Prefect 作为主调度。
+- Celery + Redis 用于用户触发的异步任务。
+- Docker Compose 起步。
+
+任务类型：
+
+- OSM 下载/裁切/入库。
+- 天地图矢量导入。
+- GEE 遥感任务提交。
+- 遥感结果回写。
+- 河网重建。
+- 河段评分重算。
+- 实时天气/水位/潮汐拉取。
+- 低置信度任务生成。
+
+为什么选 Prefect：
+
+- 比 Airflow 轻，适合 MVP 和中小团队。
+- Python 原生体验好。
+- 任务状态、重试、日志比较清晰。
+- 后续规模变大可以迁移到 Airflow/Dagster，但 MVP 不必一开始复杂化。
+
+#### 对象存储选型
+
+选择：
+
+- 本地或私有化：MinIO。
+- 阿里云：OSS。
+- 腾讯云：COS。
+- AWS：S3。
+
+存储内容：
+
+- 遥感原始切片。
+- 水体 mask。
+- 模型输出。
+- 审核截图。
+- 用户上传照片。
+- 高分影像裁切样本。
+- 训练样本。
+
+原则：
+
+- PostGIS 存矢量和索引。
+- Object Storage 存大文件。
+- 数据库只保存文件 URI、来源、时间、置信度和元数据。
+
+#### AI/模型选型
+
+水体提取：
+
+- MVP：NDWI/MNDWI/AWEI + Sentinel-1 阈值。
+- 增强：U-Net、DeepLabV3+、SegFormer。
+
+电塔/电线候选：
+
+- MVP：不强依赖自动识别，先人工标注重点区域。
+- 增强：YOLOv8/YOLOv10、RT-DETR、DINO/Deformable DETR。
+- 标注辅助：Segment Anything。
+
+VLM：
+
+- Qwen2.5-VL。
+- RSCoVLM。
+- InternVL 可选。
+
+VLM 使用边界：
+
+- 用于遥感切片描述。
+- 用于审核辅助。
+- 用于解释河段结构。
+- 不作为权威经纬度输出。
+- 不替代 PostGIS 和遥感分割模型。
+
+#### 推荐部署方案
+
+MVP 部署：
+
+- 1 台 8C/32G 服务器。
+- PostgreSQL/PostGIS。
+- FastAPI。
+- Redis。
+- MinIO。
+- Prefect。
+- Martin/Tegola。
+- Next.js 管理后台。
+- GEE 负责主要遥感计算。
+
+增强部署：
+
+- 数据库独立机器或云数据库。
+- API 服务和任务 worker 分离。
+- 对象存储使用云 OSS/COS/S3。
+- GPU 机器用于高分影像模型训练和推理。
+- Kubernetes 或云容器服务管理服务。
+
+#### 最终推荐栈
+
+如果只选一套最优落地栈：
+
+- 数据库：PostgreSQL + PostGIS + pgRouting。
+- OSM 处理：Osmium + osm2pgsql。
+- 遥感：Google Earth Engine + Rasterio/GDAL。
+- 后端：Python + FastAPI。
+- 任务：Prefect + Redis。
+- 对象存储：MinIO，云上替换 OSS/COS/S3。
+- 地图：MapLibre GL JS + Martin 矢量瓦片。
+- 前端：React/Next.js。
+- 模型：PyTorch + YOLO/RT-DETR + SAM，VLM 只做辅助。
+- 部署：Docker Compose 起步，后续 Kubernetes。
+
+这套方案是当前最优，因为它把“空间数据主库、遥感计算、河网分析、在线 API、后台审核、后续 AI 增强”都串起来了，同时避免了一开始就投入过重的微服务和大数据平台。
+
 ## 9. 技术架构
 
 ### 数据层
